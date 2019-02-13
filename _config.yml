@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise" "default"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise" "default"
 
 # Site Settings
 locale                   : "en-GB"
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Luke Leigh"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "I am an amazing person. (Default text but might be true)"
   location         : "Southend-on-Sea, Essex, UK"
   email            : "me@lukeleigh.com"
   links:
