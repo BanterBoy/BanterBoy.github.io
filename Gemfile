@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 gemspec
-gem "jekyll-remote-theme"
-# gem "minimal-mistakes-jekyll"
+# gem "jekyll-remote-theme"
+gem "minimal-mistakes-jekyll"
