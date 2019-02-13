@@ -108,14 +108,14 @@ analytics:
 # Site Author
 author:
   name             : "Luke Leigh"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person. (Default text but might be true)"
   location         : "Southend-on-Sea, Essex, UK"
   email            : "me@lukeleigh.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:me@lukeleigh.com
+      # url: mailto:me@lukeleigh.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://blog.lukeleigh.com"
