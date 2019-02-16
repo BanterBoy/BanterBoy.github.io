@@ -116,9 +116,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:me@lukeleigh.com
-    - label: "Website"
+    - label: "Profile"
       icon: "fas fa-fw fa-link"
-      url: "https://blog.lukeleigh.com"
+      url: "https://velocv.com/lukeleigh"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/luke_leighs"
