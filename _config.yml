@@ -131,6 +131,10 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "keybase"
+      icon: "fab fa-fw fa-keybase"
+      # url: "https://keybase.io/lukeleigh"
+
 
 # Site Footer
 footer:
