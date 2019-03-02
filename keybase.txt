@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/lukeleigh
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://blog.lukeleigh.com
+  * I am lukeleigh (https://keybase.io/lukeleigh) on keybase.
+  * I have a public key ASDtkLpfa19ylVA7cUgFDXSqwo7cScFxbEWP786RCZsIvAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ed90ba5f6b5f7295503b7148050d74aac28edc49c1716c458fefce91099b08bc0a",
+      "host": "keybase.io",
+      "kid": "0120ed90ba5f6b5f7295503b7148050d74aac28edc49c1716c458fefce91099b08bc0a",
+      "uid": "5b8b5a335231069cb82aab4d62ad4819",
+      "username": "lukeleigh"
+    },
+    "merkle_root": {
+      "ctime": 1551562345,
+      "hash": "276753976c1e12278fecf63155eca9723f778fda9e80d16f379886ea0bf9dbb81452ab967268500413fd7b346c4d619f8d41d31598575c1dff174e105a285795",
+      "hash_meta": "cbf2d561cf1f1c45b39c169d95ff6a17dce68f76e53f3771ce3476603aaa6f34",
+      "seqno": 4864263
+    },
+    "service": {
+      "entropy": "vjNwxWY/FRebsa7wHnnpehWc",
+      "hostname": "blog.lukeleigh.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.0.0"
+  },
+  "ctime": 1551562378,
+  "expire_in": 504576000,
+  "prev": "545597b9563b45b43ff5a973ebc05e126b2a1302d94ed220ed9eb75723b3df47",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg7ZC6X2tfcpVQO3FIBQ10qsKO3EnBcWxFj+/OkQmbCLwKp3BheWxvYWTESpcCC8QgVFWXuVY7RbQ/9alz68BeEmsqEwLZTtIg7Z63VyOz30fEIG0l5PElLq38TRxb+JYCEktHYKgGgjXo4gHtlDZIVfMOAgHCo3NpZ8RAuPaATtecLPgx+eaE7+jEtiQQkZwGS7SsIbm6T4pie6SlZ+yKRhmONpvpdWswmlugUMOdn+p3/SysPg3ATDz6CKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHzE3Uzqi/K8xuyU7pG1OiX+fnK+GAYIrTpta9tjQU8Po3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lukeleigh
+
+==================================================================
