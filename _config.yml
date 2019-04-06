@@ -19,16 +19,16 @@ title                    : "Luke Leigh's Blog"
 title_separator          : "|"
 name                     : "Luke Leigh"
 description              : "Blogsite for sharing articles on PowerShell and other IT related posts"
-url                      : https://blog.lukeleigh.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://blog.lukeleigh.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : BanterBoy/BanterBoy.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-head_scripts             : # Add scripts to the <head> or closing </body> elements by assigning paths to either head_scripts and/or footer_scripts.
-footer_scripts           : # Add scripts to the <head> or closing </body> elements by assigning paths to either head_scripts and/or footer_scripts.
+repository               : "BanterBoy/BanterBoy.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+head_scripts             : # Add scripts to the <head> element by assigning a path to head_scripts.
+footer_scripts           : # Add scripts to the </body> element by assigning a path to footer_scripts.
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/pslogo88x88.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+breadcrumbs              : "true" # true, false (default)
+words_per_minute         : "200"
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
@@ -224,9 +224,9 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: "/:categories/:title/"
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: "/page:num/"
 timezone: GB # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -262,11 +262,11 @@ whitelist:
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid
-  path: /categories/
+  type: "liquid"
+  path: "/categories/"
 tag_archive:
-  type: liquid
-  path: /tags/
+  type: "liquid"
+  path: "/tags/"
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -283,9 +283,9 @@ tag_archive:
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
-  clippings: all
+  clippings: "all"
   ignore:
-    envs: development
+    envs: "development"
 
 
 # Defaults
@@ -293,11 +293,11 @@ defaults:
   # _posts
   - scope:
       path: "/posts"
-      type: posts
+      type: "posts"
     values:
-      layout: single
-      author_profile: true
-      read_time: true
+      layout: "single"
+      author_profile: "true"
+      read_time: "true"
       comments: # true
-      share: true
-      related: true
+      share: "true"
+      related: "true"
