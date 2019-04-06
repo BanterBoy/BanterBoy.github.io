@@ -107,7 +107,8 @@ analytics:
 author:
   name             : "Luke Leigh"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Automation Engineer | PowerShell Developer"
+  bio              : "Automation Engineer |
+                      PowerShell Developer"
   location         : "Essex, UK"
   email            : "me@lukeleigh.com"
   links:
