@@ -23,7 +23,7 @@ url                      : https://blog.lukeleigh.com # the base hostname & prot
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : BanterBoy/BanterBoy.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : /assets/images/pslogo88x88.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -107,8 +107,8 @@ analytics:
 author:
   name             : "Luke Leigh"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person. (Default text but might be true)"
-  location         : "Southend-on-Sea, Essex, UK"
+  bio              : "Automation Engineer | PowerShell Developer"
+  location         : "Essex, UK"
   email            : "me@lukeleigh.com"
   links:
     - label: "Email"
