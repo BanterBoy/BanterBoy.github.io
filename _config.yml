@@ -235,6 +235,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -244,6 +245,7 @@ whitelist:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-archives
 
 
 # Archives
@@ -287,7 +289,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: "/docs"
+      path: "/posts"
       type: posts
     values:
       layout: single
