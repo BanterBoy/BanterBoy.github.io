@@ -11,19 +11,21 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise" "default"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise" "default"
 
 # Site Settings
 locale                   : "en-GB"
 title                    : "Luke Leigh's Blog"
-title_separator          : "-"
+title_separator          : "|"
 name                     : "Luke Leigh"
-description              : "Blogsite"
+description              : "Blogsite for sharing articles on PowerShell and other IT related posts"
 url                      : https://blog.lukeleigh.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : BanterBoy/BanterBoy.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+head_scripts             : # Add scripts to the <head> or closing </body> elements by assigning paths to either head_scripts and/or footer_scripts.
+footer_scripts           : # Add scripts to the <head> or closing </body> elements by assigning paths to either head_scripts and/or footer_scripts.
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : /assets/images/pslogo88x88.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/pslogo88x88.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
