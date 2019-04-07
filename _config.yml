@@ -65,7 +65,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : "true" # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -109,8 +109,7 @@ analytics:
 author:
   name             : "Luke Leigh"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Automation Engineer |
-                      PowerShell Developer"
+  bio              : "Automation Engineer | PowerShell Developer"
   location         : "Essex, UK"
   email            : "me@lukeleigh.com"
   links:
@@ -262,11 +261,11 @@ whitelist:
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: "liquid"
-  path: "/categories/"
+  type: liquid
+  path: /categories/
 tag_archive:
-  type: "liquid"
-  path: "/tags/"
+  type: liquid
+  path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -283,9 +282,9 @@ tag_archive:
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
-  clippings: "all"
+  clippings: all
   ignore:
-    envs: "development"
+    envs: development
 
 
 # Defaults
@@ -293,11 +292,11 @@ defaults:
   # _posts
   - scope:
       path: "/posts"
-      type: "posts"
+      type: posts
     values:
-      layout: "single"
-      author_profile: "true"
-      read_time: "true"
-      comments: "true" # true
-      share: "true"
-      related: "true"
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
