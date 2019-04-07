@@ -1,4 +1,4 @@
-Keep it civil aka don’t be a jerk
+# Keep it civil aka don’t be a jerk
 
 We’re going to get into the thick of a lot of heated discussions and that’s okay. These discussions often entail topics that we all personally care a lot about and will passionately defend. But in order for discussions to thrive here, we need to remember to criticize ideas, not people.
 
