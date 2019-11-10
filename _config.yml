@@ -39,9 +39,9 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid:
     num_posts: # 5 (default)
-    colorscheme: # "light" (default), "dark"
+    colorscheme: "dark" # "light" (default), "dark"
   utterances:
-    theme: # "github-light" (default), "github-dark"
+    theme: "github-dark" # "github-light" (default), "github-dark"
     issue_term: # "pathname" (default)
 staticman:
   allowedFields: # ['name', 'email', 'url', 'message']
@@ -65,9 +65,9 @@ reCaptcha:
   secret:
 atom_feed:
   path: # blank (default) uses feed.xml
-search: "true" # true, false (default)
-search_full_content: "true" # true, false (default)
-search_provider: "google" # lunr (default), algolia, google
+search: true # true, false (default)
+search_full_content: true # true, false (default)
+search_provider: google # lunr (default), algolia, google
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
@@ -112,8 +112,8 @@ author:
   location: "Essex, UK"
   email: "me@lukeleigh.com"
   links:
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-envelope-square"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
     #    url: mailto:me@lukeleigh.com
     - label: "Profile"
       icon: "fas fa-fw fa-link"
@@ -121,14 +121,14 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/luke_leighs"
-    # - label: "Facebook"
-    #   icon: "fab fa-fw fa-facebook-square"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
     #   url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/BanterBoy"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
     - label: "keybase"
       icon: "fab fa-fw fa-keybase"
@@ -160,6 +160,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _posts
   - images
 exclude:
   - "*.sublime-project"
