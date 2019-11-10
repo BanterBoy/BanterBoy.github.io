@@ -162,7 +162,7 @@ footer:
 # Reading Files
 include:
   - .htaccess
-  - _posts
+  - _pages
   - images
 exclude:
   - "*.sublime-project"
