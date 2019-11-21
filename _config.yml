@@ -9,8 +9,8 @@
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+# theme                                    : "minimal-mistakes-jekyll"
+# remote_theme                             : "mmistakes/minimal-mistakes"
 
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise" "default"
@@ -36,7 +36,7 @@ comments:
   disqus:
     shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
-    server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.                  : meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid:
@@ -83,7 +83,6 @@ google_site_verification:
 bing_site_verification:
 yandex_site_verification:
 naver_site_verification:
-
 # Social Sharing
 twitter:
   username:
@@ -98,14 +97,12 @@ social:
   type: # Person or Organization (defaults to Person)
   name: # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-
 # Analytics
 analytics:
   provider: "google" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id: "G-4TQHPE7E2J"
     anonymize_ip: # true, false (default)
-
 # Site Author
 author:
   name: "Luke Leigh"
@@ -116,7 +113,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-    #    url: mailto:me@lukeleigh.com
+    #    url                  : mailto:me@lukeleigh.com
     - label: "Profile"
       icon: "fas fa-fw fa-link"
       url: "https://velocv.com/lukeleigh"
@@ -125,29 +122,28 @@ author:
       url: "https://twitter.com/luke_leighs"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-    #   url: "https://facebook.com/"
+    #   url                  : "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/BanterBoy"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
+    #   url                  : "https://instagram.com/"
     - label: "keybase"
       icon: "fab fa-fw fa-keybase"
       url: "https://keybase.io/lukeleigh"
-
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/luke_leighs"
+      # url                  : "https://twitter.com/luke_leighs"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/BanterBoy"
+      # url                  : "https://github.com/BanterBoy"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -157,7 +153,6 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-
 # Reading Files
 include:
   - /_pages
@@ -194,15 +189,12 @@ keep_files:
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
-
 # Markdown Processing
 kramdown:
   input: GFM
@@ -213,21 +205,15 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: GB # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -235,7 +221,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -243,18 +228,16 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
-
 # Archives
 #  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  - GitHub Pages compatible archive pages built with Liquid ~> type                  : liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type                  : jekyll-archives
 #  Path (examples)
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path>/my-awesome-category/index.html ~> path: /
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path                  : /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path                  : /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path                  : /
 category_archive:
   type: liquid
   path: /categories/
@@ -267,21 +250,17 @@ tag_archive:
 #     - categories
 #     - tags
 #   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
+#     category                  : archive-taxonomy
+#     tag                  : archive-taxonomy
 #   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
-
+#     category                  : /categories/:name/
+#     tag                  : /tags/:name/
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
-
-
 # Defaults
 defaults:
   # _posts
