@@ -162,9 +162,9 @@ footer:
 include:
   - _pages
   - _layouts
-  - Gemfile
   - index.html
-  exclude:
+  - Gemfile
+exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
