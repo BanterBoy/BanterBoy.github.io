@@ -162,7 +162,7 @@ footer:
 include:
   - .htaccess
   - _pages
-  _ posts
+  _ _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
