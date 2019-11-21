@@ -162,7 +162,10 @@ footer:
 include:
   - .htaccess
   - _pages
-exclude:
+  - _layouts
+  - Gemfile
+  - index.html
+  exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
@@ -176,7 +179,6 @@ exclude:
   - Capfile
   - CHANGELOG
   - config
-  - Gemfile
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
