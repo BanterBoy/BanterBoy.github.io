@@ -160,7 +160,6 @@ footer:
 
 # Reading Files
 include:
-  - .htaccess
   - _pages
   - _layouts
   - Gemfile
