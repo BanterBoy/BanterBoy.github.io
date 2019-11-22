@@ -21,7 +21,7 @@ description: "Blogsite for sharing articles on PowerShell and other IT related p
 url: "https://blog.lukeleigh.com"
 repository: "BanterBoy/BanterBoy.github.io"
 logo: "/assets/images/PowerShell_5.0_icon88x88.png"
-twitter_username: username
+twitter_username: luke_leighs
 github_username: banterboy
 minimal_mistakes_skin: dark
 search: true
@@ -73,25 +73,28 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://blog.lukeleigh.com/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/luke_leighs"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/BanterBoy/BanterBoy.github.io"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
 footer:
   links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://blog.lukeleigh.com/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/luke_leighs"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/BanterBoy/BanterBoy.github.io"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
