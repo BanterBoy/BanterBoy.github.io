@@ -12,7 +12,7 @@
 # theme                                    : "minimal-mistakes-jekyll"
 # remote_theme                             : "mmistakes/minimal-mistakes"
 
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.17.2"
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise" "default"
 
 # Site Settings
@@ -227,19 +227,19 @@ timezone: GB # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-sitemap
 
   # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-sitemap
 
 # Archives
 #  Type
