@@ -19,6 +19,8 @@ title_separator: "|"
 name: "Luke Leigh"
 description: "Blogsite for sharing articles on PowerShell and other IT related posts"
 url: "https://blog.lukeleigh.com"
+repository: "BanterBoy/BanterBoy.github.io"
+logo: "/assets/images/PowerShell_5.0_icon88x88.png"
 twitter_username: username
 github_username: banterboy
 minimal_mistakes_skin: dark
@@ -32,6 +34,13 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: GB # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Analytics
+analytics:
+  provider: "google" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id: "G-4TQHPE7E2J"
+    anonymize_ip: # true, false (default)
 
 include:
   - _pages
