@@ -16,6 +16,7 @@
 locale: "en-GB"
 title: "Luke Leigh's Blog"
 title_separator: "|"
+subtitle: "Yet another IT Admin Blog"
 name: "Luke Leigh"
 description: "Blogsite for sharing articles on PowerShell and other IT related posts"
 url: "https://blog.lukeleigh.com"
