@@ -7,8 +7,6 @@ share: true
 related: true
 ---
 
-# PSCovid19Stats
-
 | | Click [here](https://covid-19-apis.postman.com/) to view the Postman Resource Centre |
 |-----|--|
 |![Postman COVID-19 API Resources](https://psciscomeraki.lukeleigh.com/assets/images/postmanlogo.jpg)| ***"Postman COVID-19 API Resource Center"*** |
@@ -34,17 +32,16 @@ Once it's in one of those paths you can either import it manually by ``Import-Mo
 
 ### Once Installed
 
-```PS C:\GitRepos> Get-Command -Module PSCovid19Stats
+PS C:\GitRepos> Get-Command -Module PSCovid19Stats
 
-CommandType     Name                                               Version    Source
------------     ----                                               -------    ------
-Function        Get-CovidCountriesStats                            1.0.0      PSCovid19Stats
-Function        Get-CovidCountryStats                              1.0.0      PSCovid19Stats
-Function        Get-CovidHistoricalData                            1.0.0      PSCovid19Stats
-Function        Get-CovidjhucsseData                               1.0.0      PSCovid19Stats
-Function        Get-CovidStateStats                                1.0.0      PSCovid19Stats
-Function        Get-CovidWorldStats                                1.0.0      PSCovid19Stats
-```
+CommandType | Name | Version | Source
+----------- | ---- | ------- | ------
+Function | Get-CovidCountriesStats | 1.0.0 | PSCovid19Stats
+Function | Get-CovidCountryStats | 1.0.0 | PSCovid19Stats
+Function | Get-CovidHistoricalData | 1.0.0 | PSCovid19Stats
+Function | Get-CovidjhucsseData | 1.0.0 | PSCovid19Stats
+Function | Get-CovidStateStats | 1.0.0 | PSCovid19Stats
+Function | Get-CovidWorldStats | 1.0.0 | PSCovid19Stats
 
 ![COVID-19 Example](https://psciscomeraki.lukeleigh.com/assets/images/pscovidscrnsht.png)
 
