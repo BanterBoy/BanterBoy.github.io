@@ -7,8 +7,6 @@ share: true
 related: true
 ---
 
-# PSCovid19Stats
-
 | Name: | README.md |
 |-----|--|
 | About: | Generic details regarding this project. |
