@@ -21,7 +21,7 @@ This was inspired by a [blog post](https://www.powershell.co.at/cov-id-19-powers
 
 ## Update
 
-I have updated the module to include Commment Based Help and also Online Help
+I have updated the module to include Comment Based Help and also Online Help
 
 ***Example***
 ```
