@@ -24,7 +24,8 @@ This was inspired by a [blog post](https://www.powershell.co.at/cov-id-19-powers
 I have updated the module to include Comment Based Help and also Online Help
 
 ***Example***
-```
+
+```powershell
 PS C:\GitRepos> Get-Help Get-CovidCountryStats
 
 NAME
@@ -49,6 +50,7 @@ REMARKS
     For technical information, type: "get-help Get-CovidCountryStats -full".
     For online help, type: "get-help Get-CovidCountryStats -online"
 ```
+
 Also, this module is now using the standard [ISO Country Codes](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) which can now be used in tab completion.
 
 ![Tab Complete](https://psciscomeraki.lukeleigh.com/assets/images/CountryTabComplete.png)
@@ -63,7 +65,7 @@ With this in mind, you now have two options when it comes to installation.
 
 https://www.powershellgallery.com/packages/PSCovid19Stats
 
-```
+```powershell
 Install-Module -Name PSCovid19Stats
 or
 Install-Module -Name PSCovid19Stats -Scope CurrentUser
@@ -82,7 +84,7 @@ Once it's in one of those paths you can either import it manually by ``Import-Mo
 
 ### Once Installed
 
-```
+```powershell
 PS C:\GitRepos> Get-Command -Module PSCovid19Stats
 
 CommandType     Name                                               Version    Source
