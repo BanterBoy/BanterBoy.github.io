@@ -63,7 +63,7 @@ With this in mind, you now have two options when it comes to installation.
 
 ### 1) Install Module from Gallery
 
-https://www.powershellgallery.com/packages/PSCovid19Stats
+<https://www.powershellgallery.com/packages/PSCovid19Stats>
 
 ```powershell
 Install-Module -Name PSCovid19Stats
