@@ -71,7 +71,7 @@ plugins:
 author:
   name: "Luke Leigh"
   avatar: "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "PowerShell Developer / Infrastructure Engineer"
+  bio: "PowerShell / Infrastructure Engineer"
   location: "Essex, UK"
   email: "me@lukeleigh.com"
   links:
