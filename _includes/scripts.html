@@ -27,12 +27,6 @@
   {% for script in site.after_footer_scripts %}
     <script src="{{ script | relative_url }}"></script>
 
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $('.your-class').slick({
-          setting-name: setting-value
-        });
-      });
-    </script>
+    <script type="text/javascript" src ="/assets/js/slick-init.js"></script>
   {% endfor %}
 {% endif %}
