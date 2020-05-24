@@ -7,3 +7,4 @@ share: true
 related: true
 ---
 
+<div class="slick-container"></div>

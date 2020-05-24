@@ -19,12 +19,6 @@ Click [here](https://covid-19-apis.postman.com/) to view the Postman Resource Ce
 
 This was inspired by a [blog post](https://www.powershell.co.at/cov-id-19-powershell-prompt/) that popped up in the random click-fest of reading everything about the coronavirus. Perhaps too much time stuck indoors obsessing about what is happening around the world.
 
-<div class="your-class">
-    <div>your content</div>
-    <div>your content</div>
-    <div>your content</div>
-  </div>
-
 ## Update
 
 I have updated the module to include Comment Based Help and also Online Help
