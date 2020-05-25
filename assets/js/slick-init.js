@@ -10,6 +10,7 @@ $(document).ready(function () {
         speed: 500,
         fade: true,
         centerMode: true,
+        variableWidth: true,
         cssEase: 'linear'
     });
 
