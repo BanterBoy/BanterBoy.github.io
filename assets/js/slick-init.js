@@ -5,39 +5,13 @@ $(document).ready(function () {
     //}
 
     $('.slick-slideshow').slick({
-        dots: false,
-        infinite: true,
-        speed: 500,
-        fade: true,
         autoplay: true,
         cssEase: 'linear',
+        dots: false,
+        fade: true,
+        infinite: true,
+        speed: 500,
         variableWidth: true
-    });
-
-    $('.slick-center').slick({
-        centerMode: true,
-        centerPadding: '60px',
-        slidesToShow: 3,
-        responsive: [
-            {
-                breakpoint: 390,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 1
-                }
-            },
-            {
-                breakpoint: 293,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 1
-                }
-            }
-        ]
     });
 
 });
