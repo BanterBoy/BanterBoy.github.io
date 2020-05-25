@@ -4,32 +4,13 @@ $(document).ready(function () {
     //    .append($('<div><img src="/assets/images/container_6/' + i + '.jpg" /></div>'));
     //}
 
-    $('.slick-container').slick({
-        dots: false,
-        infinite: true,
-        speed: 500,
-        fade: true,
-        centerMode: true,
-        variableWidth: true,
-        cssEase: 'linear'
-    });
-
     $('.slick-slideshow').slick({
         dots: false,
-        autoplay: true,
         infinite: true,
         speed: 500,
         fade: true,
+        autoplay: true,
         cssEase: 'linear',
-        adaptiveHeight: true
-    });
-
-    $('.slick-variable-width').slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        centerMode: true,
         variableWidth: true
     });
 
