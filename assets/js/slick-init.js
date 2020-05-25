@@ -7,10 +7,13 @@ $(document).ready(function () {
     $('.slick-slideshow').slick({
         adaptiveHeight: true,
         autoplay: true,
+        autoplaySpeed: 2000,
         cssEase: 'linear',
         dots: false,
         fade: true,
         infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
         speed: 500
     });
 
