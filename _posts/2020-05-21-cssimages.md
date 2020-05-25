@@ -7,7 +7,7 @@ share: true
 related: true
 ---
 
-<div class="slick-container">
+<div class="slick-center">
     <div><img src="/assets/images/container_6/IMG_20200415_100520.jpg" /></div>
     <div><img src="/assets/images/container_6/IMG_20200417_195528.jpg" /></div>
     <div><img src="/assets/images/container_6/IMG_20200417_200758.jpg" /></div>
