@@ -5,13 +5,13 @@ $(document).ready(function () {
     //}
 
     $('.slick-slideshow').slick({
+        adaptiveHeight: true,
         autoplay: true,
         cssEase: 'linear',
         dots: false,
         fade: true,
         infinite: true,
-        speed: 500,
-        variableWidth: true
+        speed: 500
     });
 
 });
