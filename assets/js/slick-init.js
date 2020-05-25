@@ -20,7 +20,7 @@ $(document).ready(function () {
         slidesToShow: 3,
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 390,
                 settings: {
                     arrows: false,
                     centerMode: true,
@@ -29,7 +29,7 @@ $(document).ready(function () {
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 293,
                 settings: {
                     arrows: false,
                     centerMode: true,
