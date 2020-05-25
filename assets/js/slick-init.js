@@ -10,7 +10,6 @@ $(document).ready(function () {
         speed: 500,
         fade: true,
         cssEase: 'linear',
-        variableWidth: true
     });
 
     $('.slick-slideshow').slick({
