@@ -15,6 +15,7 @@ $(document).ready(function () {
 
     $('.slick-slideshow').slick({
         dots: false,
+        autoplay: true,
         infinite: true,
         speed: 500,
         fade: true,
