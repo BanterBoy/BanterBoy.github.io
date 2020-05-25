@@ -12,7 +12,6 @@ $(document).ready(function () {
         dots: false,
         fade: true,
         infinite: true,
-        slidesToShow: 2,
         slidesToScroll: 1,
         speed: 500
     });
