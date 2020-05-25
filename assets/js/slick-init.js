@@ -12,8 +12,6 @@ $(document).ready(function () {
         dots: false,
         fade: true,
         infinite: true,
-        slidesToScroll: 1,
-        speed: 500
     });
 
 });
