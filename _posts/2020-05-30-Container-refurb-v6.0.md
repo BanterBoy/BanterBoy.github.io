@@ -7,7 +7,7 @@ share: true
 related: true
 ---
 
-<div class="slick-autoplay">
+<div class="slick-center">
     <div><img src="/assets/images/moviesTV/DoctorWho/season01-poster.jpg"/></div>
     <div><img src="/assets/images/moviesTV/DoctorWho/season02-poster.jpg"/></div>
     <div><img src="/assets/images/moviesTV/DoctorWho/season03-poster.jpg"/></div>
@@ -21,6 +21,19 @@ related: true
     <div><img src="/assets/images/moviesTV/DoctorWho/season11-poster.jpg"/></div>
     <div><img src="/assets/images/moviesTV/DoctorWho/season12-poster.jpg"/></div>
     <div><img src="/assets/images/moviesTV/DoctorWho/season-specials-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/FinalSpace/season01-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/FinalSpace/season02-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/SpaceForce/season01-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/StargateAtlantis/season01-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/StargateAtlantis/season02-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/StargateAtlantis/season03-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/StargateAtlantis/season04-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/StargateAtlantis/season05-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/StargateAtlantis/season-specials-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/RickandMorty/season01-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/RickandMorty/season02-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/RickandMorty/season03-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/RickandMorty/season04-poster.jpg"/></div>
 </div>
 
 During the Coronavirus Lockdown, I am sure many of us have found it a bit of a struggle coping with the enforced break. Some will have found solace in binge-watching their favourite shows and no doubt enjoyed the break from the tedium of work. However, very quickly having nothing to do and finding interesting ways of filling the time can become a little difficult.
