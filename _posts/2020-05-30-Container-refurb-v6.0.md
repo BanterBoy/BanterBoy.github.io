@@ -7,7 +7,7 @@ share: true
 related: true
 ---
 
-<div class="slick-autoplay">
+<div class="slick-slideshow">
     <div><img src="/assets/images/moviesTV/DoctorWho/season01-poster.jpg"/></div>
     <div><img src="/assets/images/moviesTV/DoctorWho/season02-poster.jpg"/></div>
     <div><img src="/assets/images/moviesTV/DoctorWho/season03-poster.jpg"/></div>
