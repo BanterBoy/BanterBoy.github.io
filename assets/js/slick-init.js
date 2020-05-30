@@ -15,8 +15,6 @@ $(document).ready(function () {
     });
 
     $('.slick-autoplay').slick({
-        centerMode: true,
-        centerPadding: '50px',
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
@@ -26,7 +24,9 @@ $(document).ready(function () {
       $('.slick-center').slick({
         centerMode: true,
         centerPadding: '60px',
-        slidesToShow: 3,
+        slidesToShow: 4,
+        autoplay: true,
+        autoplaySpeed: 1200
         responsive: [
           {
             breakpoint: 768,
