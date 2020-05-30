@@ -8,19 +8,19 @@ related: true
 ---
 
 <div class="slick-autoplay">
-    <div><img src="/assets/images/moviesTV/season01-poster.jpg"/></div>
-    <div><img src="/assets/images/moviesTV/season02-poster.jpg"/></div>
-    <div><img src="/assets/images/moviesTV/season03-poster.jpg"/></div>
-    <div><img src="/assets/images/moviesTV/season04-poster.jpg"/></div>
-    <div><img src="/assets/images/moviesTV/season05-poster.jpg"/></div>
-    <div><img src="/assets/images/moviesTV/season06-poster.jpg"/></div>
-    <div><img src="/assets/images/moviesTV/season07-poster.jpg"/></div>
-    <div><img src="/assets/images/moviesTV/season08-poster.jpg"/></div>
-    <div><img src="/assets/images/moviesTV/season09-poster.jpg"/></div>
-    <div><img src="/assets/images/moviesTV/season10-poster.jpg"/></div>
-    <div><img src="/assets/images/moviesTV/season11-poster.jpg"/></div>
-    <div><img src="/assets/images/moviesTV/season12-poster.jpg"/></div>
-    <div><img src="/assets/images/moviesTV/season-specials-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/DoctorWho/season01-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/DoctorWho/season02-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/DoctorWho/season03-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/DoctorWho/season04-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/DoctorWho/season05-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/DoctorWho/season06-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/DoctorWho/season07-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/DoctorWho/season08-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/DoctorWho/season09-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/DoctorWho/season10-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/DoctorWho/season11-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/DoctorWho/season12-poster.jpg"/></div>
+    <div><img src="/assets/images/moviesTV/DoctorWho/season-specials-poster.jpg"/></div>
 </div>
 
 During the Coronavirus Lockdown, I am sure many of us have found it a bit of a struggle coping with the enforced break. Some will have found solace in binge-watching their favourite shows and no doubt enjoyed the break from the tedium of work. However, very quickly having nothing to do and finding interesting ways of filling the time can become a little difficult.
