@@ -16,6 +16,7 @@ $(document).ready(function () {
 
     $('.slick-autoplay').slick({
         centerMode: true,
+        centerPadding: '50px',
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
