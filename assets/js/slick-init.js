@@ -18,13 +18,15 @@ $(document).ready(function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1200,
+        autoplaySpeed: 1200
       });
 
       $('.slick-center').slick({
         centerMode: true,
         centerPadding: '60px',
         slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 1200
         responsive: [
           {
             breakpoint: 768,
