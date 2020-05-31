@@ -15,7 +15,7 @@ $(document).ready(function () {
     });
 
     $('.slick-autoplay').slick({
-        slidesToShow: 7,
+        slidesToShow: 8,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 1200
