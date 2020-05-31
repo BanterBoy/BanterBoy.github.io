@@ -18,6 +18,13 @@ $(document).ready(function () {
         slidesToShow: 8,
         slidesToScroll: 1,
         autoplay: true,
+        autoplaySpeed: 1200
+    });
+
+    $('.slick-autoplay-movietv').slick({
+        slidesToShow: 8,
+        slidesToScroll: 1,
+        autoplay: true,
         autoplaySpeed: 200
     });
 
