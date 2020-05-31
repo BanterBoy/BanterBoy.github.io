@@ -18,7 +18,7 @@ $(document).ready(function () {
         slidesToShow: 8,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1200
+        autoplaySpeed: 900
     });
 
     $('.slick-center').slick({
