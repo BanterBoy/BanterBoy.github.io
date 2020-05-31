@@ -7,7 +7,7 @@ share: true
 related: true
 ---
 
-<div class="slick-autoplay">
+<div class="slick-autoplay-movietv">
     <div><img src="/assets/images/moviesTV/TheWitcher/season01-poster.jpg"/></div>
     <div><img src="/assets/images/moviesTV/TheMandalorian/season01-poster.jpg"/></div>
     <div><img src="/assets/images/moviesTV/FinalSpace/season01-poster.jpg"/></div>
