@@ -203,11 +203,11 @@ This creation was to assist with storage and to serve as a temporary kitchen whi
 <table style="width:100%">
     <tr>
         <td>
+            <img src="/assets/images/mancavesign/mancavesign.jpg">
+	    </td>
+        <td>
             This creation was to assist with storage and to serve as a temporary kitchen while the two rooms were knocked into one. It would eventually become the tool-shed/workshop for whatever "manly" thing I felt like doing in the future and what every man really wants, "A Man Cave"
         </td>
-        <td>
-            <img src="/assets/images/mancavesign/mancavesign.jpg" width="162" height="237">
-	    </td>
     </tr>
 </table>
 
