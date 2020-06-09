@@ -201,15 +201,14 @@ Version 1.0 was created when we were converting our unused back room and our kit
 This creation was to assist with storage and to serve as a temporary kitchen while the two rooms were knocked into one. It would eventually become the tool-shed/workshop for whatever "manly" thing I felt like doing in the future and what every man really wants, "A Man Cave".
 
 <table style="width:100%">
-  <tr>
-    <td>This creation was to assist with storage and to serve as a temporary kitchen while the two rooms were knocked into one. It would eventually become the tool-shed/workshop for whatever "manly" thing I felt like doing in the future and what every man really wants, "A Man Cave".</td>
-    <td>
-		<div class="slick-slideshow">
-			<div><img src="/assets/images/mancavesign/mancavesign1.jpg"/></div>
-			<div><img src="/assets/images/mancavesign/mancavesign2.jpg"/></div>
-		</div>
-	</td>
-  </tr>
+    <tr>
+        <td>
+            This creation was to assist with storage and to serve as a temporary kitchen while the two rooms were knocked into one. It would eventually become the tool-shed/workshop for whatever "manly" thing I felt like doing in the future and what every man really wants, "A Man Cave"
+        </td>
+        <td>
+            <img src="/assets/images/mancavesign/mancavesign.jpg"/>
+	    </td>
+    </tr>
 </table>
 
 
