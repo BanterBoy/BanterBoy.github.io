@@ -187,7 +187,8 @@ Job hunting was going slowly but interest appeared to be picking up and I had st
 
 Boris made his announcement and suddenly the world was losing it's shit. According to the new random habit of bulk buying all of the toilet paper in stock, this seemed to be both figuratively and literally.
 
-Like most people, I avidly watched the news and became a massive consumer of every scrap of information I could find regarding COVID-19. It was still early days and very little was known about transmission or indeed how far around the globe it had spread. Every day, it seemed to become more and more likely a full scale lockdown was going to be implemented. During this massive data absorbtion, I read an article detailing instructions on how to run PowerShell and display the current stats in the command line. The methodology behind it wasn't great, so I thought I would produce something to make it more accessible to everyone - https://blog.lukeleigh.com/PSCovid19Stats/
+Like most people, I avidly watched the news and became a massive consumer of every scrap of information I could find regarding COVID-19. It was still early days and very little was known about transmission or indeed how far around the globe it had spread. Every day, it seemed to become more and more likely a full scale lockdown was going to be implemented. During this massive data absorbtion, I read an article detailing instructions on how to run PowerShell and display the current stats in the command line. The methodology behind it wasn't great, so I thought I would produce something to make it more accessible to everyone - 
+![Pscovid19stats](https://blog.lukeleigh.com/PSCovid19Stats/)
 
 Having created the module and run out of things to do to keep myself entertained, I decided that my "Home/Office" needed an upgrade to make it more convenient to work from home, as this may be where I would be working from for the unforseeable future.
 
