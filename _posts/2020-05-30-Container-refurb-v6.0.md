@@ -197,7 +197,7 @@ There have already been a number of previous itterations of the container since 
 
 
 
-<div class="slick-autoplay-movietv">
+<div class="slick-slideshow">
     <div><img src="/assets/images/container_5/(1).jpg"/></div>
     <div><img src="/assets/images/container_5/(2).jpg"/></div>
     <div><img src="/assets/images/container_5/(3).jpg"/></div>
