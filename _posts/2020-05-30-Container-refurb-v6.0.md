@@ -181,10 +181,55 @@ Rather unfortunately, the contract I was working on came to an end at the beginn
     <div><img src="/assets/images/moviesTV/Movies/poster8.jpg"/></div>
     <div><img src="/assets/images/moviesTV/Movies/poster93.jpg"/></div>
     <div><img src="/assets/images/moviesTV/MythicQuestRavensBanquet/season01-poster.jpg"/></div>
-
 </div>
 
 Job hunting was going slowly but interest appeared to be picking up and I had started to prepare for getting back to work.
 
 Boris made his announcement and suddenly the world was losing it's shit. According to the new random habit of bulk buying all of the toilet paper in stock, this seemed to be both figuratively and literally.
+
+Like most people, I avidly watched the news and became a massive consumer of every scrap of information I could find regarding COVID-19. It was still early days and very little was known about transmission or indeed how far around the globe it had spread. Every day, it seemed to become more and more likely a full scale lockdown was going to be implemented. During this massive data absorbtion, I read an article detailing instructions on how to run PowerShell and display the current stats in the command line. The methodology behind it wasn't great, so I thought I would produce something to make it more accessible to everyone - https://blog.lukeleigh.com/PSCovid19Stats/
+
+Having created the module and run out of things to do to keep myself entertained, I decided that my "Home/Office" needed an upgrade to make it more convenient to work from home, as this may be where I would be working from for the unforseeable future.
+
+Unlike most people, my Home/Office is a little quirky and is inside a converted shipping container.......ok, perhaps more than a little quirky.
+
+There have already been a number of previous itterations of the container since its purchase in 2011.
+
+
+
+<div class="slick-autoplay-movietv">
+    <div><img src="/assets/images/container_5/(1).jpg"/></div>
+    <div><img src="/assets/images/container_5/(2).jpg"/></div>
+    <div><img src="/assets/images/container_5/(3).jpg"/></div>
+    <div><img src="/assets/images/container_5/(4).jpg"/></div>
+    <div><img src="/assets/images/container_5/(5).jpg"/></div>
+    <div><img src="/assets/images/container_5/(6).jpg"/></div>
+    <div><img src="/assets/images/container_5/(7).jpg"/></div>
+    <div><img src="/assets/images/container_5/(8).jpg"/></div>
+    <div><img src="/assets/images/container_5/(9).jpg"/></div>
+    <div><img src="/assets/images/container_5/(10).jpg"/></div>
+    <div><img src="/assets/images/container_5/(11).jpg"/></div>
+    <div><img src="/assets/images/container_5/(12).jpg"/></div>
+    <div><img src="/assets/images/container_5/(13).jpg"/></div>
+    <div><img src="/assets/images/container_5/(14).jpg"/></div>
+    <div><img src="/assets/images/container_5/(15).jpg"/></div>
+    <div><img src="/assets/images/container_5/(16).jpg"/></div>
+    <div><img src="/assets/images/container_5/(17).jpg"/></div>
+    <div><img src="/assets/images/container_5/(18).jpg"/></div>
+    <div><img src="/assets/images/container_5/(19).jpg"/></div>
+    <div><img src="/assets/images/container_5/(20).jpg"/></div>
+    <div><img src="/assets/images/container_5/(21).jpg"/></div>
+    <div><img src="/assets/images/container_5/(22).jpg"/></div>
+    <div><img src="/assets/images/container_5/(23).jpg"/></div>
+    <div><img src="/assets/images/container_5/(24).jpg"/></div>
+    <div><img src="/assets/images/container_5/(25).jpg"/></div>
+    <div><img src="/assets/images/container_5/(26).jpg"/></div>
+    <div><img src="/assets/images/container_5/(27).jpg"/></div>
+    <div><img src="/assets/images/container_5/(28).jpg"/></div>
+    <div><img src="/assets/images/container_5/(29).jpg"/></div>
+    <div><img src="/assets/images/container_5/(30).jpg"/></div>
+    <div><img src="/assets/images/container_5/(31).jpg"/></div>
+    <div><img src="/assets/images/container_5/(32).jpg"/></div>
+    <div><img src="/assets/images/container_5/(33).jpg"/></div>
+</div>
 
