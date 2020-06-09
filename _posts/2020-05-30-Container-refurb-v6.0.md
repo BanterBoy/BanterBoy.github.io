@@ -196,7 +196,7 @@ Unlike most people, my Home/Office is a little quirky and is inside a converted 
 
 ## Container v1.0
 
-Version 1.0 was created when we were converting our unused back room and our kitchen, into a kitchen diner. That has been my most ambitious DIY project so far and certainly the most difficult. Fortunately, I have been very lucky to have friends and family available to help which you can see from the many faces appearing in the photos below.
+Version 1.0 was created when we were converting our unused back room and our kitchen, into a kitchen diner. That has been my most ambitious DIY project so far and certainly the most difficult. Fortunately, I have been very lucky to have friends and family available to help which you can see from the many faces appearing in the photos below. Along with my trusty cat companion, who always seems to be sleeping somewhere inconvenient.
 
 This creation was to assist with storage and to serve as a temporary kitchen while the two rooms were knocked into one. It would eventually become the tool-shed/workshop for whatever "manly" thing I felt like doing in the future and what every man really wants, "A Man Cave".
 
@@ -276,6 +276,8 @@ Sadly I do not have photos of all of them but the reason for so many versions ha
 
 ## Container v5.0
 
+My last attempt was during a period of redundancy and coincidentally somewhat similar to my current situation. Job hunting was slow and I needed something else to do to keep my sanity. Binge watching TV series and films had lost its appeal and obviously this time it would be better......of course.
+
 <div class="slick-slideshow">
     <div><img src="/assets/images/container_5/0001.jpg"/></div>
     <div><img src="/assets/images/container_5/0002.jpg"/></div>
@@ -312,7 +314,15 @@ Sadly I do not have photos of all of them but the reason for so many versions ha
     <div><img src="/assets/images/container_5/0033.jpg"/></div>
 </div>
 
+It didn't turn out too badly but the attempt to separate my media from my dev environment turned out not to be as effective as I hoped. Separate desk for the dev PC and two PC's being used as servers.....or at least that had been the plan.
+
 ## Container v6.0
+
+Having used the last configuration for almost 2 years, it became apparent that this time something radical needed to be done in order to make this version the last change. Anyone who knows me, will likely find that statement very amusing, it is however what I hoped to achieve.
+
+Having had plenty of time due to the end of my contract and the ongoing COVID-19 pandemic, I spent a few weeks considering the things that have been missing from every previous design or that would be an improvement. Mostly, the consideration was what to do about the corridor situation. In the end, I decided that although it was nice to be able to open both sets of doors during the sunny days, this does not occur anywhere near as often as I would like. England is an island and prone to quite erratic weather.
+
+
 
 <div class="slick-slideshow">
     <div><img src="/assets/images/container_6/0001.jpg"/></div>
