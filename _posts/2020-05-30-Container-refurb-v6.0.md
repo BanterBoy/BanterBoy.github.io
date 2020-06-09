@@ -194,9 +194,11 @@ Having created the module and run out of things to do to keep myself entertained
 
 Unlike most people, my Home/Office is a little quirky and is inside a converted shipping container.......ok, perhaps more than a little quirky.
 
-There have already been a number of previous itterations of the container since its purchase in 2011.
+## Container v1.0
 
-### Container v1.0
+Version 1.0 was created when we were updating our kitchen and converting our unused back room and our kitchen, into a kitchen diner. That has been my most ambitious DIY project so far and certainly the most difficult, fortunately, I have been very lucky to have friends and family available to help as you can see from the many faces appearing in the photos below.
+
+This creation was to assist with storage and to serve as a temporary kitchen while the two rooms were knocked into one. It would eventually become the tool-shed/workshop for whatever "manly" thing I felt like doing in the future, what everyone really wants, "A man cave".
 
 <div class="slick-slideshow">
     <div><img src="/assets/images/container_1/0001.jpg"/></div>
@@ -260,9 +262,11 @@ There have already been a number of previous itterations of the container since 
     <div><img src="/assets/images/container_1/0059.jpg"/></div>
 </div>
 
-Sadly I do not have photos of all of them but to be the reason for so many versions has been that each one has never really been up to scratch and I never really seemed to get it right. Each version has always been crippled for the simple reason I had doors at either end, making each version a corridor.
+There have already been a number of previous designs in the container since its purchase in 2011 ->1
 
-### Container v5.0
+Sadly I do not have photos of all of them but the reason for so many versions has been that each one has never really been up to scratch and I never really seemed to get it right. Each variant has always been crippled for the simple reason I had doors at either end, making each one a corridor.
+
+## Container v5.0
 
 <div class="slick-slideshow">
     <div><img src="/assets/images/container_5/0001.jpg"/></div>
@@ -300,7 +304,7 @@ Sadly I do not have photos of all of them but to be the reason for so many versi
     <div><img src="/assets/images/container_5/0033.jpg"/></div>
 </div>
 
-### Container v6.0
+## Container v6.0
 
 <div class="slick-slideshow">
     <div><img src="/assets/images/container_6/0001.jpg"/></div>
@@ -452,3 +456,6 @@ Sadly I do not have photos of all of them but to be the reason for so many versi
     <div><img src="/assets/images/container_6/0147.jpg"/></div>
 </div>
 
+
+
+->1 - A purchase which like many thinks I can thank my partners father for suggesting. I own a number of powertools due to similar suggestions.
