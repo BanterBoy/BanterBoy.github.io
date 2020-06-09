@@ -196,9 +196,14 @@ Unlike most people, my Home/Office is a little quirky and is inside a converted 
 
 ## Container v1.0
 
-Version 1.0 was created when we were updating our kitchen and converting our unused back room and our kitchen, into a kitchen diner. That has been my most ambitious DIY project so far and certainly the most difficult, fortunately, I have been very lucky to have friends and family available to help as you can see from the many faces appearing in the photos below.
+Version 1.0 was created when we were converting our unused back room and our kitchen, into a kitchen diner. That has been my most ambitious DIY project so far and certainly the most difficult. Fortunately, I have been very lucky to have friends and family available to help which you can see from the many faces appearing in the photos below.
 
-This creation was to assist with storage and to serve as a temporary kitchen while the two rooms were knocked into one. It would eventually become the tool-shed/workshop for whatever "manly" thing I felt like doing in the future, what everyone really wants, "A man cave".
+This creation was to assist with storage and to serve as a temporary kitchen while the two rooms were knocked into one. It would eventually become the tool-shed/workshop for whatever "manly" thing I felt like doing in the future and what every man really wants, "A Man Cave".
+
+<div class="slick-slideshow">
+    <img src="/assets/images/mancavesign1.jpg"/>
+    <img src="/assets/images/mancavesign2.jpg"/>
+</div>
 
 <div class="slick-slideshow">
     <div><img src="/assets/images/container_1/0001.jpg"/></div>
