@@ -487,5 +487,7 @@ The sink now has a much better counter, under which I added shelves to support t
 
 The last thing I have yet to finish is tidying up and sorting through all the newfound toys that have been hidden away in boxes for a long time.
 
+I now have what will defintely serve as a home office should the need arise, hopefully not in the too distant future 🤷‍♂️
+
 ---
 ##### ->1 - A purchase which like many thinks I can thank my partners father for suggesting. I own a number of powertools due to similar suggestions.
