@@ -492,4 +492,4 @@ I now have what will defintely be more comfortable to use as a 🏡 home/office 
 On with the next project ( [Pscovid19stats](https://blog.lukeleigh.com/PSCovid19Stats/) v2.0 or add some features to [PSCiscoMeraki](https://psciscomeraki.lukeleigh.com/blog/psciscomeraki/installation/powershell/module/post-installing-psciscomeraki/) ) while I continue the hunt for a new work challenge.
 
 ---
-##### 1️⃣ - A purchase which like many thinks I can thank my partners father for suggesting. I also own a number of powertools due to similar suggestions.
+##### 1️⃣ - A purchase which like many things I can thank my partners father for suggesting. I also own a number of powertools due to similar suggestions.
