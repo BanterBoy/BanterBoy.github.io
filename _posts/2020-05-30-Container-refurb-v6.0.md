@@ -484,7 +484,11 @@ The sink now has a much better counter, under which I have added shelves to supp
 
 The last thing I have yet to finish is tidying up and sorting through all the newfound toys that have been hidden away in boxes for a long time. Plenty of "Oh, I forgot I owned one of those moments" have taken place. One of the toys I have dug out of the past has been installed already. A solar panel 🌞 on the roof, connected to a car 🚘 battery, charge controller 🚥 to recharge the battery and an inverter - providing me with free power should I need to plug in a power tool ⚡ and also run some lights 💡 at the back of the container.
 
-I now have what will defintely serve as a home office should the need arise, hopefully not in the too distant future 🤷‍♂️
+I now have what will defintely be more comfortable to use as a home/office should the need arise, hopefully not in the too distant future 🤷‍♂️
+
+I now have much more space to move around with the new design and plenty of worksurface in order to continue being a geek.
+
+On with the next project while I continue the hunt for a new work challenge.
 
 ---
 ##### 1️⃣ - A purchase which like many thinks I can thank my partners father for suggesting. I also own a number of powertools due to similar suggestions.
