@@ -7,9 +7,9 @@ share: true
 related: true
 ---
 
-During the Coronavirus Lockdown, I am sure many of us have found it a bit of a struggle coping with the enforced break. Some will have found solace in binge-watching their favourite shows and no doubt enjoyed the break from the tedium of work. However, very quickly having nothing to do and finding interesting ways of filling the time can become a little difficult.
+During the Coronavirus Lockdown, I am sure many of us have found it a bit of a struggle coping with the enforced break. Some will have found solace in binge-watching their favourite TV series and Movies, and no doubt enjoyed the break from the tedium of work. However, very quickly having nothing to do and finding interesting ways of filling the time can become a little difficult.
 
-Rather unfortunately, the contract I was working on came to an end at the beginning of February. By the time we were all being told to "stay at home", I had become pretty good at doing that already and sadly I had also begun to come to the end of catching up on TV shows. 
+Rather unfortunately, the contract I was working on came to an end at the beginning of February. By the time we were all being told to "stay at home", I had become pretty good at doing that already and sadly I had also begun to come to the end of catching up on TV series. 
 
 <div class="slick-autoplay-movietv">
     <div><img src="/assets/images/moviesTV/TheWitcher/season01-poster.jpg"/></div>
@@ -267,7 +267,8 @@ Version 1.0 was created when we were converting our unused back room and our kit
     <div><img src="/assets/images/container_1/0059.jpg"/></div>
 </div>
 
-There have already been a number of previous designs in the container since its purchase in 2011 ->1
+There have already been a number of previous designs in the container since its purchase in 2011
+##### ->1
 
 Sadly I do not have photos of all of them but the reason for so many versions has been that each one has never really been up to scratch and I never really seemed to get it right. Each variant has always been crippled for the simple reason I had doors at either end, making each one a corridor.
 
