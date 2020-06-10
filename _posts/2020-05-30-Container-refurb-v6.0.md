@@ -474,7 +474,8 @@ I blocked off the end of the container and fitted my standing desk in one corner
     <div><img src="/assets/images/container_6/0147.jpg"/></div>
 </div>
 
-##### I hope if you scroll through the photo's, you can appreciate the amount of work in volved.
+---
+##### I hope if you scroll through the photo's, you can appreciate the amount of work involved.
 
 The design changes took approximately 34 days to complete with many of the days stretching out into long nights. Having spent many previous days working similar hours behind a computer, being more active was as you can imagine hard work. I thoroughly enjoyed myself and having been far more energetic benefitted from losing some weight.....plenty more work to do there.
 
@@ -486,4 +487,5 @@ The sink now has a much better counter, under which I added shelves to support t
 
 The last thing I have yet to finish is tidying up and sorting through all the newfound toys that have been hidden away in boxes for a long time.
 
+---
 ##### ->1 - A purchase which like many thinks I can thank my partners father for suggesting. I own a number of powertools due to similar suggestions.
