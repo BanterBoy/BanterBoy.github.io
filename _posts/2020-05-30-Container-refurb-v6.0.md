@@ -487,9 +487,9 @@ The last thing I have yet to finish is tidying up and sorting through all the ne
     <div><img src="/assets/images/container_6/solar/0146.jpg"/></div>
 </div>
 
-I now have what will defintely be more comfortable to use as a 🏡 home/office 🏢 should the need arise, hopefully not in the too distant future 🤷‍♂️ There is much more space to move around in, and with the new design, plenty of worksurface in order to continue being a geek.
+I now have what will defintely be more comfortable to use as a 🏡 home/office 🏢 should the need arise, hopefully in the not too distant future 🤷‍♂️ There is much more space to move around in and plenty of seating. The new design also has plenty of work-surface in order to continue being a geek.
 
-On with the next project while I continue the hunt for a new work challenge.
+On with the next project (Pscovid19stats v2.0\) while I continue the hunt for a new work challenge.
 
 ---
 ##### 1️⃣ - A purchase which like many thinks I can thank my partners father for suggesting. I also own a number of powertools due to similar suggestions.
