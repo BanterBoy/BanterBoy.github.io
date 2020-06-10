@@ -200,7 +200,7 @@ Version 1.0 was created when we were converting our unused back room and our kit
 
 <table style="width:100%">
     <tr>
-        <td style="width:162px;">
+        <td style="width:192px;">
             <img src="/assets/images/mancavesign/mancavesign.jpg">
         </td>
         <td>This creation was to assist with storage and to serve as a temporary kitchen while the two rooms were knocked into one. It would eventually become the tool-shed/workshop for whatever "manly" thing I felt like doing in the future and what every man really wants, "A Man Cave"</td>
