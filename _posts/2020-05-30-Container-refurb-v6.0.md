@@ -487,7 +487,7 @@ The last thing I have yet to finish is tidying up and sorting through all the ne
     <div><img src="/assets/images/container_6/solar/0146.jpg"/></div>
 </div>
 
-There is much more space to move around in and plenty of seating. The new design also has plenty of work-surface in order to continue being a geek. It will remain cool during the summer months and simple to heat during the winter. I definitely feel that I am now much more prepared to work comfortably from home and that I now have what will defintely be more comfortable to use as a home/office should the need arise, hopefully, in the not too distant future.
+There is much more space to move around in and plenty of seating. The new design also has plenty of work-surface in order to continue being a geek. It will remain cool during the summer months and simple to heat during the winter. I definitely feel that I am now much more prepared to work comfortably from home and that I now have what will defintely be more convenient to use as a home/office should the need arise, hopefully, in the not too distant future.
 
 Over the years and different designs, the shipping container has proved to be very useful. Many evenings, late nights and early mornings have been spent working remotely, either on my own over conference calls or with company performing some migration. It will be nice to see how this version works out and indeed if I need to make any modifications. Perhaps this time it will be small revisions to version 6.
 
