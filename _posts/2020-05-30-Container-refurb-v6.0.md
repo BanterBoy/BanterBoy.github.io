@@ -192,7 +192,7 @@ Like most people, I avidly watched the news and became a massive consumer of eve
 
 Having created the module and run out of things to do to keep myself entertained, I decided that my "Home/Office" needed an upgrade to make it more convenient to work from home, as this may be where I would be working from for the unforseeable future.
 
-Unlike most people, my Home/Office is a little quirky and is inside a converted shipping container.......ok, perhaps more than a little quirky.
+Unlike most people, my Home/Office is a little quirky and is inside a converted shipping container.......ok, perhaps more than a little quirky ¯\_(ツ)_/¯ It is however, one of the best things I have ever bought from <img src="/assets/images/EBay_logo.png"/>
 
 ## Container v1.0
 
