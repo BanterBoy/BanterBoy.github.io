@@ -324,7 +324,7 @@ Having used the last configuration for almost 2 years, it became apparent that t
 
 Having plenty of time on my hands due to the end of my contract and the ongoing COVID-19 pandemic, I spent a few weeks considering the things that have been missing from every previous design or that would be an improvement. My main consideration was what to do about the corridor situation. I decided that although it was nice to be able to open both sets of doors during the sunny days, this does not occur anywhere near as often as I would like. England is an island and prone to quite erratic weather. This meant that most of the time, the double doors at the rear of the container spent most of their time shut.
 
-I blocked off the end of the container and fitted my standing desk in one corner and created and workspace in the other. Although I had now blocked off the back doors preventing access, I left one door that would open so I could still have ventilation when it was hot.
+I blocked off the end of the container and fitted my standing desk in one corner and created a workspace in the other. Although I had now blocked off the back doors preventing access, I left one door that would open so I could still have ventilation when it was hot.
 
 <div class="slick-slideshow">
     <div><img src="/assets/images/container_6/0001.jpg"/></div>
