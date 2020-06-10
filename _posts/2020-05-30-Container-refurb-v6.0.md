@@ -460,14 +460,10 @@ I blocked off the end of the container and fitted my standing desk in one corner
     <div><img src="/assets/images/container_6/0136.jpg"/></div>
     <div><img src="/assets/images/container_6/0137.jpg"/></div>
     <div><img src="/assets/images/container_6/0138.jpg"/></div>
-    <div><img src="/assets/images/container_6/0139.jpg"/></div>
     <div><img src="/assets/images/container_6/0140.jpg"/></div>
     <div><img src="/assets/images/container_6/0141.jpg"/></div>
     <div><img src="/assets/images/container_6/0142.jpg"/></div>
-    <div><img src="/assets/images/container_6/0143.jpg"/></div>
-    <div><img src="/assets/images/container_6/0144.jpg"/></div>
     <div><img src="/assets/images/container_6/0145.jpg"/></div>
-    <div><img src="/assets/images/container_6/0146.jpg"/></div>
     <div><img src="/assets/images/container_6/0147.jpg"/></div>
 </div>
 
@@ -484,7 +480,14 @@ The sink now has a much better counter, under which I have added shelves to supp
 
 The last thing I have yet to finish is tidying up and sorting through all the newfound toys that have been hidden away in boxes for a long time. Plenty of "Oh, I forgot I owned one of those moments" have taken place. One of the toys I have dug out of the past has been installed already. A solar panel 🌞 on the roof, connected to a car 🚘 battery, charge controller 🚥 to recharge the battery and an inverter - providing me with free power should I need to plug in a power tool ⚡ and also run some lights 💡 at the back of the container.
 
-I now have what will defintely be more comfortable to use as a home/office should the need arise, hopefully not in the too distant future 🤷‍♂️
+<div class="slick-autoplay-movietv">
+    <div><img src="/assets/images/container_6/solar/0139.jpg"/></div>
+    <div><img src="/assets/images/container_6/solar/0143.jpg"/></div>
+    <div><img src="/assets/images/container_6/solar/0144.jpg"/></div>
+    <div><img src="/assets/images/container_6/solar/0146.jpg"/></div>
+</div>
+
+I now have what will defintely be more comfortable to use as a 🏡 home/office 🏢 should the need arise, hopefully not in the too distant future 🤷‍♂️
 
 I now have much more space to move around with the new design and plenty of worksurface in order to continue being a geek.
 
