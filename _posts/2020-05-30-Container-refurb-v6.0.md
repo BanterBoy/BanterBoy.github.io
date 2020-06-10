@@ -267,7 +267,7 @@ Version 1.0 was created when we were converting our unused back room and our kit
     <div><img src="/assets/images/container_1/0059.jpg"/></div>
 </div>
 
-There have already been a number of previous designs in the container since its purchase in 2011 ->1
+There have already been a number of previous designs in the container since its purchase in 2011 1️⃣
 
 Sadly I do not have photos of all of them but the reason for so many versions has been that each one has never really been up to scratch and I never really seemed to get it right. Each variant has always been crippled for the simple reason I had doors at either end, making each one a corridor.
 
@@ -487,4 +487,4 @@ The last thing I have yet to finish is tidying up and sorting through all the ne
 I now have what will defintely serve as a home office should the need arise, hopefully not in the too distant future 🤷‍♂️
 
 ---
-##### ->1 - A purchase which like many thinks I can thank my partners father for suggesting. I own a number of powertools due to similar suggestions.
+##### 1️⃣ - A purchase which like many thinks I can thank my partners father for suggesting. I own a number of powertools due to similar suggestions.
