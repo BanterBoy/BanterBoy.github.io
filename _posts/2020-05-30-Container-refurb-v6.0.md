@@ -270,9 +270,9 @@ Version 1.0 was created when we were converting our unused back room and our kit
 </div>
 
 <!-- <a> element links to the section below -->
-<p><a href="#Reference1">
-  <h4>There have already been a number of previous designs in the container since its purchase in 2011 1️⃣</h4>
-</a></p>
+<p>
+  <h4>There have already been a number of previous designs in the container since its purchase in 2011 <a href="#Reference1">1️⃣</a></h4>
+</p>
 
 Sadly I do not have photos of all of them but the reason for so many versions has been that each one has never really been up to scratch and I never really seemed to get it right. Each variant has always been crippled for the simple reason I had doors at either end, making each one a corridor.
 
