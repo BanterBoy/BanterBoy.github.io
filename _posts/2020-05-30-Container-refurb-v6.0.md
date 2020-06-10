@@ -267,8 +267,7 @@ Version 1.0 was created when we were converting our unused back room and our kit
     <div><img src="/assets/images/container_1/0059.jpg"/></div>
 </div>
 
-There have already been a number of previous designs in the container since its purchase in 2011
-##### ->1
+There have already been a number of previous designs in the container since its purchase in 2011 ->1
 
 Sadly I do not have photos of all of them but the reason for so many versions has been that each one has never really been up to scratch and I never really seemed to get it right. Each variant has always been crippled for the simple reason I had doors at either end, making each one a corridor.
 
@@ -479,7 +478,7 @@ The design changes took approximately 34 days to complete with many of the days 
 
 I now have much more storage, taking advantage of the height inside the container. There is now shelving all the way round the container. I have added cupboard doors to some of the shelves and I have created the appearance of two rooms by adding shelving between the two walls, separating what is now a nice kitchette and the office/living room. I have a spare PC set up for any of my guests to use and also for watching TV and taking video calls in comfort from the sofa.
 
-I also added an extension to the sofa, turning it into a rather comforable bed, which will no doubt come in handy for those late nights doing some form of remote maintenance or important infrastructure changes. Yes, of course I have tested it and it really is quite comfortable :-)
+I also added an extension to the sofa, turning it into a rather comforable bed, which will no doubt come in handy for those late nights doing some form of remote maintenance or important infrastructure changes. Yes, of course I have tested it and it really is quite comfortable 😁
 
 The sink now has a much better counter, under which I added shelves to support the drawers. The counter above the tumble drier and freezer has a much better finish and I can now just put kitchen items in the cupboards and on the shelves in the kitchen half of the container.
 
