@@ -7,9 +7,9 @@ share: true
 related: true
 ---
 
-During the Coronavirus Lockdown, I am sure many of us have found it a bit of a struggle coping with the enforced break. Some will have found solace in binge-watching their favourite 📺 TV series and 🎬 Movies, and no doubt enjoyed the break from the tedium of work. However, very quickly having nothing to do and finding interesting ways of filling the time can become a little difficult.
+During the Coronavirus Lockdown, I am sure many of us have found it a bit of a struggle coping with the enforced break. Some will have found solace in binge-watching their favourite TV series and Movies, and no doubt enjoyed the break from the tedium of work. However, very quickly having nothing to do and finding interesting ways of filling the time can become a little difficult.
 
-Rather unfortunately, the contract I was working on came to an end at the beginning of February. By the time we were all being told to "stay at home" 🏡 I had become pretty good at doing that already and sadly I had also begun to come to the end of catching up on 📺 TV series and 🎬 Movies.
+Rather unfortunately, the contract I was working on came to an end at the beginning of February. By the time we were all being told to "stay at home" I had become pretty good at doing that already and sadly I had also begun to come to the end of catching up on TV series and Movies.
 
 <div class="slick-autoplay-movietv">
     <div><img src="/assets/images/moviesTV/TheWitcher/season01-poster.jpg"/></div>
@@ -192,7 +192,7 @@ Like most people, I avidly watched the news and became a massive consumer of eve
 
 Having created the module and run out of things to do to keep myself entertained, I decided that my "Home/Office" needed an upgrade to make it more convenient to work from home, as this may be where I would be working from for the unforseeable future.
 
-Unlike most people, my Home/Office is a little quirky and is inside a converted shipping container 📦 ....... OK, perhaps more than a little quirky ¯\\__(ツ)_/¯ It is however, one of the best things I have ever bought from <img src="/assets/images/EBay_logo.png"/>
+Unlike most people, my Home/Office is a little quirky and is inside a converted shipping container ....... OK, perhaps more than a little quirky ¯\\__(ツ)_/¯ It is however, one of the best things I have ever bought from <img src="/assets/images/EBay_logo.png"/>
 
 ## Container v1.0
 
@@ -468,17 +468,17 @@ I blocked off the end of the container and fitted my standing desk in one corner
 </div>
 
 ---
-##### I hope if you scroll through the photo's, you can appreciate the amount of work involved 😓
+##### I hope if you scroll through the photo's, you can appreciate the amount of work involved 
 
-The design changes took approximately 34 days to complete with many of the days stretching out into long nights. Having spent many previous days working similar hours behind a computer, being more active was as you can imagine hard work. I thoroughly enjoyed myself and having been far more energetic benefitted by losing some weight.....there is still plenty more work to do there 🤨
+The design changes took approximately 34 days to complete with many of the days stretching out into long nights. Having spent many previous days working similar hours behind a computer, being more active was as you can imagine hard work. I thoroughly enjoyed myself and having been far more energetic benefitted by losing some weight.....there is still plenty more work to do there
 
-I now have much more storage, taking advantage of the height inside the container. There is now shelving all the way round the container. I have added cupboard doors to some of the shelves and I have created the appearance of two rooms by adding shelving between the two walls, separating what is now a nice kitchette and the office/living room. I have a spare 💻 PC set up for any of my guests to use and also for watching TV and taking 🎥 video calls in comfort from the 🛋 sofa 👍
+I now have much more storage, taking advantage of the height inside the container. There is now shelving all the way round the container. I have added cupboard doors to some of the shelves and I have created the appearance of two rooms by adding shelving between the two walls, separating what is now a nice kitchette and the office/living room. I have a spare PC set up for any of my guests to use and also for watching TV and taking video calls in comfort from the sofa
 
-I also added an extension to the sofa, turning it into a rather comforable bed, which will no doubt come in handy for those late nights doing some form of remote maintenance or important infrastructure changes. Yes, of course I have tested it and it really is quite comfortable 😁
+I also added an extension to the sofa, turning it into a rather comforable bed, which will no doubt come in handy for those late nights doing some form of remote maintenance or important infrastructure changes. Yes, of course I have tested it and it really is quite comfortable
 
 The sink now has a much better counter, under which I have added shelves to support some drawers. The counter above the tumble drier and freezer has a much better finish and I can now just put kitchen items in the cupboards and on the shelves in the kitchen half of the container.
 
-The last thing I have yet to finish is tidying up and sorting through all the newfound toys that have been hidden away in boxes for a long time. Plenty of "Oh, I forgot I owned one of those moments" have taken place. One of the toys I have dug out of the past has been installed already. A solar panel 🌞 on the roof, connected to a car 🚘 battery, charge controller 🚥 to recharge the battery and an inverter - providing me with free power should I need to plug in a power tool ⚡ and also run some lights 💡 at the back of the container.
+The last thing I have yet to finish is tidying up and sorting through all the newfound toys that have been hidden away in boxes for a long time. Plenty of "Oh, I forgot I owned one of those moments" have taken place. One of the toys I have dug out of the past has been installed already. A solar panel on the roof, connected to a car battery, charge controller to recharge the battery and an inverter - providing me with free power should I need to plug in a power tool and also run some lights at the back of the container.
 
 <div class="slick-slideshow">
     <div><img src="/assets/images/container_6/solar/0139.jpg"/></div>
@@ -487,7 +487,7 @@ The last thing I have yet to finish is tidying up and sorting through all the ne
     <div><img src="/assets/images/container_6/solar/0146.jpg"/></div>
 </div>
 
-I now have what will defintely be more comfortable to use as a 🏡 home/office 🏢 should the need arise, hopefully in the not too distant future 🤷‍♂️ There is much more space to move around in and plenty of seating. The new design also has plenty of work-surface in order to continue being a geek.
+I now have what will defintely be more comfortable to use as a home/office should the need arise, hopefully in the not too distant future There is much more space to move around in and plenty of seating. The new design also has plenty of work-surface in order to continue being a geek.
 
 On with the next project ( [Pscovid19stats](https://blog.lukeleigh.com/PSCovid19Stats/) v2.0 or add some features to [PSCiscoMeraki](https://psciscomeraki.lukeleigh.com/blog/psciscomeraki/installation/powershell/module/post-installing-psciscomeraki/) ) while I continue the hunt for a new work challenge.
 
