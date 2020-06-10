@@ -489,7 +489,7 @@ The last thing I have yet to finish is tidying up and sorting through all the ne
 
 I now have what will defintely be more comfortable to use as a 🏡 home/office 🏢 should the need arise, hopefully in the not too distant future 🤷‍♂️ There is much more space to move around in and plenty of seating. The new design also has plenty of work-surface in order to continue being a geek.
 
-On with the next project (Pscovid19stats v2.0\) while I continue the hunt for a new work challenge.
+On with the next project ( Pscovid19stats v2.0\ or some add some features to [PSCiscoMeraki](https://psciscomeraki.lukeleigh.com/blog/psciscomeraki/installation/powershell/module/post-installing-psciscomeraki/) ) while I continue the hunt for a new work challenge.
 
 ---
 ##### 1️⃣ - A purchase which like many thinks I can thank my partners father for suggesting. I also own a number of powertools due to similar suggestions.
