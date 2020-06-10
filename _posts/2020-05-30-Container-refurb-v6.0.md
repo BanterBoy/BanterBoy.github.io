@@ -474,7 +474,16 @@ I blocked off the end of the container and fitted my standing desk in one corner
     <div><img src="/assets/images/container_6/0147.jpg"/></div>
 </div>
 
-I hope if you scroll through the 
+##### I hope if you scroll through the photo's, you can appreciate the amount of work in volved.
 
+The design changes took approximately 34 days to complete with many of the days stretching out into long nights. Having spent many previous days working similar hours behind a computer, being more active was as you can imagine hard work. I thoroughly enjoyed myself and having been far more energetic benefitted from losing some weight.....plenty more work to do there.
 
-->1 - A purchase which like many thinks I can thank my partners father for suggesting. I own a number of powertools due to similar suggestions.
+I now have much more storage, taking advantage of the height inside the container. There is now shelving all the way round the container. I have added cupboard doors to some of the shelves and I have created the appearance of two rooms by adding shelving between the two walls, separating what is now a nice kitchette and the office/living room. I have a spare PC set up for any of my guests to use and also for watching TV and taking video calls in comfort from the sofa.
+
+I also added an extension to the sofa, turning it into a rather comforable bed, which will no doubt come in handy for those late nights doing some form of remote maintenance or important infrastructure changes. Yes, of course I have tested it and it really is quite comfortable :-)
+
+The sink now has a much better counter, under which I added shelves to support the drawers. The counter above the tumble drier and freezer has a much better finish and I can now just put kitchen items in the cupboards and on the shelves in the kitchen half of the container.
+
+The last thing I have yet to finish is tidying up and sorting through all the newfound toys that have been hidden away in boxes for a long time.
+
+##### ->1 - A purchase which like many thinks I can thank my partners father for suggesting. I own a number of powertools due to similar suggestions.
