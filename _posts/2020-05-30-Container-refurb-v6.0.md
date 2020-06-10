@@ -480,7 +480,7 @@ The sink now has a much better counter, under which I have added shelves to supp
 
 The last thing I have yet to finish is tidying up and sorting through all the newfound toys that have been hidden away in boxes for a long time. Plenty of "Oh, I forgot I owned one of those moments" have taken place. One of the toys I have dug out of the past has been installed already. A solar panel 🌞 on the roof, connected to a car 🚘 battery, charge controller 🚥 to recharge the battery and an inverter - providing me with free power should I need to plug in a power tool ⚡ and also run some lights 💡 at the back of the container.
 
-<div class="slick-autoplay-movietv">
+<div class="slick-slideshow">
     <div><img src="/assets/images/container_6/solar/0139.jpg"/></div>
     <div><img src="/assets/images/container_6/solar/0143.jpg"/></div>
     <div><img src="/assets/images/container_6/solar/0144.jpg"/></div>
