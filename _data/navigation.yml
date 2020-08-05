@@ -1,6 +1,4 @@
 main:
-  - title: "About Luke"
-    url: /about/
   - title: "Posts"
     url: /posts/
   - title: "Links"
@@ -9,3 +7,5 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
+  - title: "About Luke"
+    url: /about/
