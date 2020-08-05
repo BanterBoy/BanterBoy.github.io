@@ -5,9 +5,7 @@ title: "About Luke"
 
 Hi, I am Luke and I believe I am terrible at writing "Short Bios" but I will let you be the judge, so here goes.
 
-I have been working in IT for the last 20+ years as an IT Professional. I started out like many, completely unskilled and at the bottom of the IT foodchain. For the first few years I spent my days, building and installing bespoke PC systems for Doctors surgeries. In those days, this meant sourcing all the PC parts and assembling them in nasty beige cases...working in IT was fascinating but not glamourous in any way.
-
-The company I worked for was small and I was frequently looking for solutions to speed up the daily repetitive tasks, sadly PowerShell didn't exist at the time.
+I have been working in IT for the last 20+ years as an IT Professional. I started out like many, completely unskilled and at the bottom of the IT foodchain. For the first few years I spent my days, building and installing bespoke PC systems for Doctors surgeries. In those days, this meant sourcing all the PC parts and assembling them in nasty beige cases...working in IT was fascinating but not glamourous in any way. The company I worked for was small and I was frequently looking for solutions to speed up the daily repetitive tasks, sadly PowerShell didn't exist at the time.
 
 Fast forward to the present and I am now somewhat more battle scarred and far more knowledgeable. I have worked in a variety of companies and built/supported many different environments. By far the most interesting have been the PCI Compliant environments, as "Security by Design" is fast becoming the IT Admin mantra......at least in current working circles.
 
