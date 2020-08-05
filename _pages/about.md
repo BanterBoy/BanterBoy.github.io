@@ -11,4 +11,4 @@ Fast forward to the present and I am now somewhat more battle scarred and far mo
 
 Along this journey, I encountered PowerShell and I haven't looked back. It is by far the most adaptive and extensible administrative tool I have used and the best part is I can use it to write my own tools. In doing so, I have learnt much more about the technologies that I use every day and I have been able to make both my life and my colleagues a lot easier.
 
-I have shared many of these tools on GitHub and hopefully you will find something to make your lives easier too.
+I have shared many of these tools on [GitHub](https://github.com/BanterBoy) and hopefully you will find something to make your lives easier too.
