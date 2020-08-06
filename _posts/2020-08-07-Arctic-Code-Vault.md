@@ -16,7 +16,7 @@ A few weeks ago, I awoke to a message from one of my [friends](https://github.co
 
 ![](/assets/images/CodeVault/ArcticVaultMessage.png)
 
-GitHub's Arctic Code Vault is similar in nature to the [Library of Alexandria](https://www.britannica.com/topic/Library-of-Alexandria), which was the most famous library of Classical antiquity. There have been a number of attempts to create a modern day Universal Library over the years but the most memorable for me was Google's attempt which sadly ended under a [storm of litigation](https://www.edsurge.com/news/2017-08-10-what-happened-to-google-s-effort-to-scan-millions-of-university-library-books). There are many articles written about this topic, and containing one of perhaps the saddest quotes I have heard
+GitHub's Arctic Code Vault is similar in nature to the [Library of Alexandria](https://www.britannica.com/topic/Library-of-Alexandria), which was the most famous library of Classical antiquity. There have been a number of attempts to create a modern day Universal Library over the years but the most memorable for me was Google's attempt which sadly ended under a [storm of litigation](https://www.edsurge.com/news/2017-08-10-what-happened-to-google-s-effort-to-scan-millions-of-university-library-books). There are many articles written about this, with one of perhaps the saddest quotes I have heard in one of them
 
 > Somewhere at Google there is a database containing 25 million books and nobody is allowed to read them.  
 > <cite><a href="https://www.theatlantic.com/technology/archive/2017/04/the-tragedy-of-google-books/523320/">James Somer</a></cite>
