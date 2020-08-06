@@ -29,4 +29,4 @@ The [blog article from GitHub](https://github.blog/2020-07-16-github-archive-pro
 
 I hope you take the time to read the additional links in the article. Whilst I was amused at the notion code I had written would be stored in the vault, having spent the time reading and understanding why they are doing this, I am somewhat humbled that my code will be around many years after I am gone.
 
-In truth, it is a massive kick up the ass to make sure that it is properly formatted and documented so that it will at least make sense should anyone ever be interested in what I have written.
+In truth, it is a massive kick up the ass to make sure that it is properly formatted and documented so that it will at least make sense, should anyone ever be interested in what I have written.
