@@ -12,3 +12,7 @@ tags:
   - PowerShell
 ---
 
+A few weeks ago, I awoke to a message from one of my friends
+
+<img src="/assets/images/codevault/ArcticVaultMessage.png"/>
+
