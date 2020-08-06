@@ -5,6 +5,12 @@ read_time: true
 comments: true
 share: true
 related: true
+categories:
+  - Blog
+tags:
+  - Container
+  - DIY
+  - Remote Work
 ---
 
 During the Coronavirus Lockdown, I am sure many of us have found it a bit of a struggle coping with the enforced break. Some will have found solace in binge-watching their favourite TV series and Movies, and no doubt enjoyed the break from the tedium of work. However, very quickly having nothing to do and finding interesting ways of filling the time can become a little difficult.
