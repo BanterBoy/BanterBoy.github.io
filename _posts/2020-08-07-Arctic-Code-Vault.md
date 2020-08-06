@@ -14,5 +14,5 @@ tags:
 
 A few weeks ago, I awoke to a message from one of my friends
 
-(https://blog.lukeleigh.com/assets/images/codevault/ArcticVaultMessage.png)
+<img src="https://blog.lukeleigh.com/assets/images/codevault/ArcticVaultMessage.png">
 
