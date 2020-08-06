@@ -5,6 +5,12 @@ read_time: true
 comments: true
 share: true
 related: true
+categories:
+  - Blog
+tags:
+  - COVID
+  - Module
+  - PowerShell
 ---
 
 ![Postman COVID-19 API Resources](https://psciscomeraki.lukeleigh.com/assets/images/postmanlogo.jpg)
