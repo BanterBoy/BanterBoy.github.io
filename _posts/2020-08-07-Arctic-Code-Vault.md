@@ -14,5 +14,4 @@ tags:
 
 A few weeks ago, I awoke to a message from one of my friends
 
-<img src="https://github.com/BanterBoy/BanterBoy.github.io/blob/master/assets/images/CodeVault/ArcticVaultMessage.png">
-
+![](/assets/images/CodeVault/ArcticVaultMessage.png)
