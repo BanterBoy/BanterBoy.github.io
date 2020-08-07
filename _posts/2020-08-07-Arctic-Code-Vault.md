@@ -12,7 +12,7 @@ tags:
   - PowerShell
 ---
 
-A few weeks ago, I awoke to a message from one of my [friends](https://github.com/InfosecSapper)
+A few weeks ago, I awoke to a message from one of my [friends](https://twitter.com/InfosecSapper)
 
 ![](/assets/images/CodeVault/ArcticVaultMessage.png)
 
