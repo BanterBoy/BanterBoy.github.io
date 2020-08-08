@@ -55,3 +55,5 @@ Write-Host "Search of -"$Path "- Completed!"
 
 This was easier to use and could be added to my PowerShell profile (more on that another time) making it readily available whenever I opened a PowerShell session. Now I could just type Find-Files and enter the details for the search.
 
+![](/assets/images/ScriptingtoCmdLet/example1.png)
+
