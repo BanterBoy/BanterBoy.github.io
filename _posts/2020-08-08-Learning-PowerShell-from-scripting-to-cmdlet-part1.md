@@ -56,6 +56,6 @@ This provided the basic capability of a function, was easier to use and could be
 
 ![](https://raw.githubusercontent.com/BanterBoy/BanterBoy.github.io/master/assets/images/ScriptingtoCmdLet/Example1.png)
 
-Writing my own Functions seemed to be the next thing to I needed to learn.
+Writing my own Functions seemed to be the next thing I needed to learn.
 
 More to come in [part 2](https://blog.lukeleigh.com/blog/series/Learning-PowerShell-from-scripting-to-cmdlet-part2/)
