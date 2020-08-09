@@ -23,8 +23,8 @@ Despite having a reasonable filing system and mostly using sensible filenames, t
 $DaysPast = Read-Host "Enter Number of Days"
 $Start = (Get-Date).AddDays(-$DaysPast)
 $Path = Read-Host "Enter Search Path"
-$Extenstion = Read-Host "Enter Extenstion"
-    Get-ChildItem -Path $Path -Include $Extenstion -Recurse |
+$Extension = Read-Host "Enter Extension"
+    Get-ChildItem -Path $Path -Include $Extension -Recurse |
     Where-Object { $_.LastWriteTime -ge "$Start" } |
     Select-Object Directory,Name,LastWriteTime |
     Sort-Object LastWriteTime -Descending |
@@ -39,9 +39,9 @@ Function Find-Files {
 	$DaysPast = Read-Host "Enter Number of Days"
 	$Start = (Get-Date).AddDays(-$DaysPast)
 	$Path = Read-Host "Enter Search Path"
-	$Extenstion = Read-Host "Enter Extenstion"
+	$Extension = Read-Host "Enter Extension"
 
-Get-ChildItem -Path $Path -Include $Extenstion -Recurse |
+Get-ChildItem -Path $Path -Include $Extension -Recurse |
 Where-Object { $_.LastWriteTime -ge "$Start" } |
 Select-Object Directory,Name,LastWriteTime |
 Sort-Object LastWriteTime -Descending |
