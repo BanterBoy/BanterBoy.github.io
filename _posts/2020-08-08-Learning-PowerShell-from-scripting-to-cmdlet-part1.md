@@ -58,4 +58,4 @@ This provided the basic capability of a function, was easier to use and could be
 
 Writing my own Functions seemed to be the next thing I needed to learn.
 
-More to come in [part 2](https://blog.lukeleigh.com/blog/series/Learning-PowerShell-from-scripting-to-cmdlet-part2/)
+More to come in part 2
