@@ -15,11 +15,11 @@ tags:
 ---
 
 
-<div class="slick-slideshow">
-    <div><img src="https://raw.githubusercontent.com/BanterBoy/BanterBoy.github.io/master/assets/images/ScriptingtoCmdLet/Example1.png"/></div>
+<div>
+<a class="example-image-link" href="https://raw.githubusercontent.com/BanterBoy/BanterBoy.github.io/master/assets/images/ScriptingtoCmdLet/Example1.png" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="https://raw.githubusercontent.com/BanterBoy/BanterBoy.github.io/master/assets/images/ScriptingtoCmdLet/Example1.png" alt="Example1"/></a>
 </div>
 
-<a href="/assets/images/ScriptingtoCmdLet/Example1.png" data-lightbox="image-1" data-title="My caption">Image #1</a>
+
 
 ### collapsible markdown?
 
