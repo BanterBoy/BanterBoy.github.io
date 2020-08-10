@@ -26,3 +26,5 @@ tags:
 
 </p>
 </details>
+
+:ballot_box_with_check:
