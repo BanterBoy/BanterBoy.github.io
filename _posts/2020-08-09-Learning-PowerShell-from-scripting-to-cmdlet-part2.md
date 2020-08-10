@@ -23,8 +23,12 @@ tags:
 
 ### collapsible markdown?
 
-<details><summary>show full script</summary>
+<details>
+<summary>show full script</summary>
 <p>
+
+<script src="https://gist.github.com/BanterBoy/1b7b31cf93114fb75105548bff571202.js"></script>
+
 
 ```powershell
 <#
@@ -121,7 +125,7 @@ PROCESS {
 END {
 
 }
-\```
+```
 
 </p>
 </details>
