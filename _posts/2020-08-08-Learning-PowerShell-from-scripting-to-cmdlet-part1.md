@@ -20,7 +20,7 @@ When I first began learning, I had yet to progress to some form of version contr
 
 Despite having a reasonable filing system and mostly using sensible filenames, there was the odd occaision where snippets of code would end up in a notes file or be saved in the wrong place. At home I was lucky enough to have a NAS solution and this also became a repository for more of the scripts I had written. As a consequence of using multiple locations, I would sometimes need to do a little searching to find some of the files. As many IT Admins will know, Windows Search can be a little flaky and also a little slow. Having spent enough time scripting in PowerShell, it was now quite easy for me to find what I was looking for using my own script. It was simple enough and also saved time from having to search manually.
 
-```
+```powershell
 $DaysPast = Read-Host "Enter Number of Days"
 $Start = (Get-Date).AddDays(-$DaysPast)
 $Path = Read-Host "Enter Search Path"
@@ -35,7 +35,7 @@ Write-Host "Search of -"$Path "- Completed!"
 
 This worked for me for some time but as I progressed with learning more about PowerShell, I found that scripts had their limitations but it was relatively easy to turn the above into a Function by wrapping the content.
 
-```
+```powershell
 Function Find-Files {
 	$DaysPast = Read-Host "Enter Number of Days"
 	$Start = (Get-Date).AddDays(-$DaysPast)
