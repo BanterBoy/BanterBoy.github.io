@@ -27,6 +27,3 @@ tags:
 </p>
 </details>
 
-:lemon:
-
-/play butts
