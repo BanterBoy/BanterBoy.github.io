@@ -1,5 +1,5 @@
 ---
-permalink: /resources/
-title: "Resources"
+permalink: /links/
+title: "Links"
 ---
 
