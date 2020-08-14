@@ -1,5 +1,5 @@
 ---
-permalink: /links/
+permalink: /links.html
 title: "Links"
 ---
 
