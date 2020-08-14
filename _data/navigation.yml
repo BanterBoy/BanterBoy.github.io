@@ -7,7 +7,7 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
-    - title: "Links"
+  - title: "Links"
     url: /links/
   - title: "About Luke"
     url: /about/
