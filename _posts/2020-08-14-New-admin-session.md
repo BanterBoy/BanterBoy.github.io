@@ -13,123 +13,54 @@ tags:
   - Admin
 ---
 
+<div>
+<a class="example-image-link" href="https://raw.githubusercontent.com/BanterBoy/BanterBoy.github.io/master/assets/images/PowerShell_5.0_icon.png" data-lightbox="example-2" data-title="Example of CmdLet"><img class="example-image" src="https://raw.githubusercontent.com/BanterBoy/BanterBoy.github.io/master/assets/images/PowerShell_5.0_icon88x88.png" alt="Example1"/></a>
+</div>
 
-```powershell
+<details>
+<summary>Test-IsAdmin.ps1</summary>
+<p>
 
-# Function        Test-IsAdmin
-function Test-IsAdmin {
-	<#
-	.Synopsis
-	Tests if the user is an administrator
-	.Description
-	Returns true if a user is an administrator, false if the user is not an administrator
-	.Example
-	Test-IsAdmin
-	#>
-	$identity = [Security.Principal.WindowsIdentity]::GetCurrent()
-	$principal = New-Object Security.Principal.WindowsPrincipal $identity
-	$principal.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)
-}
+<script src="https://gist.github.com/BanterBoy/1bd2b984ecbbb2b0138859db02748b85.js"></script>
 
+</p>
+</details>
 
-# Function        New-AdminShell
-function New-AdminShell {
-	<#
-	.Synopsis
-	Starts an Elevated PowerShell Console.
+<details>
+<summary>New-AdminShell.ps1</summary>
+<p>
 
-	.Description
-	Opens a new PowerShell Console Elevated as Administrator. If the user is already running an elevated
-	administrator shell, a message is displayed in the console session.
+<script src="https://gist.github.com/BanterBoy/ee54937165b8390c75e4bb7ccae731a5.js"></script>
 
-	.Example
-	New-AdminShell
+</p>
+</details>
 
-	#>
+<details>
+<summary>New-AdminTerminal.ps1</summary>
+<p>
 
-	$Process = Get-Process | Where-Object { $_.Id -eq "$($PID)" }
-	if (Test-IsAdmin = $True) {
-		Write-Warning -Message "Admin Shell already running!"
-	}
-	else {
-		if ($Process.Name -eq "powershell") {
-			Start-Process -FilePath "powershell.exe" -Verb runas -PassThru
-		}
-		if ($Process.Name -eq "pwsh") {
-			Start-Process -FilePath "pwsh.exe" -Verb runas -PassThru
-		}
-	}
-}
+<script src="https://gist.github.com/BanterBoy/008abed0caca15ad3d0678efcf4076f5.js"></script>
+
+</p>
+</details>
 
 
-# Function        New-AdminTerminal
-function New-AdminTerminal {
-	<#
-	.Synopsis
-	Starts an Elevated Microsoft Terminal.
+<details>
+<summary>Show-IsAdminOrNot.ps1</summary>
+<p>
 
-	.Description
-	Opens a new Microsoft Terminal Elevated as Administrator. If the user is already running an elevated
-	Microsoft Terminal, a message is displayed in the console session.
+<script src="https://gist.github.com/BanterBoy/7bb9ada6555140c3aea67b5a274c2f43.js"></script>
 
-	.Example
-	New-AdminShell
+</p>
+</details>
 
-	#>
+<details>
+<summary>DisplayAdmin-WindowTitle.ps1</summary>
+<p>
 
-	if (Test-IsAdmin = $True) {
-		Write-Warning -Message "Admin Shell already running!"
-	}
-	else {
-		Start-Process "wt.exe" -ArgumentList "-p pwsh" -Verb runas -PassThru
-	}
-}
+<script src="https://gist.github.com/BanterBoy/45d2a63ac3fd87e602597be022b887d3.js"></script>
 
+</p>
+</details>
 
-# Function        Show-IsAdminOrNot
-
-function Show-IsAdminOrNot {
-	$IsAdmin = Test-IsAdmin
-	if ( $IsAdmin -eq "False") {
-		Write-Warning -Message "Admin Privileges!"
-	}
-	else {
-		Write-Warning -Message "User Privileges"
-	}
-}
-
-
-#--------------------
-# Display running as Administrator in WindowTitle
-
-$whoami = whoami /Groups /FO CSV | ConvertFrom-Csv -Delimiter ','
-$MSAccount = $whoami."Group Name" | Where-Object { $_ -like 'MicrosoftAccount*' }
-$LocalAccount = $whoami."Group Name" | Where-Object { $_ -like 'Local' }
-
-#$MSAccount.Split('\')[1]
-#$env:USERNAME
-
-if ((Test-IsAdmin) -eq $true) {
-	if (($MSAccount)) {
-		$host.UI.RawUI.WindowTitle = "$($MSAccount.Split('\')[1]) - Admin Privileges"
-	}
-	else {
-		$host.UI.RawUI.WindowTitle = "$($LocalAccount) - Admin Privileges"
-	}
-}	
-else {
-	if (($LocalAccount)) {
-		$host.UI.RawUI.WindowTitle = "$($MSAccount.Split('\')[1]) - User Privileges"
-	}
-	else {
-		$host.UI.RawUI.WindowTitle = "$($LocalAccount) - User Privileges"
-	}
-}	
-
-#--------------------
-# Profile Starts here!
-Show-IsAdminOrNot
-Write-Host ""
-
-```
 
