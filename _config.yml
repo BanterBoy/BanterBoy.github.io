@@ -45,6 +45,7 @@ analytics:
 
 include:
   - _pages
+  - _docs
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -138,6 +139,17 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _docs
+  - scope:
+    path: "_docs"
+    type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 category_archive:
   type: liquid
