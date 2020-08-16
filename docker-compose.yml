@@ -5,5 +5,5 @@ jekyll:
         - 4000:4000
     container_name: blog_server
     volumes:
-        - .:/srv/jekyll
-        - $PWD/vendor/bundle:/usr/local/bundle
+        - ".:/srv/jekyll"
+        - "./vendor/bundle:/usr/local/bundle"
