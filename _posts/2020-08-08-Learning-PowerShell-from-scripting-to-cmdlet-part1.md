@@ -57,4 +57,4 @@ Writing my own Functions seemed to be the next thing I needed to learn.
 
 More to come in part 2
 
-<a href="#" class="btn btn--info">Back to Top</a>
+<a href="#" class="btn btn--info btn--small">Back to Top</a>
