@@ -49,7 +49,7 @@ Write-Host "Search of -"$Path "- Completed!"
 This provided the basic capability of a function, was easier to use and could be added to my *PowerShell* profile (more on that another time) making it readily available whenever I opened a *PowerShell* session. Now I could just type Find-Files and enter the details for the search.
 
 <div>
-<a href="https://raw.githubusercontent.com/BanterBoy/BanterBoy.github.io/master/assets/images/ScriptingtoCmdLet/Example1.png" data-lightbox="Example1" data-title="Example of Function"><img src="https://raw.githubusercontent.com/BanterBoy/BanterBoy.github.io/master/assets/images/ScriptingtoCmdLet/Example1.png" alt="Example1"/></a>
+<a href="https://raw.githubusercontent.com/BanterBoy/BanterBoy.github.io/master/assets/images/ScriptingtoCmdLet/Example1-enlarge.png" data-lightbox="Example1" data-title="Example of Function"><img src="https://raw.githubusercontent.com/BanterBoy/BanterBoy.github.io/master/assets/images/ScriptingtoCmdLet/Example1.png" alt="Example1"/></a>
 </div>
 
 Writing my own Functions seemed to be the next thing I needed to learn.
