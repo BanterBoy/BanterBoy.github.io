@@ -28,4 +28,4 @@ I hope you take the time to read the additional links in the article. Whilst I w
 
 In truth, it is a massive kick up the ass to make sure that it is properly formatted and documented so that it will at least make sense, should anyone ever be interested in what I have written.
 
-<a href="#" class="btn btn--info">Back to Top</a>
+<a href="#" class="btn btn--info btn--small">Back to Top</a>
