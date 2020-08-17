@@ -28,6 +28,12 @@ minimal_mistakes_skin: dark
 search: true
 github: [metadata]
 
+# Comments
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "https://lukeleigh.disqus.com/admin"
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes@4.17.2
