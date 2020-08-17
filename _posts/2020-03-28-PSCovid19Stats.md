@@ -103,4 +103,4 @@ Function        Show-CountryCodes                                  1.0.2      PS
 
 [License](/LICENSE)
 
-<a href="#" class="btn btn--info">Back to Top</a>
+<a href="#" class="btn btn--info btn--small">Back to Top</a>
