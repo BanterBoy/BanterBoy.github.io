@@ -1,5 +1,5 @@
 ---
-comments: false
+classes: wide
 categories:
   - Blog
 tags:
