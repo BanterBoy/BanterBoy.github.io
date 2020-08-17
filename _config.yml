@@ -111,7 +111,7 @@ footer:
     - label: "Profile"
       icon: "fas fa-fw fa-link"
       url: "https://velocv.com/lukeleigh"
-    - label: "adminTookit"
+    - label: "adminToolkit"
       icon: "fas fa-hashtag"
       url: "https://admintoolkit.lukeleigh.com"
     - label: "PSCiscoMeraki"
