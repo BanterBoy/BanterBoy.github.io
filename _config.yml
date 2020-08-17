@@ -106,8 +106,6 @@ author:
 
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
     - label: "Profile"
       icon: "fas fa-fw fa-link"
       url: "https://velocv.com/lukeleigh"
