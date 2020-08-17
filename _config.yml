@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 locale: "en-GB"
 title: "Luke Leigh's Blog"
 title_separator: "|"
@@ -29,10 +30,10 @@ search: true
 github: [metadata]
 
 # Comments
-comments:
-  provider: "disqus"
-  disqus:
-    shortname: "lukeleigh"
+# comments:
+#   provider: "disqus"
+#   disqus:
+#     shortname: "lukeleigh"
 
 # Build settings
 markdown: kramdown
@@ -87,7 +88,7 @@ author:
     - label: "Profile"
       icon: "fas fa-fw fa-link"
       url: "https://velocv.com/lukeleigh"
-    - label: "adminTookit"
+    - label: "adminToolkit"
       icon: "fas fa-hashtag"
       url: "https://admintoolkit.lukeleigh.com"
     - label: "PSCiscoMeraki"
@@ -135,7 +136,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
       comments: true
