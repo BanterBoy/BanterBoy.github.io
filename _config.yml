@@ -40,7 +40,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes@4.17.2
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 4 # amount of posts to show
 paginate_path: /page:num/
 timezone: GB # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -137,10 +137,8 @@ defaults:
       classes: wide
       author_profile: true
       read_time: true
-      comments: false
       share: true
       related: true
-      comments: true
   # _pages
   - scope:
       path: "_pages"
