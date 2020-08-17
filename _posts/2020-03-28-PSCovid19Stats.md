@@ -102,3 +102,5 @@ Function        Show-CountryCodes                                  1.0.2      PS
 ![COVID-19 Example](https://psciscomeraki.lukeleigh.com/assets/images/pscovidscrnsht.png)
 
 [License](/LICENSE)
+
+<a href="#" class="btn btn--info">Back to Top</a>
