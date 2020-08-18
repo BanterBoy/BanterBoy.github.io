@@ -21,8 +21,8 @@ GitHub created the "[GitHub Archive Program](https://archiveprogram.github.com/)
 The [blog article from GitHub](https://github.blog/2020-07-16-github-archive-program-the-journey-of-the-worlds-open-source-code-to-the-arctic/) explains the process in much more detail than I have here but if you are not in the mood for some light reading they also have a TLDR video which will give you an insight into their incredible work.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fzI9FNjXQ0o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-GitHub have deposited archived data, 21TB of repository data to 186 reels of piqlFilm (digital photosensitive archival film), in a similar fashion to the [Svalbard Global Seed Vault](https://www.seedvault.no/) and is located down the road in a decomissioned coal mine.
+<br>
+GitHub have deposited archived data, 21TB of repository data to 186 reels of piqlFilm (digital photosensitive archival film), in a similar fashion to the [Svalbard Global Seed Vault](https://www.seedvault.no/) and is located down the road in a decommissioned coal mine.
 
 I hope you take the time to read the additional links in the article. Whilst I was amused at the notion code I had written would be stored in the vault, having spent the time reading and understanding why they are doing this, I am somewhat humbled that my code will be around many years after I am gone.
 
