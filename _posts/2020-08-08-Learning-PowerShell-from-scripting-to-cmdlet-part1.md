@@ -1,5 +1,10 @@
 ---
+layout: single
+title: "Learning PowerShell From Scripting To CmdLet Part 1"
+excerpt: "Part one in a series of posts detailing my journey in learning PowerShell"
 header:
+  overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
+  overlay_filter: 0.8
   teaser: /assets/images/ScriptingtoCmdLet/Example1-enlarge.png
 classes: wide
 categories:
