@@ -1,4 +1,6 @@
 ---
+header:
+  teaser: /assets/images/container_6/0126.jpg
 classes: wide
 categories:
   - Blog
