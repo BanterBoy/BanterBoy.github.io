@@ -54,7 +54,7 @@ This provided the basic capability of a function, was easier to use and could be
 <div>
 <a href="https://raw.githubusercontent.com/BanterBoy/BanterBoy.github.io/master/assets/images/ScriptingtoCmdLet/Example1-enlarge.png" data-lightbox="Example1" data-title="Example of Function"><img src="https://raw.githubusercontent.com/BanterBoy/BanterBoy.github.io/master/assets/images/ScriptingtoCmdLet/Example1-enlarge.png" alt="Example1" width="600" height="300"/></a>
 </div>
-
+<br>
 Writing my own Functions seemed to be the next thing I needed to learn.
 
 More to come in part 2
