@@ -8,6 +8,6 @@ main:
   - title: "Tags"
     url: /tags/
   - title: "Resources"
-    url: /resources/
+    url: /resources.html
   - title: "About Luke"
-    url: /about/
+    url: /about.html
