@@ -1,4 +1,6 @@
 ---
+header:
+  teaser: /assets/images/covid19-image.png
 classes: wide
 categories:
   - Blog
