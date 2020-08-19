@@ -1,6 +1,10 @@
 ---
 permalink: /about.html
 title: "About Luke"
+classes: wide
+header:
+  overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
+  overlay_filter: 0.8
 ---
 
 Hi, I am Luke and I have been working in IT for the last 20+ years as an IT Professional.
