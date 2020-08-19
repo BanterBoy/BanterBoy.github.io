@@ -98,7 +98,7 @@ Function        Get-CovidStateStats                                1.0.2      PS
 Function        Get-CovidWorldStats                                1.0.2      PSCovid19Stats
 Function        Show-CountryCodes                                  1.0.2      PSCovid19Stats
 ```
-
+<br>
 ![COVID-19 Example](https://psciscomeraki.lukeleigh.com/assets/images/pscovidscrnsht.png)
 
 [License](/LICENSE)
