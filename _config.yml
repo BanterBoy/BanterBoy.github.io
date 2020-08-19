@@ -27,6 +27,8 @@ twitter_username: luke_leighs
 github_username: BanterBoy
 minimal_mistakes_skin: dark
 search: true
+teaser: /assets/images/default-teaser-image.png
+breadcrumbs: true # disabled by default
 github: [metadata]
 
 # Comments
