@@ -21,7 +21,7 @@ A few weeks ago, I awoke to a message from one of my [friends][1]{:target="_blan
 GitHub's Arctic Code Vault is similar in nature to the [Library of Alexandria][2]{:target="_blank"}, which was the most famous library of Classical antiquity. There have been a number of attempts to create a modern day Universal Library over the years but the most memorable for me was Google's attempt which sadly ended under a [storm of litigation][3]{:target="_blank"}. There are many articles written about this, with one of perhaps the saddest quotes I have heard in one of them
 
 > Somewhere at Google there is a database containing 25 million books and nobody is allowed to read them.  
-> <cite><a href="https://www.theatlantic.com/technology/archive/2017/04/the-tragedy-of-google-books/523320/">James Somer</a></cite>
+> <cite><a href="https://www.theatlantic.com/technology/archive/2017/04/the-tragedy-of-google-books/523320/" target="_blank">James Somer</a></cite>
 
 GitHub created the "[GitHub Archive Program][4]{:target="_blank"}" in 2019 with the idea of preserving the work of many opensource developers for future generations and ensuring it would be stored for many years to come....for at least 1,000 years.
 
