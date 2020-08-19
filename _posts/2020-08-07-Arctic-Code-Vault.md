@@ -1,6 +1,6 @@
 ---
 header:
-  teaser: /assets/images/codevault/ArcticVaultPopUp.png
+  teaser: /assets/images/CodeVault/ArcticVaultPopUp.png
 classes: wide
 categories:
   - Blog
