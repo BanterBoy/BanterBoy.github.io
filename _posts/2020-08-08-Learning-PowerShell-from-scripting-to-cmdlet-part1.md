@@ -1,4 +1,6 @@
 ---
+header:
+  teaser: /assets/images/ScriptingtoCmdLet/Example1-enlarge.png
 classes: wide
 categories:
   - Blog
