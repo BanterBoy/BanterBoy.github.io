@@ -1,9 +1,15 @@
 ---
+layout: single
+title: "PSCovid19Stats"
+excerpt: "A PowerShell Module used to extract data from the NovelCOVID API"
 header:
+  overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
+  overlay_filter: 0.8
   teaser: /assets/images/covid19-image.png
 classes: wide
 categories:
   - Blog
+  - Module
 tags:
   - COVID
   - Module
@@ -22,9 +28,8 @@ Click [here](https://covid-19-apis.postman.com/) to view the Postman Resource Ce
 
 This was inspired by a [blog post](https://www.powershell.co.at/cov-id-19-powershell-prompt/) that popped up in the random click-fest of reading everything about the coronavirus. Perhaps too much time stuck indoors obsessing about what is happening around the world.
 
-## Update
-
-I have updated the module to include Comment Based Help and also Online Help
+***Update - I have updated the module to include Comment Based Help***
+{: .notice}
 
 ***Example***
 
