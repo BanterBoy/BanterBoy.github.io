@@ -4,7 +4,7 @@ title: "Container Refurb v6.0"
 excerpt: "Creating my ideal home/office solution during the lockdown"
 header:
   overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
-  overlay_filter: 0.7
+  overlay_filter: rgba(90, 104, 129, 0.7)
   teaser: /assets/images/container_6/0126.jpg
 classes: wide
 categories:
