@@ -1,6 +1,7 @@
 ---
 permalink: /about.html
 title: "About Luke"
+excerpt: "A short bio about me"
 classes: wide
 header:
   overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
