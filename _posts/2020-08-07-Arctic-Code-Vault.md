@@ -14,7 +14,7 @@ tags:
   - PowerShell
 ---
 
-A few weeks ago, I awoke to a message from one of my [friends][1]{:target="_blank"}
+A few weeks ago, I awoke to a message from one of my friends [<icon class="fab fa-twitter"></icon> @InfosecSapper][1]{:target="_blank"}
 
 ![](/assets/images/CodeVault/ArcticVaultMessage.png)
 
