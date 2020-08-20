@@ -4,7 +4,7 @@ title: "PSCovid19Stats"
 excerpt: "A PowerShell Module used to extract data from the NovelCOVID API"
 header:
   overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
-  overlay_filter: 0.8
+  overlay_filter: 0.7
   teaser: /assets/images/covid19-image.png
 classes: wide
 categories:
