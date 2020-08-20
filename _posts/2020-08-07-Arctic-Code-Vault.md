@@ -4,7 +4,7 @@ title: "The Arctic Code Vault"
 excerpt: "What it is and my how I found out I am a contributor"
 header:
   overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
-  overlay_filter: 0.8
+  overlay_filter: 0.7
   teaser: /assets/images/CodeVault/ArcticVaultPopUp.png
 classes: wide
 categories:
