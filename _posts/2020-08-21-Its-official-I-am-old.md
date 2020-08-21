@@ -46,7 +46,7 @@ Anybody looking for their next useful PowerShell script or indeed module has far
 <br>
 
 <div>
-<a class="PSGallery" href="../../assets/images/PowerShellGallery.png" data-lightbox="PSGallery" data-title="PowerShell Gallery"><img class="PSGallery" src="https://blog.lukeleigh.com/assets/images/PowerShellGallery.png" alt="PowerShell Gallery" width="550" height="150" /></a>
+<a class="PSGallery" href="https://blog.lukeleigh.com/assets/images/PowerShellGallery.png" data-lightbox="PSGallery" data-title="PowerShell Gallery"><img class="PSGallery" src="https://blog.lukeleigh.com/assets/images/PowerShellGallery.png" alt="PowerShell Gallery" width="550" height="150" /></a>
 </div>
 
 ## Modules and Package Management
