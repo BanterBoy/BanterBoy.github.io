@@ -9,7 +9,7 @@ header:
 classes: wide
 categories:
   - Blog
-  - Module
+  - PowerShell
 tags:
   - COVID
   - Module

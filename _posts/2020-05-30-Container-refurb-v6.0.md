@@ -9,6 +9,7 @@ header:
 classes: wide
 categories:
   - Blog
+  - Build
 tags:
   - Container
   - DIY

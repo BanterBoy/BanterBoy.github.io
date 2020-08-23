@@ -10,6 +10,7 @@ classes: wide
 categories:
   - Blog
   - Series
+  - PowerShell
 tags:
   - Learning
   - PowerShell
