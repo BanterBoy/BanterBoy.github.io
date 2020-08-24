@@ -79,6 +79,8 @@ PowerShell allows any .NET methods to be called by providing their namespaces en
 ::WriteLine("PowerShell").
 Objects are created using the New-Object cmdlet. Calling methods of .NET objects is accomplished by using the regular . notation.
 
+{% include figure image_path="/assets/images/hangout_snapshot_Pencil-16by9.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}
+
 Object members can be accessed using . notation, as in C# syntax. PowerShell provides special variables, such as $args, which is an array of all the command line arguments passed to a function from the command line, and $_, which refers to the current object in the pipeline.
 {: .notice}
 
@@ -89,7 +91,8 @@ Second Term
 : This is one definition of the second term.
 : This is another definition of the second term.
 
-[1]: http://powershellgallery.com
-
 {: .text-center}
 <a href="#" class="btn btn--info btn--small">Back to Top</a>
+
+[1]: http://powershellgallery.com
+
