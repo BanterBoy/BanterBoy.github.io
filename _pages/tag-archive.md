@@ -1,7 +1,8 @@
 ---
 title: "Posts by Tag"
-permalink: /tags/
+excerpt: "All posts organised by Tag"
 layout: tags
+permalink: /tags/
 author_profile: true
 classes: wide
 header:

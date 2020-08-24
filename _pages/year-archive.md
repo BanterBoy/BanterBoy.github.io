@@ -1,7 +1,8 @@
 ---
 title: "Posts by Year"
-permalink: /posts/
+excerpt: "All posts organised by Year"
 layout: posts
+permalink: /posts/
 author_profile: true
 classes: wide
 header:

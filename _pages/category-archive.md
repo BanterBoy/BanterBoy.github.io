@@ -1,5 +1,6 @@
 ---
 title: "Posts by Category"
+excerpt: "All posts organised by category."
 layout: categories
 permalink: /categories/
 author_profile: true
