@@ -31,7 +31,7 @@ I decided to create this module after reading the [blog post - COV-ID-19 PowerSh
 
 ![CovidPrompt](https://www.powershell.co.at/wp-content/uploads/2020/03/CovId19Prompt.png)
 
-## Why?
+## <i class="fas fa-question" aria-hidden="true" style="color: white; margin-right:5px;">Why?
 
 The article and instructions were very simple but IMHO there were a few too many steps to follow and I wanted to make the module more accessible and if possible, provide more functionality in doing so.
 
