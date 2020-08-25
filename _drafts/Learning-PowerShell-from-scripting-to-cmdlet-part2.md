@@ -39,7 +39,8 @@ function Get-BIOSInfo {
 More often than not, the functions I have created for my scripts have been a simple wrapper to a frequently used command, very much like the example above. It is however possible to make the functions a bit more useful by being able to enter parameters, as you would 
 
 {: .text-center}
-<a href="#" class="btn btn--info btn--small">Back to Top</a>
+<a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
 
 [1]: https://github.com/search?q=powershell
 [2]: https://gallery.technet.microsoft.com/scriptcenter/site/search?query=powershell&f%5B0%5D.Value=powershell&f%5B0%5D.Type=SearchText&ac=4
+

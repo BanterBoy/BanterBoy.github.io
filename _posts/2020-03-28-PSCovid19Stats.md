@@ -133,7 +133,7 @@ REMARKS
 [License](/LICENSE)
 
 {: .text-center}
-<a href="#" class="btn btn--info btn--small">Back to Top</a>
+<a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
 
 [1]: https://covid-19-apis.postman.com/
 [2]: https://www.powershell.co.at/cov-id-19-powershell-prompt/

@@ -46,7 +46,7 @@ Some Text
 
 
 {: .text-center}
-<a href="#" class="btn btn--info btn--small">Back to Top</a>
+<a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
 
 
 [1]: http://somewhere.com

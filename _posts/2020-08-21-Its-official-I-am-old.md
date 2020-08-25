@@ -162,7 +162,7 @@ I can tell you are all on the edge of your seats and looking forward to the next
 Having reached the end of this post with the 5th movie from the Fast and Furious box set playing in the background, I have a much greater appreciation for those who are already blogging and whose sites I have frequented in the past. I hope this also becomes just as useful to anyone who turns up for a read.
 
 {: .text-center}
-<a href="#" class="btn btn--info btn--small">Back to Top</a>
+<a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
 
 [1]: https://gallery.technet.microsoft.com/scriptcenter
 [2]: https://docs.microsoft.com/en-gb/teamblog/technet-gallery-retirement?source=docs

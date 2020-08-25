@@ -512,4 +512,4 @@ On with the next project ( [Pscovid19stats](https://blog.lukeleigh.com/PSCovid19
 <h5 id="Reference1">1️⃣ - A purchase which like many things I can thank my partners father for suggesting. I also own a number of powertools due to similar suggestions.</h5>
 
 {: .text-center}
-<a href="#" class="btn btn--info btn--small">Back to Top</a>
+<a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
