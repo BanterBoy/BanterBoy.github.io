@@ -10,6 +10,7 @@ toc: true
 toc_label: Some Content
 toc_icon: book-reader
 toc_sticky: true
+date: "2020-08-21 20:49"
 categories:
   - Blog
   - PowerShell
