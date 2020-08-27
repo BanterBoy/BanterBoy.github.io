@@ -7,6 +7,7 @@ header:
   overlay_filter: rgba(90, 104, 129, 0.7)
   teaser: /assets/images/default-teaser-image.png
 classes: wide
+date: "2020-08-21 20:49"
 categories:
   - Blog
   - Series
