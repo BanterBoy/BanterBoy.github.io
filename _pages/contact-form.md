@@ -19,17 +19,16 @@ header:
     action="https://formspree.io/xvowjgjd"
     method="POST"
 >
-
 <input
     type="text"
     name="email"
-    placeholder="Email Address"
+    placeholder="your@email.com"
 >
 <textarea
     type="text"
     name="content"
     rows="10"
-    placeholder="Message"
+    placeholder="What's on your mind?"
 ></textarea>
 <input
     type="hidden"
@@ -52,28 +51,29 @@ header:
 
 <style>
 form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
+    fontFamily: "Roboto";
+    fontSize: "0.75em";
     width: 100%;
-    vertical-align: middle;
-    margin-top: 0.2em;
-    margin-bottom: 0.5em;
-    padding: 0.5em;
-    font-family: monospace, sans-serif;
-    font-weight: lighter;
     border-style: transparent;
-    outline-color: #2e83e6;
-    border-width: 1px;
-    border-radius: 1px;
+    border-width: 3px;
+    border-radius: 3px;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    outline-color: #808080;
     transition: box-shadow .2s ease;
+    vertical-align: middle;
 }
 
 form.wj-contact input[type="submit"] {
-    outline: none;
-    color: white;
-    background-color: #2e83e6;
+    background-color: #b6c6e3;
+    border: 3px solid transparent;
     border-radius: 3px;
-    padding: 0.2em;
-    margin: 0.1em 0 0 0;
-    border: 1px solid transparent;
-    height: auto;
+    color: #ffffff;
+    fontFamily: "Roboto";
+    fontSize: "0.50em";
+    height: 50%;
+    outline: none;
+    margin: 0.3em 0 0 0;
+    padding: 0.3em;
 }
 </style>
