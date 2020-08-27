@@ -18,4 +18,7 @@ Along this journey, I encountered PowerShell and I haven't looked back. It is by
 
 I have shared many of these tools on [GitHub][1]{:target="_blank"} and hopefully you will find something to make your lives easier too.
 
+{: .text-center}
+<a href="/contact-form.html" class="btn btn--info btn--small"><i class="fas fa-envelope" aria-hidden="true" style="color: white; margin-right:5px;"></i>Contact Me!</a>
+
 [1]: https://github.com/BanterBoy
