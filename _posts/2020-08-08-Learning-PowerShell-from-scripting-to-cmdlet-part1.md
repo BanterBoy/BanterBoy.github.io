@@ -17,6 +17,46 @@ tags:
   - Scripting
 ---
 
+<script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
+<script>
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+/* customize formbutton here*/     
+  formbutton("create", {
+    action: "https://formspree.io/xvowjgjd",
+    buttonImg: "<i class='fas fa-envelope' style='font-size:20px'/>",
+    theme: "minimal",
+    title: "Contact Me!",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        required: true,
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      fontFamily: "Roboto",
+      fontSize: "1em",
+      title: {
+        background: "#999999",
+      },
+      button: {
+        background: "#999999",
+      }
+    },
+    initiallyVisible: false
+  });
+</script>
+
 About 8 years ago, I started to learn *PowerShell*. All of my previous scripting experience with Batch Files and VBScript and of course the necessity to use additional 3rd party executables, seems like such a long time ago.
 
 When I first began learning, I had yet to progress to some form of version control system like GitHub and all my scripts and snippets were stored locally either in a PS1 or TXT file. Anything I considered to be valuable or useful for future consumption was saved to my Microsoft OneDrive account.

@@ -20,6 +20,46 @@ tags:
   - PowerShell Gallery
 ---
 
+<script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
+<script>
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+/* customize formbutton here*/     
+  formbutton("create", {
+    action: "https://formspree.io/xvowjgjd",
+    buttonImg: "<i class='fas fa-envelope' style='font-size:20px'/>",
+    theme: "minimal",
+    title: "Contact Me!",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        required: true,
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      fontFamily: "Roboto",
+      fontSize: "1em",
+      title: {
+        background: "#999999",
+      },
+      button: {
+        background: "#999999",
+      }
+    },
+    initiallyVisible: false
+  });
+</script>
+
 # Background
 
 Being a bit of an insomniac sometimes means that what starts out as a 24 hour day, sometimes turns into a very long day with a period of dark requiring some illumination in the middle. Sadly this is followed by another seemingly endless day before you next have the luxury of some sleep. Stress can be a key factor in prompting this onslaught of being awake and honestly, the combination of a pandemic and the extended period of searching for a new job have likely caused the latest. The fortunate side of being awake has meant that I have had the opportunity to watch a few box sets, so like any other time, I chose a random movie collection to while away the hours and I also decided to write an article for my blog.

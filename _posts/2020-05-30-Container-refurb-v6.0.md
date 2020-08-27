@@ -16,6 +16,46 @@ tags:
   - Remote Work
 ---
 
+<script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
+<script>
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+/* customize formbutton here*/     
+  formbutton("create", {
+    action: "https://formspree.io/xvowjgjd",
+    buttonImg: "<i class='fas fa-envelope' style='font-size:20px'/>",
+    theme: "minimal",
+    title: "Contact Me!",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        required: true,
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      fontFamily: "Roboto",
+      fontSize: "1em",
+      title: {
+        background: "#999999",
+      },
+      button: {
+        background: "#999999",
+      }
+    },
+    initiallyVisible: false
+  });
+</script>
+
 During the Coronavirus Lockdown, I am sure many of us have found it a bit of a struggle coping with the enforced break. Some will have found solace in binge-watching their favourite TV series and Movies, and no doubt enjoyed the break from the tedium of work. However, very quickly having nothing to do and finding interesting ways of filling the time can become a little difficult.
 
 Rather unfortunately, the contract I was working on came to an end at the beginning of February. By the time we were all being told to "stay at home" I had become pretty good at doing that already and sadly I had also begun to come to the end of catching up on TV series and Movies.

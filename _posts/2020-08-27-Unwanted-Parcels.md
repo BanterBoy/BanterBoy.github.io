@@ -20,6 +20,46 @@ tags:
   - Resources
 ---
 
+<script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
+<script>
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+/* customize formbutton here*/     
+  formbutton("create", {
+    action: "https://formspree.io/xvowjgjd",
+    buttonImg: "<i class='fas fa-envelope' style='font-size:20px'/>",
+    theme: "minimal",
+    title: "Contact Me!",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        required: true,
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      fontFamily: "Roboto",
+      fontSize: "1em",
+      title: {
+        background: "#999999",
+      },
+      button: {
+        background: "#999999",
+      }
+    },
+    initiallyVisible: false
+  });
+</script>
+
 # <i class="fas fa-brain" aria-hidden="true" style="color: white; margin-right:5px;"></i> Reasons
 
 Life seems full of irony lately. I recently had to help my son with a security issue, as he had fallen victim to someone accessing his Amazon account. This seems to have been the result of sharing the same passwords with multiple accounts; one of which was also his emails. As I have worked in the IT industry, securing infrastructure to PCI Compliance Security Standards for last 10 years, I was horrified that this had happened to someone I know; let alone to my son. It felt a little embarrassing as frequently expounding the virtues of security was kind of my thing and I have discussed password security with my son on numerous occasions.
