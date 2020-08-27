@@ -32,6 +32,9 @@ When I read the blog post, it felt like the end of an era and certainly made me 
 
 Microsoft's documentation transition wasn't something they did in a rush and [<i class="fab fa-fw fa-microsoft" aria-hidden="true" style="color: white; margin-right:5px;"></i>docs.microsoft.com][10]{:target="_blank"} is something of a premiere resource when it comes to all things Microsoft.
 
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+
 ## PowerShell Gallery
 
 Anybody looking for their next useful PowerShell script or indeed module has far more locations than there ever used to be. My favourite and certainly the easiest to access from PowerShell due to the package management features, is the [PowerShell Gallery][11]{:target="_blank"} where there are a variety of modules, from [Database Management][12]{:target="_blank"} to [ChatOps][13]{:target="_blank"} and certainly far too many to list here.
@@ -48,6 +51,9 @@ Anybody looking for their next useful PowerShell script or indeed module has far
 <div>
 <a class="PSGallery" href="https://blog.lukeleigh.com/assets/images/PowerShellGallery.png" data-lightbox="PSGallery" data-title="PowerShell Gallery"><img class="PSGallery" src="https://blog.lukeleigh.com/assets/images/PowerShellGallery.png" alt="PowerShell Gallery" width="550" height="150" /></a>
 </div>
+
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
 
 ## Modules and Package Management
 
@@ -88,6 +94,9 @@ Function        Update-Script                       2.2.4.1    PowerShellGet
 Function        Update-ScriptFileInfo               2.2.4.1    PowerShellGet
 ```
 
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+
 ### Find-Module
 
 Using the functions exposed by the PowerShellGet module, it is very simple to search the PowerShell Gallery for modules that will add functionality to your scripts and allow you to automate things like the creation and management of WiFi profiles.
@@ -106,6 +115,10 @@ Version              Name                                Repository           De
 
 PS C:\GitRepos>
 ```
+
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+
 ### Install-Module
 
 Once you have found what you are looking for, it can then be installed like so:-
@@ -113,6 +126,9 @@ Once you have found what you are looking for, it can then be installed like so:-
 ```powershell
 Install-Module -Name WifiTools -Scope CurrentUser
 ```
+
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
 
 ### Publish-Module
 
@@ -124,6 +140,9 @@ Publish-Module -Name <moduleName> -NuGetApiKey ********-****-****-****-*********
 I am sure however that I will cover more about that another time. There are already however, plenty of other bloggers who have written about this subject already. This is a well written article that you should consider reading if you are in the market to publish your module to the gallery or if you are just interested in the process.
 
 <span style="font-style: oblique; font-size:16px;">[<i class="fas fa-fw fa-external-link-alt" aria-hidden="true" style="color: white; margin-right:5px;"></i>ramblingcookiemonster - Building a PowerShell Module][18]{:target="_blank"}</span>
+
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
 
 ## Where and Why
 
@@ -143,9 +162,15 @@ Below I have listed some of the resources I have used in the past. Thankfully ed
 <br>
 <span style="font-style: oblique; font-size:16px;"><i class="fab fa-fw fa-amazon" aria-hidden="true" style="color: white; margin-right:5px;"></i>[Learn Windows PowerShell in a Month of Lunches][23]{:target"_blank"}</span>
 
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+
 ### Why
 
-I have had numerous conversations in the past with IT Admins, advocating the need to learn PowerShell and great fun in helping my colleagues at work with any and all PowerShell questions. I am sure we have all had conversations in the past that have been similar in experience to this post - <span style="font-style: oblique; font-size:16px;"><i class="fas fa-fw fa-external-link-alt" aria-hidden="true" style="color: white; margin-right:5px;"></i>[PowerShell Is Too Hard][24]{:target"_blank"}</span>. Thankfully I have also had plenty where the outcome has been fruitful and I have been able to help some find the value in spending the time learning to use PowerShell to automate the monotonous or just lengthy tasks they need to perform on a regular basis. I have even managed to coerce one of my [friends][25]{:target="_blank"} who is a Software Developer into creating his own <span style="font-style: oblique; font-size:16px;"><i class="fas fa-fw fa-external-link-alt" aria-hidden="true" style="color: white; margin-right:5px;"></i>[modules][26]{:target"_blank"}</span>. Hopefully in continuing to write articles, I can convince or help more people to learn the benefits of PowerShell and its many uses. 
+I have had numerous conversations in the past with IT Admins, advocating the need to learn PowerShell and great fun in helping my colleagues at work with any and all PowerShell questions. I am sure we have all had conversations in the past that have been similar in experience to this post - <span style="font-style: oblique; font-size:16px;"><i class="fas fa-fw fa-external-link-alt" aria-hidden="true" style="color: white; margin-right:5px;"></i>[PowerShell Is Too Hard][24]{:target"_blank"}</span>. Thankfully I have also had plenty where the outcome has been fruitful and I have been able to help some find the value in spending the time learning to use PowerShell to automate the monotonous or just lengthy tasks they need to perform on a regular basis. I have even managed to coerce one of my [friends][25]{:target="_blank"} who is a Software Developer into creating his own <span style="font-style: oblique; font-size:16px;"><i class="fas fa-fw fa-external-link-alt" aria-hidden="true" style="color: white; margin-right:5px;"></i>[modules][26]{:target"_blank"}</span>. Hopefully in continuing to write articles, I can convince or help more people to learn the benefits of PowerShell and its many uses.
+
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
 
 ## Future Articles
 
