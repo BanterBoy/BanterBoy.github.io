@@ -10,7 +10,7 @@ toc: true
 toc_label: Some Content
 toc_icon: book-reader
 toc_sticky: true
-date: "2020-08-21 20:49"
+date: "2020-08-27 20:49"
 categories:
   - Blog
   - PowerShell
@@ -68,7 +68,8 @@ tags:
 
 Some Text
 
-Here is a link to [Somewhere][1]{:target="_blank"}
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
 
 # Some Heading
 
@@ -89,7 +90,6 @@ Some Text
 ## Final Sub Heading
 
 Some Text
-
 
 {: .text-center}
 <a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
