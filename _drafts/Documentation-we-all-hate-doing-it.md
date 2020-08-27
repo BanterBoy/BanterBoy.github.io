@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Show me an Admin and I'll..."
-excerpt: "....show you someone who doesn't like documentation but <br> probably writes it anyway because they know its worth"
+title: "Documentation..."
+excerpt: "....we all hate doing it but probably write <br> it anyway because we know its worth"
 header:
   overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
   overlay_filter: rgba(90, 104, 129, 0.7)
