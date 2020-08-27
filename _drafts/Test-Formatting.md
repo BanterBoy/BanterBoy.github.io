@@ -68,6 +68,8 @@ Modules allow script developers and administrators to partition and organize the
 
 PowerShell implements the concept of a pipeline, which enables piping the output of one cmdlet to another cmdlet as input. For example, the output of the Get-Process cmdlet could be piped to the Where-Object to filter any process that has less than 1 MB of paged memory, and then to the Sort-Object cmdlet (e.g., to sort the objects by handle count), and then finally to the Select-Object cmdlet to select just the first 10 (i.e., the 10 processes based on handle count).
 
+<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/qEQwAQzB#i1xNMtx42B4uh4hN_Byt2FfEI8_XCJIFN-JirofMq9g" allowfullscreen ></iframe>
+
 Because all PowerShell objects are .NET objects, they share a .ToString() method, which retrieves the text representation of the data in an object. In addition, PowerShell allows formatting definitions to be specified, so the text representation of objects can be customized by choosing which data elements to display, and in what manner. However, in order to maintain backwards compatibility, if an external executable is used in a pipeline, it receives a text stream representing the object, instead of directly integrating with the PowerShell type system.
 
 Object members can be accessed using . notation, as in C# syntax. PowerShell provides special variables, such as $args, which is an array of all the command line arguments passed to a function from the command line, and $_, which refers to the current object in the pipeline.
