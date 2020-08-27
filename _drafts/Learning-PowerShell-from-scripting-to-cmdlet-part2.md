@@ -18,6 +18,51 @@ tags:
   - Scripting
 ---
 
+<script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
+<script>
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+/* customize formbutton here*/     
+  formbutton("create", {
+    action: "https://formspree.io/xvowjgjd",
+    buttonImg: "<i class='fas fa-envelope' style='font-size:20px'/>",
+    theme: "minimal",
+    title: "Contact Me!",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        required: true,
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      fontFamily: "Roboto",
+      fontSize: "1em",
+      title: {
+        background: "#999999",
+      },
+      button: {
+        background: "#999999",
+      }
+    },
+    initiallyVisible: false
+  });
+</script>
+
+# <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Heading
+
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+
 In my previous article, I explained how I ended up at the point where I needed to understand more about *PowerShell* functions in order to improve my scripting. Like many IT Admins who were scripting in *PowerShell*, I was already using functions within my scripts but I had never written my own. There are a lot of useful resources on the internet and plenty of clever people providing access to scripts and functions they had written and made available via opensource solutions like [GitHub][1]{:target="_blank"} and places like the [Microsoft TechNet Script Center][2]{:target="_blank"}.
 
 Back in my days of writing batch files and VBScripts, these resources were also very useful in helping to resolve an issue or include additional functionality to the scripts I was writing. Much of what I had written previously was assisted by the many individuals who were far better at writing what could frequently become quite baffling to produce myself. With the advent of *PowerShell*, these same familiar resources were fuelling my curiosity and aiding my ability to understand this very flexible administration language making it easier to adapt for my own uses. *PowerShell* was much easier to understand due to the incredible help function, that in my opinion, far surpassed previous command line scripting help.
