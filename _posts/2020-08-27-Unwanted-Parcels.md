@@ -29,7 +29,7 @@ Many who have a nineteen year old young adult living in their house, will attest
 As a result of what happened, my son seems to have learnt a valuable lesson and is a lot more careful with his account details. I thought I would write this post so that his experience might also help convince others to be more careful in their security practices. *So, on with the embarrassing story.*
 
 {: .text-right}
-![hope](/assets/images/hope-best-worst.gif)<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+![hope](/assets/images/hope-best-worst.gif){: .align-center}<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
 
 # <i class="fas fa-bed" aria-hidden="true" style="color: white; margin-right:5px;"></i> Early wake up
 
