@@ -117,7 +117,7 @@ It was now time for the standard password/authentication lecture.
 
 Now normally it would just be a talk or some offered advice but clearly he needed to hear the speech again. [So I rambled on about sensible password choice and how sharing these between accounts was a very poor decision for the next 10 minutes][1]{:target="_blank"}, whilst making sure that he added 2FA to the accounts that provided the service. Having worked our way through the important accounts, I left him to finish up, insisting that he sorted this out before he went to work.
 
-I went back out to the [man cave][4]{:target="_blank"} and subscribed my son's email to the [Have I been Pwned][2]{:target="_blank"} service, which monitors your email address against new breaches, just in case his details appeared on a new [pastebin][5]{:target="_blank"} lists. This way he would at least get some sort of advance warning by email.
+I went back out to the [man cave][4]{:target="_blank"} and subscribed my son's email to the [Have I been Pwned][12]{:target="_blank"} service, which monitors your email address against new breaches, just in case his details appeared on a new [pastebin][5]{:target="_blank"} lists. This way he would at least get some sort of advance warning by email.
 
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
@@ -157,4 +157,5 @@ Anyone who is unsure they are following some form of "best practice" when managi
 [9]: https://www.paypal.com/
 [10]: https://www.ebay.co.uk/
 [11]: https://en.wikipedia.org/wiki/Social_media
+[12]: https://haveibeenpwned.com/NotifyMe
 
