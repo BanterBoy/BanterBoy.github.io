@@ -1,5 +1,6 @@
 ---
 title: "Markup: Image Alignment"
+date: "2020-08-21 20:49"
 categories:
   - Markup
 tags:
