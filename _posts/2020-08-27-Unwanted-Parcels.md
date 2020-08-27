@@ -28,6 +28,9 @@ Many who have a nineteen year old young adult living in their house, will attest
 
 As a result of what happened, my son seems to have learnt a valuable lesson and is a lot more careful with his account details. I thought I would write this post so that his experience might also help convince others to be more careful in their security practices. *So, on with the embarrassing story.*
 
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+
 ![hope](/assets/images/hope-best-worst.gif)
 
 # <i class="fas fa-bed" aria-hidden="true" style="color: white; margin-right:5px;"></i> Early wake up
@@ -38,11 +41,17 @@ Armed with all the relevant information, I now had to figure out what had actual
 
 ![delete](/assets/images/delete.gif){: .align-center}
 
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+
 # <i class="fas fa-coffee" aria-hidden="true" style="color: white; margin-right:5px;"></i> Investigation
 
 As my son was visibly distressed, he had neglected to sensibly wake me with a coffee but given the circumstances I was willing to let it go, so I got dressed and headed out to the [man cave][4]{:target="_blank"} with my son in tow.
 
 Once inside, I started making a coffee and began pondering my checklist while the kettle boiled.
+
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
 
 ## <i class="fas fa-clipboard-list" aria-hidden="true" style="color: white; margin-right:5px;"></i> Accounts to check
 
@@ -53,6 +62,9 @@ Once inside, I started making a coffee and began pondering my checklist while th
   + [<i class="fab fa-ebay" aria-hidden="true" style="color: white; margin-right:5px;"></i>eBay][10]{:target="_blank"}
   + [<i class="fas fa-user" aria-hidden="true" style="color: white; margin-right:5px;"></i>have I been pwned?][2]{:target="_blank"}
   + [<i class="fas fa-users" aria-hidden="true" style="color: white; margin-right:5px;"></i>all social media accounts][11]{:target="_blank"}
+  
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
 
 ## <i class="fas fa-mug-hot" aria-hidden="true" style="color: white; margin-right:5px;"></i> So it begins
 
@@ -60,11 +72,17 @@ Coffee ready, I sat down and began sifting through his Amazon account settings. 
 
 As the only reason my son knew that the orders were from Amazon was from his bank account, I checked his email account next. Sure enough, someone had also accessed his email and had configured some rules to delete emails coming from a number of sources; [PayPal][9]{:target="_blank"}, [eBay][10]{:target="_blank"}, and [Amazon][6]{:target="_blank"}. His email account had not yet been forwarded on to a different account which may have been due to how quickly he severed access to his accounts by resetting his passwords. He had been very lucky that whoever had access hadn't changed any contact details or indeed invaded any other accounts also sharing the same password.
 
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+
 # <i class="fas fa-money-bill-wave" aria-hidden="true" style="color: white; margin-right:5px;"></i><i class="fas fa-coins" aria-hidden="true" style="color: white; margin-right:5px;"></i> Money gone?
 
 Prior to waking me up, he had already called Amazon who told him to call the bank. He called the bank who told him he should speak to Amazon. No wonder he was frustrated and a bit panicked.
 
 I checked the site ["have I been pwned?"][2]{:target="_blank"} to see if his email account had featured in any breaches, as his personal details including his email address and password could have been available to anyone on the internet. Sure enough his Email address and Password had appeared in three sets of compromised data.
+
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
 
 ## <i class="fab fa-amazon" aria-hidden="true" style="color: white; margin-right:5px;"></i> Amazon
 
@@ -72,17 +90,26 @@ Having removed the rules deleting new emails and resetting passwords on any acco
 
 When the agent returned to the call, he advised that he would need to access his account requiring my son to provide the 2FA code. Once he had access, he cancelled as many of the orders as possible but wasn't able to cancel all of them as they had been processed already. The departing comments were that the details would be passed to their **Investigations Team**, who would contact my son by email once they had completed their investigation in two days.
 
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+
 ## <i class="fas fa-piggy-bank" aria-hidden="true" style="color: white; margin-right:5px;"></i> Lloyds Bank
 
 My son then placed a call to Lloyds on speakerphone and explained the issue. They started to advise that he contact Amazon as they were unable to cancel any of the payments but I interrupted and explained that we had already contacted Amazon and the issue was already with their investigations team; we were aware they were unable to do anything regarding the outstanding charges; but our expected outcome for the call was that they put a note my sons account indicating that he had already called advising there was an issue as this would help save time should he have to call again.
 
 As it is now possible with most high street banks, my son then froze his card using the banking app. His card details were secure and he would need to cancel his card; but no more money could currently be spent and Amazon would be able to refund any payments to the card used in connection with the orders. Due to Amazon's actions, he had already had some of the money returned to his bank account, which he could now see in his mobile app.
 
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+
 ## <i class="fas fa-poll" aria-hidden="true" style="color: white; margin-right:5px;"></i> Outcome
 
 My son was very fortunate in this instance as Amazon were quite helpful and had successfully recovered all of the money that had been spent (approx. £350). Amazon had told him that any orders that arrived, he was welcome to keep, give to charity or dispose of how he saw fit.
 
 He contacted Lloyds again, soon after Amazon confirmed they had completed their investigation, and cancelled his debit card. Lloyds then sent out a new card, which he received the following day.
+
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
 
 # <i class="fas fa-sign-in-alt" aria-hidden="true" style="color: white; margin-right:5px;"></i> Two Factor Authentication (2FA)
 
@@ -92,6 +119,9 @@ Now normally it would just be a talk or some offered advice but clearly he neede
 
 I went back out to the [man cave][4]{:target="_blank"} and subscribed my son's email to the [Have I been Pwned][2]{:target="_blank"} service, which monitors your email address against new breaches, just in case his details appeared on a new [pastebin][5]{:target="_blank"} lists. This way he would at least get some sort of advance warning by email.
 
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+
 # <i class="fas fa-graduation-cap" aria-hidden="true" style="color: white; margin-right:5px;"></i> Lessons Learnt
 
  + My son now has more respect for his privacy and the fact that he is in control.<br>
@@ -99,6 +129,9 @@ I went back out to the [man cave][4]{:target="_blank"} and subscribed my son's e
  + His password choices are more sensible and he is no longer sharing them with other accounts.<br>
  + He also sees the benefit of better password management and the ease of 2FA.<br>
  + I believe he also now checks his emails more frequently than every 2 months.
+ 
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
 
 # <i class="fas fa-file-alt" aria-hidden="true" style="color: white; margin-right:5px;"></i> Resources
 
