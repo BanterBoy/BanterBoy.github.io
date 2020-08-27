@@ -55,13 +55,13 @@ Once inside, I started making a coffee and began pondering my checklist while th
 
 ## <i class="fas fa-clipboard-list" aria-hidden="true" style="color: white; margin-right:5px;"></i> Accounts to check
 
-  + [<i class="fab fa-amazon" aria-hidden="true" style="color: white; margin-right:5px;"></i>Amazon Account Settings][6]{:target="_blank"}
-  + [<i class="fas fa-envelope-open-text" aria-hidden="true" style="color: white; margin-right:5px;"></i>Email account][7]{:target="_blank"}
-  + [<i class="fab fa-xbox" aria-hidden="true" style="color: white; margin-right:5px;"></i>Xbox Account][8]{:target="_blank"}
-  + [<i class="fab fa-paypal" aria-hidden="true" style="color: white; margin-right:5px;"></i>PayPal][9]{:target="_blank"}
-  + [<i class="fab fa-ebay" aria-hidden="true" style="color: white; margin-right:5px;"></i>eBay][10]{:target="_blank"}
-  + [<i class="fas fa-user" aria-hidden="true" style="color: white; margin-right:5px;"></i>have I been pwned?][2]{:target="_blank"}
-  + [<i class="fas fa-users" aria-hidden="true" style="color: white; margin-right:5px;"></i>all social media accounts][11]{:target="_blank"}
+  [<i class="fab fa-amazon" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>Amazon Account Settings][6]{:target="_blank"}<br>
+  [<i class="fas fa-envelope-open-text" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>Email account][7]{:target="_blank"}<br>
+  [<i class="fab fa-xbox" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>Xbox Account][8]{:target="_blank"}<br>
+  [<i class="fab fa-paypal" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>PayPal][9]{:target="_blank"}<br>
+  [<i class="fab fa-ebay" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>eBay][10]{:target="_blank"}<br>
+  [<i class="fas fa-user" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>have I been pwned?][2]{:target="_blank"}<br>
+  [<i class="fas fa-users" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>all social media accounts][11]{:target="_blank"}<br>
   
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
@@ -124,12 +124,12 @@ I went back out to the [man cave][4]{:target="_blank"} and subscribed my son's e
 
 # <i class="fas fa-graduation-cap" aria-hidden="true" style="color: white; margin-right:5px;"></i> Lessons Learnt
 
-  <i class="fas fa-lightbulb" aria-hidden="true" style="font-size:12px; color: white; margin-right:5px;"></i>My son now has more respect for his privacy and the fact that he is in control.<br>
-  <i class="fas fa-lightbulb" aria-hidden="true" style="font-size:12px; color: white; margin-right:5px;"></i>He has learnt that the advantages of 2FA would have meant he would immediately be notified should anyone attempt to access his account, which would in turn have prevented anyone from spending his money for him.<br>
-  <i class="fas fa-lightbulb" aria-hidden="true" style="font-size:12px; color: white; margin-right:5px;"></i>His password choices are more sensible and he is no longer sharing them with other accounts.<br>
-  <i class="fas fa-lightbulb" aria-hidden="true" style="font-size:12px; color: white; margin-right:5px;"></i>He also sees the benefit of better password management and the ease of 2FA.<br>
-  <i class="fas fa-lightbulb" aria-hidden="true" style="font-size:12px; color: white; margin-right:5px;"></i>I believe he also now checks his emails more frequently than every 2 months.
- 
+| <i class="fas fa-lightbulb" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>My son now has more respect for his privacy and the fact that he is in control.<br>
+| <i class="fas fa-lightbulb" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>He has learnt that the advantages of 2FA would have meant he would immediately be notified should anyone attempt to access his account, which would in turn have prevented anyone from spending his money for him.<br>
+| <i class="fas fa-lightbulb" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>His password choices are more sensible and he is no longer sharing them with other accounts.<br>
+| <i class="fas fa-lightbulb" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>He also sees the benefit of better password management and the ease of 2FA.<br>
+| <i class="fas fa-lightbulb" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>I believe he also now checks his emails more frequently than every 2 months.<br>
+
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
 
