@@ -49,7 +49,7 @@ timezone: GB # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Analytics
 analytics:
-  provider: "google" # false (default), "google", "google-universal", "custom"
+  provider: "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id: "G-PK0X4FK6KJ"
     anonymize_ip: false # true, false (default)
