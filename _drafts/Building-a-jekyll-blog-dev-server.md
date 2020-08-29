@@ -7,7 +7,7 @@ header:
   overlay_filter: rgba(90, 104, 129, 0.7)
   teaser: /assets/images/default-teaser-image.png
 classes: wide
-date: "2020-08-21 20:49"
+date: "2020-08-28 08:00"
 categories:
   - Blog
   - Build
@@ -60,6 +60,16 @@ tags:
 </script>
 
 # <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Heading
+
+## Technology List for Blog
+
+|---|---|---|---|---|
+| Google Domains | Google Analytics | Google Tag Manager | GSuite | Imgbot |
+| GitHub Pages | GitHub | Git | GitHub Desktop | 2FA |
+| Jekyll | YaML | HTML | CSS | JavaScript |
+| Markdown | Docker Desktop | Linux WSL | Docker CLI | PowerShell |
+| Domain Name| DNS | formspree | vscode | |
+
 
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
