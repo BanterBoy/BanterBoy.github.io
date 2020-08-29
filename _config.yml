@@ -16,13 +16,14 @@
 
 locale: "en-GB"
 title: "Luke Leigh's Blog"
-title_separator: "|"
+title_separator: "-"
 subtitle: "Yet another IT Admin Blog"
 name: "Luke Leigh"
 description: "Blogsite for sharing articles on PowerShell and other IT related posts"
 url: "https://blog.lukeleigh.com"
 repository: "BanterBoy/BanterBoy.github.io"
 logo: "/assets/images/PowerShell_5.0_icon88x88.png"
+words_per_minute: 220
 twitter_username: luke_leighs
 github_username: BanterBoy
 minimal_mistakes_skin: dark
@@ -41,12 +42,6 @@ github: [metadata]
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes@4.17.2
 
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: GB # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 # Analytics
 analytics:
   provider: "google-universal" # false (default), "google", "google-universal", "custom"
@@ -54,8 +49,11 @@ analytics:
     tracking_id: "G-PK0X4FK6KJ"
     anonymize_ip: false # true, false (default)
 
+# Reading Files
 include:
   - _pages
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -68,15 +66,6 @@ include:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
 
 # Site Author
 author:
@@ -128,6 +117,26 @@ footer:
       icon: "fab fa-fw fa-keybase"
       url: "https://keybase.io/lukeleigh"
 
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Defaults
 defaults:
   # _posts
   - scope:
@@ -147,9 +156,59 @@ defaults:
       layout: single
       author_profile: true
 
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: GB # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
