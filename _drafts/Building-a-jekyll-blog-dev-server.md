@@ -65,9 +65,9 @@ tags:
 
 |---|---|---|---|---|
 | Google Domains | Google Analytics | Google Tag Manager | GSuite | Imgbot |
-| GitHub Pages | GitHub | Git | GitHub Desktop | 2FA |
+| GitHub Pages | GitHub | Git | GitHub Desktop | Markdown |
 | Jekyll | YaML | HTML | CSS | JavaScript |
-| Markdown | Docker Desktop | Linux WSL | Docker CLI | PowerShell |
+| 2FA | Docker Desktop | Docker CLI | Linux WSL | PowerShell |
 | Domain Name| DNS | formspree | vscode | |
 
 
