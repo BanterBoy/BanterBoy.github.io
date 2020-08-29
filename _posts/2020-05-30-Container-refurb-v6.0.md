@@ -236,7 +236,7 @@ Job hunting was going slowly but interest appeared to be picking up and I had st
 
 Boris made his announcement and suddenly the world was losing it's shit. According to the new random habit of bulk buying all of the toilet paper in stock, this seemed to be both figuratively and literally.
 
-Like most people, I avidly watched the news and became a massive consumer of every scrap of information I could find regarding COVID-19. It was still early days and very little was known about transmission or indeed how far around the globe it had spread. Every day, it seemed to become more and more likely a full scale lockdown was going to be implemented. During this massive data absorbtion, I read an article detailing instructions on how to run PowerShell and display the current stats in the command line. The methodology behind it wasn't great, so I thought I would produce something to make it more accessible to everyone - 
+Like most people, I avidly watched the news and became a massive consumer of every scrap of information I could find regarding COVID-19. It was still early days and very little was known about transmission or indeed how far around the globe it had spread. Every day, it seemed to become more and more likely a full scale lockdown was going to be implemented. During this massive data absorption, I read an article detailing instructions on how to run PowerShell and display the current stats in the command line. The methodology behind it wasn't great, so I thought I would produce something to make it more accessible to everyone - 
 [Pscovid19stats](https://blog.lukeleigh.com/PSCovid19Stats/)
 
 Having created the module and run out of things to do to keep myself entertained, I decided that my "Home/Office" needed an upgrade to make it more convenient to work from home, as this may be where I would be working from for the unforseeable future.
@@ -526,9 +526,9 @@ I blocked off the end of the container and fitted my standing desk in one corner
 
 The design changes took approximately 34 days to complete with many of the days stretching out into long nights. Having spent many previous days working similar hours behind a computer, being more active was as you can imagine hard work. I thoroughly enjoyed myself and having been far more energetic benefitted by losing some weight.....there is still plenty more work to do there!
 
-I now have much more storage, taking advantage of the height inside the container. There is now shelving all the way round the container. I have added cupboard doors to some of the shelves and I have created the appearance of two rooms by adding shelving between the two walls, separating what is now a nice kitchette and the office/living room. I have a spare PC set up for any of my guests to use and also for watching TV and taking video calls in comfort from the sofa
+I now have much more storage, taking advantage of the height inside the container. There is now shelving all the way round the container. I have added cupboard doors to some of the shelves and I have created the appearance of two rooms by adding shelving between the two walls, separating what is now a nice kitchenette and the office/living room. I have a spare PC set up for any of my guests to use and also for watching TV and taking video calls in comfort from the sofa
 
-I also added an extension to the sofa, turning it into a rather comforable bed, which will no doubt come in handy for those late nights doing some form of remote maintenance or important infrastructure changes. Yes, of course I have tested it and it really is quite comfortable
+I also added an extension to the sofa, turning it into a rather comfortable bed, which will no doubt come in handy for those late nights doing some form of remote maintenance or important infrastructure changes. Yes, of course I have tested it and it really is quite comfortable
 
 The sink now has a much better counter, under which I have added shelves to support some drawers. The counter above the tumble drier and freezer has a much better finish and I can now just put kitchen items in the cupboards and on the shelves in the kitchen half of the container.
 
@@ -541,15 +541,15 @@ The last thing I have yet to finish is tidying up and sorting through all the ne
     <div><img src="/assets/images/container_6/solar/0146.jpg"/></div>
 </div>
 
-There is much more space to move around in and plenty of seating. The new design also has plenty of work-surface in order to continue being a geek. It will remain cool during the summer months and simple to heat during the winter. I definitely feel that I am now much more prepared to work comfortably from home and that I now have what will defintely be more convenient to use as a home/office should the need arise, hopefully, in the not too distant future.
+There is much more space to move around in and plenty of seating. The new design also has plenty of work-surface in order to continue being a geek. It will remain cool during the summer months and simple to heat during the winter. I definitely feel that I am now much more prepared to work comfortably from home and that I now have what will definitely be more convenient to use as a home/office should the need arise, hopefully, in the not too distant future.
 
 Over the years and different designs, the shipping container has proved to be very useful. Many evenings, late nights and early mornings have been spent working remotely, either on my own over conference calls or with company performing some migration. It will be nice to see how this version works out and indeed if I need to make any modifications. Perhaps this time it will be small revisions to version 6.
 
-On with the next project ( [Pscovid19stats](https://blog.lukeleigh.com/PSCovid19Stats/) v2.0 or add some features to [PSCiscoMeraki](https://psciscomeraki.lukeleigh.com/blog/psciscomeraki/installation/powershell/module/post-installing-psciscomeraki/) ) while I continue the hunt for a new work challenge.
+On with the next project ( [Pscovid19stats](https://blog.lukeleigh.com/blog/powershell/PSCovid19Stats/) v2.0 or add some features to [PSCiscoMeraki](https://psciscomeraki.lukeleigh.com/blog/psciscomeraki/installation/powershell/module/post-installing-psciscomeraki/) ) while I continue the hunt for a new work challenge.
 
 ---
 <!-- Heading to link to -->
-<h5 id="Reference1">1️⃣ - A purchase which like many things I can thank my partners father for suggesting. I also own a number of powertools due to similar suggestions.</h5>
+<h5 id="Reference1">1️⃣ - A purchase which like many things I can thank my partners father for suggesting. I also own a number of power tools due to similar suggestions.</h5>
 
 {: .text-center}
 <a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
