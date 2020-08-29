@@ -24,6 +24,11 @@ toc_sticky: true
 [NCSC - Cyber Aware][5]{:target="_blank"}<br>
 [HIBP - Have I Been Pwned][6]{:target="_blank"}
 
+# <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Site Cookies
+
+[Cookie Declaration][8]
+
+
 [1]: https://docs.microsoft.com/en-gb/powershell/
 [2]: https://github.com/PowerShellOrg/Plaster
 [3]: https://pester.dev/
@@ -31,4 +36,4 @@ toc_sticky: true
 [5]: https://www.ncsc.gov.uk/cyberaware/home
 [6]: https://haveibeenpwned.com/
 [7]: https://www.powershellgallery.com/
-
+[8]: /CookieDeclaration.html
