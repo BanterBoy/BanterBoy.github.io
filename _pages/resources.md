@@ -26,7 +26,7 @@ toc_sticky: true
 
 # <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Site Cookies
 
-[Cookie Declaration][8]
+[<i class="fas fa-cookie-bite" aria-hidden="true" style="color: white; margin-right:10px;"></i>Cookie Declaration][8]
 
 
 [1]: https://docs.microsoft.com/en-gb/powershell/
