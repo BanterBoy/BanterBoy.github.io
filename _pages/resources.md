@@ -24,7 +24,7 @@ toc_sticky: true
 [NCSC - Cyber Aware][5]{:target="_blank"}<br>
 [HIBP - Have I Been Pwned][6]{:target="_blank"}
 
-# <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Site Cookies
+# <i class="fas fa-cookie" aria-hidden="true" style="color: white; margin-right:5px;"></i> Site Cookies
 
 [<i class="fas fa-cookie-bite" aria-hidden="true" style="color: white; margin-right:10px;"></i>Cookie Declaration][8]
 
