@@ -68,7 +68,7 @@ tags:
 | GitHub Pages | GitHub | Git | GitHub Desktop | Markdown |
 | Jekyll | YaML | HTML | CSS | JavaScript |
 | 2FA | Docker Desktop | Docker CLI | Linux WSL | PowerShell |
-| Domain Name| DNS | formspree | vscode | |
+| Domain Name| DNS | formspree | vscode | cookiebot |
 
 
 {: .text-right}
