@@ -61,7 +61,7 @@ tags:
 
 # <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Heading
 
-## Technology List for Blog
+## <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Technology List for Blog
 
 |---|---|---|---|---|
 | Google Domains | Google Analytics | Google Tag Manager | GSuite | Imgbot |
