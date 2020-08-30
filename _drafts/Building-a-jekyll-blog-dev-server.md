@@ -58,14 +58,18 @@ tags:
   });
 </script>
 
-# <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Heading
-
 ![Travis (.com)](https://img.shields.io/travis/com/BanterBoy/BanterBoy.github.io?logo=travis&style=plastic)
+
+# <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Overview
+
+In this article I explain the technology used to create my blog and the steps involved in the setup. It is a little convoluted but I believe this is due to the choice of technology used for the hosting, which I selected in a bid to ensure it was possible to replicate this setup for a very small price or indeed completely free.
 
 ## <i class="fas fa-microchip" aria-hidden="true" style="color: white; margin-right:5px;"></i> Technology List for Blog
 
+This is a comprehensive list of technology used to produce my blog site. Many of these are optional (indicated with *) and not needed to create a simple blog but I was having so much fun learning new things, that I got a little carried away.
+
 |---|---|---|---|---|
-| Google Domains | Google Analytics | Google Tag Manager | GSuite | Imgbot.net |
+| Google Domains | Google Analytics | Google Tag Manager | GSuite | [<i class="fas fa-robot" aria-hidden="true" style="color: white; margin-right:5px;"></i>Imgbot.net*][1]{:target="_blank"} |
 | GitHub Pages | GitHub | Git | GitHub Desktop | Markdown |
 | Jekyll | YaML | HTML | CSS | JavaScript |
 | 2FA | Docker Desktop | Docker CLI | Linux WSL | PowerShell |
@@ -73,11 +77,22 @@ tags:
 | Google Authenticator | shields.io | simpleicons.org | fontawesome.com | travis-ci.com |
 | algolia.com |  |  |  |  |
 
+{: .text-right}
+<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+
+## <i class="fas fa-code-branch" aria-hidden="true" style="color: white; margin-right:5px;"></i> Heading
+
+Some text goes here.
 
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
 
+## <i class="fas fa-code-branch" aria-hidden="true" style="color: white; margin-right:5px;"></i> Heading
+
+Some text goes here.
 
 {: .text-center}
 <a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
 
+
+[1]: https://github.com/marketplace/imgbot
