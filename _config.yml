@@ -67,9 +67,9 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
+  # - Gemfile
+  # - Gemfile.lock
+  # - node_modules
   - "vendor/bundle/"
   - "vendor/cache/"
   - "vendor/gems/"
