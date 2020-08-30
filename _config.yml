@@ -74,7 +74,6 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
   # - "vendor/cache/"
   # - "vendor/gems/"
   # - "vendor/ruby/"
-exclude: [vendor]
 
 # Site Author
 author:
