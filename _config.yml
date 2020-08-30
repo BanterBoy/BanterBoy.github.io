@@ -57,6 +57,17 @@ analytics:
     tracking_id: "G-PK0X4FK6KJ"
     anonymize_ip: false # true, false (default)
 
+# Should match GEM File
+plugins:
+  - jekyll-assets
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-algolia
+ 
+
 # Reading Files
 include:
   - _pages
