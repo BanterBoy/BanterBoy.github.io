@@ -68,7 +68,7 @@ tags:
 # <i class="fas fa-code" aria-hidden="true" style="color: white; margin-right:5px;"></i> PSCiscoMeraki
 
 [![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/PSCiscoMeraki?label=PSCiscoMeraki&logo=powershell&style=plastic)][1]{:target="_blank"}
-[![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/PSCiscoMeraki?style=plastic)][1]{:target="_blank"}
+[![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/PSCiscoMeraki?&logo=pinboard&style=plastic)][1]{:target="_blank"}
 
 This PowerShell module can be used to access the Cisco Meraki Rest API and request information related to the configuration. The ultimate goal is to create the final components that will enable you to configure your Meraki Network.
 
