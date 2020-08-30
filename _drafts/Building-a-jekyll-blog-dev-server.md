@@ -11,7 +11,6 @@ date: "2020-08-28 08:00"
 categories:
   - Blog
   - Build
-  - PowerShell
 tags:
   - Docker
   - Jekyll
@@ -69,7 +68,8 @@ tags:
 | Jekyll | YaML | HTML | CSS | JavaScript |
 | 2FA | Docker Desktop | Docker CLI | Linux WSL | PowerShell |
 | Domain Name| DNS | formspree.io | vscode | cookiebot.com |
-| Google Authenticator | shields.io | | | |
+| Google Authenticator | shields.io | simpleicons.org | fontawesome.com | travis-ci.com |
+| algolia.com |  |  |  |  |
 
 
 {: .text-right}
