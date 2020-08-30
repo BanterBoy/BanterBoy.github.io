@@ -61,7 +61,7 @@ tags:
 
 # <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Heading
 
-## <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Technology List for Blog
+## <i class="fas fa-microchip" aria-hidden="true" style="color: white; margin-right:5px;"></i> Technology List for Blog
 
 |---|---|---|---|---|
 | Google Domains | Google Analytics | Google Tag Manager | GSuite | Imgbot |
@@ -69,6 +69,7 @@ tags:
 | Jekyll | YaML | HTML | CSS | JavaScript |
 | 2FA | Docker Desktop | Docker CLI | Linux WSL | PowerShell |
 | Domain Name| DNS | formspree | vscode | cookiebot |
+| Google Authenticator | | | | |
 
 
 {: .text-right}
