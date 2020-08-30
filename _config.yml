@@ -27,10 +27,18 @@ words_per_minute: 220
 twitter_username: luke_leighs
 github_username: BanterBoy
 minimal_mistakes_skin: dark
-search: true
 teaser: /assets/images/default-teaser-image.png
 breadcrumbs: true # disabled by default
 github: [metadata]
+
+# Search Settings
+search: true
+search_provider: algolia
+algolia:
+  application_id: # LOEP7YNBRV
+  index_name: # blogindex
+  search_only_api_key: # 1514f1706e03817a804733810ebcc7ea
+  powered_by: # true (default), false
 
 # Comments
 # comments:
@@ -55,17 +63,10 @@ include:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+Exclude from processing.
+The following items will not be processed, by default. Create a custom list
+to override the default setting.
+exclude: [vendor]
 
 # Site Author
 author:
