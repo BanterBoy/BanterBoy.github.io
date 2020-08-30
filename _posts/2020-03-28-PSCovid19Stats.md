@@ -17,6 +17,7 @@ tags:
   - COVID
   - Module
   - PowerShell
+  - PSCovid19Stats
 ---
 
 <script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
@@ -102,7 +103,7 @@ Install-Module -Name PSCovid19Stats -Scope CurrentUser
 ```
 
 [![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/PSCovid19Stats?label=PSCovid19Stats&logo=powershell&style=plastic)][11]{:target="_blank"}
-[![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/PSCovid19Stats?style=plastic)][11]{:target="_blank"}
+[![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/PSCovid19Stats?logo=pinboard&style=plastic)][11]{:target="_blank"}
 
 ### <i class="fas fa-download" aria-hidden="true" style="color: white; margin-right:5px;"></i>2) Download from GitHub
 
