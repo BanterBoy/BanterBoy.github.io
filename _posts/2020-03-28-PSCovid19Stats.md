@@ -101,6 +101,9 @@ or
 Install-Module -Name PSCovid19Stats -Scope CurrentUser
 ```
 
+[![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/PSCovid19Stats?label=PSCovid19Stats&logo=powershell&style=plastic)][11]{:target="_blank"}
+[![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/PSCovid19Stats?style=plastic)][11]{:target="_blank"}
+
 ### <i class="fas fa-download" aria-hidden="true" style="color: white; margin-right:5px;"></i>2) Download from GitHub
 
 You can check out the code on GitHub by viewing the [PSCovidStats repository][7]{:target="_blank"}
@@ -185,4 +188,5 @@ REMARKS
 [8]: https://github.com/BanterBoy/PSCovid19Stats/archive/master.zip
 [9]: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
 [10]: https://datahub.io/core/country-list
+[11]: https://www.powershellgallery.com/packages/PSCovid19Stats
 
