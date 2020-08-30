@@ -64,12 +64,12 @@ tags:
 ## <i class="fas fa-microchip" aria-hidden="true" style="color: white; margin-right:5px;"></i> Technology List for Blog
 
 |---|---|---|---|---|
-| Google Domains | Google Analytics | Google Tag Manager | GSuite | Imgbot |
+| Google Domains | Google Analytics | Google Tag Manager | GSuite | Imgbot.net |
 | GitHub Pages | GitHub | Git | GitHub Desktop | Markdown |
 | Jekyll | YaML | HTML | CSS | JavaScript |
 | 2FA | Docker Desktop | Docker CLI | Linux WSL | PowerShell |
-| Domain Name| DNS | formspree | vscode | cookiebot |
-| Google Authenticator | | | | |
+| Domain Name| DNS | formspree.io | vscode | cookiebot.com |
+| Google Authenticator | shields.io | | | |
 
 
 {: .text-right}
