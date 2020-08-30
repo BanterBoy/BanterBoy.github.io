@@ -63,11 +63,17 @@ include:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-Exclude from processing.
-The following items will not be processed, by default. Create a custom list
-to override the default setting.
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# - Gemfile
+# - Gemfile.lock
+# - node_modules
 exclude:
-  - vendor
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
 
 # Site Author
 author:
