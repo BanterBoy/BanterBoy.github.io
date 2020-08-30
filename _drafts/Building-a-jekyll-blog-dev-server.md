@@ -60,6 +60,8 @@ tags:
 
 # <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Heading
 
+![Travis (.com)](https://img.shields.io/travis/com/BanterBoy/BanterBoy.github.io?logo=travis&style=plastic)
+
 ## <i class="fas fa-microchip" aria-hidden="true" style="color: white; margin-right:5px;"></i> Technology List for Blog
 
 |---|---|---|---|---|
