@@ -1,8 +1,15 @@
 ---
-title: "Post: Installing the PSCiscoMeraki PowerShell Module"
+
+layout: single
+title: "Installing the PSCiscoMeraki PowerShell Module"
+excerpt: "Quick post on how to install the PSCiscoMeraki Module."
+header:
+  overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
+  overlay_filter: rgba(90, 104, 129, 0.7)
+  teaser: /assets/images/default-teaser-image.png
+classes: wide
 date: 2019-11-23T05:07:30
 last_modified_at: 2019-11-23T05:07:30
-layout: posts
 read_time: true
 comments: true
 share: true
