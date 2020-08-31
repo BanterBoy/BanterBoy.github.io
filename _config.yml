@@ -39,16 +39,6 @@ algolia:
   index_name: blogindex
   search_only_api_key: 1514f1706e03817a804733810ebcc7ea
   powered_by: true # true (default), false
-  settings:                                                                      
-33m    attributesToSnippet:                                                         
-      - content:40                                                               
-    attributesForFaceting:                                                       
-      - searchable(categories)                                                   
-      - searchable(collection)                                                   
-      - filterOnly(date)                                                         
-      - searchable(tags)                                                         
-      - searchable(title)                                                        
-      - type
 
 # Comments
 # comments:
