@@ -12,11 +12,11 @@ toc_icon: book-reader
 toc_sticky: true
 categories:
   - Blog
-  - PowerShell
+  - Module
 tags:
+  - PowerShell
   - Scripting
   - Resources
-  - Modules
   - PowerShell Gallery
 ---
 

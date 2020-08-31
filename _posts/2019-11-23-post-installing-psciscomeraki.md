@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/default-teaser-image.png
 classes: wide
 date: 2019-11-23T05:07:30
-last_modified_at: 2019-11-23T05:07:30
+last_modified_at: 2020-08-31T08:30:00
 read_time: true
 comments: true
 share: true

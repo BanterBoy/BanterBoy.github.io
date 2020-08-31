@@ -7,10 +7,10 @@ header:
   overlay_filter: rgba(90, 104, 129, 0.7)
   teaser: /assets/images/default-teaser-image.png
 classes: wide
-date: "2020-08-21 20:49"
+date: 2020-08-27T08:30:00
+last_modified_at: 2020-08-30T08:30:00
 categories:
   - Blog
-  - PowerShell
 tags:
   - PowerShell
   - Admin

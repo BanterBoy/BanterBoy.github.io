@@ -10,14 +10,14 @@ toc: true
 toc_label: PSCiscoMeraki
 toc_icon: book-reader
 toc_sticky: true
-date: "2020-08-29 08:00"
+date: 2020-08-30T08:30:00
+last_modified_at: 2020-08-30T08:30:00
 categories:
   - Blog
-  - PowerShell
+  - Module
 tags:
   - GitHub
   - PowerShell
-  - Module
   - Cisco
   - Meraki
   - Rest

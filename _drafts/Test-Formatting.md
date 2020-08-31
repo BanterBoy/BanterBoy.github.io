@@ -10,9 +10,10 @@ toc: true
 toc_label: Some Content
 toc_icon: book-reader
 toc_sticky: true
-date: "2020-08-21 20:49"
+date: 2020-01-01T08:30:00
+last_modified_at: 2020-08-27T08:30:00
 categories:
-  - Blog
+  - Template
 tags:
   - 
 ---

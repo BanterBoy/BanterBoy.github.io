@@ -9,7 +9,6 @@ header:
 classes: wide
 categories:
   - Blog
-  - PowerShell  
 tags:
   - GitHub
   - PowerShell

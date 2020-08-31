@@ -10,9 +10,11 @@ toc: true
 toc_label: Contents
 toc_icon: book-medical
 toc_sticky: true
+date: 2020-03-28T08:30:00
+last_modified_at: 2020-08-27T08:30:00
 categories:
   - Blog
-  - PowerShell
+  - Module
 tags:
   - COVID
   - Module

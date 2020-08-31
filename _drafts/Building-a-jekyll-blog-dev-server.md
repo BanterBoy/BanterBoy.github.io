@@ -7,7 +7,8 @@ header:
   overlay_filter: rgba(90, 104, 129, 0.7)
   teaser: /assets/images/default-teaser-image.png
 classes: wide
-date: "2020-08-28 08:00"
+date: 2020-08-30T09:30:00
+last_modified_at: 2020-08-30T08:30:00
 categories:
   - Blog
   - Build
