@@ -137,9 +137,9 @@ Function        Show-CountryCodes            1.0.3      PSCovid19Stats
 
 I added the option to display a list of country codes as there are 249 in the [ISO Standard][9]{:target="_blank"}. **Get-CovidCountryStats**, generates the list of countries dynamically from the JSON made available at the [DataHub resource][10]{:target="_blank"}, enabling you to use tab complete to select the relevant country. This same resource is used in **Show-CountryCodes** to output a complete list of countries and their codes.
 
-![Tab Complete](https://psciscomeraki.lukeleigh.com/assets/images/CountryTabComplete.png)
+![Tab Complete](/assets/images/PSCiscoMeraki/CountryTabComplete.png)
 
-![COVID-19 Example](https://psciscomeraki.lukeleigh.com/assets/images/pscovidscrnsht.png)
+![COVID-19 Example](/assets/images/PSCiscoMeraki/pscovidscrnsht.png)
 
 Update - I have updated the module to include Comment Based Help
 {: .notice}
