@@ -72,7 +72,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-algolia
+  # - jekyll-algolia
 
 # Reading Files
 # include:
