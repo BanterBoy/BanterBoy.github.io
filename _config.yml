@@ -10,9 +10,11 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
+# Build settings
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 remote_theme: mmistakes/minimal-mistakes@4.17.2
+markdown: kramdown
 
 # Site Settings
 locale: "en-GB"
@@ -40,15 +42,12 @@ algolia:
   index_name: blogindex
   search_only_api_key: 1514f1706e03817a804733810ebcc7ea
   powered_by: true # true (default), false
-
+  
 # Comments
 # comments:
 #   provider: "disqus"
 #   disqus:
 #     shortname: "lukeleigh"
-
-# Build settings
-markdown: kramdown
 
 # Analytics
 analytics:
@@ -76,39 +75,39 @@ whitelist:
   - jekyll-algolia
 
 # Reading Files
-include:
-  - .htaccess
-  - _pages
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README
-  - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
-keep_files:
-  - .git
-  - .svn
+# include:
+#   - .htaccess
+#   - _pages
+# exclude:
+#   - "*.sublime-project"
+#   - "*.sublime-workspace"
+#   - vendor
+#   - .asset-cache
+#   - .bundle
+#   - .jekyll-assets-cache
+#   - .sass-cache
+#   - assets/js/plugins
+#   - assets/js/_main.js
+#   - assets/js/vendor
+#   - Capfile
+#   - CHANGELOG
+#   - config
+#   - Gemfile
+#   - Gruntfile.js
+#   - gulpfile.js
+#   - LICENSE
+#   - log
+#   - node_modules
+#   - package.json
+#   - package-lock.json
+#   - Rakefile
+#   - README
+#   - tmp
+#   - /docs # ignore Minimal Mistakes /docs
+#   - /test # ignore Minimal Mistakes /test
+# keep_files:
+#   - .git
+#   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
