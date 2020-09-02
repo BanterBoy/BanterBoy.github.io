@@ -11,10 +11,9 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # Build settings
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+# theme: "minimal-mistakes-jekyll"
 remote_theme: mmistakes/minimal-mistakes@4.17.2
-markdown: kramdown
+# remote_theme: "mmistakes/minimal-mistakes"
 
 # Site Settings
 locale: "en-GB"
@@ -36,12 +35,12 @@ github: [metadata]
 
 # Search Settings
 search: true
-search_provider: lunr # algolia
-# algolia:
-#   application_id: LOEP7YNBRV
-#   index_name: blogindex
-#   search_only_api_key: 1514f1706e03817a804733810ebcc7ea
-#   powered_by: true # true (default), false
+search_provider: algolia # lunr, algolia
+algolia:
+  application_id: "LOEP7YNBRV"
+  index_name: "blogindex"
+  search_only_api_key: "1514f1706e03817a804733810ebcc7ea"
+  powered_by: true # true (default), false
   
 # Comments
 # comments:
@@ -56,6 +55,23 @@ analytics:
     tracking_id: "G-PK0X4FK6KJ"
     anonymize_ip: false # true, false (default)
 
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# - Gemfile
+# - Gemfile.lock
+# - node_modules
+# exclude:
+#   - "vendor/bundle/"
+#   - "vendor/cache/"
+#   - "vendor/gems/"
+#   - "vendor/ruby/"
+  # - [vendor]
+
+# Reading Files
+include:
+  - _pages
+
 # Should match GEM File
 plugins:
   - jekyll-assets
@@ -64,42 +80,8 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-json-feed
 
-
-# Reading Files
-# include:
-#   - .htaccess
-#   - _pages
-exclude:
-#   - "*.sublime-project"
-#   - "*.sublime-workspace"
-  - vendor
-#   - .asset-cache
-#   - .bundle
-#   - .jekyll-assets-cache
-#   - .sass-cache
-#   - assets/js/plugins
-#   - assets/js/_main.js
-#   - assets/js/vendor
-#   - Capfile
-#   - CHANGELOG
-#   - config
-#   - Gemfile
-#   - Gruntfile.js
-#   - gulpfile.js
-#   - LICENSE
-#   - log
-#   - node_modules
-#   - package.json
-#   - package-lock.json
-#   - Rakefile
-#   - README
-#   - tmp
-#   - /docs # ignore Minimal Mistakes /docs
-#   - /test # ignore Minimal Mistakes /test
-# keep_files:
-#   - .git
-#   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
