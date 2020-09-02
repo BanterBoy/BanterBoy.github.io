@@ -36,12 +36,12 @@ github: [metadata]
 
 # Search Settings
 search: true
-search_provider: algolia
-algolia:
-  application_id: LOEP7YNBRV
-  index_name: blogindex
-  search_only_api_key: 1514f1706e03817a804733810ebcc7ea
-  powered_by: true # true (default), false
+search_provider: lunr # algolia
+# algolia:
+#   application_id: LOEP7YNBRV
+#   index_name: blogindex
+#   search_only_api_key: 1514f1706e03817a804733810ebcc7ea
+#   powered_by: true # true (default), false
   
 # Comments
 # comments:
@@ -64,7 +64,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-algolia
+
 
 # Reading Files
 # include:
