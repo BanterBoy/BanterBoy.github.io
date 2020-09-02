@@ -74,13 +74,13 @@ include:
 
 # Should match GEM File
 plugins:
-  - jekyll-assets
   - jekyll-include-cache
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-json-feed
+  - jekyll-algolia
 
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
