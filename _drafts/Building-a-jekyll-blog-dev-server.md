@@ -9,6 +9,8 @@ header:
 classes: wide
 date: 2020-08-30T09:30:00
 last_modified_at: 2020-08-30T08:30:00
+collection:
+  - Series
 categories:
   - Blog
   - Build
