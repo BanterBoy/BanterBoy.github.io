@@ -545,7 +545,7 @@ There is much more space to move around in and plenty of seating. The new design
 
 Over the years and different designs, the shipping container has proved to be very useful. Many evenings, late nights and early mornings have been spent working remotely, either on my own over conference calls or with company performing some migration. It will be nice to see how this version works out and indeed if I need to make any modifications. Perhaps this time it will be small revisions to version 6.
 
-On with the next project ( [Pscovid19stats](https://blog.lukeleigh.com/blog/powershell/PSCovid19Stats/) v2.0 or add some features to [PSCiscoMeraki](https://blog.lukeleigh.com/blog/module/post-installing-psciscomeraki/) ) while I continue the hunt for a new work challenge.
+On with the next project ( [Pscovid19stats](https://blog.lukeleigh.com/blog/module/PSCovid19Stats/) v2.0 or add some features to [PSCiscoMeraki](https://blog.lukeleigh.com/blog/module/post-installing-psciscomeraki/) ) while I continue the hunt for a new work challenge.
 
 ---
 <!-- Heading to link to -->
