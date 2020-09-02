@@ -61,12 +61,12 @@ analytics:
 # - Gemfile
 # - Gemfile.lock
 # - node_modules
-# exclude:
+exclude:
 #   - "vendor/bundle/"
 #   - "vendor/cache/"
 #   - "vendor/gems/"
 #   - "vendor/ruby/"
-  # - [vendor]
+  - [vendor]
 
 # Reading Files
 include:
