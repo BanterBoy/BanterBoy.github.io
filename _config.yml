@@ -63,7 +63,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-algolia
+  # - jekyll-algolia
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -72,7 +72,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-algolia
+  # - jekyll-algolia
 
 # Reading Files
 # include:
