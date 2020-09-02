@@ -56,14 +56,14 @@ analytics:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# - Gemfile
-# - Gemfile.lock
-# - node_modules
 exclude:
-#   - "vendor/bundle/"
-#   - "vendor/cache/"
-#   - "vendor/gems/"
-#   - "vendor/ruby/"
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
   - [vendor]
 
 # Reading Files
