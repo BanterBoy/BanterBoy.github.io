@@ -37,9 +37,9 @@ github: [metadata]
 search: true
 search_provider: algolia # lunr, algolia
 algolia:
-  application_id: "LOEP7YNBRV"
-  index_name: "blogindex"
-  search_only_api_key: "1514f1706e03817a804733810ebcc7ea"
+  application_id: LOEP7YNBRV
+  index_name: blogindex
+  search_only_api_key: 1514f1706e03817a804733810ebcc7ea
   powered_by: true # true (default), false
   
 # Comments
