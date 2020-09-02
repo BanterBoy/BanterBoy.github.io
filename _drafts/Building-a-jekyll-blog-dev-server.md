@@ -124,6 +124,6 @@ Some text goes here.
 [27]: https://shields.io/
 [28]: https://simpleicons.org/
 [29]: https://fontawesome.com/
-[30]: https://travis-ci.com/
+[30]: https://travis-ci.org/
 [31]: https://www.algolia.com/
 
