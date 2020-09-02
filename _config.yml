@@ -56,15 +56,15 @@ analytics:
     tracking_id: "G-PK0X4FK6KJ"
     anonymize_ip: false # true, false (default)
 
-# Plugins (previously gems:)
+# Should match GEM File
 plugins:
+  - jekyll-assets
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
-
+  - jekyll-algolia
 
 # Reading Files
 # include:
