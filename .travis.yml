@@ -8,14 +8,14 @@ before_install:
     - docker pull jekyll/jekyll
     - gem install bundler
 script:
-    - bundle exec jekyll algolia
+    - ALGOLIA_API_KEY='1514f1706e03817a804733810ebcc7ea' bundle exec jekyll algolia
 branches:
   only:
     # Change this to gh-pages if you're deploying using the gh-pages branch
     - master
 rvm:
  - 2.4
- notifications:
+notifications:
     email:
-      on_success: never
-      on_failure: true
+        on_success: never
+        on_failure: true
