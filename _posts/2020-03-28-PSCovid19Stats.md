@@ -64,6 +64,9 @@ tags:
 
 # <i class="fas fa-head-side-mask" aria-hidden="true" style="color: white; margin-right:5px;"></i> Overview
 
+[![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/PSCovid19Stats?label=PSCovid19Stats&logo=powershell&style=plastic)][11]{:target="_blank"}
+[![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/PSCovid19Stats?logo=pinboard&style=plastic)][11]{:target="_blank"}
+
 A PowerShell Module that can be used to extract data from the NovelCOVID API (github.com/NovelCOVID/API). ![image-left](/assets/images/postman-logo-small.png){: .align-left} The API has been supplied by Postman as part of the ***"Postman COVID-19 API Resource Center"***. Click [here][1]{:target="_blank"} to view the Postman Resource Centre.
 
 > "During the present novel coronavirus (COVID-19) pandemic, those on the front lines—including health care professionals, researchers, and government experts—need quick, easy access to real-time critical data. This type of information exchange is what APIs do best, and as an API-first company, Postman is committed to providing whatever assistance we can in this area."
@@ -103,9 +106,6 @@ Install-Module -Name PSCovid19Stats
 or
 Install-Module -Name PSCovid19Stats -Scope CurrentUser
 ```
-
-[![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/PSCovid19Stats?label=PSCovid19Stats&logo=powershell&style=plastic)][11]{:target="_blank"}
-[![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/PSCovid19Stats?logo=pinboard&style=plastic)][11]{:target="_blank"}
 
 ### <i class="fas fa-download" aria-hidden="true" style="color: white; margin-right:5px;"></i>2) Download from GitHub
 
