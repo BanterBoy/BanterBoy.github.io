@@ -64,6 +64,9 @@ tags:
   });
 </script>
 
+[![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/PSCiscoMeraki?label=PSCiscoMeraki&logo=powershell&style=plastic)][11]{:target="_blank"}
+[![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/PSCiscoMeraki?logo=pinboard&style=plastic)][11]{:target="_blank"}
+
 # <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Module Installation Instructions
 
 The module has been made available for installation from the PowerShell Gallery and can be installed by Copying and Pasting the following commands :-
