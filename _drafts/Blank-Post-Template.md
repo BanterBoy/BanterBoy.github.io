@@ -6,10 +6,10 @@ header:
   overlay_image: /assets/images/powershell-banner.png
   overlay_filter: rgba(90, 104, 129, 0.8)
   teaser: /assets/images/default-teaser-image.png
-  caption: "Photo credit: [**Luke Leigh**](https://github.com/BanterBoy)"
-  actions:
-    - label: "More Info"
-      url: "https://github.com/BanterBoy"
+  caption: "[**Luke Leigh**](https://www.linkedin.com/in/lukeleigh/)"
+  # actions:
+  #   - label: "More Info"
+  #     url: "https://github.com/BanterBoy"
 classes: wide
 date: 2020-01-01T08:30:00
 last_modified_at: 2020-08-27T08:30:00
@@ -60,6 +60,8 @@ tags:
 </script>
 
 # <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Heading
+
+[GiHub][1]{:target="_blank"}
 
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
