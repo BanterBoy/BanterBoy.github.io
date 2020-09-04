@@ -64,8 +64,8 @@ tags:
   });
 </script>
 
-[![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/PSCiscoMeraki?label=PSCiscoMeraki&logo=powershell&style=plastic)][1]{:target="_blank"}
-[![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/PSCiscoMeraki?logo=pinboard&style=plastic)][1]{:target="_blank"}
+[![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/PSCiscoMeraki?label=PSCiscoMeraki&logo=powershell&style=plastic)][2]{:target="_blank"}
+[![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/PSCiscoMeraki?logo=pinboard&style=plastic)][2]{:target="_blank"}
 
 # <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Module Installation Instructions
 
@@ -101,7 +101,7 @@ This is "a work in progress" as I am working through the options that have been 
 
 The link below will take you to the module listing in the PowerShell Gallery.
 
-[PSCiscoMeraki][1]{:target="_blank"}
+[PSCiscoMeraki][2]{:target="_blank"}
 
 Make sure you are running Powershell 5.0 (WMF 5.0).
 
@@ -110,4 +110,6 @@ You can install the module by entering the following commands into an Elevated P
 {: .text-center}
 <a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
 
-[1]: https://www.powershellgallery.com/packages/PSCiscoMeraki
+[1]: https://github.com/BanterBoy
+[2]: https://www.powershellgallery.com/packages/PSCiscoMeraki
+
