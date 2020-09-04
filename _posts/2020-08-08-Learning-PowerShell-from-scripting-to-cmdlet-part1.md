@@ -56,6 +56,9 @@ tags:
   });
 </script>
 
+{: .text-right}
+<span style="font-size:11px;"><button onclick="window.print()"><i class="fas fa-print" aria-hidden="true" style="color: black; margin-right:5px;"></i>Print</button></span>
+
 About 8 years ago, I started to learn *PowerShell*. All of my previous scripting experience with Batch Files and VBScript and of course the necessity to use additional 3rd party executables, seems like such a long time ago.
 
 When I first began learning, I had yet to progress to some form of version control system like GitHub and all my scripts and snippets were stored locally either in a PS1 or TXT file. Anything I considered to be valuable or useful for future consumption was saved to my Microsoft OneDrive account.

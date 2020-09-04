@@ -60,6 +60,9 @@ tags:
   });
 </script>
 
+{: .text-right}
+<span style="font-size:11px;"><button onclick="window.print()"><i class="fas fa-print" aria-hidden="true" style="color: black; margin-right:5px;"></i>Print</button></span>
+
 # Background
 
 Being a bit of an insomniac sometimes means that what starts out as a 24 hour day, sometimes turns into a very long day with a period of dark requiring some illumination in the middle. Sadly this is followed by another seemingly endless day before you next have the luxury of some sleep. Stress can be a key factor in prompting this onslaught of being awake and honestly, the combination of a pandemic and the extended period of searching for a new job have likely caused the latest. The fortunate side of being awake has meant that I have had the opportunity to watch a few box sets, so like any other time, I chose a random movie collection to while away the hours and I also decided to write an article for my blog.

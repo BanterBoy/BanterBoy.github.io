@@ -60,6 +60,9 @@ tags:
   });
 </script>
 
+{: .text-right}
+<span style="font-size:11px;"><button onclick="window.print()"><i class="fas fa-print" aria-hidden="true" style="color: black; margin-right:5px;"></i>Print</button></span>
+
 # <i class="fas fa-brain" aria-hidden="true" style="color: white; margin-right:5px;"></i> Reasons
 
 Life seems full of irony lately. I recently had to help my son with a security issue, as he had fallen victim to someone accessing his Amazon account. This seems to have been the result of sharing the same passwords with multiple accounts; one of which was also his emails. As I have worked in the IT industry, securing infrastructure to PCI Compliance Security Standards for last 10 years, I was horrified that this had happened to someone I know; let alone to my son. It felt a little embarrassing as frequently expounding the virtues of security was kind of my thing and I have discussed password security with my son on numerous occasions.

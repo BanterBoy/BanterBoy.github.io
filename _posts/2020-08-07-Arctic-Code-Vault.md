@@ -54,6 +54,9 @@ tags:
   });
 </script>
 
+{: .text-right}
+<span style="font-size:11px;"><button onclick="window.print()"><i class="fas fa-print" aria-hidden="true" style="color: black; margin-right:5px;"></i>Print</button></span>
+
 A few weeks ago, I awoke to a message from one of my friends [<icon class="fab fa-twitter"></icon> @InfosecSapper][1]{:target="_blank"}
 
 ![](/assets/images/CodeVault/ArcticVaultMessage.png)

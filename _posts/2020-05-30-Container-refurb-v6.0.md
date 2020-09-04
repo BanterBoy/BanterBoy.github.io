@@ -56,6 +56,9 @@ tags:
   });
 </script>
 
+{: .text-right}
+<span style="font-size:11px;"><button onclick="window.print()"><i class="fas fa-print" aria-hidden="true" style="color: black; margin-right:5px;"></i>Print</button></span>
+
 During the Coronavirus Lockdown, I am sure many of us have found it a bit of a struggle coping with the enforced break. Some will have found solace in binge-watching their favourite TV series and Movies, and no doubt enjoyed the break from the tedium of work. However, very quickly having nothing to do and finding interesting ways of filling the time can become a little difficult.
 
 Rather unfortunately, the contract I was working on came to an end at the beginning of February. By the time we were all being told to "stay at home" I had become pretty good at doing that already and sadly I had also begun to come to the end of catching up on TV series and Movies.

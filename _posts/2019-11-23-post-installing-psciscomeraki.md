@@ -69,6 +69,9 @@ tags:
 
 # <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Module Installation Instructions
 
+{: .text-right}
+<span style="font-size:11px;"><button onclick="window.print()"><i class="fas fa-print" aria-hidden="true" style="color: black; margin-right:5px;"></i>Print</button></span>
+
 The module has been made available for installation from the PowerShell Gallery and can be installed by Copying and Pasting the following commands :-
 
 ```powershell
