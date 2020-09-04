@@ -3,9 +3,13 @@ layout: single
 title: "Blank Post Template"
 excerpt: "Empty Page to start"
 header:
-  overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
-  overlay_filter: rgba(90, 104, 129, 0.7)
+  overlay_image: /assets/images/powershell-banner.png
+  overlay_filter: rgba(90, 104, 129, 0.8)
   teaser: /assets/images/default-teaser-image.png
+  caption: "Photo credit: [**Luke Leigh**](https://github.com/BanterBoy)"
+  actions:
+    - label: "More Info"
+      url: "https://github.com/BanterBoy"
 classes: wide
 date: 2020-01-01T08:30:00
 last_modified_at: 2020-08-27T08:30:00
@@ -63,4 +67,7 @@ tags:
 
 {: .text-center}
 <a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
+
+
+[1]: https://github.com/BanterBoy
 
