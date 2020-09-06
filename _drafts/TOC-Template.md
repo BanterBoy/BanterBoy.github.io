@@ -58,6 +58,9 @@ tags:
   });
 </script>
 
+{: .text-right}
+<span style="font-size:11px;"><button onclick="window.print()"><i class="fas fa-print" aria-hidden="true" style="color: black; margin-right:5px;"></i>Print</button></span>
+
 # <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> GuideName
 
 Kitsch try-hard marfa before they sold out schlitz subway tile food truck photo booth thundercats small batch DIY. Brunch readymade 3 wolf moon, 90's flannel yr activated charcoal ugh. Offal microdosing truffaut, gluten-free jianbing hexagon roof party man bun tilde echo park chicharrones man braid af. Raclette ennui DIY blog fanny pack put a bird on it. Migas kickstarter disrupt polaroid tacos plaid intelligentsia ramps kombucha shabby chic ennui +1 chia street art brooklyn. Direct trade thundercats hexagon narwhal lyft.
