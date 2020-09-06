@@ -65,6 +65,9 @@ tags:
   });
 </script>
 
+{: .text-right}
+<span style="font-size:11px;"><button onclick="window.print()"><i class="fas fa-print" aria-hidden="true" style="color: black; margin-right:5px;"></i>Print</button></span>
+
 # <i class="fas fa-code" aria-hidden="true" style="color: white; margin-right:5px;"></i> PSCiscoMeraki
 
 [![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/PSCiscoMeraki?label=PSCiscoMeraki&logo=powershell&style=plastic)][1]{:target="_blank"}
