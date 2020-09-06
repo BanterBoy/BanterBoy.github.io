@@ -6,7 +6,10 @@ header:
   overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
   overlay_filter: rgba(90, 104, 129, 0.7)
   teaser: /assets/images/default-teaser-image.png
-classes: wide
+toc: true
+toc_label: Some Content
+toc_icon: book-reader
+toc_sticky: true
 date: 2020-08-30T09:30:00
 last_modified_at: 2020-08-30T08:30:00
 collection:
@@ -60,6 +63,9 @@ tags:
     initiallyVisible: false
   });
 </script>
+
+{: .text-right}
+<span style="font-size:11px;"><button onclick="window.print()"><i class="fas fa-fw fa-print" aria-hidden="true" style="color: black; margin-right:5px;"></i>Print</button></span>
 
 # <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Overview
 
