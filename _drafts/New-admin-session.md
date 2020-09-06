@@ -57,6 +57,9 @@ tags:
   });
 </script>
 
+{: .text-right}
+<span style="font-size:11px;"><button onclick="window.print()"><i class="fas fa-print" aria-hidden="true" style="color: black; margin-right:5px;"></i>Print</button></span>
+
 # <icon class="fas fa-book"></icon> Some Guide
 
 <div>
