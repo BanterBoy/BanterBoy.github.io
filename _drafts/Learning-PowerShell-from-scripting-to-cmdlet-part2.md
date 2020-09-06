@@ -58,6 +58,9 @@ tags:
   });
 </script>
 
+{: .text-right}
+<span style="font-size:11px;"><button onclick="window.print()"><i class="fas fa-print" aria-hidden="true" style="color: black; margin-right:5px;"></i>Print</button></span>
+
 # <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Heading
 
 {: .text-right}
