@@ -5,7 +5,7 @@
 [mergify]: https://mergify.io
 [mergify-status]: https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/BanterBoy/BanterBoy.github.io&style=flat
 
-[![Build Status](https://dev.azure.com/lukeleigh/Module%20Deployment/_apis/build/status/BanterBoy.BanterBoy.github.io%20(1)?branchName=master)](https://dev.azure.com/lukeleigh/Module%20Deployment/_build/latest?definitionId=8&branchName=master)
+[![Build Status](https://dev.azure.com/banterboy0316/banterboy/_apis/build/status/BanterBoy.BanterBoy.github.io?branchName=master)](https://dev.azure.com/banterboy0316/banterboy/_build/latest?definitionId=2&branchName=master)
 
 # Luke Leigh's Website
 
