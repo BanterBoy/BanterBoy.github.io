@@ -26,7 +26,6 @@ url: "https://blog.lukeleigh.com"
 repository: "BanterBoy/BanterBoy.github.io"
 logo: "/assets/images/PowerShell_5.0_icon88x88.png"
 words_per_minute: 220
-twitter_username: luke_leighs
 github_username: BanterBoy
 minimal_mistakes_skin: dark
 teaser: /assets/images/default-teaser-image.png
@@ -117,9 +116,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/BanterBoy"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/luke_leighs"
     - label: "keybase"
       icon: "fab fa-fw fa-keybase"
       url: "https://keybase.io/lukeleigh"
@@ -132,9 +128,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/BanterBoy"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/luke_leighs"
     - label: "keybase"
       icon: "fab fa-fw fa-keybase"
       url: "https://keybase.io/lukeleigh"
