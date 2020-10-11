@@ -22,7 +22,7 @@ tags:
 <script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
 <script>
   window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-/* customize formbutton here*/     
+/* customize formbutton here*/
   formbutton("create", {
     action: "https://formspree.io/xvowjgjd",
     buttonImg: "<i class='fas fa-envelope' style='font-size:20px'/>",
@@ -43,7 +43,7 @@ tags:
         required: true,
         placeholder: "What's on your mind?",
       },
-      { type: "submit" }      
+      { type: "submit" }
     ],
     styles: {
       fontFamily: "Roboto",
@@ -66,14 +66,10 @@ tags:
 
 [GitHub][1]{:target="_blank"}
 
-
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
-
 
 {: .text-center}
 <a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
 
-
 [1]: https://github.com/BanterBoy
-
