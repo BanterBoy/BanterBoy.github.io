@@ -5,7 +5,7 @@ excerpt: "Important message from the bank"
 header:
   overlay_image: /assets/images/powershell-banner.png
   overlay_filter: rgba(90, 104, 129, 0.8)
-  teaser: /assets/images/default-teaser-image.png
+  teaser: /assets/images/phishing/dodgey-text.png
 classes: wide
 date: 2020-10-11T016:30:00
 last_modified_at: 2020-10-11T16:30:00
