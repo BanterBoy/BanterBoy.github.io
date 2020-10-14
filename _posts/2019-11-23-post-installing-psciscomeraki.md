@@ -27,15 +27,15 @@ tags:
 <script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
 <script>
   window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-/* customize formbutton here*/     
+/* customize formbutton here*/
   formbutton("create", {
     action: "https://formspree.io/xvowjgjd",
     buttonImg: "<i class='fas fa-envelope' style='font-size:20px'/>",
     theme: "minimal",
     title: "Contact Me!",
     fields: [
-      { 
-        type: "email", 
+      {
+        type: "email",
         label: "Email:", 
         name: "email",
         required: true,
@@ -48,7 +48,7 @@ tags:
         required: true,
         placeholder: "What's on your mind?",
       },
-      { type: "submit" }      
+      { type: "submit" }
     ],
     styles: {
       fontFamily: "Roboto",
@@ -106,7 +106,7 @@ The link below will take you to the module listing in the PowerShell Gallery.
 
 [PSCiscoMeraki][2]{:target="_blank"}
 
-Make sure you are running Powershell 5.0 (WMF 5.0).
+Make sure you are running PowerShell 5.0 (WMF 5.0).
 
 You can install the module by entering the following commands into an Elevated PowerShell session. Please open PowerShell as an Administrator and either paste or type the
 
