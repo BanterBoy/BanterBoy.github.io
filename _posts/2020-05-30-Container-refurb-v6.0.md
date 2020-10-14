@@ -525,7 +525,8 @@ I blocked off the end of the container and fitted my standing desk in one corner
 </div>
 
 ---
-##### I hope if you scroll through the photo's, you can appreciate the amount of work involved 
+
+##### I hope if you scroll through the photo's, you can appreciate the amount of work involved
 
 The design changes took approximately 34 days to complete with many of the days stretching out into long nights. Having spent many previous days working similar hours behind a computer, being more active was as you can imagine hard work. I thoroughly enjoyed myself and having been far more energetic benefitted by losing some weight.....there is still plenty more work to do there!
 
