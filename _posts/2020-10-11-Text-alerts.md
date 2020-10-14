@@ -80,7 +80,7 @@ As this is a `.com` domain the WHOIS information is obscured and shows `PrivacyG
 
   > [https://www.privacyguardian.org][2]{:target="_blank"} <br>
   > **Report Abuse** <br>
-  > If a domain utilizing our service has engaged in SPAM or some other illegal activity, please provide evidence of such behavior below. If you have a copyright/trademark dispute, you should direct your complaint to the respective web site host for the domain. We are solely a privacy service, and, as such we have no control over the storage or distribution of any allegedly infringing materials.
+  > If a domain utilizing our service has engaged in SPAM or some other illegal activity, please provide evidence of such behaviour below. If you have a copyright/trademark dispute, you should direct your complaint to the respective web site host for the domain. We are solely a privacy service, and, as such we have no control over the storage or distribution of any allegedly infringing materials.
 
 Thankfully they have an option to report abuse, so that is exactly what I did.
 
