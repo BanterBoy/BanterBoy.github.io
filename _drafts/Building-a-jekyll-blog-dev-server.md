@@ -5,11 +5,8 @@ excerpt: "Err...because I decided to test my posts before <br> publishing my Blo
 header:
   overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
   overlay_filter: rgba(90, 104, 129, 0.7)
-  teaser: /assets/images/default-teaser-image.png
-toc: true
-toc_label: Some Content
-toc_icon: book-reader
-toc_sticky: true
+  teaser: /assets/images/docker/docker-blog-snapshot.png
+classes: wide
 date: 2020-08-30T09:30:00
 last_modified_at: 2020-08-30T08:30:00
 collection:
