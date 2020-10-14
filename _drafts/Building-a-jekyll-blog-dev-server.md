@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Why on earth did I build a Docker Container?"
-excerpt: "Erm...because I decided to test my posts before <br> publishing my Blog? Yep, I am doing that now."
+excerpt: "Err...because I decided to test my posts before <br> publishing my Blog? Yep, I am doing that now."
 header:
   overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
   overlay_filter: rgba(90, 104, 129, 0.7)
@@ -27,16 +27,16 @@ tags:
 <script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
 <script>
   window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-/* customize formbutton here*/     
+/* customize formbutton here*/
   formbutton("create", {
     action: "https://formspree.io/xvowjgjd",
     buttonImg: "<i class='fas fa-envelope' style='font-size:20px'/>",
     theme: "minimal",
     title: "Contact Me!",
     fields: [
-      { 
-        type: "email", 
-        label: "Email:", 
+      {
+        type: "email",
+        label: "Email:",
         name: "email",
         required: true,
         placeholder: "your@email.com"
@@ -48,7 +48,7 @@ tags:
         required: true,
         placeholder: "What's on your mind?",
       },
-      { type: "submit" }      
+      { type: "submit" }
     ],
     styles: {
       fontFamily: "Roboto",
@@ -132,4 +132,3 @@ Some text goes here.
 [29]: https://fontawesome.com/
 [30]: https://travis-ci.org/
 [31]: https://www.algolia.com/
-
