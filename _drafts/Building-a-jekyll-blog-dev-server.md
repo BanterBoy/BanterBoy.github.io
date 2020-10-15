@@ -3,9 +3,9 @@ layout: single
 title: "Why on earth did I build a Docker Container?"
 excerpt: "Err...because I decided to test my posts before <br> publishing my Blog? Yep, I am doing that now."
 header:
-  overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
+  overlay_image: /assets/images/docker/horizontal-logo-monochromatic-white.png
   overlay_filter: rgba(90, 104, 129, 0.7)
-  teaser: /assets/images/docker/docker-blog-snapshot.png
+  teaser: /assets/images/docker/homepage-docker-logo.png
 classes: wide
 date: 2020-08-30T09:30:00
 last_modified_at: 2020-08-30T08:30:00
@@ -66,7 +66,8 @@ tags:
 
 # <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Overview
 
-In this article I explain the technology used to create my blog and the steps involved in the setup. It is a little convoluted but I believe this is due to the choice of technology used for the hosting, which I selected in a bid to ensure it was possible to replicate this setup for a very small price or indeed completely free.
+In this article I explain the technology used to create my blog and the steps involved in the setup. The rather large list of technology used makes this a seemingly complex 
+. Much of the decision was to create a customised setup which was easy to maintain for a very small price. In order to do so, I have ended up with 
 
 ## <i class="fas fa-microchip" aria-hidden="true" style="color: white; margin-right:5px;"></i> Technology List for Blog
 
