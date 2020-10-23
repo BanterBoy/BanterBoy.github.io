@@ -16,5 +16,13 @@
         "movie",
         "opensource",
         "setup"
+    ],
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
     ]
 }
