@@ -74,7 +74,7 @@ tags:
     Your browser does not support the video tag.
 </video>
 
-- Hey, I created another blog -> [**scripts.lukeleigh.com**](https://scripts.lukeleigh.com)
+- Hey, I created another blog -> [**scripts.lukeleigh.com**](https://scripts.lukeleigh.com){:target="_blank"}
   - That's a bit strange.
 - Is it?
   - Yes, surely one blog would have been enough?
@@ -111,7 +111,7 @@ I do already indeed blog here but what started as an exercise in filing became m
 
 I have used many of these scripts over the years to assist in securing active directory and managing a PCI Compliant infrastructure. I am sure however that there are many useful tools that I hope this new site will help to make them more widely available to other IT Admins and budding PowerShell developers.
 
-[scripts.lukeleigh.com](scripts.lukeleigh.com)
+  [**scripts.lukeleigh.com**](https://scripts.lukeleigh.com){:target="_blank"}
 
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
