@@ -8,6 +8,11 @@ header:
   overlay_filter: rgba(90, 104, 129, 0.7)
 ---
 
+<video width="320" height="190" controls autoplay loop muted>
+    <source src="/assets/video/lukeleighs-blog-intro.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
 Hi, I am Luke and I have been working in IT for the last 20+ years as an IT Professional.
 
 I started out like many, completely unskilled and at the bottom of the IT food chain. For the first few years I spent my days, building and installing bespoke PC systems for Doctors surgeries. In those days, this meant sourcing all the PC parts and assembling them in nasty beige cases...working in IT was fascinating but not glamourous in any way. The company I worked for was small and I was frequently looking for solutions to speed up the daily repetitive tasks, sadly PowerShell didn't exist at the time.
