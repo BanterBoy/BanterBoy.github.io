@@ -98,7 +98,7 @@ Over the years, I have created a rather large collection of admin scripts, funct
   - Of course.
   - Many of these scripts are available elsewhere but many I have written myself and some I have simply been very lucky to have saved as they were found when looking for something else.
 - Surely they can't all be that useful.
-  - There are over 360 different scripts and generating the content has taken some time to complete.
+  - There are over 300 different scripts and generating the content has taken some time to complete.
 
 ## <i class="fas fa-truck-loading" aria-hidden="true" style="color: white; margin-right:5px;"></i> But you already have this blog
 
