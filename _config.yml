@@ -99,7 +99,7 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  
+
 # Site Author
 author:
   name: "Luke Leigh"
@@ -119,6 +119,9 @@ author:
     - label: "keybase"
       icon: "fab fa-fw fa-keybase"
       url: "https://keybase.io/lukeleigh"
+    - label: "Scripts Blog"
+      icon: "fas fa-fw fa-laptop-code"
+      url: "http://scripts.lukeleigh.com/"
 
 footer:
   links:
@@ -131,6 +134,9 @@ footer:
     - label: "keybase"
       icon: "fab fa-fw fa-keybase"
       url: "https://keybase.io/lukeleigh"
+    - label: "Scripts Blog"
+      icon: "fas fa-fw fa-laptop-code"
+      url: "http://scripts.lukeleigh.com/"
 
 # Defaults
 defaults:
