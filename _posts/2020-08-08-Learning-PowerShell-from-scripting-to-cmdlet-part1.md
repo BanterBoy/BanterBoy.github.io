@@ -26,9 +26,9 @@ tags:
     theme: "minimal",
     title: "Contact Me!",
     fields: [
-      { 
-        type: "email", 
-        label: "Email:", 
+      {
+        type: "email",
+        label: "Email:",
         name: "email",
         required: true,
         placeholder: "your@email.com"
@@ -40,7 +40,7 @@ tags:
         required: true,
         placeholder: "What's on your mind?",
       },
-      { type: "submit" }      
+      { type: "submit" }
     ],
     styles: {
       fontFamily: "Roboto",
@@ -82,10 +82,10 @@ This worked for me for some time but as I progressed with learning more about *P
 
 ```powershell
 Function Find-Files {
-	$DaysPast = Read-Host "Enter Number of Days"
-	$Start = (Get-Date).AddDays(-$DaysPast)
-	$Path = Read-Host "Enter Search Path"
-	$Extension = Read-Host "Enter Extension"
+ $DaysPast = Read-Host "Enter Number of Days"
+ $Start = (Get-Date).AddDays(-$DaysPast)
+ $Path = Read-Host "Enter Search Path"
+ $Extension = Read-Host "Enter Extension"
 
 Get-ChildItem -Path $Path -Include $Extension -Recurse |
 Where-Object { $_.LastWriteTime -ge "$Start" } |
