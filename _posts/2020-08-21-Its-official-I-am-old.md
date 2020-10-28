@@ -23,16 +23,16 @@ tags:
 <script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
 <script>
   window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-/* customize formbutton here*/     
+/* customize formbutton here*/
   formbutton("create", {
     action: "https://formspree.io/xvowjgjd",
     buttonImg: "<i class='fas fa-envelope' style='font-size:20px'/>",
     theme: "minimal",
     title: "Contact Me!",
     fields: [
-      { 
-        type: "email", 
-        label: "Email:", 
+      {
+        type: "email",
+        label: "Email:",
         name: "email",
         required: true,
         placeholder: "your@email.com"
@@ -44,7 +44,7 @@ tags:
         required: true,
         placeholder: "What's on your mind?",
       },
-      { type: "submit" }      
+      { type: "submit" }
     ],
     styles: {
       fontFamily: "Roboto",
@@ -221,11 +221,11 @@ I know many people think they don't have much to offer but having started bloggi
 
 I can tell you are all on the edge of your seats and looking forward to the next instalment. I hope to write about some of the following, preferably during the day <i class="fas fa-fw fa-smile-wink" aria-hidden="true" style="color: white; margin-right:5px;"></i>
 
- * Building a Jekyll Blog Dev Server.
- * PowerShell Profiles (everyone should have one)
- * My son's recent lesson on 2FA and why its important
- * Modules, CmdLets, Functions and Scripts.....
- * and no doubt many other IT/PowerShell related posts
+* Building a Jekyll Blog Dev Server.
+* PowerShell Profiles (everyone should have one)
+* My son's recent lesson on 2FA and why its important
+* Modules, CmdLets, Functions and Scripts.....
+* and no doubt many other IT/PowerShell related posts
 
 Having reached the end of this post with the 5th movie from the Fast and Furious box set playing in the background, I have a much greater appreciation for those who are already blogging and whose sites I have frequented in the past. I hope this also becomes just as useful to anyone who turns up for a read.
 
