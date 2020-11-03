@@ -28,7 +28,7 @@ tags:
 <script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
 <script>
   window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-/* customize formbutton here*/     
+/* customize formbutton here*/
   formbutton("create", {
     action: "https://formspree.io/xvowjgjd",
     buttonImg: "<i class='fas fa-envelope' style='font-size:20px'/>",
@@ -36,8 +36,8 @@ tags:
     title: "Contact Me!",
     fields: [
       { 
-        type: "email", 
-        label: "Email:", 
+        type: "email",
+        label: "Email:",
         name: "email",
         required: true,
         placeholder: "your@email.com"
@@ -49,7 +49,7 @@ tags:
         required: true,
         placeholder: "What's on your mind?",
       },
-      { type: "submit" }      
+      { type: "submit" }
     ],
     styles: {
       fontFamily: "Roboto",
@@ -150,6 +150,4 @@ This is "a work in progress" as I am working through the options that have been 
 {: .text-center}
 <a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
 
-
 [1]: https://www.powershellgallery.com/packages/PSCiscoMeraki
-
