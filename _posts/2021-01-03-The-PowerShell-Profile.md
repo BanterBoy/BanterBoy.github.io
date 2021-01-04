@@ -165,7 +165,17 @@ If you have an on-premise Exchange Servers, you can copy the following code, rep
 
 Example Exchange Functions
 
-<script src="https://gist.github.com/BanterBoy/f46265efe806b95acd6126de4dc59b04.js"></script>
+<iframe src="data:text/html;charset=utf-8,%3Cscript%20src%3D%22https%3A%2F%2Fgist.github.com%2FBanterBoy%2Ff46265efe806b95acd6126de4dc59b04.js%22%3E%3C%2Fscript%3E" style="
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 500px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    background-color: white;
+    overflow: scroll;
+"></iframe>
 
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
@@ -180,7 +190,17 @@ This example adds logic to the profile enabling you to run a particular section 
 
 Example PowerShell Profile
 
-<script src="https://gist.github.com/BanterBoy/65b11469a46757727ef929f3925668a6.js"></script>
+<iframe src="data:text/html;charset=utf-8,%3Cscript%20src%3D%22https%3A%2F%2Fgist.github.com%2FBanterBoy%2F65b11469a46757727ef929f3925668a6.js%22%3E%3C%2Fscript%3E" style="
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 500px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    background-color: white;
+    overflow: scroll;
+"></iframe>
 
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
