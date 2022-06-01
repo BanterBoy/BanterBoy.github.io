@@ -35,9 +35,9 @@ github: [metadata]
 # Search Settings
 search: true
 algolia:
-  application_id: LOEP7YNBRV
-  index_name: blogindex
-  search_only_api_key: 1514f1706e03817a804733810ebcc7ea
+    application_id: LOEP7YNBRV
+    index_name: blogindex
+    search_only_api_key: 1514f1706e03817a804733810ebcc7ea
 
 # Comments
 # comments:
@@ -47,37 +47,37 @@ algolia:
 
 # Analytics
 analytics:
-  provider: "google-universal" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id: "G-PK0X4FK6KJ"
-    anonymize_ip: false # true, false (default)
+    provider: "google-universal" # false (default), "google", "google-universal", "custom"
+    google:
+        tracking_id: "G-PK0X4FK6KJ"
+        anonymize_ip: false # true, false (default)
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - "vendor/bundle/"
-  - "vendor/cache/"
-  - "vendor/gems/"
-  - "vendor/ruby/"
-  - [vendor]
+    - Gemfile
+    - Gemfile.lock
+    - node_modules
+    - "vendor/bundle/"
+    - "vendor/cache/"
+    - "vendor/gems/"
+    - "vendor/ruby/"
+    - [vendor]
 
 # Reading Files
 include:
-  - _pages
+    - _pages
 
 # Should match GEM File
 plugins:
-  - jekyll-include-cache
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-json-feed
-  - jekyll-algolia
+    - jekyll-include-cache
+    - jekyll-feed
+    - jekyll-gist
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-json-feed
+    - jekyll-algolia
 
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -91,79 +91,79 @@ incremental: false
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+    input: GFM
+    hard_wrap: false
+    auto_ids: true
+    footnote_nr: 1
+    entity_output: as_char
+    toc_levels: 1..6
+    smart_quotes: lsquo,rsquo,ldquo,rdquo
+    enable_coderay: false
 
 # Site Author
 author:
-  name: "Luke Leigh"
-  avatar: "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "PowerShell Developer / <br>Infrastructure Engineer"
-  location: "Essex, UK"
-  email: "me@lukeleigh.com"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-    - label: "Profile"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/lukeleigh/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/BanterBoy"
-    - label: "keybase"
-      icon: "fab fa-fw fa-keybase"
-      url: "https://keybase.io/lukeleigh"
-    - label: "Scripts Blog"
-      icon: "fas fa-fw fa-laptop-code"
-      url: "http://scripts.lukeleigh.com/"
+    name: "Luke Leigh"
+    avatar: "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+    bio: "PowerShell Developer / <br>Infrastructure Engineer"
+    location: "Essex, UK"
+    email: "me@lukeleigh.com"
+    links:
+        - label: "Email"
+          icon: "fas fa-fw fa-envelope-square"
+        - label: "Profile"
+          icon: "fab fa-fw fa-linkedin"
+          url: "https://www.linkedin.com/in/lukeleigh/"
+        - label: "GitHub"
+          icon: "fab fa-fw fa-github"
+          url: "https://github.com/BanterBoy"
+        - label: "keybase"
+          icon: "fab fa-fw fa-keybase"
+          url: "https://keybase.io/lukeleigh"
+        - label: "Scripts Blog"
+          icon: "fas fa-fw fa-laptop-code"
+          url: "http://scripts.lukeleigh.com/"
 
 footer:
-  links:
-    - label: "Profile"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/lukeleigh/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/BanterBoy"
-    - label: "keybase"
-      icon: "fab fa-fw fa-keybase"
-      url: "https://keybase.io/lukeleigh"
-    - label: "Scripts Blog"
-      icon: "fas fa-fw fa-laptop-code"
-      url: "http://scripts.lukeleigh.com/"
+    links:
+        - label: "Profile"
+          icon: "fab fa-fw fa-linkedin"
+          url: "https://www.linkedin.com/in/lukeleigh/"
+        - label: "GitHub"
+          icon: "fab fa-fw fa-github"
+          url: "https://github.com/BanterBoy"
+        - label: "keybase"
+          icon: "fab fa-fw fa-keybase"
+          url: "https://keybase.io/lukeleigh"
+        - label: "Scripts Blog"
+          icon: "fas fa-fw fa-laptop-code"
+          url: "http://scripts.lukeleigh.com/"
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
+    # _posts
+    - scope:
+          path: ""
+          type: posts
+      values:
+          layout: single
+          author_profile: true
+          read_time: true
+          share: true
+          related: true
+    # _pages
+    - scope:
+          path: "_pages"
+          type: pages
+      values:
+          layout: single
+          author_profile: true
+          read_time: true
 
 # Collections
 collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
+    docs:
+        output: true
+        permalink: /:collection/:path/
 
 # Outputting
 permalink: /:categories/:title/
@@ -182,11 +182,11 @@ timezone: GB # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid
-  path: /categories/
+    type: liquid
+    path: /categories/
 tag_archive:
-  type: liquid
-  path: /tags/
+    type: liquid
+    path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -202,6 +202,6 @@ tag_archive:
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
-  clippings: all
-  ignore:
-    envs: development
+    clippings: all
+    ignore:
+        envs: development
