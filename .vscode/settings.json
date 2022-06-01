@@ -17,12 +17,13 @@
         "opensource",
         "setup"
     ],
-    "spellright.language": [
-        "en"
-    ],
-    "spellright.documentTypes": [
-        "markdown",
-        "latex",
-        "plaintext"
-    ]
+    "spellright.language": ["en"],
+    "spellright.documentTypes": ["markdown", "latex", "plaintext"],
+    "csv-edit.fontSizeInPx": 11,
+    "terminal.integrated.fontSize": 11,
+    "markdown.preview.fontSize": 11,
+    "debug.console.fontSize": 11,
+    "scm.inputFontSize": 11,
+    "editor.fontSize": 11,
+    "editor.fontFamily": "'mesloLGMDZ Nerd Font Mono', 'Courier New', monospace"
 }
