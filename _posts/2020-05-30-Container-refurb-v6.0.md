@@ -3,17 +3,17 @@ layout: single
 title: "Container Refurb v6.0"
 excerpt: "Creating my ideal home/office solution during the lockdown"
 header:
-  overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
-  overlay_filter: rgba(90, 104, 129, 0.7)
-  teaser: /assets/images/container_6/0126.jpg
+    overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
+    overlay_filter: rgba(90, 104, 129, 0.7)
+    teaser: /assets/images/container_6/0126.jpg
 classes: wide
 categories:
-  - Blog
-  - Build
+    - Blog
+    - Build
 tags:
-  - Container
-  - DIY
-  - Remote Work
+    - Container
+    - DIY
+    - Remote Work
 ---
 
 <script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
@@ -244,7 +244,7 @@ Like most people, I avidly watched the news and became a massive consumer of eve
 
 Having created the module and run out of things to do to keep myself entertained, I decided that my "Home/Office" needed an upgrade to make it more convenient to work from home, as this may be where I would be working from for the unforseeable future.
 
-Unlike most people, my Home/Office is a little quirky and is inside a converted shipping container ....... OK, perhaps more than a little quirky ¯\\__(ツ)_/¯ It is however, one of the best things I have ever bought from <img src="/assets/images/EBay_logo.png"/>
+Unlike most people, my Home/Office is a little quirky and is inside a converted shipping container ....... OK, perhaps more than a little quirky ¯\\\__(ツ)_/¯ It is however, one of the best things I have ever bought from <img src="/assets/images/EBay_logo.png"/>
 
 ## Container v1.0
 
@@ -552,6 +552,7 @@ Over the years and different designs, the shipping container has proved to be ve
 On with the next project ( [Pscovid19stats](https://blog.lukeleigh.com/blog/module/PSCovid19Stats/) v2.0 or add some features to [PSCiscoMeraki](https://blog.lukeleigh.com/blog/module/post-installing-psciscomeraki/) ) while I continue the hunt for a new work challenge.
 
 ---
+
 <!-- Heading to link to -->
 <h5 id="Reference1">1️⃣ - A purchase which like many things I can thank my partners father for suggesting. I also own a number of power tools due to similar suggestions.</h5>
 
