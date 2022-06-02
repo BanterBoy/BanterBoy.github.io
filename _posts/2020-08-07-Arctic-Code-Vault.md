@@ -3,15 +3,15 @@ layout: single
 title: "The Arctic Code Vault"
 excerpt: "What it is and my how I found out I am a contributor"
 header:
-  overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
-  overlay_filter: rgba(90, 104, 129, 0.7)
-  teaser: /assets/images/CodeVault/ArcticVaultPopUp.png
+    overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
+    overlay_filter: rgba(90, 104, 129, 0.7)
+    teaser: /assets/images/CodeVault/ArcticVaultPopUp.png
 classes: wide
 categories:
-  - Blog
+    - Blog
 tags:
-  - GitHub
-  - PowerShell
+    - GitHub
+    - PowerShell
 ---
 
 <script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
@@ -57,18 +57,18 @@ tags:
 {: .text-right}
 <span style="font-size:11px;"><button onclick="window.print()"><i class="fas fa-print" aria-hidden="true" style="color: black; margin-right:5px;"></i>Print</button></span>
 
-A few weeks ago, I awoke to a message from one of my friends [<icon class="fab fa-twitter"></icon> @InfosecSapper][1]{:target="_blank"}
+A few weeks ago, I awoke to a message from one of my friends [<icon class="fab fa-twitter"></icon> @InfosecSapper][1]{:target="\_blank"}
 
 ![](/assets/images/CodeVault/ArcticVaultMessage.png)
 
-GitHub's Arctic Code Vault is similar in nature to the [Library of Alexandria][2]{:target="_blank"}, which was the most famous library of Classical antiquity. There have been a number of attempts to create a modern day Universal Library over the years but the most memorable for me was Google's attempt which sadly ended under a [storm of litigation][3]{:target="_blank"}. There are many articles written about this, with one of perhaps the saddest quotes I have heard in one of them
+GitHub's Arctic Code Vault is similar in nature to the [Library of Alexandria][2]{:target="\_blank"}, which was the most famous library of Classical antiquity. There have been a number of attempts to create a modern day Universal Library over the years but the most memorable for me was Google's attempt which sadly ended under a [storm of litigation][3]{:target="\_blank"}. There are many articles written about this, with one of perhaps the saddest quotes I have heard in one of them
 
 > Somewhere at Google there is a database containing 25 million books and nobody is allowed to read them.  
 > <cite><a href="https://www.theatlantic.com/technology/archive/2017/04/the-tragedy-of-google-books/523320/" target="_blank">James Somer</a></cite>
 
-GitHub created the "[GitHub Archive Program][4]{:target="_blank"}" in 2019 with the idea of preserving the work of many opensource developers for future generations and ensuring it would be stored for many years to come....for at least 1,000 years.
+GitHub created the "[GitHub Archive Program][4]{:target="\_blank"}" in 2019 with the idea of preserving the work of many opensource developers for future generations and ensuring it would be stored for many years to come....for at least 1,000 years.
 
-The [blog article from GitHub][5]{:target="_blank"} explains the process in much more detail than I have here but if you are not in the mood for some light reading they also have a TLDR video which will give you an insight into their incredible work.
+The [blog article from GitHub][5]{:target="\_blank"} explains the process in much more detail than I have here but if you are not in the mood for some light reading they also have a TLDR video which will give you an insight into their incredible work.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fzI9FNjXQ0o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
