@@ -3,21 +3,21 @@ layout: single
 title: "Unwanted Parcels"
 excerpt: "Why you really need to protect your accounts"
 header:
-  overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
-  overlay_filter: rgba(90, 104, 129, 0.7)
-  teaser: /assets/images/delete.gif
+    overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
+    overlay_filter: rgba(90, 104, 129, 0.7)
+    teaser: /assets/images/delete.gif
 toc: true
 toc_label: Unwanted Parcels
 toc_icon: people-carry
 toc_sticky: true
 categories:
-  - Blog
+    - Blog
 tags:
-  - 2FA
-  - Security
-  - Password
-  - Breach
-  - Resources
+    - 2FA
+    - Security
+    - Password
+    - Breach
+    - Resources
 ---
 
 <script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
@@ -67,9 +67,9 @@ tags:
 
 Life seems full of irony lately. I recently had to help my son with a security issue, as he had fallen victim to someone accessing his Amazon account. This seems to have been the result of sharing the same passwords with multiple accounts; one of which was also his emails. As I have worked in the IT industry, securing infrastructure to PCI Compliance Security Standards for last 10 years, I was horrified that this had happened to someone I know; let alone to my son. It felt a little embarrassing as frequently expounding the virtues of security was kind of my thing and I have discussed password security with my son on numerous occasions.
 
-Many who have a nineteen year old young adult living in their house, will attest to the fact "that they *haven't* listened to you for years and often *already* know what they are doing"; so it shouldn't really have come as much of a surprise that he hadn't taken any notice.
+Many who have a nineteen year old young adult living in their house, will attest to the fact "that they _haven't_ listened to you for years and often _already_ know what they are doing"; so it shouldn't really have come as much of a surprise that he hadn't taken any notice.
 
-As a result of what happened, my son seems to have learnt a valuable lesson and is a lot more careful with his account details. I thought I would write this post so that his experience might also help convince others to be more careful in their security practices. *So, on with the embarrassing story.*
+As a result of what happened, my son seems to have learnt a valuable lesson and is a lot more careful with his account details. I thought I would write this post so that his experience might also help convince others to be more careful in their security practices. _So, on with the embarrassing story._
 
 ![hope](/assets/images/hope-best-worst.gif){: .align-center}
 
@@ -80,7 +80,7 @@ As a result of what happened, my son seems to have learnt a valuable lesson and 
 
 Last Friday my son woke me in rather a panic, as he believed that he was the victim of a breach. He had already spoke to his mother and with her being at work, he was promptly told that he would have to wake me up. Having just been wrestled from my slumber, I mostly grunted, harrumphed and nodded my way through his description of events whilst trying to wake up. He explained that he had checked his bank account that morning to find somehow, someone had placed a number orders through his Amazon account on his behalf but he had changed his Amazon password in case this was how they had gained accessed.
 
-Armed with all the relevant information, I now had to figure out what had actually happened and attempt to resolve the problem. I was also supposed to *try to get his money back.*
+Armed with all the relevant information, I now had to figure out what had actually happened and attempt to resolve the problem. I was also supposed to _try to get his money back._
 
 ![delete](/assets/images/delete.gif){: .align-center}
 
@@ -89,7 +89,7 @@ Armed with all the relevant information, I now had to figure out what had actual
 
 # <i class="fas fa-coffee" aria-hidden="true" style="color: white; margin-right:5px;"></i> Investigation
 
-As my son was visibly distressed, he had neglected to sensibly wake me with a coffee but given the circumstances I was willing to let it go, so I got dressed and headed out to the [man cave][4]{:target="_blank"} with my son in tow.
+As my son was visibly distressed, he had neglected to sensibly wake me with a coffee but given the circumstances I was willing to let it go, so I got dressed and headed out to the [man cave][4]{:target="\_blank"} with my son in tow.
 
 Once inside, I started making a coffee and began pondering my checklist while the kettle boiled.
 
@@ -98,14 +98,14 @@ Once inside, I started making a coffee and began pondering my checklist while th
 
 ## <i class="fas fa-clipboard-list" aria-hidden="true" style="color: white; margin-right:5px;"></i> Accounts to check
 
-  [<i class="fab fa-amazon" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>Amazon Account Settings][6]{:target="_blank"}<br>
-  [<i class="fas fa-envelope-open-text" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>Email account][7]{:target="_blank"}<br>
-  [<i class="fab fa-xbox" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>Xbox Account][8]{:target="_blank"}<br>
-  [<i class="fab fa-paypal" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>PayPal][9]{:target="_blank"}<br>
-  [<i class="fab fa-ebay" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>eBay][10]{:target="_blank"}<br>
-  [<i class="fas fa-user" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>have I been pwned?][2]{:target="_blank"}<br>
-  [<i class="fas fa-users" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>all social media accounts][11]{:target="_blank"}<br>
-  
+[<i class="fab fa-amazon" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>Amazon Account Settings][6]{:target="\_blank"}<br>
+[<i class="fas fa-envelope-open-text" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>Email account][7]{:target="\_blank"}<br>
+[<i class="fab fa-xbox" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>Xbox Account][8]{:target="\_blank"}<br>
+[<i class="fab fa-paypal" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>PayPal][9]{:target="\_blank"}<br>
+[<i class="fab fa-ebay" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>eBay][10]{:target="\_blank"}<br>
+[<i class="fas fa-user" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>have I been pwned?][2]{:target="\_blank"}<br>
+[<i class="fas fa-users" aria-hidden="true" style="font-size:12px; color: white; margin-right:10px;"></i>all social media accounts][11]{:target="\_blank"}<br>
+
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
 
@@ -113,7 +113,7 @@ Once inside, I started making a coffee and began pondering my checklist while th
 
 Coffee ready, I sat down and began sifting through his Amazon account settings. I was amused to find that when my son had reset his password, he also had the sense to enable two factor authentication (I think I laughed when he told me but I can't be sure). All the settings checked out and they hadn't changed his address, phone number or email details. Whoever had accessed his account had placed 12 orders, 5 of which were printable vouchers for varying amounts, scattered in-between the random items they had ordered.
 
-As the only reason my son knew that the orders were from Amazon was from his bank account, I checked his email account next. Sure enough, someone had also accessed his email and had configured some rules to delete emails coming from a number of sources; [PayPal][9]{:target="_blank"}, [eBay][10]{:target="_blank"}, and [Amazon][6]{:target="_blank"}. His email account had not yet been forwarded on to a different account which may have been due to how quickly he severed access to his accounts by resetting his passwords. He had been very lucky that whoever had access hadn't changed any contact details or indeed invaded any other accounts also sharing the same password.
+As the only reason my son knew that the orders were from Amazon was from his bank account, I checked his email account next. Sure enough, someone had also accessed his email and had configured some rules to delete emails coming from a number of sources; [PayPal][9]{:target="\_blank"}, [eBay][10]{:target="\_blank"}, and [Amazon][6]{:target="\_blank"}. His email account had not yet been forwarded on to a different account which may have been due to how quickly he severed access to his accounts by resetting his passwords. He had been very lucky that whoever had access hadn't changed any contact details or indeed invaded any other accounts also sharing the same password.
 
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
@@ -122,7 +122,7 @@ As the only reason my son knew that the orders were from Amazon was from his ban
 
 Prior to waking me up, he had already called Amazon who told him to call the bank. He called the bank who told him he should speak to Amazon. No wonder he was frustrated and a bit panicked.
 
-I checked the site ["have I been pwned?"][2]{:target="_blank"} to see if his email account had featured in any breaches, as his personal details including his email address and password could have been available to anyone on the internet. Sure enough his Email address and Password had appeared in three sets of compromised data.
+I checked the site ["have I been pwned?"][2]{:target="\_blank"} to see if his email account had featured in any breaches, as his personal details including his email address and password could have been available to anyone on the internet. Sure enough his Email address and Password had appeared in three sets of compromised data.
 
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
@@ -158,9 +158,9 @@ He contacted Lloyds again, soon after Amazon confirmed they had completed their 
 
 It was now time for the standard password/authentication lecture.
 
-Now normally it would just be a talk or some offered advice but clearly he needed to hear the speech again. [So I rambled on about sensible password choice and how sharing these between accounts was a very poor decision for the next 10 minutes][1]{:target="_blank"}, whilst making sure that he added 2FA to the accounts that provided the service. Having worked our way through the important accounts, I left him to finish up, insisting that he sorted this out before he went to work.
+Now normally it would just be a talk or some offered advice but clearly he needed to hear the speech again. [So I rambled on about sensible password choice and how sharing these between accounts was a very poor decision for the next 10 minutes][1]{:target="\_blank"}, whilst making sure that he added 2FA to the accounts that provided the service. Having worked our way through the important accounts, I left him to finish up, insisting that he sorted this out before he went to work.
 
-I went back out to the [man cave][4]{:target="_blank"} and subscribed my son's email to the [Have I been Pwned][12]{:target="_blank"} service, which monitors your email address against new breaches, just in case his details appeared on a new [pastebin][5]{:target="_blank"} lists. This way he would at least get some sort of advance warning by email.
+I went back out to the [man cave][4]{:target="\_blank"} and subscribed my son's email to the [Have I been Pwned][12]{:target="\_blank"} service, which monitors your email address against new breaches, just in case his details appeared on a new [pastebin][5]{:target="\_blank"} lists. This way he would at least get some sort of advance warning by email.
 
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
@@ -180,11 +180,11 @@ I went back out to the [man cave][4]{:target="_blank"} and subscribed my son's e
 
 Anyone who is unsure they are following some form of "best practice" when managing their online accounts or that simply wants to know how to improve their own security should consider visiting the following sites. This obviously isn't a definitive guide but I hope your take away from reading any of this is to better arm yourself against the possibility of becoming the next victim.
 
-[![NCSC](/assets/images/ncsclogo.svg){: .align-left}][3]{:target="_blank"} The UK's [National Cyber Security Centre][3]{:target="_blank"} provides a plethora of information for home users and office workers. An excellent resource offering practical guidance for anyone looking to learn more about cyber security.
+[![NCSC](/assets/images/ncsclogo.svg){: .align-left}][3]{:target="\_blank"} The UK's [National Cyber Security Centre][3]{:target="\_blank"} provides a plethora of information for home users and office workers. An excellent resource offering practical guidance for anyone looking to learn more about cyber security.
 
-[Cyber Aware][1]{:target="_blank"} - is the UK government's advice on how to stay secure online and covers things like 2FA and password advice. It also coincidentally mirrors much of the advice I offered my son in my speech.
+[Cyber Aware][1]{:target="\_blank"} - is the UK government's advice on how to stay secure online and covers things like 2FA and password advice. It also coincidentally mirrors much of the advice I offered my son in my speech.
 
-[HIBP][2]{:target="_blank"} - This link will take you to a site called "Have I been Pwned" which is a free resource for anyone to quickly assess if they may have been put at risk due to an online account of theirs having been compromised or "pwned" in a data breach.
+[HIBP][2]{:target="\_blank"} - This link will take you to a site called "Have I been Pwned" which is a free resource for anyone to quickly assess if they may have been put at risk due to an online account of theirs having been compromised or "pwned" in a data breach.
 
 {: .text-center}
 <a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
@@ -201,4 +201,3 @@ Anyone who is unsure they are following some form of "best practice" when managi
 [10]: https://www.ebay.co.uk/
 [11]: https://en.wikipedia.org/wiki/Social_media
 [12]: https://haveibeenpwned.com/NotifyMe
-
