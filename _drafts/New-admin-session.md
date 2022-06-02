@@ -3,18 +3,18 @@ layout: single
 title: "New PowerShell Session"
 excerpt: "Details on PowerShell Profiles and some useful functions"
 header:
-  overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
-  overlay_filter: rgba(90, 104, 129, 0.7)
-  teaser: /assets/images/default-teaser-image.png
+    overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
+    overlay_filter: rgba(90, 104, 129, 0.7)
+    teaser: /assets/images/default-teaser-image.png
 classes: wide
-date: 2020-08-27T08:30:00
-last_modified_at: 2020-08-30T08:30:00
+date: 2022-06-02T00:27:00
+last_modified_at: 2022-06-02T01:27:00
 categories:
-  - Blog
+    - Blog
 tags:
-  - PowerShell
-  - Admin
-  - Profile
+    - PowerShell
+    - Admin
+    - Profile
 ---
 
 <script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
@@ -93,7 +93,6 @@ tags:
 
 </p>
 </details>
-
 
 <details>
 <summary>Show-IsAdminOrNot.PS1</summary>
