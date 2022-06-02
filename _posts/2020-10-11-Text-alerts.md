@@ -3,16 +3,16 @@ layout: single
 title: "Text Alerts"
 excerpt: "Important message from the bank"
 header:
-  overlay_image: /assets/images/powershell-banner.png
-  overlay_filter: rgba(90, 104, 129, 0.8)
-  teaser: /assets/images/phishing/dodgey-text.png
+    overlay_image: /assets/images/powershell-banner.png
+    overlay_filter: rgba(90, 104, 129, 0.8)
+    teaser: /assets/images/phishing/dodgey-text.png
 classes: wide
 date: 2020-10-11T016:30:00
 last_modified_at: 2020-10-11T16:30:00
 categories:
-  - Blog
+    - Blog
 tags:
-  - 
+    -
 ---
 
 <script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
@@ -64,7 +64,7 @@ It has been a little while since my last blog post as I have been working on ano
 
 While working on completing this project, I received a text that diverted my attention and caused me to write this post instead.
 
-The text I received, claimed to be from the bank, alerting me to a change to my account. It wasn't exactly an exciting text but what immediately caught my attention was that I don't actually bank with HSBC *(screenshot below)*
+The text I received, claimed to be from the bank, alerting me to a change to my account. It wasn't exactly an exciting text but what immediately caught my attention was that I don't actually bank with HSBC _(screenshot below)_
 
 <div>
 <a href="/assets/images/phishing/dodgey-text.png" data-lightbox="Text Alert" data-title="Text Alert"><img src="/assets/images/phishing/dodgey-text.png" alt="Text Alert" width="200" height="400"/></a>
@@ -74,13 +74,12 @@ The text was clearly a fraudulent message which normally I would have treated wi
 
 Searching for the senders number did not provide any results, so the next thing to examine was the URL from the message.
 
-The [WHOIS][1]{:target="_blank"} information for the `link-verifier.com` domain shows that it had only recently been registered on `2020-10-10`
+The [WHOIS][1]{:target="\_blank"} information for the `link-verifier.com` domain shows that it had only recently been registered on `2020-10-10`
 
 As this is a `.com` domain the WHOIS information is obscured and shows `PrivacyGuardian.org` as the domain contact.
 
-  > [https://www.privacyguardian.org][2]{:target="_blank"} <br>
-  > **Report Abuse** <br>
-  > If a domain utilizing our service has engaged in SPAM or some other illegal activity, please provide evidence of such behaviour below. If you have a copyright/trademark dispute, you should direct your complaint to the respective web site host for the domain. We are solely a privacy service, and, as such we have no control over the storage or distribution of any allegedly infringing materials.
+> [https://www.privacyguardian.org][2]{:target="\_blank"} <br> > **Report Abuse** <br>
+> If a domain utilizing our service has engaged in SPAM or some other illegal activity, please provide evidence of such behaviour below. If you have a copyright/trademark dispute, you should direct your complaint to the respective web site host for the domain. We are solely a privacy service, and, as such we have no control over the storage or distribution of any allegedly infringing materials.
 
 Thankfully they have an option to report abuse, so that is exactly what I did.
 
