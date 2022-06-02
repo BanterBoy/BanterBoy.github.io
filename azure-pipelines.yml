@@ -4,30 +4,30 @@
 # https://aka.ms/yaml
 
 trigger:
-- master
+  - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: "ubuntu-latest"
 
 steps:
-# Build Jekyll Website
-- script: |
-    mkdir _site
-    touch Gemfile.lock
-    chmod a+w Gemfile.lock
-    docker run --rm \
-        -i jekyll/builder:3.8 \
-        jekyll build
-    ls -la _site
+  # Build Jekyll Website
+  - script: |
+      mkdir _site
+      touch Gemfile.lock
+      chmod a+w Gemfile.lock
+      docker run --rm \
+          -i 'jekyll/builder:latest' \
+          jekyll build
+      ls -la _site
 
-- task: Docker@0
-  displayName: 'Run Jekyll'
-  inputs:
-    containerRegistryType: 'Container Registry'
-    action: 'Run an image'
-    imageName: 'jekyll/builder:latest'
-    volumes: |
-      $(build.sourcesDirectory):/srv/jekyll
-      $(build.binariesDirectory):/srv/jekyll/_site
-    containerCommand: 'jekyll build --future'
-    detached: false
+  - task: Docker@0
+    displayName: "Run Jekyll"
+    inputs:
+      containerRegistryType: "Container Registry"
+      action: "Run an image"
+      imageName: "jekyll/builder:latest"
+      volumes: |
+        $(build.sourcesDirectory):/srv/jekyll
+        $(build.binariesDirectory):/srv/jekyll/_site
+      containerCommand: "jekyll build --future"
+      detached: false
