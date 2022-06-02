@@ -3,13 +3,13 @@ layout: single
 title: "Hey people, I made a blog!"
 excerpt: "Erm....didn't you just do that?"
 header:
-  overlay_image: /assets/images/powershell-banner.png
-  overlay_filter: rgba(90, 104, 129, 0.8)
-  teaser: "/assets/images/script-blog/SCRIPTS-BLOG.gif"
-  caption: "[**scripts.lukeleigh.com**](https://scripts.lukeleigh.com)"
-  actions:
-    - label: "scripts.lukeleigh.com"
-      url: "https://scripts.lukeleigh.com"
+    overlay_image: /assets/images/powershell-banner.png
+    overlay_filter: rgba(90, 104, 129, 0.8)
+    teaser: "/assets/images/script-blog/SCRIPTS-BLOG.gif"
+    caption: "[**scripts.lukeleigh.com**](https://scripts.lukeleigh.com)"
+    actions:
+        - label: "scripts.lukeleigh.com"
+          url: "https://scripts.lukeleigh.com"
 date: 2020-10-23T00:30:00
 last_modified_at: 2020-10-23T00:30:00
 toc: true
@@ -17,11 +17,11 @@ toc_label: Blogging
 toc_icon: dolly
 toc_sticky: true
 categories:
-  - Blog
+    - Blog
 tags:
-  - Learning
-  - PowerShell
-  - Scripting
+    - Learning
+    - PowerShell
+    - Scripting
 ---
 
 <script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
@@ -74,31 +74,31 @@ tags:
     Your browser does not support the video tag.
 </video>
 
-- Hey, I created another blog -> [**scripts.lukeleigh.com**][1]{:target="_blank"}
-  - That's a bit strange.
-- Is it?
-  - Yes, surely one blog would have been enough?
-- Well, yes but there were, "reasons"......honest 👌
+-   Hey, I created another blog -> [**scripts.lukeleigh.com**][1]{:target="\_blank"}
+    -   That's a bit strange.
+-   Is it?
+    -   Yes, surely one blog would have been enough?
+-   Well, yes but there were, "reasons"......honest 👌
 
 Over the years, I have created a rather large collection of admin scripts, functions etc. Until very recently, this wasn't what you would call tidy. I had made a rather minimal attempt at filing and it had become difficult to navigate and indeed locate the particular PowerShell code I required.
 
 ## <i class="fas fa-box" aria-hidden="true" style="color: white; margin-right:5px;"></i> Things I did
 
-- Sort through scripts, removing duplications and remnants of unfinished and unusable code.
-- Format the code in all PowerShell scripts to remove the use of aliases and cryptic variable names.
-- Test and repair all remaining scripts, functions etc and remove any unfixable/duplicate code, where similar scripts existed with different names.
-- Catalogue and file each script, function etc. and separate into functions, scripts, tools and snippets.
-- Each section was allocated a web page and each script has been indexed to make it easier to access the relevant function etc.
+-   Sort through scripts, removing duplications and remnants of unfinished and unusable code.
+-   Format the code in all PowerShell scripts to remove the use of aliases and cryptic variable names.
+-   Test and repair all remaining scripts, functions etc and remove any unfixable/duplicate code, where similar scripts existed with different names.
+-   Catalogue and file each script, function etc. and separate into functions, scripts, tools and snippets.
+-   Each section was allocated a web page and each script has been indexed to make it easier to access the relevant function etc.
 
 ---
 
 # <i class="fas fa-people-carry" aria-hidden="true" style="color: white; margin-right:5px;"></i> That's great Luke.
 
-- But surely they exist elsewhere already?
-  - Of course.
-  - Many of these scripts are available elsewhere but many I have written myself and some I have simply been very lucky to have saved as they were found when looking for something else.
-- Surely they can't all be that useful.
-  - There are over 300 different scripts and generating the content has taken some time to complete.
+-   But surely they exist elsewhere already?
+    -   Of course.
+    -   Many of these scripts are available elsewhere but many I have written myself and some I have simply been very lucky to have saved as they were found when looking for something else.
+-   Surely they can't all be that useful.
+    -   There are over 300 different scripts and generating the content has taken some time to complete.
 
 ## <i class="fas fa-truck-loading" aria-hidden="true" style="color: white; margin-right:5px;"></i> But you already have this blog
 
@@ -111,7 +111,7 @@ I do already indeed blog here but what started as an exercise in filing became m
 
 I have used many of these scripts over the years to assist in securing active directory and managing a PCI Compliant infrastructure. I am sure however that there are many useful tools that I hope this new site will help to make them more widely available to other IT Admins and budding PowerShell developers.
 
-  [**scripts.lukeleigh.com**][1]{:target="_blank"}
+[**scripts.lukeleigh.com**][1]{:target="\_blank"}
 
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
