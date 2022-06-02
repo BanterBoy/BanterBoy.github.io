@@ -1,12 +1,11 @@
 ---
-
 layout: single
 title: "Installing the PSCiscoMeraki PowerShell Module"
 excerpt: "Quick post on how to install the PSCiscoMeraki Module."
 header:
-  overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
-  overlay_filter: rgba(90, 104, 129, 0.7)
-  teaser: /assets/images/default-teaser-image.png
+    overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
+    overlay_filter: rgba(90, 104, 129, 0.7)
+    teaser: /assets/images/default-teaser-image.png
 classes: wide
 date: 2019-11-23T05:07:30
 last_modified_at: 2020-08-31T08:30:00
@@ -15,13 +14,13 @@ comments: true
 share: true
 related: true
 categories:
-  - Blog
-  - Module
+    - Blog
+    - Module
 tags:
-  - PSCiscoMeraki
-  - Installation
-  - PowerShell
-  - Module
+    - PSCiscoMeraki
+    - Installation
+    - PowerShell
+    - Module
 ---
 
 <script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
@@ -64,8 +63,8 @@ tags:
   });
 </script>
 
-[![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/PSCiscoMeraki?label=PSCiscoMeraki&logo=powershell&style=plastic)][2]{:target="_blank"}
-[![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/PSCiscoMeraki?logo=pinboard&style=plastic)][2]{:target="_blank"}
+[![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/PSCiscoMeraki?label=PSCiscoMeraki&logo=powershell&style=plastic)][2]{:target="\_blank"}
+[![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/PSCiscoMeraki?logo=pinboard&style=plastic)][2]{:target="\_blank"}
 
 # <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Module Installation Instructions
 
@@ -104,7 +103,7 @@ This is "a work in progress" as I am working through the options that have been 
 
 The link below will take you to the module listing in the PowerShell Gallery.
 
-[PSCiscoMeraki][2]{:target="_blank"}
+[PSCiscoMeraki][2]{:target="\_blank"}
 
 Make sure you are running PowerShell 5.0 (WMF 5.0).
 
@@ -115,4 +114,3 @@ You can install the module by entering the following commands into an Elevated P
 
 [1]: https://github.com/BanterBoy
 [2]: https://www.powershellgallery.com/packages/PSCiscoMeraki
-
