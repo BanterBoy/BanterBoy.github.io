@@ -4,11 +4,11 @@ title: "Contact Me!"
 excerpt: "Please fill in the form below"
 classes: wide
 header:
-  overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
-  overlay_filter: rgba(90, 104, 129, 0.7)
+    overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
+    overlay_filter: rgba(90, 104, 129, 0.7)
 ---
 
-<!-- 
+<!--
      After implementing this contact form make sure
      1. you have defined "email: youremail@email.com" in _config.yml file.
      2. you verify your form on formspree.io.
