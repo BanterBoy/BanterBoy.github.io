@@ -3,9 +3,9 @@ layout: single
 title: "The PowerShell Profile"
 excerpt: "How to improve your PowerShell user Environment.<br> One of PowerShell's most under-utilised admin assistants."
 header:
-  overlay_image: /assets/images/banner-images/remove-blogserver-marmoset.png
-  overlay_filter: rgba(90, 104, 129, 0.75)
-  teaser: /assets/images/default-teaser-image.png
+    overlay_image: /assets/images/banner-images/remove-blogserver-marmoset.png
+    overlay_filter: rgba(90, 104, 129, 0.75)
+    teaser: /assets/images/default-teaser-image.png
 toc: true
 toc_label: Admin Assistant
 toc_icon: user-secret
@@ -13,11 +13,11 @@ toc_sticky: true
 date: 2021-01-02T08:30:00
 last_modified_at: 2021-01-03T08:30:00
 categories:
-  - Blog
+    - Blog
 tags:
-  - PowerShell
-  - Admin
-  - Profile
+    - PowerShell
+    - Admin
+    - Profile
 ---
 
 <script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
@@ -67,7 +67,7 @@ tags:
 
 As this year has progressed and COVID-19 has increasingly changed the way we manage both our home and work lives, I am sure many administrators have found the requirement to use PowerShell to orchestrate their fleet of computers, servers and services more common than ever.
 
-Many companies were forced into pandemic fuelled digital transformation in order to enable their workforce to continue to function. IT Departments will now find a mixture of their servers and services hosted both on-premise and hosted on some flavour of cloud platform; [Amazon Web Services][1]{:target="_blank"}, [Microsoft O365][2]{:target="_blank"} / [Microsoft Azure][3]{:target="_blank"} or [Google Cloud Platform][4]{:target="_blank"}
+Many companies were forced into pandemic fuelled digital transformation in order to enable their workforce to continue to function. IT Departments will now find a mixture of their servers and services hosted both on-premise and hosted on some flavour of cloud platform; [Amazon Web Services][1]{:target="\_blank"}, [Microsoft O365][2]{:target="\_blank"} / [Microsoft Azure][3]{:target="\_blank"} or [Google Cloud Platform][4]{:target="\_blank"}
 
 As a result, fixing everyday issues may now require a few more hoops to jump through before you can just open 'Active Directory Users & Computers' and hit "reset password".
 
@@ -137,10 +137,10 @@ if (!(Test-Path -Path $PROFILE)) {
 
 Entering the environment variable $PROFILE, will show you the path for your blank profile.
 
- ```powershell
+```powershell
 PS C:\> $profile
 C:\Users\YOURUSERNAME\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
- ```
+```
 
 ### <i class="fas fa-thumbs-up" aria-hidden="true" style="color: white; margin-right:5px;"></i> OK, I have one, now what do I do?
 
@@ -161,7 +161,7 @@ Your blank file will open and you can start adding features to your profile.
 
 If you have an on-premise Exchange Servers, you can copy the following code, replacing **`http://INTERNAL-EXCHANGE-URI/PowerShell/`** with your servers address.
 
-*This will enable you to use* **`New-OnPremExchangeSession`** *when you open your profile. No longer requiring you to copy and paste your current strings from your notepad repository of useful commands.*
+_This will enable you to use_ **`New-OnPremExchangeSession`** _when you open your profile. No longer requiring you to copy and paste your current strings from your notepad repository of useful commands._
 
 Example Exchange Functions
 
@@ -186,7 +186,7 @@ Example Exchange Functions
 
 This example adds logic to the profile enabling you to run a particular section of your profile by pressing and holding LeftCtrl/LeftShift/None keys prior to running your PowerShell Session. Selecting one of these options will provide a different set of functions when the Shell starts. This has enabled me to separate Work and Home Functions and also load a session with the noprofile switch from within a single profile.
 
-*If you use this example, you will need replacing* `http://INTERNAL-EXCHANGE-URI/PowerShell/` *with your servers address.*
+_If you use this example, you will need replacing_ `http://INTERNAL-EXCHANGE-URI/PowerShell/` _with your servers address._
 
 Example PowerShell Profile
 
@@ -206,13 +206,14 @@ Example PowerShell Profile
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
 
 ---
+
 <br>
 
 #### <i class="fas fa-user-ninja" aria-hidden="true" style="color: white; margin-right:5px;"></i> Example Notes
 
-- *As you can see from these examples, utilising your PowerShell profile can enable you to speed up the process of using your currently saved Functions by placing them in your profile to enable them to auto-load each time you start a New Session.*
+-   _As you can see from these examples, utilising your PowerShell profile can enable you to speed up the process of using your currently saved Functions by placing them in your profile to enable them to auto-load each time you start a New Session._
 
-- *I would recommend that you do not run any code obtained from the internet without understanding what it will do.*
+-   _I would recommend that you do not run any code obtained from the internet without understanding what it will do._
 
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
@@ -231,7 +232,7 @@ Function        Find-Module           2.2.3      PowerShellGet
 Cmdlet          Get-Module            3.0.0.0    Microsoft.PowerShell.Core
 ```
 
-There are plenty of different CmdLets, Functions and Modules to play with but there are a handful of commands that will be the most useful. Microsoft recommend that you make very good use of the help function and the PowerSHell founder [Jeff Snover][14]{:target="_blank"}, goes so far as to say that you should master this command
+There are plenty of different CmdLets, Functions and Modules to play with but there are a handful of commands that will be the most useful. Microsoft recommend that you make very good use of the help function and the PowerSHell founder [Jeff Snover][14]{:target="\_blank"}, goes so far as to say that you should master this command
 
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
@@ -263,6 +264,7 @@ CommandType     Name
 -----------     ----
 Alias           dir -> Get-ChildItem
 ```
+
 Using Get-Help, you can easily find out how to use the command by looking at examples contained within `Get-ChildItem` help.
 
 ```powershell
@@ -324,7 +326,6 @@ If you have made it to the end of the article, well done, I hope it has been use
 
 {: .text-center}
 <a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
-
 
 [1]: https://aws.amazon.com/
 [2]: https://www.office.com/
