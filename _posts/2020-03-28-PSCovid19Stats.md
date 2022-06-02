@@ -3,9 +3,9 @@ layout: single
 title: "PSCovid19Stats"
 excerpt: "A PowerShell Module used to extract data from the NovelCOVID API"
 header:
-  overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
-  overlay_filter: rgba(90, 104, 129, 0.7)
-  teaser: /assets/images/covid19-image.png
+    overlay_image: /assets/images/hangout_snapshot_Pencil.jpg
+    overlay_filter: rgba(90, 104, 129, 0.7)
+    teaser: /assets/images/covid19-image.png
 toc: true
 toc_label: Contents
 toc_icon: book-medical
@@ -13,13 +13,13 @@ toc_sticky: true
 date: 2020-03-28T08:30:00
 last_modified_at: 2020-08-27T08:30:00
 categories:
-  - Blog
-  - Module
+    - Blog
+    - Module
 tags:
-  - COVID
-  - Module
-  - PowerShell
-  - PSCovid19Stats
+    - COVID
+    - Module
+    - PowerShell
+    - PSCovid19Stats
 ---
 
 <script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
@@ -67,16 +67,16 @@ tags:
 
 # <i class="fas fa-head-side-mask" aria-hidden="true" style="color: white; margin-right:5px;"></i> Overview
 
-[![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/PSCovid19Stats?label=PSCovid19Stats&logo=powershell&style=plastic)][11]{:target="_blank"}
-[![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/PSCovid19Stats?logo=pinboard&style=plastic)][11]{:target="_blank"}
+[![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/PSCovid19Stats?label=PSCovid19Stats&logo=powershell&style=plastic)][11]{:target="\_blank"}
+[![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/PSCovid19Stats?logo=pinboard&style=plastic)][11]{:target="\_blank"}
 
-A PowerShell Module that can be used to extract data from the NovelCOVID API (github.com/NovelCOVID/API). ![image-left](/assets/images/postman-logo-small.png){: .align-left} The API has been supplied by Postman as part of the ***"Postman COVID-19 API Resource Center"***. Click [here][1]{:target="_blank"} to view the Postman Resource Centre.
+A PowerShell Module that can be used to extract data from the NovelCOVID API (github.com/NovelCOVID/API). ![image-left](/assets/images/postman-logo-small.png){: .align-left} The API has been supplied by Postman as part of the **_"Postman COVID-19 API Resource Center"_**. Click [here][1]{:target="\_blank"} to view the Postman Resource Centre.
 
 > "During the present novel coronavirus (COVID-19) pandemic, those on the front lines—including health care professionals, researchers, and government experts—need quick, easy access to real-time critical data. This type of information exchange is what APIs do best, and as an API-first company, Postman is committed to providing whatever assistance we can in this area."
 
 # <i class="fas fa-laptop-code" aria-hidden="true" style="color: white; margin-right:5px;"></i> Creating a Module
 
-I decided to create this module after reading the [blog post - COV-ID-19 PowerShell Prompt][2]{:target="_blank"} that popped up in the random click-fest of reading everything about the coronavirus. Perhaps too much time stuck indoors obsessing about what is happening around the world. Their idea was quite inspirational and resulted in the following when launching a new PowerShell Session.
+I decided to create this module after reading the [blog post - COV-ID-19 PowerShell Prompt][2]{:target="\_blank"} that popped up in the random click-fest of reading everything about the coronavirus. Perhaps too much time stuck indoors obsessing about what is happening around the world. Their idea was quite inspirational and resulted in the following when launching a new PowerShell Session.
 
 ![CovidPrompt](https://www.powershell.co.at/wp-content/uploads/2020/03/CovId19Prompt.png)
 
@@ -86,15 +86,15 @@ The article and instructions were very simple but IMHO there were a few too many
 
 After some more research but focussing on any available API's, I found that PostMan had provided a huge collection of API's in an attempt to make it quick and easy access to real-time critical data.
 
-![PostMan Collection](/assets/images/postman-logo-small.png) [PostMan Collection][3]{:target="_blank"}
+![PostMan Collection](/assets/images/postman-logo-small.png) [PostMan Collection][3]{:target="\_blank"}
 
 ## <i class="fas fa-question" aria-hidden="true" style="color: white; margin-right:5px;"></i>How?
 
-Having looked through the documentation for several API's, I decided on using the [NovelCOVID API][4]{:target="_blank"} as this appeared to have all the extra features I was looking for. A combination of the [API documentation and Postman][5]{:target="_blank"}, made creating the PowerShell module relatively easy.
+Having looked through the documentation for several API's, I decided on using the [NovelCOVID API][4]{:target="\_blank"} as this appeared to have all the extra features I was looking for. A combination of the [API documentation and Postman][5]{:target="\_blank"}, made creating the PowerShell module relatively easy.
 
 # Give it a Spin
 
-To make this more accessible and easy to install, I uploaded the module to the [PowerShell Gallery][6]{:target="_blank"}. This will also make it much easier for everyone to update, should any changes be made to the Module. Anyone new to this method, should check out my post on the [gallery](/blog/powershell/Its-official-I-am-old/)
+To make this more accessible and easy to install, I uploaded the module to the [PowerShell Gallery][6]{:target="\_blank"}. This will also make it much easier for everyone to update, should any changes be made to the Module. Anyone new to this method, should check out my post on the [gallery](/blog/powershell/Its-official-I-am-old/)
 
 ## Installation
 
@@ -112,15 +112,15 @@ Install-Module -Name PSCovid19Stats -Scope CurrentUser
 
 ### <i class="fas fa-download" aria-hidden="true" style="color: white; margin-right:5px;"></i>2) Download from GitHub
 
-You can check out the code on GitHub by viewing the [PSCovidStats repository][7]{:target="_blank"}
+You can check out the code on GitHub by viewing the [PSCovidStats repository][7]{:target="\_blank"}
 
-Alternatively, you can download the repository directly from this [link][8]{:target="_blank"}
+Alternatively, you can download the repository directly from this [link][8]{:target="\_blank"}
 
 #### Import the Module
 
-Once you've downloaded the repo place the PSCovid19Stats folder in any path in your ``$PSModulePath``. I recommend copying it to either ``C:\Program Files\WindowsPowerShell\Modules`` or ``C:\Users\<Username>\Documents\WindowsPowerShell\Modules``.
+Once you've downloaded the repo place the PSCovid19Stats folder in any path in your `$PSModulePath`. I recommend copying it to either `C:\Program Files\WindowsPowerShell\Modules` or `C:\Users\<Username>\Documents\WindowsPowerShell\Modules`.
 
-Once it's in one of those paths you can either import it manually by ``Import-Module PSCovid19Stats`` or rely on auto-module loading.
+Once it's in one of those paths you can either import it manually by `Import-Module PSCovid19Stats` or rely on auto-module loading.
 
 ## Once Installed
 
@@ -140,7 +140,7 @@ Function        Get-CovidWorldStats          1.0.3      PSCovid19Stats
 Function        Show-CountryCodes            1.0.3      PSCovid19Stats
 ```
 
-I added the option to display a list of country codes as there are 249 in the [ISO Standard][9]{:target="_blank"}. **Get-CovidCountryStats**, generates the list of countries dynamically from the JSON made available at the [DataHub resource][10]{:target="_blank"}, enabling you to use tab complete to select the relevant country. This same resource is used in **Show-CountryCodes** to output a complete list of countries and their codes.
+I added the option to display a list of country codes as there are 249 in the [ISO Standard][9]{:target="\_blank"}. **Get-CovidCountryStats**, generates the list of countries dynamically from the JSON made available at the [DataHub resource][10]{:target="\_blank"}, enabling you to use tab complete to select the relevant country. This same resource is used in **Show-CountryCodes** to output a complete list of countries and their codes.
 
 ![Tab Complete](/assets/images/PSCiscoMeraki/CountryTabComplete.png)
 
@@ -149,7 +149,7 @@ I added the option to display a list of country codes as there are 249 in the [I
 Update - I have updated the module to include Comment Based Help
 {: .notice}
 
-***Example***
+**_Example_**
 
 ```powershell
 PS C:\GitRepos> Get-Help Get-CovidCountryStats
@@ -195,4 +195,3 @@ REMARKS
 [9]: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
 [10]: https://datahub.io/core/country-list
 [11]: https://www.powershellgallery.com/packages/PSCovid19Stats
-
