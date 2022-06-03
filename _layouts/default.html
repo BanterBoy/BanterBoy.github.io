@@ -33,7 +33,9 @@
 
   {% if site.search == true %}
   <div class="search-content">
-    {% include_cached search/search_form.html %}
+    <article data-clarity-region="article">
+      {% include_cached search/search_form.html %}
+    </article>
   </div>
   {% endif %}
 
