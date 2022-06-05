@@ -28,14 +28,14 @@
   {% include_cached masthead.html %}
 
   <div class="initial-content">
-    {{ content }}
-  </div>
+    <div class="search-content">
+      <article data-clarity-region="article">
+        {{ content }}
+      </article>
+    </div>
 
-  {% if site.search == true %}
-  <div class="search-content">
-    <article data-clarity-region="article">
-      {% include_cached search/search_form.html %}
-    </article>
+    {% if site.search == true %}
+    {% include_cached search/search_form.html %}
   </div>
   {% endif %}
 
