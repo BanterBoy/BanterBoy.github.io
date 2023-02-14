@@ -18,32 +18,36 @@
 <body
   class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SD8G58" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+  <article data-clarity-region="article">
 
-  {% include_cached skip-links.html %}
-  {% include_cached browser-upgrade.html %}
-  {% include_cached masthead.html %}
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SD8G58" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-  <div class="initial-content">
-    {{ content }}
-  </div>
+    {% include_cached skip-links.html %}
+    {% include_cached browser-upgrade.html %}
+    {% include_cached masthead.html %}
 
-  {% if site.search == true %}
-  {% include_cached search/search_form.html %}
-  </div>
-  {% endif %}
+    <div class="initial-content">
+      {{ content }}
+    </div>
 
-  <div id="footer" class="page__footer">
-    <footer>
-      {% include footer/custom.html %}
-      {% include_cached footer.html %}
-    </footer>
-  </div>
+    {% if site.search == true %}
+    {% include_cached search/search_form.html %}
+    </div>
+    {% endif %}
 
-  {% include scripts.html %}
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </article>
 
 </body>
 
