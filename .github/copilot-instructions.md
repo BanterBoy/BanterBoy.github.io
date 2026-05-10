@@ -22,6 +22,7 @@ You orchestrate. You do not implement changes directly unless they are trivial s
 
 ### Post Files
 - Filename: `YYYY-MM-DD-kebab-case-title.md` in `_posts/`
+- `date` and `last_modified_at` must include time and UK timezone offset: `YYYY-MM-DD HH:MM:SS +0100` (BST, May–Oct) or `+0000` (GMT, Nov–Apr) — required when multiple posts share a date; explicit offset prevents Jekyll UTC future-exclusion issues
 - Every post includes, in order: front matter → Formspree boilerplate → print button → sections with Font Awesome icons (`color: white`) → back-to-top links → numbered reference links
 - Formspree action endpoint: `https://formspree.io/xvowjgjd` — copy verbatim, never change
 - Reference links at end: `[1]: https://...` — always use `{:target="\_blank"}` inline
