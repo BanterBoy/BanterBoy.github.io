@@ -52,6 +52,9 @@ You orchestrate. You do not implement changes directly unless they are trivial s
 | `content-strategy` | `.agents/skills/content-strategy/SKILL.md` | Planning post topics, content pillars, editorial calendar |
 | `seo-audit` | `.agents/skills/seo-audit/SKILL.md` | Auditing post SEO, meta descriptions, heading structure, internal linking |
 | `subagent-driven-development` | `.agents/skills/subagent-driven-development/SKILL.md` | Orchestrating multi-step tasks via subagents |
+| `copywriting` | `.agents/skills/copywriting/SKILL.md` | Writing or reviewing post copy — structure, clarity, voice alignment |
+| `ai-seo` | `.agents/skills/ai-seo/SKILL.md` | Optimising posts for AI search visibility (AI Overviews, Perplexity, ChatGPT citation) |
+| `schema-markup` | `.agents/skills/schema-markup/SKILL.md` | Implementing or auditing structured data (BlogPosting, BreadcrumbList JSON-LD) |
 
 ---
 
@@ -76,7 +79,7 @@ VERIFICATION: [what correct output looks like]
 
 ## Known Fragile Areas
 
-- `powershell-history-tips.md` — no date prefix, no front matter; broken, will not publish
+- `2026-05-10-powershell-history-tips.md` — published; the original undated `powershell-history-tips.md` at repo root has no front matter and will be ignored by Jekyll (do not delete without confirmation)
 - `remote_theme` pin at `@4.17.2` — do not bump
 - Algolia search-only key in `_config.yml` is safe; admin key must never appear in repo
 - `Blog/` directory is empty — do not add content without explicit instruction

@@ -1,9 +1,10 @@
 ---
-name: "Documentation"
-about: "Found a typo or something that needs clarification?"
+name: "Content Correction"
+about: "Found a factual error, outdated code sample, or broken link in a post"
+title: "[DOCS] "
+labels: documentation
+assignees: BanterBoy
 ---
-
-<!-- Thanks for taking the time to open an issue and help make the docs better -->
 
 ## Motivation
 

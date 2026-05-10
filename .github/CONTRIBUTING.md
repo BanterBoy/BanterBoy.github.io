@@ -1,26 +1,36 @@
-# Contributing
+# Contributing to blog.lukeleigh.com
 
-Having trouble working with the theme? Found a typo in the documentation? 
-Interested in adding a feature or [fixing a bug](https://github.com/mmistakes/minimal-mistakes/issues)? 
-Then by all means [submit an issue](https://github.com/mmistakes/minimal-mistakes/issues/new) 
-or [pull request](https://help.github.com/articles/using-pull-requests/). 
-If this is your first pull request, it may be helpful to read up on the 
-[GitHub Flow](https://guides.github.com/introduction/flow/) first.
+Thanks for taking the time to raise an issue or open a pull request.
 
-Minimal Mistakes has been designed as a base for you to customize and fit your 
-site's unique needs. Please keep this in mind when requesting features and/or 
-submitting pull requests. If it's not something that most people will use, I 
-probably won't consider it. When in doubt ask.
+This is a personal blog — [blog.lukeleigh.com](https://blog.lukeleigh.com) — run by Luke Leigh. It covers PowerShell, IT infrastructure, and the occasional detour into airsoft and other projects. Contributions in the form of bug reports, content corrections, and suggestions are very welcome.
 
-This goes for author sidebar links and "share button" additions -- I have no 
-intention of merging in every possibly option, the essentials are there to get 
-you started :smile:.
+## What to contribute
 
-## Pull Requests
+- **Bug reports** — something broken on the site: layout issues, broken links, images not loading, build failures
+- **Content corrections** — factual errors, outdated code samples, broken external links in posts
+- **Suggestions** — post topic ideas, site improvements, feature requests
 
-When submitting a pull request:
+Please use the issue templates in `.github/ISSUE_TEMPLATE/` — they're short and they help get things resolved faster.
 
-1. Clone the repo.
-2. Create a branch off of `master` and give it a meaningful name (e.g. 
-   `my-awesome-new-feature`) and describe the feature or fix.
-3. Open a pull request on GitHub.
+## Raising an issue
+
+Open an issue and pick the appropriate template. Include the URL of the affected page wherever possible.
+
+## Opening a pull request
+
+If you've spotted a typo or broken link and want to fix it directly:
+
+1. Fork the repo
+2. Create a branch off `master` with a descriptive name (e.g. `fix/broken-link-psreadline-post`)
+3. Make your change
+4. Open a pull request — the PR template will guide you through the checklist
+
+For post content, the key things to check:
+- Filename is `YYYY-MM-DD-kebab-case-title.md` in `_posts/`
+- `date:` is bare `YYYY-MM-DD` format (no time component)
+- British English throughout
+- Formspree endpoint unchanged if the contact form boilerplate is present
+
+## What this repo is not
+
+This is not the Minimal Mistakes theme repository. For theme bugs, please open issues at [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes/issues) instead.

@@ -34,6 +34,9 @@ You orchestrate. You do not implement substantive changes yourself. For any mean
 | `.agents/skills/content-strategy/SKILL.md` | Planning post topics, content pillars, editorial calendar |
 | `.agents/skills/seo-audit/SKILL.md` | Auditing SEO — title tags, meta descriptions, heading structure, internal linking |
 | `.agents/skills/subagent-driven-development/SKILL.md` | Multi-step task orchestration via subagents |
+| `.agents/skills/copywriting/SKILL.md` | Writing or reviewing post copy — structure, clarity, CTA-free voice alignment |
+| `.agents/skills/ai-seo/SKILL.md` | Optimising posts for AI search visibility (AI Overviews, Perplexity, ChatGPT citation) |
+| `.agents/skills/schema-markup/SKILL.md` | Implementing or auditing structured data (BlogPosting, BreadcrumbList JSON-LD) |
 
 ## Brand Voice (non-negotiable)
 

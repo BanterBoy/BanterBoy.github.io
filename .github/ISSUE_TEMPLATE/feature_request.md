@@ -1,12 +1,10 @@
 ---
-name: "Enhancement / Feature Request"
-about: "What would make this theme better?"
+name: "Feature / Content Request"
+about: "Suggest a new post topic, site feature, or improvement"
+title: "[REQUEST] "
+labels: enhancement
+assignees: BanterBoy
 ---
-
-<!--
-  Before opening a new issue please search all issues at 
-  https://github.com/mmistakes/minimal-mistakes/issues to avoid duplication.
--->
 
 ## Summary
 

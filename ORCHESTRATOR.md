@@ -99,12 +99,15 @@
 ## Skills Reference
 
 | Skill | Location | Invoke When |
-|-------|----------|-------------|
+|-------|----------|--------------|
 | `brand-voice` | `.github/skills/brand-voice/SKILL.md` | Writing or reviewing any blog content |
 | `github-management` | `.github/skills/github-management/SKILL.md` | PRs, branches, GitHub workflow |
 | `content-strategy` | `.agents/skills/content-strategy/SKILL.md` | Planning post topics, content pillars, editorial calendar |
 | `seo-audit` | `.agents/skills/seo-audit/SKILL.md` | Auditing post SEO, meta descriptions, heading structure, internal linking |
 | `subagent-driven-development` | `.agents/skills/subagent-driven-development/SKILL.md` | Orchestrating multi-step tasks via subagents |
+| `copywriting` | `.agents/skills/copywriting/SKILL.md` | Writing or reviewing post copy — structure, clarity, voice alignment |
+| `ai-seo` | `.agents/skills/ai-seo/SKILL.md` | Optimising posts for AI search visibility (AI Overviews, Perplexity, ChatGPT citation) |
+| `schema-markup` | `.agents/skills/schema-markup/SKILL.md` | Implementing or auditing structured data (BlogPosting, BreadcrumbList JSON-LD) |
 
 > **Note:** `.github/skills/` = manually maintained. `.agents/skills/` = installed via `npx skills add`. Both are read by GitHub Copilot automatically.
 
@@ -246,7 +249,7 @@ Home → Posts → Categories → Tags → Resources → About Luke → Cookies
 | `remote_theme` pinned at `@4.17.2` | Upgrading requires full regression test | Do not bump without testing locally via Docker first |
 | Algolia API key in `_config.yml` | This is the search-only key — safe to be public | Admin/write key must stay in CI environment variables, never in repo |
 | Azure Pipelines inconsistency | Initial script step uses `jekyll build`, Docker task adds `--future` flag | Posts dated in the future will appear in Docker task output but not initial step |
-| `.github/agents/` is empty | Intended for agent files | Agent definitions should go here when created |
+| `.github/agents/` contains `ai-blogger.agent.md` | Orchestrator agent definition | Do not overwrite without reviewing tool list and skill references |
 | `Blog/` directory is empty | Purpose unclear | Do not add content without confirmation |
 | `favicon.ico.7` and `favicon.ico5` | Stale/duplicate favicon files at root | Do not delete without confirmation |
 | `_docs/` collection | Outputs to `/docs/:path/` — template/reference docs, NOT user-facing posts | Don't confuse with `_posts/` |
@@ -305,6 +308,11 @@ VERIFICATION: [how to check the work is correct]
 | 2026-05-10 | Created DigitalTAK series (Parts 1–6) — all dated 2026-05-10 | 6-article series covering TAK overview, stack, DigitalTAK architecture, deployment, onboarding, and TAKServerPS API; categories [Blog, Series]; pending push |
 | 2026-05-10 | All posts use bare `date: YYYY-MM-DD` (no time component) | Avoids Jekyll `future: false` UTC exclusion — lesson learned from powershell-history-tips.md datetime issue |
 | 2026-05-10 | DigitalTAK series internal links use `/blog/series/` permalink pattern | Consistent with Minimal Mistakes category URL structure; will resolve once posts are published |
+| 2026-05-10 | Installed `copywriting`, `ai-seo`, `schema-markup` skills from `coreyhaines31/marketingskills` via npx | Closes skill gaps: copywriting formalises post-drafting framework; ai-seo adds AI citation optimisation; schema-markup enables JSON-LD structured data for BlogPosting/BreadcrumbList |
+| 2026-05-10 | Created `.agents/product-marketing-context.md` | Provides persistent site context for all skills that check this file — prevents repeated context questions each session |
+| 2026-05-10 | Updated `ai-blogger.agent.md`, `copilot-instructions.md`, `ORCHESTRATOR.md` Skills tables | Added rows for `copywriting`, `ai-seo`, `schema-markup` to all three docs |
+| 2026-05-10 | Fixed stale Known Fragile Areas entries in `ORCHESTRATOR.md` and `copilot-instructions.md` | `.github/agents/` is not empty (ai-blogger.agent.md exists); `powershell-history-tips.md` dated version is published |
+| 2026-05-10 | Created `2026-05-10-new-shell-useradminmodule.md` — New-Shell blog post | Documents New-Shell function from UserAdminModule; categories [Blog, Module]; pending push |
 
 ---
 
@@ -330,6 +338,7 @@ VERIFICATION: [how to check the work is correct]
 | `2026-05-10-digitaltak-part4-running-the-deployment.md` | 2026-05-10 | DigitalTAK, Part 4 — Running the Deployment | Pending push |
 | `2026-05-10-digitaltak-part5-onboarding-your-team.md` | 2026-05-10 | DigitalTAK, Part 5 — Onboarding Your Team | Pending push |
 | `2026-05-10-digitaltak-part6-takserverps-api-wrapper.md` | 2026-05-10 | DigitalTAK, Part 6 — The TAKServerPS API Wrapper | Pending push |
+| `2026-05-10-new-shell-useradminmodule.md` | 2026-05-10 | New-Shell — Stop Right-Clicking, Start Scripting | Pending push |
 | `powershell-history-tips.md` | **MISSING** | (original broken file) | **DELETE** — no date prefix, no front matter; Jekyll ignores it |
 
 ### Drafts
