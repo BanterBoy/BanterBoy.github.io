@@ -134,8 +134,8 @@ toc: true
 toc_label: Short Label
 toc_icon: font-awesome-icon-name
 toc_sticky: true
-date: YYYY-MM-DD HH:MM:SS +0100
-last_modified_at: YYYY-MM-DD HH:MM:SS +0100
+date: YYYY-MM-DD 01:00:00 +0000
+last_modified_at: YYYY-MM-DD 01:00:00 +0000
 categories:
     - Blog
 tags:
@@ -306,14 +306,14 @@ VERIFICATION: [how to check the work is correct]
 | 2026-05-10 | Skills from npx CLI install to `.agents/skills/` (universal path) — not `.github/skills/` | Both locations are read by GitHub Copilot; CLI-installed skills go to `.agents/`, hand-crafted skills stay in `.github/skills/` |
 | 2026-05-10 | Created `2026-05-10-useradminmodule.md` — UserAdminModule introduction post | Standalone post; categories [Blog]; pending push |
 | 2026-05-10 | Created DigitalTAK series (Parts 1–6) — all dated 2026-05-10 | 6-article series covering TAK overview, stack, DigitalTAK architecture, deployment, onboarding, and TAKServerPS API; categories [Blog, Series]; pending push |
-| 2026-05-10 | Posts must include time + UK timezone offset in `date` and `last_modified_at` | Format: `YYYY-MM-DD HH:MM:SS +0100` (BST, May–Oct) or `+0000` (GMT, Nov–Apr) — ensures deterministic publication order when multiple posts share a date; explicit offset avoids Jekyll UTC future-exclusion edge cases |
+| 2026-05-10 | Posts must use early UTC times (`01:00:00 +0000` etc.) in `date` and `last_modified_at` | GitHub Pages runs Jekyll with `future: false` in UTC; BST (+0100) working-hours times are afternoon UTC and get suppressed until the build re-runs past that hour. Safe pattern: sequential UTC times 01:00–05:00 for same-day posts, incrementing to preserve order. Confirmed via missing Docker post incident. |
 | 2026-05-10 | DigitalTAK series internal links use `/blog/series/` permalink pattern | Consistent with Minimal Mistakes category URL structure; will resolve once posts are published |
 | 2026-05-10 | Installed `copywriting`, `ai-seo`, `schema-markup` skills from `coreyhaines31/marketingskills` via npx | Closes skill gaps: copywriting formalises post-drafting framework; ai-seo adds AI citation optimisation; schema-markup enables JSON-LD structured data for BlogPosting/BreadcrumbList |
 | 2026-05-10 | Created `.agents/product-marketing-context.md` | Provides persistent site context for all skills that check this file — prevents repeated context questions each session |
 | 2026-05-10 | Updated `ai-blogger.agent.md`, `copilot-instructions.md`, `ORCHESTRATOR.md` Skills tables | Added rows for `copywriting`, `ai-seo`, `schema-markup` to all three docs |
 | 2026-05-10 | Fixed stale Known Fragile Areas entries in `ORCHESTRATOR.md` and `copilot-instructions.md` | `.github/agents/` is not empty (ai-blogger.agent.md exists); `powershell-history-tips.md` dated version is published |
 | 2026-05-10 | Created `2026-05-10-new-shell-useradminmodule.md` — New-Shell blog post | Documents New-Shell function from UserAdminModule; categories [Blog, Module]; pending push |
-| 2026-05-10 | Added datetime + BST offset to all four 2026-05-10 posts | Publication order (oldest–newest): powershell-history-tips 08:00, useradminmodule 10:00, digitaltak-part1 12:00, new-shell 14:00 (all +0100 BST) |
+| 2026-05-10 | Added datetime + BST offset to all four 2026-05-10 posts; corrected to UTC after GitHub Pages suppression incident | All five same-day posts now use `01:00–05:00 +0000` UTC |
 
 ---
 

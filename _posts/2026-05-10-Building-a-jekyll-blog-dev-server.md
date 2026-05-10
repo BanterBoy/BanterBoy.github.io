@@ -7,8 +7,8 @@ header:
     overlay_filter: rgba(90, 104, 129, 0.7)
     teaser: /assets/images/docker/homepage-docker-logo.png
 classes: wide
-date: 2026-05-10 16:00:00 +0100
-last_modified_at: 2026-05-10 16:00:00 +0100
+date: 2026-05-10 05:00:00 +0000
+last_modified_at: 2026-05-10 05:00:00 +0000
 collection:
     - Series
 categories:
