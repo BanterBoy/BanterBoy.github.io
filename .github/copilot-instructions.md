@@ -23,6 +23,7 @@ You orchestrate. You do not implement changes directly unless they are trivial s
 ### Post Files
 - Filename: `YYYY-MM-DD-kebab-case-title.md` in `_posts/`
 - `date` and `last_modified_at` must use early UTC times: `YYYY-MM-DD HH:MM:SS +0000` with hours 01:00–05:00 — GitHub Pages runs Jekyll in UTC with `future: false`; BST working-hours times get suppressed until the build re-runs. Use sequential hours (01:00, 02:00…) to control ordering when multiple posts share a date
+- **Scheduled publishing**: for a future release date, use `YYYY-MM-DD 07:30:00 +0000` in front matter and set the filename to `YYYY-MM-DD-slug.md`. The daily workflow at `.github/workflows/scheduled-publish.yml` triggers GitHub Pages at 07:35 UTC; the post will go live automatically on that date with no further action required
 - Every post includes, in order: front matter → Formspree boilerplate → print button → sections with Font Awesome icons (`color: white`) → back-to-top links → numbered reference links
 - Formspree action endpoint: `https://formspree.io/xvowjgjd` — copy verbatim, never change
 - Reference links at end: `[1]: https://...` — always use `{:target="\_blank"}` inline

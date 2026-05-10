@@ -21,7 +21,7 @@
 
 ### Front matter
 - [ ] Filename: `YYYY-MM-DD-kebab-case-title.md` in `_posts/`
-- [ ] `date:` uses `YYYY-MM-DD HH:MM:SS +0000` — time must be early UTC (01:00–05:00) so GitHub Pages never suppresses as a future post; increment by 1h per post for same-day ordering
+- [ ] `date:` uses `YYYY-MM-DD HH:MM:SS +0000` — use `07:30:00 +0000` for scheduled future posts (workflow publishes at 07:35 UTC daily); for same-day posts use sequential times 01:00–05:00
 - [ ] `layout: single`
 - [ ] `title`, `excerpt`, `categories`, `tags` all present
 - [ ] `toc: true`, `toc_label`, `toc_icon`, `toc_sticky: true` present

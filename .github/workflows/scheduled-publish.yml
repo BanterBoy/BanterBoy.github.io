@@ -1,0 +1,29 @@
+name: Scheduled Publish
+
+# Runs daily at 07:35 UTC (08:35 BST) and triggers a GitHub Pages rebuild.
+# Any post in _posts/ with a date <= today at 07:30:00 +0000 will be included.
+# To schedule a post: move it from _drafts/ to _posts/, set the filename to
+# YYYY-MM-DD-slug.md, and set date: YYYY-MM-DD 07:30:00 +0000 in front matter.
+
+on:
+  schedule:
+    - cron: '35 7 * * *'
+  workflow_dispatch: # Allow manual trigger from GitHub Actions UI
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Trigger GitHub Pages rebuild
+        run: |
+          git config user.name "GitHub Actions [bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "chore: scheduled publish $(date -u +%Y-%m-%d) [skip ci]"
+          git push
