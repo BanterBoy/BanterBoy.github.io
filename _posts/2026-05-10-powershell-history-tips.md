@@ -10,8 +10,8 @@ toc: true
 toc_label: "Contents"
 toc_icon: "terminal"
 toc_sticky: true
-date: 2026-05-10T09:00:00
-last_modified_at: 2026-05-10T09:00:00
+date: 2026-05-10
+last_modified_at: 2026-05-10
 categories:
     - Blog
 tags:
