@@ -301,6 +301,10 @@ VERIFICATION: [how to check the work is correct]
 | 2026-05-10 | Created `.github/copilot-instructions.md` — always-on repo instructions | Establishes A.I. Blogger identity and conventions in every Copilot session |
 | 2026-05-10 | Created `.github/agents/ai-blogger.agent.md` — custom Copilot agent mode | On-demand orchestrator with full skill/convention context and tool restrictions |
 | 2026-05-10 | Skills from npx CLI install to `.agents/skills/` (universal path) — not `.github/skills/` | Both locations are read by GitHub Copilot; CLI-installed skills go to `.agents/`, hand-crafted skills stay in `.github/skills/` |
+| 2026-05-10 | Created `2026-05-10-useradminmodule.md` — UserAdminModule introduction post | Standalone post; categories [Blog]; pending push |
+| 2026-05-10 | Created DigitalTAK series (Parts 1–6) — all dated 2026-05-10 | 6-article series covering TAK overview, stack, DigitalTAK architecture, deployment, onboarding, and TAKServerPS API; categories [Blog, Series]; pending push |
+| 2026-05-10 | All posts use bare `date: YYYY-MM-DD` (no time component) | Avoids Jekyll `future: false` UTC exclusion — lesson learned from powershell-history-tips.md datetime issue |
+| 2026-05-10 | DigitalTAK series internal links use `/blog/series/` permalink pattern | Consistent with Minimal Mistakes category URL structure; will resolve once posts are published |
 
 ---
 
@@ -318,7 +322,15 @@ VERIFICATION: [how to check the work is correct]
 | `2020-10-11-Text-alerts.md` | 2020-10-11 | Text Alerts | Published |
 | `2020-10-23-script-blog.md` | 2020-10-23 | Hey people, I made a blog! | Published |
 | `2021-01-03-The-PowerShell-Profile.md` | 2021-01-03 | The PowerShell Profile | Published |
-| `powershell-history-tips.md` | **MISSING** | Your PowerShell History... | **BROKEN** — no date prefix, missing front matter |
+| `2026-05-10-powershell-history-tips.md` | 2026-05-10 | Your PowerShell History is Trying to Help You | Published |
+| `2026-05-10-useradminmodule.md` | 2026-05-10 | Stop Dot-Sourcing. Start Managing. — Introducing UserAdminModule | Pending push |
+| `2026-05-10-digitaltak-part1-what-is-tak.md` | 2026-05-10 | DigitalTAK, Part 1 — What on Earth is TAK? | Pending push |
+| `2026-05-10-digitaltak-part2-understanding-the-tak-stack.md` | 2026-05-10 | DigitalTAK, Part 2 — Understanding the TAK Stack | Pending push |
+| `2026-05-10-digitaltak-part3-what-digitaltak-automates.md` | 2026-05-10 | DigitalTAK, Part 3 — What DigitalTAK Automates | Pending push |
+| `2026-05-10-digitaltak-part4-running-the-deployment.md` | 2026-05-10 | DigitalTAK, Part 4 — Running the Deployment | Pending push |
+| `2026-05-10-digitaltak-part5-onboarding-your-team.md` | 2026-05-10 | DigitalTAK, Part 5 — Onboarding Your Team | Pending push |
+| `2026-05-10-digitaltak-part6-takserverps-api-wrapper.md` | 2026-05-10 | DigitalTAK, Part 6 — The TAKServerPS API Wrapper | Pending push |
+| `powershell-history-tips.md` | **MISSING** | (original broken file) | **DELETE** — no date prefix, no front matter; Jekyll ignores it |
 
 ### Drafts
 | File | Approximate Topic |
