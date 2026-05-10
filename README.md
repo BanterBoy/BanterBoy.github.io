@@ -1,5 +1,3 @@
-[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/Leigh-Services/blog-site)
-
 [![Mergify Status][mergify-status]][mergify]
 
 [mergify]: https://mergify.io
