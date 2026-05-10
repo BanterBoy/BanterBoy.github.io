@@ -25,5 +25,13 @@
     "debug.console.fontSize": 11,
     "scm.inputFontSize": 11,
     "editor.fontSize": 11,
-    "editor.fontFamily": "'mesloLGMDZ Nerd Font Mono', 'Courier New', monospace"
+    "editor.fontFamily": "'mesloLGMDZ Nerd Font Mono', 'Courier New', monospace",
+    "chat.mcp.serverSampling": {
+        "BanterBoy.github.io/.vscode/mcp.json: markitdown": {
+            "allowedModels": [
+                "copilot/auto",
+                "copilotcli/claude-sonnet-4.6"
+            ]
+        }
+    }
 }

@@ -1,0 +1,14 @@
+{
+	"inputs": [],
+	"servers": {
+		"microsoft-learn": {
+			"type": "http",
+			"url": "https://learn.microsoft.com/api/mcp"
+		},
+		"markitdown": {
+			"type": "stdio",
+			"command": "uvx",
+			"args": ["markitdown-mcp==0.0.1a4"]
+		}
+	}
+}

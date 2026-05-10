@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "content-strategy": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "skillPath": "skills/content-strategy/SKILL.md",
+      "computedHash": "e1ab02527702ead90a9e5774cfe1be9a222bdcc6e861f2cae778ad7cc293f225"
+    },
+    "seo-audit": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "skillPath": "skills/seo-audit/SKILL.md",
+      "computedHash": "8d29f46f5d494dd41d65b7d1539b0e4bd7e1b5f4d73b8316cd1e744764705594"
+    },
+    "subagent-driven-development": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/subagent-driven-development/SKILL.md",
+      "computedHash": "b38be2f3a092d758127f6d47e77c2493885aebf38aae359e4c786df2c343b837"
+    }
+  }
+}
