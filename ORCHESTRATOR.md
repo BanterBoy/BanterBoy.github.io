@@ -316,6 +316,7 @@ VERIFICATION: [how to check the work is correct]
 | 2026-05-10 | Created `.github/workflows/scheduled-publish.yml` — daily scheduled publish | Runs at 07:35 UTC daily; pushes empty commit to trigger GitHub Pages rebuild; Posts must use `07:30:00 +0000` as standard release time |
 | 2026-05-10 | DigitalTAK Parts 2–6 moved to `_posts/` with scheduled release dates | Part 2: 2026-05-11, Part 3: 2026-05-12, Part 4: 2026-05-13, Part 5: 2026-05-14, Part 6: 2026-05-15; all at `07:30:00 +0000` |
 | 2026-05-10 | Added datetime + BST offset to all four 2026-05-10 posts; corrected to UTC after GitHub Pages suppression incident | All five same-day posts now use `01:00–05:00 +0000` UTC |
+| 2026-05-12 | Created `2026-05-12-get-gistiframe.md` — Get-GistIframe blog post | Documents Get-GistIframe function from UserAdminModule; explains iframe-via-data-URI approach for embedding Gists in Jekyll; categories [Blog]; pending push |
 
 ---
 
@@ -342,6 +343,7 @@ VERIFICATION: [how to check the work is correct]
 | `2026-05-10-digitaltak-part5-onboarding-your-team.md` | 2026-05-10 | DigitalTAK, Part 5 — Onboarding Your Team | Pending push |
 | `2026-05-10-digitaltak-part6-takserverps-api-wrapper.md` | 2026-05-10 | DigitalTAK, Part 6 — The TAKServerPS API Wrapper | Pending push |
 | `2026-05-10-new-shell-useradminmodule.md` | 2026-05-10 | New-Shell — Stop Right-Clicking, Start Scripting | Pending push |
+| `2026-05-12-get-gistiframe.md` | 2026-05-12 | Get-GistIframe — Embedding GitHub Gists Without the Liquid Nonsense | Pending push |
 | `powershell-history-tips.md` | **MISSING** | (original broken file) | **DELETE** — no date prefix, no front matter; Jekyll ignores it |
 
 ### Drafts
@@ -355,4 +357,4 @@ VERIFICATION: [how to check the work is correct]
 
 ---
 
-*Last updated: 2026-05-10 by A.I. Blogger*
+*Last updated: 2026-05-12 by A.I. Blogger*
