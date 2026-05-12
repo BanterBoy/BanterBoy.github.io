@@ -63,7 +63,7 @@ tags:
 </script>
 
 {: .text-right}
-<span style="font-size:11px;"><button onclick="window.print()"><i class="fas fa-print" aria-hidden="true" style="color: white; margin-right:5px;"></i>Print</button></span>
+<span style="font-size:11px;"><button onclick="window.print()"><i class="fas fa-print" aria-hidden="true" style="color: black; margin-right:5px;"></i>Print</button></span>
 
 The first time I tried to onboard a test team manually — generate the certs, create the accounts, build the data packages, distribute them — it took the better part of an afternoon and I still managed to get one person's certificate wrong.
 

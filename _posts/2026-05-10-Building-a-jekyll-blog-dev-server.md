@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Why on earth did I build a Docker Container?"
-excerpt: "Err...because I decided to test my posts before <br> publishing my Blog? Yep, I am doing that now. This post was started in June 2022 and sat unfinished in _drafts/ for nearly four years. Make of that what you will."
+excerpt: "Err……because I decided to test my posts before <br> publishing my Blog? Yep, I am doing that now. This post was started in June 2022 and sat unfinished in _drafts/ for nearly four years. Make of that what you will."
 header:
     overlay_image: /assets/images/docker/horizontal-logo-monochromatic-white.png
     overlay_filter: rgba(90, 104, 129, 0.7)
@@ -74,23 +74,6 @@ tags:
 
 In this article I explain the technology used to create my blog and the steps involved in the setup. The rather large list of technology used makes it a seemingly complex undertaking at first glance — and I won't pretend it wasn't, because it absolutely was. Much of the decision-making was about creating a setup that's straightforward to maintain for a very small outlay. The solution to most of it turned out to be a handful of free-tier services, a bit of YAML, a lot of Markdown, and a Docker container to make sure nothing was obviously broken before it went live — which is specifically what this post is about.
 
-## <i class="fas fa-microchip" aria-hidden="true" style="color: white; margin-right:5px;"></i> Technology List for Blog
-
-This is a comprehensive list of technology used to produce this site. Many of these are optional and are not needed to create a simple blog but I was having so much fun learning new things, that I got a little carried away. I have tried to keep the list as accurate as possible and many of the technologies add functionality to the blog; search, comments, and social media integration.
-
-|---|---|---|---|---|
-| [<i class="fab fa-google" aria-hidden="true" style="color: white; margin-right:5px;"></i>Google Domains][1]{:target="\_blank"} | [<i class="fab fa-google" aria-hidden="true" style="color: white; margin-right:5px;"></i>Google Analytics][2]{:target="\_blank"} | [<i class="fab fa-google" aria-hidden="true" style="color: white; margin-right:5px;"></i>Google Tag Manager][3]{:target="\_blank"} | [<i class="fab fa-google" aria-hidden="true" style="color: white; margin-right:5px;"></i>GSuite][4]{:target="\_blank"} | [<i class="fas fa-robot" aria-hidden="true" style="color: white; margin-right:5px;"></i>imgbot.net][5]{:target="\_blank"} |
-| [<i class="fab fa-github-square" aria-hidden="true" style="color: white; margin-right:5px;"></i>GitHub Pages][6]{:target="\_blank"} | [<i class="fab fa-github" aria-hidden="true" style="color: white; margin-right:5px;"></i>GitHub][7]{:target="\_blank"} | [<i class="fab fa-git" aria-hidden="true" style="color: white; margin-right:5px;"></i>Git][8]{:target="\_blank"} | [<i class="fab fa-github" aria-hidden="true" style="color: white; margin-right:5px;"></i>GitHub Desktop][9]{:target="\_blank"} | [<i class="fab fa-markdown" aria-hidden="true" style="color: white; margin-right:5px;"></i>Markdown][10]{:target="\_blank"} |
-| [<img src="/assets/images/brandicons/jekyll.svg" width="20" height="20" style="color: white; margin-right:5px;">Jekyll][11]{:target="\_blank"} | [<i class="fas fa-code" aria-hidden="true" style="color: white; margin-right:5px;"></i>YaML][12]{:target="\_blank"} | [<i class="fab fa-html5" aria-hidden="true" style="color: white; margin-right:5px;"></i>HTML][13]{:target="\_blank"} | [<i class="fab fa-css3-alt" aria-hidden="true" style="color: white; margin-right:5px;"></i>CSS][14]{:target="\_blank"} | [<i class="fab fa-java" aria-hidden="true" style="color: white; margin-right:5px;"></i>JavaScript][15]{:target="\_blank"} |
-| [<i class="fas fa-user-secret" aria-hidden="true" style="color: white; margin-right:5px;"></i>2FA][16]{:target="\_blank"} | [<i class="fab fa-docker" aria-hidden="true" style="color: white; margin-right:5px;"></i>Docker Desktop][17]{:target="\_blank"} | [<i class="fab fa-docker" aria-hidden="true" style="color: white; margin-right:5px;"></i>Docker CLI][18]{:target="\_blank"} | [<i class="fab fa-linux" aria-hidden="true" style="color: white; margin-right:5px;"></i>Linux WSL][19]{:target="\_blank"} | [<img src="/assets/images/brandicons/powershell.svg" width="20" height="20" style="color: white; margin-right:5px;">PowerShell][20]{:target="\_blank"} |
-| [<i class="fas fa-route" aria-hidden="true" style="color: white; margin-right:5px;"></i>Domain Name][21]{:target="\_blank"} | [<i class="fas fa-route" aria-hidden="true" style="color: white; margin-right:5px;"></i>DNS][22]{:target="\_blank"} | [<i class="fas fa-envelope-open-text" aria-hidden="true" style="color: white; margin-right:5px;"></i>formspree.io][23]{:target="\_blank"} | [<i class="fas fa-laptop-code" aria-hidden="true" style="color: white; margin-right:5px;"></i>vscode][24]{:target="\_blank"} | [<i class="fas fa-cookie-bite" aria-hidden="true" style="color: white; margin-right:5px;"></i>cookiebot.com][25]{:target="\_blank"}|
-| [<i class="fab fa-google" aria-hidden="true" style="color: white; margin-right:5px;"></i>Google Authenticator][26]{:target="\_blank"} | [<i class="fas fa-shield-alt" aria-hidden="true" style="color: white; margin-right:5px;"></i>shields.io][27]{:target="\_blank"} | [<img src="/assets/images/brandicons/simpleicons.svg" width="20" height="20" style="color: white; margin-right:5px;"> simpleicons.org][28]{:target="\_blank"} | [<i class="fab fa-font-awesome" aria-hidden="true" style="color: white; margin-right:5px;"></i>fontawesome.com][29]{:target="\_blank"} | [<img src="/assets/images/brandicons/azure-pipelines.svg" width="20" height="20" style="color: white; margin-right:5px;">Azure Pipelines][30]{:target="\_blank"} |
-
-The template used to create this blog is [<img src="/assets/images/brandicons/mademistakes.svg" width="60" height="40" style="color: white; margin-right:5px;">minimal-mistakes](https://mmistakes.github.io/minimal-mistakes/). This is a blog template that uses markdown powered by [Jekyll](https://jekyllrb.com/) to generate static html pages. The blog is hosted on [<i class="fab fa-github" aria-hidden="true" style="color: white; margin-right:5px;"></i>GitHub Pages](https://pages.github.com/) and uses [<img src="/assets/images/brandicons/azure-pipelines.svg" width="20" height="20" style="color: white; margin-right:5px;">Azure Pipelines](https://azure.microsoft.com/en-gb/services/devops/pipelines/) that build, test, build artifacts using the relevant gemspec and ruby versions; and deploys the blog to GitHub Pages.
-
-{: .text-right}
-<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
-
 ## <i class="fas fa-pencil-alt" aria-hidden="true" style="color: white; margin-right:5px;"></i> Why on Earth Am I Writing This?
 
 | --- | --- |
@@ -106,8 +89,25 @@ The honest reason I needed a local test environment is embarrassingly simple: I 
 
 The solution was obvious, really — run Jekyll locally before pushing. But Jekyll requires Ruby, and getting Ruby into a reliable state on a Windows machine without it gradually corrupting itself over several months is a project in itself. Docker sidesteps that entirely. The `jekyll/jekyll` image has everything already in it, the container is ephemeral and disposable, and the whole thing can be spun up with a single command. Which felt like exactly the right level of investment for something I wanted to use every day without thinking about……
 
-{: .text-right}
-<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+{: .text-center}
+<a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
+
+## <i class="fas fa-microchip" aria-hidden="true" style="color: white; margin-right:5px;"></i> Technology List for Blog
+
+This is a comprehensive list of technology used to produce this site. Many of these are optional and are not needed to create a simple blog but I was having so much fun learning new things, that I got a little carried away. I have tried to keep the list as accurate as possible and many of the technologies add functionality to the blog; search, comments, and social media integration.
+
+|---|---|---|---|---|
+| [<i class="fab fa-google" aria-hidden="true" style="color: white; margin-right:5px;"></i>Google Domains][1]{:target="\_blank"} | [<i class="fab fa-google" aria-hidden="true" style="color: white; margin-right:5px;"></i>Google Analytics][2]{:target="\_blank"} | [<i class="fab fa-google" aria-hidden="true" style="color: white; margin-right:5px;"></i>Google Tag Manager][3]{:target="\_blank"} | [<i class="fab fa-google" aria-hidden="true" style="color: white; margin-right:5px;"></i>GSuite][4]{:target="\_blank"} | [<i class="fas fa-robot" aria-hidden="true" style="color: white; margin-right:5px;"></i>imgbot.net][5]{:target="\_blank"} |
+| [<i class="fab fa-github-square" aria-hidden="true" style="color: white; margin-right:5px;"></i>GitHub Pages][6]{:target="\_blank"} | [<i class="fab fa-github" aria-hidden="true" style="color: white; margin-right:5px;"></i>GitHub][7]{:target="\_blank"} | [<i class="fab fa-git" aria-hidden="true" style="color: white; margin-right:5px;"></i>Git][8]{:target="\_blank"} | [<i class="fab fa-github" aria-hidden="true" style="color: white; margin-right:5px;"></i>GitHub Desktop][9]{:target="\_blank"} | [<i class="fab fa-markdown" aria-hidden="true" style="color: white; margin-right:5px;"></i>Markdown][10]{:target="\_blank"} |
+| [<img src="/assets/images/brandicons/jekyll.svg" width="20" height="20" style="color: white; margin-right:5px;">Jekyll][11]{:target="\_blank"} | [<i class="fas fa-code" aria-hidden="true" style="color: white; margin-right:5px;"></i>YaML][12]{:target="\_blank"} | [<i class="fab fa-html5" aria-hidden="true" style="color: white; margin-right:5px;"></i>HTML][13]{:target="\_blank"} | [<i class="fab fa-css3-alt" aria-hidden="true" style="color: white; margin-right:5px;"></i>CSS][14]{:target="\_blank"} | [<i class="fab fa-java" aria-hidden="true" style="color: white; margin-right:5px;"></i>JavaScript][15]{:target="\_blank"} |
+| [<i class="fas fa-user-secret" aria-hidden="true" style="color: white; margin-right:5px;"></i>2FA][16]{:target="\_blank"} | [<i class="fab fa-docker" aria-hidden="true" style="color: white; margin-right:5px;"></i>Docker Desktop][17]{:target="\_blank"} | [<i class="fab fa-docker" aria-hidden="true" style="color: white; margin-right:5px;"></i>Docker CLI][18]{:target="\_blank"} | [<i class="fab fa-linux" aria-hidden="true" style="color: white; margin-right:5px;"></i>Linux WSL][19]{:target="\_blank"} | [<img src="/assets/images/brandicons/powershell.svg" width="20" height="20" style="color: white; margin-right:5px;">PowerShell][20]{:target="\_blank"} |
+| [<i class="fas fa-route" aria-hidden="true" style="color: white; margin-right:5px;"></i>Domain Name][21]{:target="\_blank"} | [<i class="fas fa-route" aria-hidden="true" style="color: white; margin-right:5px;"></i>DNS][22]{:target="\_blank"} | [<i class="fas fa-envelope-open-text" aria-hidden="true" style="color: white; margin-right:5px;"></i>formspree.io][23]{:target="\_blank"} | [<i class="fas fa-laptop-code" aria-hidden="true" style="color: white; margin-right:5px;"></i>vscode][24]{:target="\_blank"} | [<i class="fas fa-cookie-bite" aria-hidden="true" style="color: white; margin-right:5px;"></i>cookiebot.com][25]{:target="\_blank"}|
+| [<i class="fab fa-google" aria-hidden="true" style="color: white; margin-right:5px;"></i>Google Authenticator][26]{:target="\_blank"} | [<i class="fas fa-shield-alt" aria-hidden="true" style="color: white; margin-right:5px;"></i>shields.io][27]{:target="\_blank"} | [<img src="/assets/images/brandicons/simpleicons.svg" width="20" height="20" style="color: white; margin-right:5px;"> simpleicons.org][28]{:target="\_blank"} | [<i class="fab fa-font-awesome" aria-hidden="true" style="color: white; margin-right:5px;"></i>fontawesome.com][29]{:target="\_blank"} | [<img src="/assets/images/brandicons/azure-pipelines.svg" width="20" height="20" style="color: white; margin-right:5px;">Azure Pipelines][30]{:target="\_blank"} |
+
+The template used to create this blog is [<img src="/assets/images/brandicons/mademistakes.svg" width="60" height="40" style="color: white; margin-right:5px;">minimal-mistakes](https://mmistakes.github.io/minimal-mistakes/). This is a blog template that uses markdown powered by [Jekyll](https://jekyllrb.com/) to generate static html pages. The blog is hosted on [<i class="fab fa-github" aria-hidden="true" style="color: white; margin-right:5px;"></i>GitHub Pages](https://pages.github.com/) and uses [<img src="/assets/images/brandicons/azure-pipelines.svg" width="20" height="20" style="color: white; margin-right:5px;">Azure Pipelines](https://azure.microsoft.com/en-gb/services/devops/pipelines/) that build, test, build artifacts using the relevant gemspec and ruby versions; and deploys the blog to GitHub Pages.
+
+{: .text-center}
+<a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
 
 ## <i class="fab fa-docker" aria-hidden="true" style="color: white; margin-right:5px;"></i> The Local Dev Setup
 
@@ -148,8 +148,8 @@ A few things worth explaining about those command flags:
 
 **`--drafts`** includes posts from `_drafts/` in the local build. Anything in `_drafts/` is completely invisible on the live site — posts only appear there once they're moved to `_posts/`. That's the intended workflow: write in `_drafts/`, preview locally, move to `_posts/` when it's ready to go.
 
-{: .text-right}
-<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+{: .text-center}
+<a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
 
 ## <i class="fas fa-cogs" aria-hidden="true" style="color: white; margin-right:5px;"></i> The Build Pipeline
 

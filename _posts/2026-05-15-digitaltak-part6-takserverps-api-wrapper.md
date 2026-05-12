@@ -63,7 +63,7 @@ tags:
 </script>
 
 {: .text-right}
-<span style="font-size:11px;"><button onclick="window.print()"><i class="fas fa-print" aria-hidden="true" style="color: white; margin-right:5px;"></i>Print</button></span>
+<span style="font-size:11px;"><button onclick="window.print()"><i class="fas fa-print" aria-hidden="true" style="color: black; margin-right:5px;"></i>Print</button></span>
 
 TAK Server has a REST API. It's not the most thoroughly documented API I've ever encountered — the official documentation exists, but it leans on examples rather than complete reference material, and working out what some endpoints actually expect requires a certain amount of empirical investigation. Ask me how I know.
 

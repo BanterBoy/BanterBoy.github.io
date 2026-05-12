@@ -56,7 +56,7 @@ Except it is, obviously, and at some point I got fed up enough to do something a
 
 ---
 
-# <i class="fas fa-terminal" aria-hidden="true" style="color: white; margin-right:5px;"></i> What New-Shell Does
+## <i class="fas fa-terminal" aria-hidden="true" style="color: white; margin-right:5px;"></i> What New-Shell Does
 
 At its core, `New-Shell` is a well-behaved wrapper around `Start-Process`. That's not a criticism — it's doing all the bits you'd otherwise have to get right yourself every time: detecting whether your current session is already elevated, checking that the executable you're trying to launch actually exists before it tries, handling credential objects correctly for alternate-user sessions, and packaging all of that into five distinct parameter sets with a consistent interface.
 
@@ -72,12 +72,12 @@ Here's the map:
 
 One small thing worth mentioning: if you're already in an elevated session and you try to open another elevated one, it'll warn you rather than silently doing it. It's a minor thing, but the kind of detail that saves you briefly wondering why you've got two admin sessions open and which one you're actually working in.
 
-{: .text-right}
-<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+{: .text-center}
+<a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
 
 ---
 
-# <i class="fas fa-sliders-h" aria-hidden="true" style="color: white; margin-right:5px;"></i> The Parameter Sets
+## <i class="fas fa-sliders-h" aria-hidden="true" style="color: white; margin-right:5px;"></i> The Parameter Sets
 
 Each mode is a separate parameter set, which means the options available to you change depending on which one you're using. Here's what each gives you.
 
@@ -134,12 +134,12 @@ New-Shell -TerminalRunAs PowerShellTerminalRunAs
 
 Same as `-Terminal`, elevated. Windows Terminal gets the UAC prompt and opens at admin level. Everything in the resulting session has elevated privileges — which is exactly what you want when you want it.
 
-{: .text-right}
-<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+{: .text-center}
+<a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
 
 ---
 
-# <i class="fas fa-code" aria-hidden="true" style="color: white; margin-right:5px;"></i> Examples in the Wild
+## <i class="fas fa-code" aria-hidden="true" style="color: white; margin-right:5px;"></i> Examples in the Wild
 
 Here are the scenarios I actually reach for this in.
 
@@ -177,12 +177,12 @@ New-Shell -RunAsUser pwshRunAsUser -Credentials $storedCred -ForceNewWindow -Win
 
 Without `-ForceNewWindow`, certain hosts eat the child process completely. With it, you get a visible console window reliably, regardless of where the call originated.
 
-{: .text-right}
-<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+{: .text-center}
+<a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
 
 ---
 
-# <i class="fas fa-download" aria-hidden="true" style="color: white; margin-right:5px;"></i> Getting It
+## <i class="fas fa-download" aria-hidden="true" style="color: white; margin-right:5px;"></i> Getting It
 
 `New-Shell` is part of the [UserAdminModule][1]{:target="\_blank"}. You can read the full function documentation and grab the script directly from the [scripts.lukeleigh.com][2]{:target="\_blank"} page, or download the whole module from the [GitHub releases][3]{:target="\_blank"}.
 
@@ -193,8 +193,8 @@ A couple of prerequisites worth noting before you reach for the Terminal and Win
 
 The function checks for both at runtime and errors clearly if they're missing, so it won't silently do nothing and leave you wondering. Found a bug or want to suggest something? The [GitHub issues page][6]{:target="\_blank"} is the right place — please do open one if something's not behaving.
 
-{: .text-right}
-<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+{: .text-center}
+<a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
 
 [1]: https://scripts.lukeleigh.com/useradminmodule/shell/new-shell/
 [2]: https://scripts.lukeleigh.com/menu/_pages/UserAdminModule.html

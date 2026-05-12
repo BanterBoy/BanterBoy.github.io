@@ -85,7 +85,7 @@ DigitalTAK is organised into four PowerShell modules, each responsible for a dis
 
 **TAKOnboarding** generates the per-user certificates and data packages that get your team onto the server. It talks to the TAK Server REST API to create user accounts, assigns group memberships (team members and team leads get different permissions), and builds the ATAK data packages ready for distribution. Four cmdlets. This is what you run before game day.
 
-**TAKServerPS** is the REST API wrapper — 45 cmdlets covering users, groups, missions, data packages, certificates, configuration, and more. It's what you'd use for day-to-day TAK Server administration from PowerShell rather than the WebTAK UI. This is Part 6 in the series; the others three modules are what get you to a state where TAKServerPS has something to talk to.
+**TAKServerPS** is the REST API wrapper — 45 cmdlets covering users, groups, missions, data packages, certificates, configuration, and more. It's what you'd use for day-to-day TAK Server administration from PowerShell rather than the WebTAK UI. This is Part 6 in the series; the other three modules are what get you to a state where TAKServerPS has something to talk to.
 
 {: .text-center}
 <a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>

@@ -4,26 +4,6 @@ description: >
   This skill defines the brand voice for Leigh Services, an IT contractor specialising in infrastructure engineering and automation. It captures the tone, style, and personality of the brand as expressed in Luke's blog and other communications. The voice is conversational, self-deprecating, community-minded, and technically precise when it matters. It flexes by context but always feels like a senior engineer having a chat rather than a polished corporate brand.
 ---
 
-company_name: "Leigh Services"
-platforms:
-  notion: false
-  confluence: false
-  google-drive: false
-  box: false
-  microsoft-365: true
-  figma: false
-  gong: false
-  granola: false
-  slack: false
-discovery:
-  search-depth: standard    # standard | deep
-  max-sources: 15
-enforcement:
-  strictness: balanced      # strict | balanced | flexible
-  always-explain: true
-open-questions:
-  share-with-team: false
----
 # Brand Context
 
 ## Company Name

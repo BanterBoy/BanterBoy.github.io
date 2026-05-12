@@ -59,6 +59,7 @@
 ├── index.html           # Home page
 ├── CNAME                # blog.lukeleigh.com
 ├── robots.txt           # SEO
+├── AGENTIC-SETUP.md     # Complete guide to the agentic setup (shareable reference)
 ├── .mergify.yml         # Auto-merge rules
 │
 ├── _posts/              # 10 published posts (2019–2021) + 1 undated
@@ -74,8 +75,16 @@
 │
 ├── .github/
 │   ├── copilot-instructions.md   # Always-on repo instructions (A.I. Blogger identity)
+│   ├── luke-personal-context.md  # Luke's personal background, hobbies, recurring themes for authentic posts
 │   ├── agents/
 │   │   └── ai-blogger.agent.md   # A.I. Blogger custom agent mode
+│   ├── instructions/             # Auto-injected context (applyTo patterns)
+│   │   ├── posts.instructions.md         # Brand voice + post anatomy — loads on _posts/**
+│   │   └── jekyll-safety.instructions.md # Safety rules — loads on _config.yml, _layouts/**, _includes/**
+│   ├── prompts/                  # Reusable prompt templates (slash commands)
+│   │   ├── new-post.prompt.md      # Guided workflow to create a new post end-to-end
+│   │   ├── post-review.prompt.md   # Brand voice + anatomy checklist review
+│   │   └── agentic-setup.prompt.md # Bootstrap agentic setup in any repo
 │   ├── skills/
 │   │   ├── brand-voice/SKILL.md      # Canonical brand voice source
 │   │   └── github-management/SKILL.md
@@ -85,13 +94,17 @@
 │   └── stale.yml
 │
 ├── .agents/
-│   └── skills/                   # Universal skills (installed via npx skills CLI)
+│   ├── product-marketing-context.md  # Persistent context (Luke's audience, goals, voice quick-ref)
+│   └── skills/                       # Universal skills (installed via npx skills CLI)
+│       ├── ai-seo/SKILL.md
 │       ├── content-strategy/SKILL.md
+│       ├── copywriting/SKILL.md
+│       ├── schema-markup/SKILL.md
 │       ├── seo-audit/SKILL.md
 │       └── subagent-driven-development/SKILL.md
 │
-└── .claude/
-    └── brand-voice.local.md   # Mirrored brand voice for Claude (same content as SKILL.md)
+└── .claude/                   # DEPRECATED — not maintained (VS Code Copilot only)
+    └── brand-voice.local.md   # Stale mirror of .github/skills/brand-voice/SKILL.md
 ```
 
 ---
@@ -254,6 +267,7 @@ Home → Posts → Categories → Tags → Resources → About Luke → Cookies
 | `favicon.ico.7` and `favicon.ico5` | Stale/duplicate favicon files at root | Do not delete without confirmation |
 | `_docs/` collection | Outputs to `/docs/:path/` — template/reference docs, NOT user-facing posts | Don't confuse with `_posts/` |
 | Disqus comments | Config present (`shortname: lukeleigh`) but commented out | Re-enabling is a one-line change in `_config.yml` |
+| `.claude/` directory | **DEPRECATED** — not maintained; VS Code Copilot only workflow | `.claude/skills/` and `.claude/brand-voice.local.md` are stale mirrors of `.agents/` content. Do not update. Delete when convenient. |
 
 ---
 
@@ -317,6 +331,8 @@ VERIFICATION: [how to check the work is correct]
 | 2026-05-10 | DigitalTAK Parts 2–6 moved to `_posts/` with scheduled release dates | Part 2: 2026-05-11, Part 3: 2026-05-12, Part 4: 2026-05-13, Part 5: 2026-05-14, Part 6: 2026-05-15; all at `07:30:00 +0000` |
 | 2026-05-10 | Added datetime + BST offset to all four 2026-05-10 posts; corrected to UTC after GitHub Pages suppression incident | All five same-day posts now use `01:00–05:00 +0000` UTC |
 | 2026-05-12 | Created `2026-05-12-get-gistiframe.md` — Get-GistIframe blog post | Documents Get-GistIframe function from UserAdminModule; explains iframe-via-data-URI approach for embedding Gists in Jekyll; categories [Blog]; pending push |
+| 2026-05-12 | Agentic setup audit & improvements | Reviewed all agent/skill/instruction files. Added: `.github/instructions/posts.instructions.md` (applyTo `_posts/**`) and `jekyll-safety.instructions.md` (applyTo `_config.yml,_layouts/**`); `.github/prompts/new-post.prompt.md` and `post-review.prompt.md`; `.github/luke-personal-context.md` (personal context for authentic anecdotes). Removed stale YAML metadata block from brand-voice SKILL.md. Marked `.claude/` as deprecated in ORCHESTRATOR.md and directory map. Fixed `.agents/skills/` listing (3→6 skills) in directory map. |
+| 2026-05-12 | Created `AGENTIC-SETUP.md` and `.github/prompts/agentic-setup.prompt.md` | Comprehensive documentation of the agentic setup process (mental model, file types, step-by-step guide) and a reusable prompt to bootstrap the same setup in any new repository. |
 
 ---
 

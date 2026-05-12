@@ -184,8 +184,8 @@ The core of it is `[System.Web.HttpUtility]::UrlEncode()` — a .NET method that
 
 The other thing worth calling out: it calls `Set-Clipboard` automatically. Every run, the output goes straight to your clipboard — you don't have to select and copy anything. It's just there, ready to paste into your post. Small quality-of-life touch from Rob, and one of those things you don't realise you needed until it's already happened.
 
-{: .text-right}
-<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+{: .text-center}
+<a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
 
 ---
 
@@ -199,8 +199,8 @@ There are three:
 
 **`-Revert`** — Optional switch. Runs `UrlDecode` instead of `UrlEncode`, turning a previously generated data URI back into the original script tag. Useful when you're staring at an encoded blob months later and can't remember what it actually was.
 
-{: .text-right}
-<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+{: .text-center}
+<a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
 
 ---
 
@@ -228,8 +228,8 @@ Get-GistIframe -Url "%3Cscript%20src%3D%22https%3A%2F%2Fgist.github.com%2FBanter
 
 In every case, the result is written to the console and copied to the clipboard. Paste it directly into your Jekyll post where the Gist embed should appear.
 
-{: .text-right}
-<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+{: .text-center}
+<a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
 
 ---
 
@@ -241,8 +241,8 @@ If you find an issue or want to suggest an improvement, there's a direct link to
 
 All credit to [Rob][6]{:target="\_blank"} for this one. I described the problem, he wrote the solution, and I've been using it ever since without ever having to think about `UrlEncode` again. That's the ideal outcome. If you're running a Jekyll blog and embedding Gists, give it a go — it'll save you the debugging session I had at half eleven on a Tuesday when I absolutely should have been doing something else. ¯\_(ツ)\_/¯
 
-{: .text-right}
-<span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
+{: .text-center}
+<a href="#" class="btn btn--info btn--small"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a>
 
 ---
 
