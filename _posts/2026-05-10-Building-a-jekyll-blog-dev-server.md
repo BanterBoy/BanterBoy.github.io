@@ -6,7 +6,10 @@ header:
     overlay_image: /assets/images/docker/horizontal-logo-monochromatic-white.png
     overlay_filter: rgba(90, 104, 129, 0.7)
     teaser: /assets/images/docker/homepage-docker-logo.png
-classes: wide
+toc: true
+toc_label: "Contents"
+toc_icon: "docker"
+toc_sticky: true
 date: 2026-05-10 05:00:00 +0000
 last_modified_at: 2026-05-10 05:00:00 +0000
 collection:
@@ -70,7 +73,7 @@ tags:
 {: .text-right}
 <span style="font-size:11px;"><button onclick="window.print()"><i class="fas fa-fw fa-print" aria-hidden="true" style="color: black; margin-right:5px;"></i>Print</button></span>
 
-# <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Overview
+## <i class="fas fa-book" aria-hidden="true" style="color: white; margin-right:5px;"></i> Overview
 
 In this article I explain the technology used to create my blog and the steps involved in the setup. The rather large list of technology used makes it a seemingly complex undertaking at first glance — and I won't pretend it wasn't, because it absolutely was. Much of the decision-making was about creating a setup that's straightforward to maintain for a very small outlay. The solution to most of it turned out to be a handful of free-tier services, a bit of YAML, a lot of Markdown, and a Docker container to make sure nothing was obviously broken before it went live — which is specifically what this post is about.
 
