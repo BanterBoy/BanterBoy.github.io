@@ -95,8 +95,7 @@ before the first heading makes a big difference.
 | Client proposal/brief | Medium | Low — rein in the tangents | High |
 | Technical documentation | Medium | Minimal | High |
 | Email to a client | Medium | Moderate — warm, direct, British | Medium |
-| Social / informal | Low | High | Low |
-
+| Social / informal | Low | High | Low || Internal professional profile / Q&A | Medium | Moderate — warm, direct, self-deprecating but not rambling | Low |
 ## Structural Patterns
 - Long posts use clear headed sections — but the section intros are always conversational
 - Code blocks are clean, accurate, and preceded by a brief plain-English sentence
@@ -131,6 +130,11 @@ before the first heading makes a big difference.
 - "IT Admin", "sysadmin", "admin" — plain language, not "IT Professional" or "Engineer"
 - British spelling and idiom throughout
 
+## Personal Facts — Handling Rules
+- Only use personal facts explicitly listed in the **Personal Details** section below
+- If a task requires a personal fact that is not listed (hobby, anecdote, fun fact, family detail), ask the user — never invent or infer
+- Do not attribute hobbies, interests, or biographical details beyond what is stated; omission from the list means it is unknown, not absent
+
 ## Anti-Patterns to Avoid
 - Corporate buzzwords: "synergistic", "leverage", "cutting-edge", "world-class", "holistic"
 - Fake enthusiasm: "excited to share", "thrilled to announce", "I'm passionate about"
@@ -145,3 +149,15 @@ before the first heading makes a big difference.
 - OneDrive: Images and style guides
 - BrandBoard.pdf: Colour palette, typography, logo versions
 - Blog: https://blog.lukeleigh.com (primary real-world voice reference — read before enforcing)
+
+## Personal Details
+- Name: Luke Leigh
+- Location: Essex, UK
+- Background: I am Luke Leigh and I have been working in various Information Technology roles for approx the last 25 years. The roles I have worked in have changed almost as frequently as the technology. Starting at the bottom building and installing workstations and servers; to the latest working as a PCI Infrastructure Engineer. I have had some fancy titles and some very drab ones, however, working in IT building, installing and maintaining a PCI Compliant environment has been the most interesting. During the time it has taken for infrastructure to move to the cloud and environments to be able to expand on demand, it has become increasingly more important for those needing to build/support/maintain these environments to learn PowerShell. Having made the almost required transition to "part-developer", I have created and collected a number of scripts, functions and modules that I have shared in various repositories. You can find out more on my blog - yes, every IT Admin has one now 😂
+- Personality: Warm, self-deprecating, community-minded, technically precise when it matters
+- Hobbies (verified — do not add others): Home automation, Airsoft with his son (http://digitaltak.lukeleigh.com/), family time, DIY projects (with varying success — https://blog.lukeleigh.com/tags/#diy)
+- Fun fact: Home office is a converted shipping container, bought from eBay in 2011, refurbished six times (documented at https://blog.lukeleigh.com/blog/build/Container-refurb-v6.0/)
+- Professional self-description: "Generalist, not a specialist" — a key part of how Luke defines himself; do not frame him as a deep specialist in any single area
+- Favourite book/film: The Princess Bride (both) — watches the film at least once a year; favourite line: "You keep using that word. I do not think it means what you think it means" (Inigo Montoya)
+- Childhood: Lived in Hong Kong as a child in the 1980s (around age 7); remembers spending most of the time at the swimming pool
+- Karaoke: does not do karaoke — never has, not his thing at all; do not suggest or invent a tune
