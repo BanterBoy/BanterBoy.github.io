@@ -106,7 +106,6 @@ author:
   avatar: "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "PowerShell Developer / <br>Infrastructure Engineer"
   location: "Essex, UK"
-  email: "me@lukeleigh.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
