@@ -16,25 +16,21 @@ header:
 
 <form
     class="wj-contact"
-    action="https://formspree.io/xvowjgjd"
+    action="https://formspree.io/f/xvowjgjd"
     method="POST"
 >
 <input
-    type="text"
+    type="email"
     name="email"
     placeholder="your@email.com"
+    required
 >
 <textarea
-    type="text"
-    name="content"
+    name="message"
     rows="10"
     placeholder="What's on your mind?"
+    required
 ></textarea>
-<input
-    type="hidden"
-    name="_next"
-    value="<REDIRECTION LINK> "
-    >
 <input
     type="hidden"
     name="_subject"

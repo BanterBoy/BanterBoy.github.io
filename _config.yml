@@ -110,6 +110,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
+      url: "/contact-form.html"
     - label: "Profile"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/lukeleigh/"

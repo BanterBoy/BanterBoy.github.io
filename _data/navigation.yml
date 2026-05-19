@@ -11,5 +11,7 @@ main:
     url: /resources.html
   - title: "About Luke"
     url: /about.html
+  - title: "Contact"
+    url: /contact-form.html
   - title: "Cookies"
     url: /CookieDeclaration.html
