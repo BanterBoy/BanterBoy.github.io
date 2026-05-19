@@ -122,6 +122,9 @@ author:
     - label: "Scripts Blog"
       icon: "fas fa-fw fa-laptop-code"
       url: "http://scripts.lukeleigh.com/"
+    - label: "DigitalTAK"
+      icon: "fas fa-fw fa-satellite-dish"
+      url: "https://digitaltak.lukeleigh.com/"
 
 footer:
   links:
@@ -137,6 +140,9 @@ footer:
     - label: "Scripts Blog"
       icon: "fas fa-fw fa-laptop-code"
       url: "http://scripts.lukeleigh.com/"
+    - label: "DigitalTAK"
+      icon: "fas fa-fw fa-satellite-dish"
+      url: "https://digitaltak.lukeleigh.com/"
 
 # Defaults
 defaults:
