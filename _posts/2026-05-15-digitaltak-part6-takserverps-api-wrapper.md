@@ -12,6 +12,9 @@ toc_icon: "plug"
 toc_sticky: true
 date: 2026-05-15 07:30:00 +0000
 last_modified_at: 2026-05-15 07:30:00 +0000
+permalink: /blog/digitaltak-part6-takserverps-api-wrapper/
+redirect_from:
+  - /blog/series/digitaltak-part6-takserverps-api-wrapper/
 categories:
     - Blog
     - Series

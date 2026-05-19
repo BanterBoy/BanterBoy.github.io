@@ -11,5 +11,6 @@ group :jekyll_plugins do
     gem 'jekyll-feed'
     gem 'jekyll-gist'
     gem 'jekyll-json-feed'
+    gem 'jekyll-redirect-from'
     gem 'jekyll-sitemap'
 end

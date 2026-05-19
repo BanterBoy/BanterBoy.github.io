@@ -12,6 +12,9 @@ toc_icon: "play-circle"
 toc_sticky: true
 date: 2026-05-13 07:30:00 +0000
 last_modified_at: 2026-05-13 07:30:00 +0000
+permalink: /blog/digitaltak-part4-running-the-deployment/
+redirect_from:
+  - /blog/series/digitaltak-part4-running-the-deployment/
 categories:
     - Blog
     - Series

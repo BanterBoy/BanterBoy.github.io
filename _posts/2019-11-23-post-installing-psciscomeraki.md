@@ -13,6 +13,9 @@ read_time: true
 comments: true
 share: true
 related: true
+permalink: /blog/installing-the-psciscomeraki-powershell-module/
+redirect_from:
+  - /blog/module/post-installing-psciscomeraki/
 categories:
     - Blog
     - Module

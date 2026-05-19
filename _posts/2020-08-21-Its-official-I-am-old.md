@@ -10,6 +10,9 @@ toc: true
 toc_label: PowerShellGet
 toc_icon: book-reader
 toc_sticky: true
+permalink: /blog/its-official/
+redirect_from:
+  - /blog/module/its-official-i-am-old/
 categories:
     - Blog
     - Module

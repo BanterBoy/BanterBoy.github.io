@@ -75,6 +75,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-json-feed
   - jekyll-algolia

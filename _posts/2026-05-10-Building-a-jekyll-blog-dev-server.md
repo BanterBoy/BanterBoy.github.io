@@ -12,6 +12,9 @@ toc_icon: "docker"
 toc_sticky: true
 date: 2026-05-10 05:00:00 +0000
 last_modified_at: 2026-05-10 05:00:00 +0000
+permalink: /blog/why-on-earth-did-i-build-a-docker-container/
+redirect_from:
+  - /blog/build/development/building-a-jekyll-blog-dev-server/
 collection:
     - Series
 categories:

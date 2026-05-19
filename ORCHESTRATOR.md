@@ -333,6 +333,7 @@ VERIFICATION: [how to check the work is correct]
 | 2026-05-12 | Created `2026-05-12-get-gistiframe.md` — Get-GistIframe blog post | Documents Get-GistIframe function from UserAdminModule; explains iframe-via-data-URI approach for embedding Gists in Jekyll; categories [Blog]; pending push |
 | 2026-05-12 | Agentic setup audit & improvements | Reviewed all agent/skill/instruction files. Added: `.github/instructions/posts.instructions.md` (applyTo `_posts/**`) and `jekyll-safety.instructions.md` (applyTo `_config.yml,_layouts/**`); `.github/prompts/new-post.prompt.md` and `post-review.prompt.md`; `.github/luke-personal-context.md` (personal context for authentic anecdotes). Removed stale YAML metadata block from brand-voice SKILL.md. Marked `.claude/` as deprecated in ORCHESTRATOR.md and directory map. Fixed `.agents/skills/` listing (3→6 skills) in directory map. |
 | 2026-05-12 | Created `AGENTIC-SETUP.md` and `.github/prompts/agentic-setup.prompt.md` | Comprehensive documentation of the agentic setup process (mental model, file types, step-by-step guide) and a reusable prompt to bootstrap the same setup in any new repository. |
+| 2026-05-19 | Created `_drafts/60-seconds-with-luke-leigh.md` — personal profile post | Restyled from RDG Engage portal "60 Seconds With…" submission; added blog-appropriate opening explaining the context; categories [Blog]; saved to _drafts/ until ready to publish |
 
 ---
 
@@ -366,6 +367,7 @@ VERIFICATION: [how to check the work is correct]
 | File | Approximate Topic |
 |------|-------------------|
 | `2022-06-02-Building-a-jekyll-blog-dev-server.md` | Why I built a Docker dev server |
+| `60-seconds-with-luke-leigh.md` | 60 Seconds With… Luke Leigh — RDG Engage profile restyled for blog |
 | `Creating-a-PowerShell-Tool.md` | PowerShell tool creation |
 | `Learning-PowerShell-from-scripting-to-cmdlet-part2.md` | PowerShell series Part 2 (companion to published Part 1) |
 | `New-admin-session.md` | New admin session tooling |
@@ -373,4 +375,4 @@ VERIFICATION: [how to check the work is correct]
 
 ---
 
-*Last updated: 2026-05-12 by A.I. Blogger*
+*Last updated: 2026-05-19 by A.I. Blogger*

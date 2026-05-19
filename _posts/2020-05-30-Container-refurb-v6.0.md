@@ -7,6 +7,9 @@ header:
     overlay_filter: rgba(90, 104, 129, 0.7)
     teaser: /assets/images/container_6/0126.jpg
 classes: wide
+permalink: /blog/container-refurb-v6-0/
+redirect_from:
+  - /blog/build/container-refurb-v6-0/
 categories:
     - Blog
     - Build

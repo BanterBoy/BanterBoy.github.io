@@ -16,6 +16,9 @@ toc: true
 toc_label: Blogging
 toc_icon: dolly
 toc_sticky: true
+permalink: /blog/hey-people-i-made-a-blog/
+redirect_from:
+  - /blog/script-blog/
 categories:
     - Blog
 tags:

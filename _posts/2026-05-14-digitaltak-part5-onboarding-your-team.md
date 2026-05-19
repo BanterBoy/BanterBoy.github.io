@@ -12,6 +12,9 @@ toc_icon: "users"
 toc_sticky: true
 date: 2026-05-14 07:30:00 +0000
 last_modified_at: 2026-05-14 07:30:00 +0000
+permalink: /blog/digitaltak-part5-onboarding-your-team/
+redirect_from:
+  - /blog/series/digitaltak-part5-onboarding-your-team/
 categories:
     - Blog
     - Series

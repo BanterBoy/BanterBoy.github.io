@@ -10,6 +10,9 @@ toc: true
 toc_label: "Contents"
 toc_icon: "terminal"
 toc_sticky: true
+permalink: /blog/stop-dot-sourcing-start-managing-introducing-useradminmodule/
+redirect_from:
+  - /blog/useradminmodule/
 date: 2026-05-10 02:00:00 +0000
 last_modified_at: 2026-05-10 02:00:00 +0000
 categories:

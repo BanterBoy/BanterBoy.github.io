@@ -12,6 +12,9 @@ toc_icon: "layer-group"
 toc_sticky: true
 date: 2026-05-11 07:30:00 +0000
 last_modified_at: 2026-05-11 07:30:00 +0000
+permalink: /blog/digitaltak-part2-understanding-the-tak-stack/
+redirect_from:
+  - /blog/series/digitaltak-part2-understanding-the-tak-stack/
 categories:
     - Blog
     - Series

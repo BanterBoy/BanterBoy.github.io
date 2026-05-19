@@ -7,6 +7,9 @@ header:
     overlay_filter: rgba(90, 104, 129, 0.7)
     teaser: /assets/images/ScriptingtoCmdLet/Example1-enlarge.png
 classes: wide
+permalink: /blog/learning-powershell-from-scripting-to-cmdlet-part1/
+redirect_from:
+  - /blog/series/learning-powershell-from-scripting-to-cmdlet-part1/
 categories:
     - Blog
     - Series

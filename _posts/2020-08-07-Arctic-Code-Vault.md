@@ -7,6 +7,9 @@ header:
     overlay_filter: rgba(90, 104, 129, 0.7)
     teaser: /assets/images/CodeVault/ArcticVaultPopUp.png
 classes: wide
+permalink: /blog/the-arctic-code-vault/
+redirect_from:
+  - /blog/arctic-code-vault/
 categories:
     - Blog
 tags:

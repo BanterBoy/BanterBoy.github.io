@@ -9,6 +9,7 @@ header:
 classes: wide
 date: 2020-10-11T016:30:00
 last_modified_at: 2020-10-11T16:30:00
+permalink: /blog/text-alerts/
 categories:
     - Blog
 tags:

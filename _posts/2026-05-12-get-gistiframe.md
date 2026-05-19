@@ -12,6 +12,7 @@ toc_icon: "code"
 toc_sticky: true
 date: 2026-05-12 11:00:00 +0000
 last_modified_at: 2026-05-12 11:00:00 +0000
+permalink: /blog/get-gistiframe/
 categories:
     - Blog
 tags:

@@ -10,6 +10,7 @@ toc: true
 toc_label: Unwanted Parcels
 toc_icon: people-carry
 toc_sticky: true
+permalink: /blog/unwanted-parcels/
 categories:
     - Blog
 tags:

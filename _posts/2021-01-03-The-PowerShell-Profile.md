@@ -12,6 +12,7 @@ toc_icon: user-secret
 toc_sticky: true
 date: 2021-01-02T08:30:00
 last_modified_at: 2021-01-03T08:30:00
+permalink: /blog/the-powershell-profile/
 categories:
     - Blog
 tags:

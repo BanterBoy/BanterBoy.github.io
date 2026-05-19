@@ -12,6 +12,9 @@ toc_icon: "map-marked-alt"
 toc_sticky: true
 date: 2026-05-10 03:00:00 +0000
 last_modified_at: 2026-05-10 03:00:00 +0000
+permalink: /blog/digitaltak-part1-what-is-tak/
+redirect_from:
+  - /blog/series/digitaltak-part1-what-is-tak/
 categories:
     - Blog
     - Series
