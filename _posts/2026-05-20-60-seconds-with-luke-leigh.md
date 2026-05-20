@@ -10,8 +10,8 @@ toc: true
 toc_label: "60 Seconds"
 toc_icon: user
 toc_sticky: true
-date: 2026-05-19 01:00:00 +0000
-last_modified_at: 2026-05-19 01:00:00 +0000
+date: 2026-05-20 10:00:00 +0000
+last_modified_at: 2026-05-20 10:00:00 +0000
 categories:
     - Blog
 tags:
