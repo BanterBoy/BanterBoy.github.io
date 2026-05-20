@@ -10,8 +10,8 @@ toc: true
 toc_label: "60 Seconds"
 toc_icon: user
 toc_sticky: true
-date: 2026-05-20 10:00:00 +0000
-last_modified_at: 2026-05-20 10:00:00 +0000
+date: 2026-05-20 01:00:00 +0000
+last_modified_at: 2026-05-20 01:00:00 +0000
 categories:
     - Blog
 tags:
@@ -108,11 +108,11 @@ Once it was done, I looked at it and thought — well, this is actually a reason
 
 **What is a fun fact about you?**
 
-> My home office is a [converted shipping container][5] — bought from eBay, which I maintain is a perfectly normal way to acquire office space. It's been through six separate redesigns since 2011. On reflection, 'fun fact' might be underselling it slightly.
+> My home office is a [converted shipping container][5]{:target="\_blank"} — bought from eBay, which I maintain is a perfectly normal way to acquire office space. It's been through six separate redesigns since 2011. On reflection, 'fun fact' might be underselling it slightly.
 
 **What do you like to do in your free time?**
 
-> Most of my spare time looks suspiciously like work — writing scripts, tinkering with home automation, and sharing things on [GitHub][2]{:target="\_blank"} that I'm fairly convinced someone else will find useful one day. I also play Airsoft with my son, which has its own blog at [digitaltak.lukeleigh.com][3]{:target="\_blank"} — because apparently [one blog wasn't enough][6]. The rest is family time, and the occasional DIY project tackled with considerably more enthusiasm than expertise.
+> Most of my spare time looks suspiciously like work — writing scripts, tinkering with home automation, and sharing things on [GitHub][2]{:target="\_blank"} that I'm fairly convinced someone else will find useful one day. I also play Airsoft with my son, which has its own blog at [digitaltak.lukeleigh.com][3]{:target="\_blank"} — because apparently [one blog wasn't enough][6]{:target="\_blank"}. The rest is family time, and the occasional DIY project tackled with considerably more enthusiasm than expertise.
 
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
@@ -125,7 +125,7 @@ Once it was done, I looked at it and thought — well, this is actually a reason
 
 **What are you most proud of professionally or personally?**
 
-> Professionally, it's probably the [automation frameworks][7] I've built that are still running reliably long after I've moved on to other things — which I'd like to think says something about the quality of the design rather than anything particularly clever I did. Personally, I'm proud of the balance I've managed to maintain between a demanding career and family life.
+> Professionally, it's probably the [automation frameworks][7]{:target="\_blank"} I've built that are still running reliably long after I've moved on to other things — which I'd like to think says something about the quality of the design rather than anything particularly clever I did. Personally, I'm proud of the balance I've managed to maintain between a demanding career and family life.
 
 {: .text-right}
 <span style="font-size:11px;"><a href="#"><i class="fas fa-caret-up" aria-hidden="true" style="color: white; margin-right:5px;"></i>Back to Top</a></span>
@@ -138,7 +138,7 @@ Once it was done, I looked at it and thought — well, this is actually a reason
 
 **What would be your specialist subject on Mastermind?**
 
-> [PowerShell][8], probably — though working in infrastructure means covering such a broad range of skills that I'm not sure I ever actually got around to specialising in anything. I've been using it daily since before half the people I work with had heard of it……which is either impressive or a sign I should get out more. Possibly both.
+> [PowerShell][8]{:target="\_blank"}, probably — though working in infrastructure means covering such a broad range of skills that I'm not sure I ever actually got around to specialising in anything. I've been using it daily since before half the people I work with had heard of it……which is either impressive or a sign I should get out more. Possibly both.
 
 **What's your go-to karaoke tune?**
 
