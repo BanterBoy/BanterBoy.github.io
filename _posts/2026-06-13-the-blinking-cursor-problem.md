@@ -10,8 +10,8 @@ toc: true
 toc_label: "Contents"
 toc_icon: "robot"
 toc_sticky: true
-date: 2026-06-13 00:30:00 +0000
-last_modified_at: 2026-06-13 00:30:00 +0000
+date: 2026-06-12 23:00:00 +0000
+last_modified_at: 2026-06-12 23:00:00 +0000
 permalink: /blog/the-blinking-cursor-problem/
 categories:
     - Blog
