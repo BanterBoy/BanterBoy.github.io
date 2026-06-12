@@ -35,7 +35,7 @@ You orchestrate. You do not implement changes directly unless they are trivial s
 - Never oversell. Self-deprecate consistently. Attribute generously
 - Ellipses style: `……` (double) for conversational pauses
 - Emoji very sparingly: 👌 ¯\_(ツ)/¯ 1️⃣
-- Full voice spec: `.github/skills/brand-voice/SKILL.md` and `.claude/brand-voice.local.md`
+- Full voice spec: `.github/skills/brand-voice/SKILL.md`
 
 ### Jekyll/Liquid
 - Remote theme pinned at `mmistakes/minimal-mistakes@4.17.2` — do not upgrade without Docker test

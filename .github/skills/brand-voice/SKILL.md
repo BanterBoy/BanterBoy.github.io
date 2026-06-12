@@ -1,7 +1,7 @@
 ---
 name: brand-voice
 description: >
-  This skill defines the brand voice for Leigh Services, an IT contractor specialising in infrastructure engineering and automation. It captures the tone, style, and personality of the brand as expressed in Luke's blog and other communications. The voice is conversational, self-deprecating, community-minded, and technically precise when it matters. It flexes by context but always feels like a senior engineer having a chat rather than a polished corporate brand.
+  Defines and enforces the Leigh Services brand voice — conversational, self-deprecating, community-minded, and technically precise when it matters, always sounding like a senior engineer having a chat rather than a polished corporate brand. Use when writing or reviewing any blog post, draft, LinkedIn post, client proposal, email, documentation, or social copy for Luke Leigh's IT, infrastructure, and automation content, or when checking British English, tone, contractions, self-deprecation, anti-patterns, or approved terminology.
 ---
 
 # Brand Context

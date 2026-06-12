@@ -102,9 +102,6 @@
 │       ├── schema-markup/SKILL.md
 │       ├── seo-audit/SKILL.md
 │       └── subagent-driven-development/SKILL.md
-│
-└── .claude/                   # DEPRECATED — not maintained (VS Code Copilot only)
-    └── brand-voice.local.md   # Stale mirror of .github/skills/brand-voice/SKILL.md
 ```
 
 ---
@@ -267,7 +264,6 @@ Home → Posts → Categories → Tags → Resources → About Luke → Cookies
 | `favicon.ico.7` and `favicon.ico5` | Stale/duplicate favicon files at root | Do not delete without confirmation |
 | `_docs/` collection | Outputs to `/docs/:path/` — template/reference docs, NOT user-facing posts | Don't confuse with `_posts/` |
 | Disqus comments | Config present (`shortname: lukeleigh`) but commented out | Re-enabling is a one-line change in `_config.yml` |
-| `.claude/` directory | **DEPRECATED** — not maintained; VS Code Copilot only workflow | `.claude/skills/` and `.claude/brand-voice.local.md` are stale mirrors of `.agents/` content. Do not update. Delete when convenient. |
 
 ---
 
@@ -334,6 +330,8 @@ VERIFICATION: [how to check the work is correct]
 | 2026-05-12 | Agentic setup audit & improvements | Reviewed all agent/skill/instruction files. Added: `.github/instructions/posts.instructions.md` (applyTo `_posts/**`) and `jekyll-safety.instructions.md` (applyTo `_config.yml,_layouts/**`); `.github/prompts/new-post.prompt.md` and `post-review.prompt.md`; `.github/luke-personal-context.md` (personal context for authentic anecdotes). Removed stale YAML metadata block from brand-voice SKILL.md. Marked `.claude/` as deprecated in ORCHESTRATOR.md and directory map. Fixed `.agents/skills/` listing (3→6 skills) in directory map. |
 | 2026-05-12 | Created `AGENTIC-SETUP.md` and `.github/prompts/agentic-setup.prompt.md` | Comprehensive documentation of the agentic setup process (mental model, file types, step-by-step guide) and a reusable prompt to bootstrap the same setup in any new repository. |
 | 2026-05-19 | Created `_drafts/60-seconds-with-luke-leigh.md` — personal profile post | Restyled from RDG Engage portal "60 Seconds With…" submission; added blog-appropriate opening explaining the context; categories [Blog]; saved to _drafts/ until ready to publish |
+| 2026-06-13 | Agentic setup audit against Anthropic guidance | Purged stale `.claude/` references from live docs (`copilot-instructions.md` voice-spec line, `ORCHESTRATOR.md` directory map and fragile-areas table) — decision-log history retained. Trimmed `ai-blogger.agent.md` tool list (60+ → ~40), removing notebook, browser, and redundant doc-conversion tools. Added explicit "use when" coverage to `brand-voice/SKILL.md` description. Verified VS Code prompt frontmatter field is `agent:` (not the outdated `mode:`) and fixed the `mode:` examples in `AGENTIC-SETUP.md` and `agentic-setup.prompt.md`. Confirmed both hand-crafted skills are under Anthropic's 500-line threshold (brand-voice ~190, github-management ~470) — no progressive-disclosure split needed. Softened metadata guidance to allow small installer-managed `metadata.version` blocks. |
+| 2026-06-13 | Created `2026-06-13-the-blinking-cursor-problem.md` — general-audience post on getting more out of A.I. | Non-PowerShell reflective post; reframes the "empty box / blinking cursor" search-engine muscle memory as the real barrier to A.I. usefulness, then walks through specificity, examples, step-by-step reasoning, iterative refinement, and role-playing (drawn from a prompting guide). Published today at `01:00:00 +0000`; categories [Blog]; tags AI/Productivity/Learning; permalink `/blog/the-blinking-cursor-problem/`. |
 
 ---
 
@@ -361,6 +359,7 @@ VERIFICATION: [how to check the work is correct]
 | `2026-05-10-digitaltak-part6-takserverps-api-wrapper.md` | 2026-05-10 | DigitalTAK, Part 6 — The TAKServerPS API Wrapper | Pending push |
 | `2026-05-10-new-shell-useradminmodule.md` | 2026-05-10 | New-Shell — Stop Right-Clicking, Start Scripting | Pending push |
 | `2026-05-12-get-gistiframe.md` | 2026-05-12 | Get-GistIframe — Embedding GitHub Gists Without the Liquid Nonsense | Pending push |
+| `2026-06-13-the-blinking-cursor-problem.md` | 2026-06-13 | The Blinking Cursor Problem — Getting More Out of A.I. | Pending push |
 | `powershell-history-tips.md` | **MISSING** | (original broken file) | **DELETE** — no date prefix, no front matter; Jekyll ignores it |
 
 ### Drafts
@@ -375,4 +374,4 @@ VERIFICATION: [how to check the work is correct]
 
 ---
 
-*Last updated: 2026-05-19 by A.I. Blogger*
+*Last updated: 2026-06-13 by A.I. Blogger*

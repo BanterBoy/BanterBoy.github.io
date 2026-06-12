@@ -187,9 +187,12 @@ description: >
     └── evals.json        # Test prompts with expected outputs
 ```
 
-**Important:** Keep the frontmatter clean — only `name` and `description`. Leftover YAML
-fields from skill installers (`platforms`, `enforcement`, `discovery`) should be removed as
-they inject noise into context.
+**Important:** Keep the frontmatter lean. `name` and `description` are the only required
+fields and the only ones loaded into context for skill selection. Remove noisy installer
+fields that serve no purpose (`platforms`, `enforcement`, `discovery`). A small,
+installer-managed `metadata` block (e.g. `metadata.version` written by `npx skills`) is
+fine to keep — Anthropic permits extra frontmatter fields, it aids update tracking, and it
+is overwritten on reinstall. The goal is signal, not dogmatic minimalism.
 
 ---
 
@@ -201,15 +204,16 @@ they inject noise into context.
 **Frontmatter:**
 ```yaml
 ---
-mode: agent
+agent: agent
 description: "What this prompt does — shown when browsing prompts."
 ---
 ```
 
-**Modes:**
-- `mode: agent` — runs as a full agent with tool access; best for multi-step workflows
-- `mode: ask` — runs as a chat response; best for information/explanation tasks
-- `mode: edit` — applies edits to specified files; best for targeted transformations
+**Agents:**
+- `agent: agent` — runs as a full agent with tool access; best for multi-step workflows
+- `agent: ask` — runs as a chat response; best for information/explanation tasks
+- `agent: plan` — produces a plan without making edits; best for scoping work
+- `agent: <custom-agent-name>` — runs the prompt under a named custom agent
 
 **What to put here:**
 - A complete guided workflow the user invokes by name
@@ -219,8 +223,8 @@ description: "What this prompt does — shown when browsing prompts."
 - Pointers to relevant skills and context files
 
 **Good prompts to create:**
-| Prompt | Mode | Purpose |
-|--------|------|---------|
+| Prompt | Agent | Purpose |
+|--------|-------|---------|
 | `new-post.prompt.md` | agent | Create a new blog post end-to-end |
 | `post-review.prompt.md` | agent | Review a post for brand voice and conventions |
 | `agentic-setup.prompt.md` | agent | Bootstrap agentic setup in a new repo |
@@ -433,7 +437,7 @@ For every repeating workflow:
 
 ```markdown
 ---
-mode: agent
+agent: agent
 description: "[What this prompt does]"
 ---
 
@@ -472,7 +476,7 @@ description: "[What this prompt does]"
 |---------|--------|-----|
 | Putting everything in `copilot-instructions.md` | File becomes enormous; context cost is high every session | Move detailed specs to SKILL.md files; keep instructions concise |
 | Not using `applyTo` instructions files | Brand voice and format rules only load when AI judges them relevant | Create instructions files with `applyTo` patterns for every major file type |
-| Leftover YAML in SKILL.md (`platforms`, `enforcement`) | Noise injected into context every time skill loads | Remove all metadata YAML except `name` and `description` |
+| Leftover noise YAML in SKILL.md (`platforms`, `enforcement`, `discovery`) | Noise injected into context every time skill loads | Remove purposeless installer fields; keep `name`, `description`, and any small installer-managed `metadata` (e.g. `metadata.version`) |
 | No ORCHESTRATOR.md / living context | Conventions are forgotten between sessions; decisions are re-litigated | Create and maintain ORCHESTRATOR.md; instruct the agent to read it first |
 | Skills that are too generic | AI loads skill but doesn't know how to apply it to this specific repo | Add project-specific examples and a personal context file |
 | Agent with every tool enabled | Slow; agents make tool calls they don't need | Restrict tools list to only what the agent genuinely requires |

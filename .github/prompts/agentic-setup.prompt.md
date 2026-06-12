@@ -413,7 +413,7 @@ For each repeating workflow from answer 6, create `.github/prompts/[workflow].pr
 
 ```markdown
 ---
-mode: agent
+agent: agent
 description: "[What this prompt does — shown when browsing prompts]"
 ---
 
@@ -467,7 +467,7 @@ After creating all files, run through this checklist:
 □ .github/instructions/*.instructions.md — each has valid applyTo in frontmatter
 □ .github/[name]-context.md — no blank sections (fill in or mark "to be completed")
 □ .github/skills/*/SKILL.md — each has name and description frontmatter only (no extra YAML)
-□ .github/prompts/*.prompt.md — each has mode and description frontmatter
+□ .github/prompts/*.prompt.md — each has agent and description frontmatter
 
 Quick functional tests:
 1. Open a file matching an applyTo pattern → confirm instructions file loads in Copilot context
