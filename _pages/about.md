@@ -13,7 +13,7 @@ header:
     Your browser does not support the video tag.
 </video>
 
-Hi, I am Luke and I have been working in IT for the last 20+ years as an IT Professional.
+Hi, I am Luke and I have been working in IT for the last 30+ years as an IT Professional.
 
 I started out like many, completely unskilled and at the bottom of the IT food chain. For the first few years I spent my days, building and installing bespoke PC systems for Doctors surgeries. In those days, this meant sourcing all the PC parts and assembling them in nasty beige cases...working in IT was fascinating but not glamorous in any way. The company I worked for was small and I was frequently looking for solutions to speed up the daily repetitive tasks, sadly PowerShell didn't exist at the time.
 
@@ -21,9 +21,13 @@ Fast forward to the present and I am now somewhat more battle scarred and far mo
 
 Along this journey, I encountered PowerShell and I haven't looked back. It is by far the most adaptive and extensible administrative tool I have used and the best part is I can use it to write my own tools. In doing so, I have learnt much more about the technologies that I use every day and I have been able to make both my life and my colleagues a lot easier.
 
-I have shared many of these tools on [GitHub][1]{:target="\_blank"} and hopefully you will find something to make your lives easier too.
+I have shared many of these tools on [GitHub][1]{:target="\_blank"} and hopefully you will find something to make your lives easier too. It's also where most of the useful data and references live — modules, scripts and the odd thing I've cobbled together over the years.
+
+These days I'm an Infrastructure Engineer at the [Rail Delivery Group][3]{:target="\_blank"}. If you'd like a bit more of the person behind the support tickets, I answered a load of slightly daft questions for a [60 Seconds With… Luke Leigh][2]{:target="\_blank"} profile — converted shipping container office and all.
 
 {: .text-center}
 <a href="/contact-form.html" class="btn btn--info btn--small"><i class="fas fa-envelope" aria-hidden="true" style="color: white; margin-right:5px;"></i>Contact Me!</a>
 
 [1]: https://github.com/BanterBoy
+[2]: /blog/60-seconds-with-luke-leigh/
+[3]: https://www.raildeliverygroup.com/
