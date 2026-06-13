@@ -40,7 +40,7 @@
 | CI/CD | Azure Pipelines (`azure-pipelines.yml`, triggers on `master`, builds via Docker) |
 | Hosting | GitHub Pages (CNAME → `blog.lukeleigh.com`) |
 | Search | Algolia (index: `blogindex`, app ID: `LOEP7YNBRV`) |
-| Analytics | Google Universal (`G-PK0X4FK6KJ`) |
+| Analytics | Google Universal (`G-PK0X4FK6KJ`) + Microsoft Clarity (`c6dj5pl2es`) |
 | Contact form | Formspree (`https://formspree.io/xvowjgjd`) — inline `<script>` in every post |
 | Comments | Disqus (shortname: `lukeleigh`) — **currently disabled** (commented out in `_config.yml`) |
 | Locale | `en-GB` |
@@ -318,6 +318,7 @@ VERIFICATION: [how to check the work is correct]
 | 2026-05-10 | Created DigitalTAK series (Parts 1–6) — all dated 2026-05-10 | 6-article series covering TAK overview, stack, DigitalTAK architecture, deployment, onboarding, and TAKServerPS API; categories [Blog, Series]; pending push |
 | 2026-05-10 | Posts must use `07:30:00 +0000` UTC for `date` and `last_modified_at` | Scheduled publish workflow (`.github/workflows/scheduled-publish.yml`) runs at 07:35 UTC daily and triggers a GitHub Pages rebuild; posts with `date <= today 07:30 UTC` are included. Same-day posts: use sequential times (01:00, 02:00…) keeping all below 07:30. Confirmed fix for GitHub Pages future-post suppression incident. |
 | 2026-05-10 | DigitalTAK series internal links use `/blog/series/` permalink pattern | Consistent with Minimal Mistakes category URL structure; will resolve once posts are published |
+| 2026-06-13 | Added Microsoft Clarity (`c6dj5pl2es`) alongside Google Universal analytics | New `_includes/analytics-providers/clarity.html` snippet, included from `analytics.html` whenever `site.analytics.clarity_id` is set; ID added to `_config.yml`. Runs in addition to GA, gated to production only. |
 | 2026-05-10 | Installed `copywriting`, `ai-seo`, `schema-markup` skills from `coreyhaines31/marketingskills` via npx | Closes skill gaps: copywriting formalises post-drafting framework; ai-seo adds AI citation optimisation; schema-markup enables JSON-LD structured data for BlogPosting/BreadcrumbList |
 | 2026-05-10 | Created `.agents/product-marketing-context.md` | Provides persistent site context for all skills that check this file — prevents repeated context questions each session |
 | 2026-05-10 | Updated `ai-blogger.agent.md`, `copilot-instructions.md`, `ORCHESTRATOR.md` Skills tables | Added rows for `copywriting`, `ai-seo`, `schema-markup` to all three docs |

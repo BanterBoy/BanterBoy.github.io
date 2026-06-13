@@ -51,6 +51,7 @@ analytics:
   google:
     tracking_id: "G-PK0X4FK6KJ"
     anonymize_ip: false # true, false (default)
+  clarity_id: "c6dj5pl2es" # Microsoft Clarity project ID — loads alongside Google Analytics in production
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -11,4 +11,8 @@
   {% include /analytics-providers/custom.html %}
 {% endcase %}
 
+{% if site.analytics.clarity_id %}
+  {% include /analytics-providers/clarity.html %}
+{% endif %}
+
 {% endif %}
