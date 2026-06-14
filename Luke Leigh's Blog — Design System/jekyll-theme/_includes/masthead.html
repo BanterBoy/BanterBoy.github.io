@@ -1,0 +1,23 @@
+{%- comment -%}
+  Refreshed masthead. Reads site.title, site.subtitle, site.logo and the
+  `main` list in _data/navigation.yml. Drop at _includes/masthead.html.
+{%- endcomment -%}
+<header class="ll-masthead">
+  <div class="ll-wrap">
+    <a class="ll-brand" href="{{ '/' | relative_url }}">
+      {% if site.logo %}<img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" />{% endif %}
+      <span class="lock">
+        <span class="name">{{ site.title | default: "Luke Leigh's Blog" }}</span>
+        {% if site.subtitle %}<span class="sub">{{ site.subtitle }}</span>{% endif %}
+      </span>
+    </a>
+    <nav class="ll-nav">
+      {% for link in site.data.navigation.main %}
+        {% assign seg = link.url | remove: "/" %}
+        {% if page.url contains seg and seg != "" %}{% assign is_active = true %}{% else %}{% assign is_active = false %}{% endif %}
+        <a href="{{ link.url | relative_url }}"{% if is_active %} class="active"{% elsif link.url == "/" and page.url == "/" %} class="active"{% endif %}>{{ link.title }}</a>
+      {% endfor %}
+    </nav>
+    <a class="ll-search" href="{{ '/search/' | relative_url }}" aria-label="Search"><i class="fas fa-search"></i></a>
+  </div>
+</header>

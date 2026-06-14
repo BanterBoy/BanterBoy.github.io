@@ -1,0 +1,33 @@
+<!-- @dsCard group="Brand" viewport="700x200" name="Author identity" subtitle="Circular avatar, name, role — the sidebar signature" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<style>
+  body { margin: 0; background: var(--surface-page); color: var(--text);
+    font-family: var(--font-sans); padding: 24px; display: flex; gap: 22px; align-items: center; }
+  .avatar { width: 110px; height: 110px; border-radius: 50%; padding: 5px;
+    border: 1px solid var(--border); object-fit: cover; flex: none; }
+  .name { font-size: var(--type-4); font-weight: 700; }
+  .bio { font-size: var(--type-6); color: var(--text); margin: 6px 0 12px; }
+  .social { display: flex; gap: 16px; font-size: 18px; }
+  .social i { color: var(--text); }
+</style>
+</head>
+<body>
+  <img class="avatar" src="../assets/images/ProfilePicCircleTransparent_100x100.png" alt="Luke Leigh" />
+  <div>
+    <div class="name">Luke Leigh</div>
+    <div class="bio">PowerShell Developer /<br/>Infrastructure Engineer · Essex, UK</div>
+    <div class="social">
+      <i class="fas fa-envelope-square"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fab fa-github"></i>
+      <i class="fab fa-keybase"></i>
+      <i class="fas fa-laptop-code"></i>
+    </div>
+  </div>
+</body>
+</html>

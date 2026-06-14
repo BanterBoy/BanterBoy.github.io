@@ -1,0 +1,34 @@
+<!-- @dsCard group="Type" viewport="700x260" name="Brand fonts — Exo & Unica One" subtitle="The two self-hosted Leigh Services webfaces, with characters" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; background: var(--surface-page); color: var(--text);
+    font-family: var(--font-sans); padding: 24px; }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+  .label { font-size: 11px; text-transform: uppercase; letter-spacing: .08em;
+    color: var(--primary); font-family: var(--font-mono); margin-bottom: 8px; }
+  .big { line-height: 1; }
+  .glyphs { font-size: 15px; color: var(--text-muted); margin-top: 12px; letter-spacing: .04em; word-break: break-all; }
+  .meta { font-size: 11px; color: var(--text-muted); font-family: var(--font-mono); margin-top: 6px; }
+</style>
+</head>
+<body>
+  <div class="pair">
+    <div>
+      <div class="label">Unica One · display</div>
+      <div class="big" style="font-family:var(--font-display);font-size:46px;text-transform:uppercase">Banter&shy;Boy</div>
+      <div class="glyphs" style="font-family:var(--font-display);text-transform:uppercase">ABCDEFGHIJKLM<br/>NOPQRSTUVWXYZ 0123456789</div>
+      <div class="meta">400 · all-caps condensed</div>
+    </div>
+    <div>
+      <div class="label">Exo · brand sans</div>
+      <div class="big" style="font-family:var(--font-brand);font-weight:500;font-size:46px">Luke Leigh</div>
+      <div class="glyphs" style="font-family:var(--font-brand);font-weight:500">ABCDEFGHIJKLM<br/>abcdefghijklm 0123456789</div>
+      <div class="meta">500 medium · geometric</div>
+    </div>
+  </div>
+</body>
+</html>

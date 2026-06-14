@@ -1,26 +1,25 @@
 ---
 layout: default
 ---
+{%- comment -%}
+  Archive — Luke Leigh refresh. Brand hero header + a .ll-wrap content area.
+  Listing layouts (posts, categories, tags, etc.) inherit this and drop their
+  entries into `.entries-list` / `.entries-grid`, styled as card grids by the
+  refresh layer. Content flows into the default layout's #main.
+{%- endcomment -%}
+{% assign hero = page.header.overlay_image | default: page.header.teaser | default: site.teaser %}
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-{% include page__hero.html %}
-{% elsif page.header.video.id and page.header.video.provider %}
-{% include page__hero_video.html %}
-{% endif %}
-
-{% if page.url != "/" and site.breadcrumbs %}
-{% unless paginator %}
-{% include breadcrumbs.html %}
-{% endunless %}
-{% endif %}
-
-<div id="main" role="main">
-  {% include sidebar.html %}
-
-  <div class="archive">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
-    <h1 id="page-title" class="page__title">{{ page.title }}</h1>
-    {% endunless %}
-    {{ content }}
+<section class="ll-post-hero"{% if hero %} style="background-image:url('{{ hero | relative_url }}')"{% endif %}>
+  <div class="ll-wrap">
+    <div class="ll-breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      {% if page.title %}<span class="sep">/</span>{{ page.title }}{% endif %}
+    </div>
+    {% if page.title %}<h1 id="page-title" itemprop="headline">{{ page.title }}</h1>{% endif %}
+    {% if page.excerpt %}<p class="lead">{{ page.excerpt | strip_html }}</p>{% endif %}
   </div>
+</section>
+
+<div class="ll-wrap ll-archive">
+  {{ content }}
 </div>

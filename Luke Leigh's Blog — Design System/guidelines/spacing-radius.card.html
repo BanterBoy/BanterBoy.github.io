@@ -1,0 +1,29 @@
+<!-- @dsCard group="Spacing" viewport="700x170" name="Radius & borders" subtitle="A single 4px radius, hairline borders, teal accent rule" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; background: var(--surface-page); color: var(--text);
+    font-family: var(--font-sans); padding: 24px; }
+  .row { display: flex; gap: 18px; align-items: center; }
+  .box { width: 92px; height: 70px; background: var(--surface-raised);
+    display: flex; align-items: center; justify-content: center; font-size: 11px;
+    font-family: var(--font-mono); color: var(--text-muted); }
+  .b1 { border-radius: var(--radius); border: 1px solid var(--border); }
+  .b2 { border-radius: 50%; width: 70px; }
+  .b3 { border-radius: var(--radius); border-left: var(--rule-accent); background: var(--code-bg); }
+  .cap { font-size: 11px; color: var(--text-muted); margin-top: 8px; text-align: center; }
+  .col { display: flex; flex-direction: column; align-items: center; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="col"><div class="box b1">4px</div><div class="cap">--radius</div></div>
+    <div class="col"><div class="box b2">50%</div><div class="cap">avatar</div></div>
+    <div class="col"><div class="box b3">quote</div><div class="cap">accent rule .25em</div></div>
+    <div class="col"><div class="box" style="border:1px solid var(--border);background:transparent">1px</div><div class="cap">hairline #51555d</div></div>
+  </div>
+</body>
+</html>

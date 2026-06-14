@@ -1,123 +1,86 @@
 ---
 layout: default
 ---
+{%- comment -%}
+  Single post — Luke Leigh refresh. Hero image comes from
+  page.header.overlay_image, falling back to header.teaser / site.teaser.
+{%- endcomment -%}
+{% assign hero = page.header.overlay_image | default: page.header.teaser | default: site.teaser %}
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-{% include page__hero.html %}
-{% elsif page.header.video.id and page.header.video.provider %}
-{% include page__hero_video.html %}
-{% endif %}
-
-{% if page.url != "/" and site.breadcrumbs %}
-{% unless paginator %}
-{% include breadcrumbs.html %}
-{% endunless %}
-{% endif %}
-
-<div id="main" role="main">
-  {% include sidebar.html %}
-
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    {% if page.title %}
-    <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{%
-    endif %}
-    {% if page.excerpt %}
-    <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
-    {% endif %}
-    {% if page.date %}
-    <meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
-    {% if page.last_modified_at %}
-    <meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
-
-    <div class="page__inner-wrap">
-      {% unless page.header.overlay_color or page.header.overlay_image %}
-      <header>
-        {% if page.title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify |
-          remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-        {% if page.read_time %}
-        <p class="page__meta"><i class="far fa-clock" aria-hidden="true" style="color: white; margin-right:5px;"></i> {%
-          include read-time.html %}</p>
-        {% endif %}
-      </header>
-      {% endunless %}
-
-      <section class="page__content" itemprop="text">
-        {% if page.toc %}
-        <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
-          <nav class="toc">
-            <header>
-              <h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label
-                | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4>
-            </header>
-            {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
-          </nav>
-        </aside>
-        {% endif %}
-        {{ content }}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{
-            site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-      </section>
-
-      <footer class="page__meta">
-        {% if site.data.ui-text[site.locale].meta_label %}
-        <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
-        {% endif %}
-        {% include page__taxonomy.html %}
-        {% if page.last_modified_at %}
-        <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"
-              style="color: white; margin-right:5px;"></i> {{ site.data.ui-text[site.locale].date_label | default:
-            "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: " %Y-%m-%d" }}">{{
-            page.last_modified_at | date: "%B %-d, %Y" }}</time></p>
-        <p class="author__name" itemprop="name"><i class="fas fa-fw fa-id-card-alt" aria-hidden="true"
-            style="color: white; margin-right:5px;"></i>{{ author.name }}</h3>
-        </p>
-        {% elsif page.date %}
-        <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"
-              style="color: white; margin-right:5px;"></i> {{ site.data.ui-text[site.locale].date_label | default:
-            "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d,
-            %Y" }}</time>
-        <p class="author__name" itemprop="name"><strong><i class="fas fa-fw fa-id-card-alt" aria-hidden="true"
-              style="color: white; margin-right:5px;"></i>{{ author.name }}</h3>
-        </p>
-        {% endif %}
-      </footer>
-
-      {% if page.share %}{% include social-share.html %}{% endif %}
-
-      {% include post_pagination.html %}
+<article itemscope itemtype="https://schema.org/BlogPosting">
+  <section class="ll-post-hero"{% if hero %} style="background-image:url('{{ hero | relative_url }}')"{% endif %}>
+    <div class="ll-wrap">
+      <div class="ll-breadcrumb">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        {% if page.categories.size > 0 %}<span class="sep">/</span><a href="{{ '/categories/' | relative_url }}">{{ page.categories.first }}</a>{% endif %}
+        <span class="sep">/</span>{{ page.title }}
+      </div>
+      {% if page.categories.size > 0 %}<span class="ll-kicker">{{ page.categories.first }}</span>{% endif %}
+      <h1 itemprop="headline">{{ page.title }}</h1>
+      {% if page.excerpt %}<p class="lead">{{ page.excerpt | strip_html }}</p>{% endif %}
+      <div class="ll-meta">
+        <span><i class="far fa-calendar"></i>{{ page.date | date: "%-d %b %Y" }}</span>
+        <span><i class="far fa-clock"></i>{% include read-time.html %}</span>
+        {% if page.categories.size > 0 %}<span><i class="fas fa-folder"></i>{{ page.categories.first }}</span>{% endif %}
+      </div>
     </div>
+  </section>
 
-    {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
-    {% include comments.html %}
-    {% endif %}
-  </article>
+  <div class="ll-wrap ll-post-layout">
+    <div class="ll-prose" itemprop="articleBody">
+      {{ content }}
 
-  {% comment %}
-  <!-- only show related on a post page when `related: true` -->{% endcomment %}
-  {% if page.id and page.related and site.related_posts.size > 0 %}
-  <div class="page__related">
-    <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}
-    </h4>
-    <div class="grid__wrapper">
-      {% for post in site.related_posts limit:4 %}
-      {% include archive-single.html type="grid" %}
-      {% endfor %}
-    </div>
-  </div>
-  {% comment %}
-  <!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
-  {% elsif page.id and page.related %}
-  <div class="page__related">
-    <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}
-    </h4>
-    <div class="grid__wrapper">
-      {% for post in site.posts limit:4 %}
-      {% if post.id == page.id %}
-      {% continue %}
+      {% if page.tags.size > 0 %}
+      <div class="ll-post-tags">
+        <span class="lbl">Tags</span>
+        {% for tag in page.tags %}<span class="ll-tag">{{ tag }}</span>{% endfor %}
+      </div>
       {% endif %}
-      {% include archive-single.html type="grid" %}
-      {% endfor %}
+
+      <div class="ll-share">
+        <span class="lbl">Share</span>
+        <a class="ll-btn-ghost" href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url }}" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a class="ll-btn-ghost" href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url }}&text={{ page.title | uri_escape }}" target="_blank" rel="noopener"><i class="fab fa-x-twitter"></i> Post</a>
+        <a class="ll-btn-ghost" href="{{ page.url | absolute_url }}"><i class="fas fa-link"></i> Permalink</a>
+      </div>
+
+      {% if site.author %}
+      <div class="ll-byline">
+        {% if site.author.avatar %}<img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" />{% endif %}
+        <div>
+          <div class="bn">{{ site.author.name }}</div>
+          <div class="br">{{ site.author.bio | strip_html }}{% if site.author.location %} &middot; {{ site.author.location }}{% endif %}</div>
+          <div class="social">
+            {% for link in site.author.links %}<a href="{{ link.url }}" title="{{ link.label }}"><i class="{{ link.icon }}"></i></a>{% endfor %}
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if page.comments and site.comments.provider %}
+        {% include comments.html %}
+      {% endif %}
     </div>
+
+    {% if page.toc %}
+    <aside class="ll-toc">
+      <h4><i class="fas fa-list-ul"></i> Contents</h4>
+      {% include toc.html sanitize=true html=content h_min=1 h_max=2 class="ll-toc-list" %}
+    </aside>
+    {% endif %}
   </div>
+
+  {% if page.related and site.related_posts.size > 0 %}
+    {% assign related = site.related_posts %}
+  {% else %}
+    {% assign related = site.posts | where_exp: "p", "p.url != page.url" %}
   {% endif %}
-</div>
+  {% if related.size > 0 %}
+  <section class="ll-wrap ll-related">
+    <div class="ll-section-head"><div><span class="ll-kicker">Keep reading</span><h2>You May Also Enjoy</h2></div></div>
+    <div class="ll-grid" style="padding-bottom:0">
+      {% for post in related limit: 3 %}{% include post-card.html post=post %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+</article>

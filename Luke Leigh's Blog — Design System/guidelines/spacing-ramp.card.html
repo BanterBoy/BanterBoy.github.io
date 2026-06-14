@@ -1,0 +1,28 @@
+<!-- @dsCard group="Spacing" viewport="700x170" name="Spacing ramp" subtitle="Em-based rhythm matching the theme's margins & padding" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; background: var(--surface-page); color: var(--text);
+    font-family: var(--font-sans); padding: 24px; }
+  .row { display: flex; align-items: flex-end; gap: 18px; }
+  .item { text-align: center; }
+  .bar { background: var(--primary); border-radius: 2px; width: 26px; }
+  .tok { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); margin-top: 8px; }
+  .val { font-family: var(--font-mono); font-size: 11px; color: var(--primary); }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="item"><div class="bar" style="height:4px"></div><div class="tok">space-1</div><div class="val">.25em</div></div>
+    <div class="item"><div class="bar" style="height:8px"></div><div class="tok">space-2</div><div class="val">.5em</div></div>
+    <div class="item"><div class="bar" style="height:12px"></div><div class="tok">space-3</div><div class="val">.75em</div></div>
+    <div class="item"><div class="bar" style="height:16px"></div><div class="tok">space-4</div><div class="val">1em</div></div>
+    <div class="item"><div class="bar" style="height:21px"></div><div class="tok">space-5</div><div class="val">1.3em</div></div>
+    <div class="item"><div class="bar" style="height:32px"></div><div class="tok">space-6</div><div class="val">2em</div></div>
+    <div class="item"><div class="bar" style="height:48px"></div><div class="tok">space-7</div><div class="val">3em</div></div>
+  </div>
+</body>
+</html>

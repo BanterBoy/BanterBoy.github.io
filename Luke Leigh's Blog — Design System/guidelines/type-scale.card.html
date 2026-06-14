@@ -1,0 +1,23 @@
+<!-- @dsCard group="Type" viewport="700x300" name="Type scale" subtitle="Em-based modular scale off a 16px root" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; background: var(--surface-page); color: var(--text);
+    font-family: var(--font-sans); padding: 24px; }
+  .line { display: flex; align-items: baseline; gap: 16px; padding: 5px 0; }
+  .tok { width: 60px; font-family: var(--font-mono); font-size: 11px; color: var(--primary); flex: none; }
+  .px { width: 56px; font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); flex: none; }
+  .sample { font-weight: 700; line-height: 1.1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+</style>
+</head>
+<body>
+  <div class="line"><span class="tok">type-1</span><span class="px">39px</span><span class="sample" style="font-size:var(--type-1)">Blinking cursor</span></div>
+  <div class="line"><span class="tok">type-3</span><span class="px">25px</span><span class="sample" style="font-size:var(--type-3)">Page &amp; post titles</span></div>
+  <div class="line"><span class="tok">type-4</span><span class="px">20px</span><span class="sample" style="font-size:var(--type-4)">Section heading / lead</span></div>
+  <div class="line"><span class="tok">type-5</span><span class="px">16px</span><span class="sample" style="font-size:var(--type-5)">Body copy &amp; h3</span></div>
+  <div class="line"><span class="tok">type-6</span><span class="px">12px</span><span class="sample" style="font-size:var(--type-6)">Meta, buttons, captions</span></div>
+</body>
+</html>

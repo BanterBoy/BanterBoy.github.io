@@ -1,0 +1,52 @@
+---
+layout: default
+---
+{%- comment -%}
+  Home / landing. Drop at _layouts/home.html and set `layout: home` on index.
+  Uses paginator.posts when jekyll-paginate is on, else site.posts.
+{%- endcomment -%}
+{% if paginator %}{% assign posts = paginator.posts %}{% else %}{% assign posts = site.posts %}{% endif %}
+{% assign featured = posts | first %}
+
+{% if featured %}
+<section class="ll-wrap ll-featured">
+  <div class="text">
+    <span class="ll-kicker">Featured{% if featured.categories.size > 0 %} &middot; {{ featured.categories.first }}{% endif %}</span>
+    <h1><a href="{{ featured.url | relative_url }}">{{ featured.title }}</a></h1>
+    {% if featured.excerpt %}<p class="lead">{{ featured.excerpt | strip_html | truncate: 180 }}</p>{% endif %}
+    <div class="ll-meta">
+      <span><i class="far fa-calendar"></i>{{ featured.date | date: "%-d %b %Y" }}</span>
+      <span><i class="far fa-clock"></i>{% include read-time.html post=featured %}</span>
+      {% if featured.categories.size > 0 %}<span><i class="fas fa-folder"></i>{{ featured.categories.first }}</span>{% endif %}
+    </div>
+    <a class="ll-btn" href="{{ featured.url | relative_url }}">Read the post <i class="fas fa-arrow-right"></i></a>
+  </div>
+  <a class="media" href="{{ featured.url | relative_url }}">
+    <span class="badge">Latest</span>
+    <img src="{{ featured.header.teaser | default: site.teaser | relative_url }}" alt="{{ featured.title | escape }}" />
+  </a>
+</section>
+{% endif %}
+
+<section class="ll-wrap">
+  <div class="ll-section-head">
+    <div>
+      <span class="ll-kicker">From the blog</span>
+      <h2>Latest Posts</h2>
+    </div>
+    <a class="ll-viewall" href="{{ '/posts/' | relative_url }}">View all <i class="fas fa-arrow-right"></i></a>
+  </div>
+  <div class="ll-grid">
+    {% for post in posts offset: 1 %}
+      {% include post-card.html post=post %}
+    {% endfor %}
+  </div>
+
+  {% if paginator.total_pages > 1 %}
+  <nav class="ll-meta" style="justify-content:center;gap:24px;padding-bottom:48px">
+    {% if paginator.previous_page %}<a class="ll-btn-ghost" href="{{ paginator.previous_page_path | relative_url }}"><i class="fas fa-arrow-left"></i> Newer</a>{% endif %}
+    <span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}<a class="ll-btn-ghost" href="{{ paginator.next_page_path | relative_url }}">Older <i class="fas fa-arrow-right"></i></a>{% endif %}
+  </nav>
+  {% endif %}
+</section>

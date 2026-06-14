@@ -1,0 +1,44 @@
+/* ==========================================================================
+   SPACING, RADII, SHADOWS & MOTION — Luke Leigh's Blog
+   Minimal Mistakes is em-driven; these tokens formalise the values that
+   recur across the theme (4px radius, subtle shadows, 0.2s ease transition)
+   plus a practical spacing ramp for building new layouts.
+   ========================================================================== */
+
+:root {
+  /* --- Spacing ramp (DS addition, em-based to match the theme) --------- */
+  --space-1: 0.25em;
+  --space-2: 0.5em;
+  --space-3: 0.75em;
+  --space-4: 1em;     /* base unit — masthead/notice padding */
+  --space-5: 1.3em;   /* paragraph rhythm ($indent-var) */
+  --space-6: 2em;     /* section gap (h-margins, hero padding) */
+  --space-7: 3em;     /* hero overlay vertical padding */
+
+  /* --- Layout rails (from the grid system) ----------------------------- */
+  --sidebar-narrow: 200px;   /* $right-sidebar-width-narrow */
+  --sidebar-wide:   300px;   /* $right-sidebar-width */
+  --max-width:      1280px;  /* $x-large — content max width */
+
+  /* breakpoints (reference): 600 / 768 / 900 / 1024 / 1280 */
+
+  /* --- Radius ----------------------------------------------------------- */
+  --radius: 4px;             /* $border-radius — buttons, cards, tags, code */
+  --radius-pill: 50%;        /* avatars */
+
+  /* --- Borders ---------------------------------------------------------- */
+  --border-width: 1px;
+  --border-hairline: 1px solid var(--border);
+  --rule-accent: 0.25em solid var(--primary);  /* blockquote / accent bar */
+
+  /* --- Shadows ---------------------------------------------------------- */
+  --shadow-sm: 0 1px 1px rgba(0, 0, 0, 0.125);                      /* $box-shadow */
+  --shadow-pop: 0 2px 4px 0 rgba(0, 0, 0, 0.16),
+                0 2px 10px 0 rgba(0, 0, 0, 0.12);                   /* dropdowns */
+  --shadow-img: 0 0 10px rgba(0, 0, 0, 0.25);                       /* hovered image */
+
+  /* --- Motion ----------------------------------------------------------- */
+  --transition: all 0.2s ease-in-out; /* @kind other */ /* $global-transition */
+  --ease: ease-in-out;                /* @kind other */
+  --duration: 0.2s;                   /* @kind other */
+}

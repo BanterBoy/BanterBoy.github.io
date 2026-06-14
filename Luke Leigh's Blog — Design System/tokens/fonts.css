@@ -1,0 +1,44 @@
+/* ==========================================================================
+   FONT DECLARATIONS — Luke Leigh's Blog
+   Brand display/heading webfonts are self-hosted below (Exo, Unica One).
+   The body/UI + mono families remain platform system fonts (SF, Segoe UI,
+   Roboto, Consolas, Monaco, …) — authentic to the Minimal Mistakes theme —
+   with the two legacy system faces declared local()-only so nothing extra is
+   downloaded.
+   ========================================================================== */
+
+/* --- Brand webfonts (self-hosted, uploaded by the user) ----------------- */
+
+/* Exo — geometric technical sans. Brand headings & UI accents. */
+@font-face {
+  font-family: "Exo";
+  src: url("../fonts/leigh-services-exo-medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Unica One — condensed all-caps display. Hero & section titles. */
+@font-face {
+  font-family: "Unica One";
+  src: url("../fonts/leigh-services-unica-one-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Legacy system faces (local() only — no file shipped) --------------- */
+
+@font-face {
+  font-family: "Lucida Grande";
+  src: local("Lucida Grande");
+  font-weight: 400 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lucida Console";
+  src: local("Lucida Console");
+  font-weight: 400 700;
+  font-style: normal;
+}

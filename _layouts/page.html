@@ -1,0 +1,41 @@
+---
+layout: default
+---
+{%- comment -%}
+  Static page — Luke Leigh refresh. Used by _pages (About, Contact, Resources,
+  etc.). Same hero + prose shell as a post, but without the post chrome:
+  no date, read-time, byline, share buttons or related posts. Supports an
+  optional sticky TOC (page.toc) and `classes: wide` via the .ll-page--wide
+  modifier.
+{%- endcomment -%}
+{% assign hero = page.header.overlay_image | default: page.header.teaser | default: site.teaser %}
+{% assign is_wide = false %}
+{% if page.classes contains "wide" or page.toc != true %}{% assign is_wide = true %}{% endif %}
+
+<article class="ll-page" itemscope itemtype="https://schema.org/CreativeWork">
+  <section class="ll-post-hero"{% if hero %} style="background-image:url('{{ hero | relative_url }}')"{% endif %}>
+    <div class="ll-wrap">
+      <div class="ll-breadcrumb">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <span class="sep">/</span>{{ page.title }}
+      </div>
+      {% if page.title %}<h1 itemprop="headline">{{ page.title }}</h1>{% endif %}
+      {% if page.excerpt %}<p class="lead">{{ page.excerpt | strip_html }}</p>{% endif %}
+    </div>
+  </section>
+
+  <div class="ll-wrap ll-post-layout{% if is_wide %} ll-page--wide{% endif %}">
+    <div class="ll-prose" itemprop="text">
+      {{ content }}
+
+      {% if page.link %}<p><a href="{{ page.link }}" class="ll-btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }} <i class="fas fa-arrow-right"></i></a></p>{% endif %}
+    </div>
+
+    {% if page.toc %}
+    <aside class="ll-toc">
+      <h4><i class="fas fa-{{ page.toc_icon | default: 'list-ul' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4>
+      {% include toc.html sanitize=true html=content h_min=1 h_max=3 class="ll-toc-list" %}
+    </aside>
+    {% endif %}
+  </div>
+</article>

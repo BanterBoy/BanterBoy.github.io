@@ -1,0 +1,79 @@
+---
+layout: default
+---
+{%- comment -%}
+  Single post. Drop at _layouts/single.html (Minimal Mistakes uses this name
+  for posts via _config defaults). Hero image comes from
+  page.header.overlay_image, falling back to header.teaser / site.teaser.
+{%- endcomment -%}
+{% assign hero = page.header.overlay_image | default: page.header.teaser | default: site.teaser %}
+
+<article itemscope itemtype="https://schema.org/BlogPosting">
+  <section class="ll-post-hero"{% if hero %} style="background-image:url('{{ hero | relative_url }}')"{% endif %}>
+    <div class="ll-wrap">
+      <div class="ll-breadcrumb">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        {% if page.categories.size > 0 %}<span class="sep">/</span><a href="{{ '/categories/' | relative_url }}">{{ page.categories.first }}</a>{% endif %}
+        <span class="sep">/</span>{{ page.title }}
+      </div>
+      {% if page.categories.size > 0 %}<span class="ll-kicker">{{ page.categories.first }}</span>{% endif %}
+      <h1 itemprop="headline">{{ page.title }}</h1>
+      {% if page.excerpt %}<p class="lead">{{ page.excerpt | strip_html }}</p>{% endif %}
+      <div class="ll-meta">
+        <span><i class="far fa-calendar"></i>{{ page.date | date: "%-d %b %Y" }}</span>
+        <span><i class="far fa-clock"></i>{% include read-time.html %}</span>
+        {% if page.categories.size > 0 %}<span><i class="fas fa-folder"></i>{{ page.categories.first }}</span>{% endif %}
+      </div>
+    </div>
+  </section>
+
+  <div class="ll-wrap ll-post-layout">
+    <div class="ll-prose" itemprop="articleBody">
+      {{ content }}
+
+      {% if page.tags.size > 0 %}
+      <div class="ll-post-tags">
+        <span class="lbl">Tags</span>
+        {% for tag in page.tags %}<span class="ll-tag">{{ tag }}</span>{% endfor %}
+      </div>
+      {% endif %}
+
+      <div class="ll-share">
+        <span class="lbl">Share</span>
+        <a class="ll-btn-ghost" href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url }}" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a class="ll-btn-ghost" href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url }}&text={{ page.title | uri_escape }}" target="_blank" rel="noopener"><i class="fab fa-x-twitter"></i> Post</a>
+        <a class="ll-btn-ghost" href="{{ page.url | absolute_url }}"><i class="fas fa-link"></i> Permalink</a>
+      </div>
+
+      {% if site.author %}
+      <div class="ll-byline">
+        {% if site.author.avatar %}<img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" />{% endif %}
+        <div>
+          <div class="bn">{{ site.author.name }}</div>
+          <div class="br">{{ site.author.bio | strip_html }}{% if site.author.location %} &middot; {{ site.author.location }}{% endif %}</div>
+          <div class="social">
+            {% for link in site.author.links %}<a href="{{ link.url }}" title="{{ link.label }}"><i class="{{ link.icon }}"></i></a>{% endfor %}
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    {% if page.toc %}
+    <aside class="ll-toc">
+      <h4><i class="fas fa-list-ul"></i> Contents</h4>
+      {% include toc.html sanitize=true html=content h_min=1 h_max=2 class="ll-toc-list" %}
+    </aside>
+    {% endif %}
+  </div>
+
+  {% assign related = site.related_posts | default: site.posts | where_exp: "p", "p.url != page.url" %}
+  {% if related.size > 0 %}
+  <section class="ll-wrap ll-related">
+    <div class="ll-section-head"><div><span class="ll-kicker">Keep reading</span><h2>You May Also Enjoy</h2></div></div>
+    <div class="ll-grid" style="padding-bottom:0">
+      {% for post in related limit: 3 %}{% include post-card.html post=post %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+</article>

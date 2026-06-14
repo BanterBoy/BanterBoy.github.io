@@ -1,37 +1,51 @@
-{% capture logo_path %}{{ site.logo }}{% endcapture %}
-
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        {% unless logo_path == empty %}
-          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt=""></a>
-        {% endunless %}
-        <a class="site-title" href="{{ '/' | relative_url }}">
-          {{ site.masthead_title | default: site.title }}
-          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
-        </a>
-        <ul class="visible-links">
-          {%- for link in site.data.navigation.main -%}
-            <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
-            </li>
-          {%- endfor -%}
-        </ul>
-        {% if site.search == true %}
-        <button class="search__toggle" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
-          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
-            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
-          </svg>
-        </button>
-        {% endif %}
-        <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
-          <div class="navicon"></div>
-        </button>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
+{%- comment -%}
+  Refreshed masthead. Reads site.title, site.subtitle, site.logo and the
+  `main` list in _data/navigation.yml. Includes an accessible mobile menu
+  toggle: .ll-nav collapses below 640px and is opened by .ll-nav-toggle
+  (wired up in scripts.html). nav keeps id="site-nav" so the skip-link works.
+{%- endcomment -%}
+<header class="ll-masthead">
+  <div class="ll-wrap">
+    <a class="ll-brand" href="{{ '/' | relative_url }}">
+      {% if site.logo %}<img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" />{% endif %}
+      <span class="lock">
+        <span class="name">{{ site.title | default: "Luke Leigh's Blog" }}</span>
+        {% if site.subtitle %}<span class="sub">{{ site.subtitle }}</span>{% endif %}
+      </span>
+    </a>
+    <nav id="site-nav" class="ll-nav">
+      {% for link in site.data.navigation.main %}
+        {% assign seg = link.url | remove: "/" %}
+        {% if page.url contains seg and seg != "" %}{% assign is_active = true %}{% else %}{% assign is_active = false %}{% endif %}
+        <a href="{{ link.url | relative_url }}"{% if is_active %} class="active"{% elsif link.url == "/" and page.url == "/" %} class="active"{% endif %}>{{ link.title }}</a>
+      {% endfor %}
+    </nav>
+    {% if site.search == true %}
+    <a class="ll-search" href="{{ '/search/' | relative_url }}" aria-label="{{ site.data.ui-text[site.locale].search_label | default: 'Search' }}"><i class="fas fa-search" aria-hidden="true"></i></a>
+    {% endif %}
+    <button class="ll-nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="{{ site.data.ui-text[site.locale].menu_label | default: 'Toggle menu' }}">
+      <i class="fas fa-bars" aria-hidden="true"></i>
+    </button>
   </div>
-</div>
+</header>
+<script>
+  (function () {
+    var btn = document.querySelector('.ll-nav-toggle');
+    var nav = document.getElementById('site-nav');
+    if (!btn || !nav) { return; }
+    btn.addEventListener('click', function () {
+      var open = nav.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      var icon = btn.querySelector('i');
+      if (icon) { icon.className = open ? 'fas fa-times' : 'fas fa-bars'; }
+    });
+    nav.addEventListener('click', function (e) {
+      if (e.target.tagName === 'A' && nav.classList.contains('is-open')) {
+        nav.classList.remove('is-open');
+        btn.setAttribute('aria-expanded', 'false');
+        var icon = btn.querySelector('i');
+        if (icon) { icon.className = 'fas fa-bars'; }
+      }
+    });
+  })();
+</script>

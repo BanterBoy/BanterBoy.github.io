@@ -1,0 +1,27 @@
+<!-- @dsCard group="Colors" viewport="700x170" name="Status colours" subtitle="Success, warning, danger, info — shared across notices & buttons" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; background: var(--surface-page); color: var(--text);
+    font-family: var(--font-sans); padding: 22px; }
+  .row { display: flex; gap: 14px; }
+  .sw { flex: 1; }
+  .chip { height: 64px; border-radius: var(--radius); display:flex; align-items:flex-end;
+    padding: 8px; box-sizing: border-box; color: #fff; font-weight: 700; font-size: 12px; }
+  .name { font-size: 13px; font-weight: 700; margin-top: 9px; }
+  .hex { font-family: var(--font-mono); font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="sw"><div class="chip" style="background:var(--success)">✓</div><div class="name">Success</div><div class="hex">#3fa63f</div></div>
+    <div class="sw"><div class="chip" style="background:var(--warning)">!</div><div class="name">Warning</div><div class="hex">#d67f05</div></div>
+    <div class="sw"><div class="chip" style="background:var(--danger)">×</div><div class="name">Danger</div><div class="hex">#ee5f5b</div></div>
+    <div class="sw"><div class="chip" style="background:var(--info)">i</div><div class="name">Info</div><div class="hex">#3b9cba</div></div>
+    <div class="sw"><div class="chip" style="background:var(--active);color:var(--bg)">·</div><div class="name">Active tint</div><div class="hex">#cceff0</div></div>
+  </div>
+</body>
+</html>
