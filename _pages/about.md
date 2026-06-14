@@ -21,9 +21,18 @@ Fast forward to the present and I am now somewhat more battle scarred and far mo
 
 Along this journey, I encountered PowerShell and I haven't looked back. It is by far the most adaptive and extensible administrative tool I have used and the best part is I can use it to write my own tools. In doing so, I have learnt much more about the technologies that I use every day and I have been able to make both my life and my colleagues a lot easier.
 
-I have shared many of these tools on [GitHub][1]{:target="\_blank"} and hopefully you will find something to make your lives easier too. It's also where most of the useful data and references live — modules, scripts and the odd thing I've cobbled together over the years.
+I have shared many of these tools on [GitHub][1]{:target="\_blank"} and hopefully you will find something to make your lives easier too. It's also where most of the useful data and references live — modules, scripts and the odd thing I've cobbled together over the years. I keep the tidier bits in a couple of places: my [scripts library][4]{:target="\_blank"} for the functions I reach for day to day, and the [UserAdminModule][6]{:target="\_blank"} for when I finally got fed up of dot-sourcing the same files into every session.
+
+Not everything I build is for work. I'm a bit of an airsoft nuisance at weekends, and somewhere along the way I decided our skirmishes needed proper situational awareness — so I ended up automating a whole TAK server deployment for it. That turned into [DigitalTAK][5]{:target="\_blank"}, which is far more infrastructure than any reasonable person needs for running around a wood with plastic guns…… but it scratched the itch and taught me a lot along the way.
 
 These days I'm an Infrastructure Engineer at the [Rail Delivery Group][3]{:target="\_blank"}. If you'd like a bit more of the person behind the support tickets, I answered a load of slightly daft questions for a [60 Seconds With… Luke Leigh][2]{:target="\_blank"} profile — converted shipping container office and all.
+
+If you'd like to have a poke around the things I've built:
+
+- [scripts.lukeleigh.com][4]{:target="\_blank"} — my PowerShell scripts and functions library
+- [digitaltak.lukeleigh.com][5]{:target="\_blank"} — docs for the DigitalTAK TAK server automation project
+- [useradminmodule.lukeleigh.com][6]{:target="\_blank"} — docs and reference for the UserAdminModule
+- [Resources][7] — the rest of the sites, docs and tools I actually use
 
 {: .text-center}
 <a href="/contact-form.html" class="btn btn--info btn--small"><i class="fas fa-envelope" aria-hidden="true" style="color: white; margin-right:5px;"></i>Contact Me!</a>
@@ -31,3 +40,7 @@ These days I'm an Infrastructure Engineer at the [Rail Delivery Group][3]{:targe
 [1]: https://github.com/BanterBoy
 [2]: /blog/60-seconds-with-luke-leigh/
 [3]: https://www.raildeliverygroup.com/
+[4]: https://scripts.lukeleigh.com/
+[5]: https://digitaltak.lukeleigh.com/
+[6]: https://useradminmodule.lukeleigh.com/
+[7]: /resources.html
