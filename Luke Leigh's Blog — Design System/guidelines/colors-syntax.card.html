@@ -1,0 +1,40 @@
+<!-- @dsCard group="Colors" viewport="700x200" name="Syntax — base16 Material" subtitle="The palette that colours every PowerShell code block" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; background: var(--surface-page); color: var(--text);
+    font-family: var(--font-sans); padding: 22px; }
+  .grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; }
+  .sw .chip { height: 34px; border-radius: var(--radius); border: 1px solid rgba(255,255,255,.06); }
+  .sw .name { font-size: 10px; color: var(--text-muted); margin-top: 5px; text-align:center;
+    font-family: var(--font-mono); }
+  .code { margin-top: 16px; background: var(--base00); border-radius: var(--radius);
+    padding: 12px 14px; font-family: var(--font-mono); font-size: 13px; line-height: 1.6; }
+  .cmt { color: var(--base03); font-style: italic; }
+  .kw { color: var(--base0e); } .fn { color: var(--base0d); } .str { color: var(--base0b); }
+  .var { color: var(--base08); } .num { color: var(--base09); } .cmd { color: var(--base0a); }
+  .fg { color: var(--base05); }
+</style>
+</head>
+<body>
+  <div class="grid">
+    <div class="sw"><div class="chip" style="background:var(--base08)"></div><div class="name">08 red</div></div>
+    <div class="sw"><div class="chip" style="background:var(--base09)"></div><div class="name">09 orange</div></div>
+    <div class="sw"><div class="chip" style="background:var(--base0a)"></div><div class="name">0a yellow</div></div>
+    <div class="sw"><div class="chip" style="background:var(--base0b)"></div><div class="name">0b green</div></div>
+    <div class="sw"><div class="chip" style="background:var(--base0c)"></div><div class="name">0c cyan</div></div>
+    <div class="sw"><div class="chip" style="background:var(--base0d)"></div><div class="name">0d blue</div></div>
+    <div class="sw"><div class="chip" style="background:var(--base0e)"></div><div class="name">0e purple</div></div>
+  </div>
+  <div class="code">
+    <span class="cmt"># Resolve a record against a specific server</span><br/>
+    <span class="kw">function</span> <span class="fn">Test-DNSRecord</span> {<br/>
+    &nbsp;&nbsp;<span class="var">$DNSProvider</span> <span class="fg">=</span> <span class="str">'GooglePrimary'</span><br/>
+    &nbsp;&nbsp;<span class="fn">Resolve-DnsName</span> <span class="cmd">-Server</span> <span class="num">8.8.8.8</span><br/>
+    }
+  </div>
+</body>
+</html>

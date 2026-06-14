@@ -1,0 +1,28 @@
+<!-- @dsCard group="Colors" viewport="700x160" name="Links" subtitle="Muted-teal links with hover and visited states" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; background: var(--surface-page); color: var(--text);
+    font-family: var(--font-sans); padding: 22px; }
+  .row { display: flex; gap: 14px; }
+  .sw { flex: 1; }
+  .chip { height: 58px; border-radius: var(--radius); display: flex; align-items: center;
+    justify-content: center; font-weight: 700; }
+  .name { font-size: 13px; font-weight: 700; margin-top: 9px; }
+  .hex { font-family: var(--font-mono); font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+  .demo { margin-top: 16px; font-size: 15px; }
+  .demo a { text-decoration: none; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="sw"><div class="chip" style="background:var(--link);color:var(--bg)">link</div><div class="name">Default</div><div class="hex">#8cd2d5</div></div>
+    <div class="sw"><div class="chip" style="background:var(--link-hover);color:var(--bg)">hover</div><div class="name">Hover</div><div class="hex">#a9dde0</div></div>
+    <div class="sw"><div class="chip" style="background:var(--link-visited);color:var(--bg)">visited</div><div class="name">Visited</div><div class="hex">#699ea0</div></div>
+  </div>
+  <p class="demo">Read more about <a style="color:var(--link)">running PowerShell locally</a> — links underline on hover.</p>
+</body>
+</html>

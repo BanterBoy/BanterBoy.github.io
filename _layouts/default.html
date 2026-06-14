@@ -3,10 +3,9 @@
 
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.19.2 by Michael Rose
-  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+  Minimal Mistakes 4.17.2 base, layered with the Luke Leigh refresh theme.
+  This merged default keeps the functional scaffolding (SEO, analytics,
+  search, accessibility) and swaps in the refreshed masthead + footer.
 -->
 <html lang="{{ site.locale | slice: 0,2 | default: " en" }}" class="no-js">
 
@@ -29,20 +28,17 @@
     {% include_cached browser-upgrade.html %}
     {% include_cached masthead.html %}
 
-    <div class="initial-content">
+    <div id="main" role="main">
       {{ content }}
     </div>
 
     {% if site.search == true %}
     {% include_cached search/search_form.html %}
-    </div>
     {% endif %}
 
     <div id="footer" class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include_cached footer.html %}
-      </footer>
+      {% include footer/custom.html %}
+      {% include_cached footer.html %}
     </div>
 
     {% include scripts.html %}

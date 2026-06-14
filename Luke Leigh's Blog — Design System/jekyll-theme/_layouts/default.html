@@ -1,0 +1,24 @@
+{%- comment -%}
+  Base HTML skeleton. Drop at _layouts/default.html. Loads Font Awesome + the
+  brand fonts, renders the masthead, the page content, and the footer.
+{%- endcomment -%}
+<!doctype html>
+<html lang="{{ site.locale | default: 'en-GB' | slice: 0,2 }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if page.title %}{{ page.title }} &middot; {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    {% feed_meta %}
+  </head>
+  <body>
+    {% include masthead.html %}
+    <div id="main" role="main">
+      {{ content }}
+    </div>
+    {% include footer.html %}
+    {% if page.toc %}<script src="{{ '/assets/js/toc-active.js' | relative_url }}" defer></script>{% endif %}
+  </body>
+</html>

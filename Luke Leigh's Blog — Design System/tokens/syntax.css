@@ -1,0 +1,51 @@
+/* ==========================================================================
+   SYNTAX HIGHLIGHTING — base16 "Material" palette
+   Straight from _variables.scss ($base00–$base0f). This is what colours every
+   PowerShell / code block on the blog. Used by .highlight / rouge output.
+   ========================================================================== */
+
+:root {
+  --base00: #263238;  /* default background */
+  --base01: #2e3c43;  /* lighter background (status bars) */
+  --base02: #314549;  /* selection background */
+  --base03: #546e7a;  /* comments, invisibles */
+  --base04: #b2ccd6;  /* dark foreground */
+  --base05: #eeffff;  /* default foreground */
+  --base06: #eeffff;  /* light foreground */
+  --base07: #ffffff;  /* lightest foreground */
+  --base08: #f07178;  /* red — variables, deletion */
+  --base09: #f78c6c;  /* orange — numbers, constants */
+  --base0a: #ffcb6b;  /* yellow — classes, search */
+  --base0b: #c3e88d;  /* green — strings, insertion */
+  --base0c: #89ddff;  /* cyan — escapes, regex */
+  --base0d: #82aaff;  /* blue — functions, methods */
+  --base0e: #c792ea;  /* purple — keywords */
+  --base0f: #ff5370;  /* deprecated, embedded */
+
+  /* Semantic code aliases */
+  --code-fg:       var(--base05);
+  --code-surface:  var(--base00);
+  --code-comment:  var(--base03);
+  --code-keyword:  var(--base0e);
+  --code-string:   var(--base0b);
+  --code-function: var(--base0d);
+  --code-number:   var(--base09);
+  --code-variable: var(--base08);
+  --code-cmdlet:   var(--base0a);
+}
+
+/* Minimal rouge/highlight mapping so .highlight blocks render on-brand */
+.highlight {
+  background: var(--base00);
+  color: var(--base05);
+  border-radius: var(--radius);
+  font-family: var(--font-mono);
+}
+.highlight .c, .highlight .cm, .highlight .c1 { color: var(--base03); font-style: italic; } /* comment */
+.highlight .k, .highlight .kd, .highlight .kn { color: var(--base0e); }  /* keyword */
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .sb { color: var(--base0b); } /* string */
+.highlight .nf, .highlight .nb { color: var(--base0d); }  /* function / builtin */
+.highlight .nv, .highlight .vg { color: var(--base08); }  /* variable */
+.highlight .mi, .highlight .mf { color: var(--base09); }  /* number */
+.highlight .nc, .highlight .nt { color: var(--base0a); }  /* class / cmdlet */
+.highlight .o, .highlight .p  { color: var(--base05); }   /* operator / punctuation */

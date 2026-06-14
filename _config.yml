@@ -65,6 +65,7 @@ exclude:
   - "vendor/gems/"
   - "vendor/ruby/"
   - "vendor"
+  - "Luke Leigh's Blog — Design System"
 
 # Reading Files
 include:
@@ -158,12 +159,14 @@ defaults:
       read_time: true
       share: true
       related: true
+      toc: true
+      toc_sticky: true
   # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
-      layout: single
+      layout: page
       author_profile: true
       read_time: true
 

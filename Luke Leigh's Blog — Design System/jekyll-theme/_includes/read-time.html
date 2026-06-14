@@ -1,0 +1,7 @@
+{%- comment -%}
+  Tiny helper: estimated read time using site.words_per_minute.
+  Drop at _includes/read-time.html. Used inside post-card.html and single.html.
+{%- endcomment -%}
+{% assign words = include.post.content | default: page.content | strip_html | number_of_words %}
+{% assign wpm = site.words_per_minute | default: 220 %}
+{% assign mins = words | divided_by: wpm | plus: 1 %}{{ mins }} min read

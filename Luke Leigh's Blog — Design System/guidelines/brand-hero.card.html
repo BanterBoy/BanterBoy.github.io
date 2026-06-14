@@ -1,0 +1,23 @@
+<!-- @dsCard group="Brand" viewport="700x240" name="Hero imagery" subtitle="Full-bleed code photography with a slate overlay filter" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; background: var(--surface-page); color: var(--text); font-family: var(--font-sans); }
+  .hero { position: relative; height: 240px; background-size: cover; background-position: center;
+    background-image: linear-gradient(rgba(90,104,129,.7), rgba(90,104,129,.7)),
+      url("../assets/images/banner-images/test-dnsrecord-marmoset.png");
+    display: flex; flex-direction: column; justify-content: flex-end; padding: 24px; box-sizing: border-box; }
+  .title { font-size: var(--type-1); font-weight: 700; color: #fff; text-shadow: 1px 1px 4px rgba(0,0,0,.5); line-height: 1; }
+  .lead { color: #fff; text-shadow: 1px 1px 4px rgba(0,0,0,.5); font-size: var(--type-4); margin-top: 10px; max-width: 50ch; }
+</style>
+</head>
+<body>
+  <div class="hero">
+    <div class="title">Test-DNSRecord</div>
+    <div class="lead">A simple wrapper for Resolve-DnsName against specific DNS servers.</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!-- @dsCard group="Type" viewport="700x320" name="Font families" subtitle="Brand display & sans (Unica One, Exo) over system body, mono & caption" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; background: var(--surface-page); color: var(--text);
+    font-family: var(--font-sans); padding: 22px; }
+  .fam { padding: 11px 0; border-bottom: 1px solid var(--border); }
+  .fam:last-child { border-bottom: 0; }
+  .label { font-size: 11px; text-transform: uppercase; letter-spacing: .08em;
+    color: var(--text-muted); font-family: var(--font-mono); }
+  .spec { font-size: 25px; margin-top: 3px; }
+  .stack { font-size: 12px; color: var(--text-muted); font-family: var(--font-mono); margin-top: 3px; }
+</style>
+</head>
+<body>
+  <div class="fam">
+    <div class="label">Display · Unica One — hero &amp; section titles</div>
+    <div class="spec" style="font-family:var(--font-display);font-size:32px;text-transform:uppercase;letter-spacing:.02em">Yet Another IT Admin Blog</div>
+  </div>
+  <div class="fam">
+    <div class="label">Brand sans · Exo — headings &amp; UI accents</div>
+    <div class="spec" style="font-family:var(--font-brand);font-weight:500">The Blinking Cursor Problem</div>
+  </div>
+  <div class="fam">
+    <div class="label">Body · system sans</div>
+    <div class="spec" style="font-family:var(--font-sans)">PowerShell, infrastructure &amp; the occasional aside.</div>
+  </div>
+  <div class="fam">
+    <div class="label">Mono · code &amp; terminal</div>
+    <div class="spec" style="font-family:var(--font-mono);font-size:22px">Get-Help Test-DNSRecord</div>
+  </div>
+  <div class="fam">
+    <div class="label">Serif · captions</div>
+    <div class="spec" style="font-family:var(--font-caption);font-style:italic;font-size:22px">Photo: home office, container build</div>
+  </div>
+</body>
+</html>

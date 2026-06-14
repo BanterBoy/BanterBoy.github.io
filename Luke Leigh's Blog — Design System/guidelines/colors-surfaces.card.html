@@ -1,0 +1,26 @@
+<!-- @dsCard group="Colors" viewport="700x180" name="Surfaces & borders" subtitle="Layered slate surfaces from page to sunken code" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; background: var(--surface-page); color: var(--text);
+    font-family: var(--font-sans); padding: 22px; }
+  .row { display: flex; gap: 14px; }
+  .sw { flex: 1; }
+  .chip { height: 70px; border-radius: var(--radius); border: 1px solid var(--border); }
+  .name { font-size: 13px; font-weight: 700; margin-top: 9px; }
+  .hex { font-family: var(--font-mono); font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="sw"><div class="chip" style="background:var(--bg)"></div><div class="name">Page</div><div class="hex">#252a34</div></div>
+    <div class="sw"><div class="chip" style="background:var(--surface-raised)"></div><div class="name">Raised card</div><div class="hex">#2d333f</div></div>
+    <div class="sw"><div class="chip" style="background:var(--code-bg)"></div><div class="name">Sunken / form</div><div class="hex">#1f242c</div></div>
+    <div class="sw"><div class="chip" style="background:var(--code-bg-dark)"></div><div class="name">Code deep</div><div class="hex">#1e222a</div></div>
+    <div class="sw"><div class="chip" style="background:var(--bg);border:2px solid var(--border)"></div><div class="name">Border</div><div class="hex">#51555d</div></div>
+  </div>
+</body>
+</html>

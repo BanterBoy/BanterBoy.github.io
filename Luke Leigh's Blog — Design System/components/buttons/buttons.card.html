@@ -1,0 +1,51 @@
+<!-- @dsCard group="Components" viewport="700x230" name="Buttons" subtitle="Variants, sizes, icons & states" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../../styles.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<style>
+  body { margin: 0; background: var(--surface-page); color: var(--text);
+    font-family: var(--font-sans); padding: 24px; }
+  .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 14px; }
+  .label { width: 100%; font-size: 10px; text-transform: uppercase; letter-spacing: .08em;
+    color: var(--text-muted); font-family: var(--font-mono); margin-bottom: 2px; }
+</style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <script src="../../_ds_bundle.js"></script>
+  <script type="text/babel">
+    const { Button } = window.LukeLeighSBlogDesignSystem_87513a;
+    function Demo() {
+      return (
+        <>
+          <div className="label">Variants</div>
+          <div className="row">
+            <Button variant="primary" icon="fas fa-download">Download</Button>
+            <Button variant="inverse">Inverse</Button>
+            <Button variant="success">Success</Button>
+            <Button variant="warning">Warning</Button>
+            <Button variant="danger">Danger</Button>
+            <Button variant="info" icon="fas fa-caret-up">Back to Top</Button>
+            <Button variant="github" icon="fab fa-github">GitHub</Button>
+          </div>
+          <div className="label">Sizes &amp; states</div>
+          <div className="row">
+            <Button variant="primary" size="small">Small</Button>
+            <Button variant="primary" size="medium">Medium</Button>
+            <Button variant="primary" size="large">Large</Button>
+            <Button variant="primary" size="x-large">X-Large</Button>
+            <Button variant="primary" disabled>Disabled</Button>
+          </div>
+        </>
+      );
+    }
+    ReactDOM.createRoot(document.getElementById("root")).render(<Demo />);
+  </script>
+</body>
+</html>

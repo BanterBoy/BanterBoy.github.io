@@ -1,0 +1,35 @@
+# ---------------------------------------------------------------------------
+#  Merge these keys into your existing _config.yml. They make the refresh
+#  layouts the default for posts/pages and ensure the brand subtitle + logo
+#  render in the masthead. Everything else from your current config stays.
+# ---------------------------------------------------------------------------
+
+title: "Luke Leigh's Blog"
+subtitle: "Yet another IT Admin Blog"
+name: "Luke Leigh"
+description: "PowerShell, infrastructure & the occasional shipping-container office."
+logo: "/assets/images/PowerShell_5.0_icon88x88.png"
+teaser: "/assets/images/default-teaser-image.png"
+words_per_minute: 220
+
+# Keep the dark skin — the refresh layer builds on it.
+minimal_mistakes_skin: dark
+
+# Make the home landing use the refreshed grid layout.
+# (Set `layout: home` in the front matter of your index.html / index.md.)
+
+defaults:
+  # Posts -> refreshed single layout, with TOC + hero overlay support
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      toc: true
+      toc_sticky: true
+  # Pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single

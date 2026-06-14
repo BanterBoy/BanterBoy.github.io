@@ -1,0 +1,14 @@
+---
+# Jekyll front matter required so Sass processes this file.
+# Drop this at assets/css/main.scss in your site. It loads the Minimal
+# Mistakes "dark" skin first, then the Luke Leigh refresh layer on top.
+---
+
+@charset "utf-8";
+
+// 1) Base Minimal Mistakes theme + dark skin (provided by the remote_theme).
+@import "minimal-mistakes/skins/dark";
+@import "minimal-mistakes";
+
+// 2) Luke Leigh refresh: brand fonts, tokens, modern home/post/card styles.
+@import "lukeleigh-refresh";

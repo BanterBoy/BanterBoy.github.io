@@ -1,0 +1,53 @@
+/* ==========================================================================
+   TYPOGRAPHY — Luke Leigh's Blog
+   The theme ships with system font stacks (no webfonts). The modular type
+   scale is em-based off a 16px root, straight from _variables.scss.
+   ========================================================================== */
+
+:root {
+  /* --- Font families ---------------------------------------------------- */
+  /* Brand display — condensed all-caps. Hero & big section titles. */
+  --font-display: "Unica One", "Exo", "Segoe UI", sans-serif;
+  /* Brand sans — geometric technical. Headings, nav, UI accents. */
+  --font-brand: "Exo", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+    "Helvetica Neue", Arial, sans-serif;
+
+  /* Primary UI + body. Renders as Segoe UI on Windows, SF on macOS, Roboto
+     on Android/ChromeOS — the same stack the site uses everywhere. */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+    "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+
+  /* Code, terminal output, PowerShell. */
+  --font-mono: Monaco, Consolas, "Lucida Console", monospace;
+
+  /* Figure captions & teaser captions — the one serif touch. */
+  --font-caption: Georgia, Times, serif;
+
+  --font-body:    var(--font-sans);
+  --font-heading: var(--font-brand);
+
+  /* --- Root size & rhythm ----------------------------------------------- */
+  --text-root: 16px;
+  --leading-body: 1.5;
+  --leading-heading: 1.2;
+  --weight-normal: 400;
+  --weight-bold: 700;
+
+  /* --- Modular scale (em, ~1.25 ratio) ---------------------------------- */
+  --type-1: 2.441em;   /* ~39px — hero / overlay title */
+  --type-2: 1.953em;   /* ~31px — overlay title (small bp) */
+  --type-3: 1.563em;   /* ~25px — h1 / page title */
+  --type-4: 1.25em;    /* ~20px — h2 / lead paragraph */
+  --type-5: 1em;       /* ~16px — h3 / body */
+  --type-6: 0.75em;    /* ~12px — h4-h6 / meta / buttons */
+  --type-7: 0.6875em;  /* ~11px — small print */
+  --type-8: 0.625em;   /* ~10px — captions / overlines */
+
+  /* --- Semantic type aliases ------------------------------------------- */
+  --fs-page-title: var(--type-3);
+  --fs-hero-title: var(--type-1);
+  --fs-lead:       var(--type-4);
+  --fs-body:       var(--type-5);
+  --fs-meta:       var(--type-6);
+  --fs-caption:    var(--type-8);
+}

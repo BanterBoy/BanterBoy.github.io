@@ -1,0 +1,368 @@
+{
+  "plugins": [
+    "react",
+    "import"
+  ],
+  "rules": {
+    "react/forbid-elements": [
+      "warn",
+      {
+        "forbid": []
+      }
+    ],
+    "no-restricted-imports": [
+      "warn",
+      {
+        "patterns": [
+          {
+            "group": [
+              "components/blog/**",
+              "components/buttons/**",
+              "components/feedback/**",
+              "components/identity/**",
+              "components/labels/**",
+              "jekyll-theme/assets/js/**"
+            ],
+            "message": "Import design-system components from 'index.js', not component internals."
+          }
+        ]
+      }
+    ],
+    "no-restricted-syntax": [
+      "warn",
+      {
+        "selector": "Literal[value=/#[0-9a-fA-F]{3,8}\\b/]",
+        "message": "Raw hex color — use a design-system color token via var()."
+      },
+      {
+        "selector": "Literal[value=/\\b\\d+px\\b/]",
+        "message": "Raw px value — use a design-system spacing token via var()."
+      },
+      {
+        "selector": "Literal[value=/font-family\\s*:\\s*(?!['\\\"]?(?:Exo|Unica One|Lucida Grande|Lucida Console))/i]",
+        "message": "Font not provided by the design system. Available: Exo, Unica One, Lucida Grande, Lucida Console."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='SocialLink'] > JSXAttribute > JSXIdentifier[name!=/^(?:label|icon|url|key|ref|className|style|children)$/]",
+        "message": "<SocialLink> doesn't accept that prop. Declared props: label, icon, url."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Badge'] > JSXAttribute > JSXIdentifier[name!=/^(?:children|variant|style|key|ref|className|style|children)$/]",
+        "message": "<Badge> doesn't accept that prop. Declared props: children, variant, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Badge'] > JSXAttribute[name.name='variant'] > Literal[value!=/^(?:primary|success|warning|danger|info|neutral)$/]",
+        "message": "<Badge> variant must be one of 'primary' | 'success' | 'warning' | 'danger' | 'info' | 'neutral'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Button'] > JSXAttribute > JSXIdentifier[name!=/^(?:children|variant|size|href|icon|block|disabled|onClick|style|key|ref|className|style|children)$/]",
+        "message": "<Button> doesn't accept that prop. Declared props: children, variant, size, href, icon, block, disabled, onClick, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Button'] > JSXAttribute[name.name='variant'] > Literal[value!=/^(?:primary|inverse|light-outline|success|warning|danger|info|github|linkedin)$/]",
+        "message": "<Button> variant must be one of 'primary' | 'inverse' | 'light-outline' | 'success' | 'warning' | 'danger' | 'info' | 'github' | 'linkedin'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Button'] > JSXAttribute[name.name='size'] > Literal[value!=/^(?:small|medium|large|x-large)$/]",
+        "message": "<Button> size must be one of 'small' | 'medium' | 'large' | 'x-large'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Masthead'] > JSXAttribute > JSXIdentifier[name!=/^(?:logo|title|subtitle|items|current|style|key|ref|className|style|children)$/]",
+        "message": "<Masthead> doesn't accept that prop. Declared props: logo, title, subtitle, items, current, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Notice'] > JSXAttribute > JSXIdentifier[name!=/^(?:children|variant|title|icon|style|key|ref|className|style|children)$/]",
+        "message": "<Notice> doesn't accept that prop. Declared props: children, variant, title, icon, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Notice'] > JSXAttribute[name.name='variant'] > Literal[value!=/^(?:default|primary|info|warning|success|danger)$/]",
+        "message": "<Notice> variant must be one of 'default' | 'primary' | 'info' | 'warning' | 'success' | 'danger'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='PageMeta'] > JSXAttribute > JSXIdentifier[name!=/^(?:date|readTime|category|items|style|key|ref|className|style|children)$/]",
+        "message": "<PageMeta> doesn't accept that prop. Declared props: date, readTime, category, items, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Pagination'] > JSXAttribute > JSXIdentifier[name!=/^(?:current|total|onPage|style|key|ref|className|style|children)$/]",
+        "message": "<Pagination> doesn't accept that prop. Declared props: current, total, onPage, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Tag'] > JSXAttribute > JSXIdentifier[name!=/^(?:children|href|icon|style|key|ref|className|style|children)$/]",
+        "message": "<Tag> doesn't accept that prop. Declared props: children, href, icon, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='TeaserCard'] > JSXAttribute > JSXIdentifier[name!=/^(?:title|href|image|excerpt|date|readTime|category|style|key|ref|className|style|children)$/]",
+        "message": "<TeaserCard> doesn't accept that prop. Declared props: title, href, image, excerpt, date, readTime, category, style."
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/index.js"
+      ],
+      "rules": {
+        "no-restricted-imports": "off"
+      }
+    }
+  ],
+  "x-omelette": {
+    "components": {
+      "SocialLink": {
+        "replaces": []
+      },
+      "Badge": {
+        "replaces": []
+      },
+      "Button": {
+        "replaces": []
+      },
+      "Masthead": {
+        "replaces": []
+      },
+      "Notice": {
+        "replaces": []
+      },
+      "PageMeta": {
+        "replaces": []
+      },
+      "Pagination": {
+        "replaces": []
+      },
+      "Tag": {
+        "replaces": []
+      },
+      "TeaserCard": {
+        "replaces": []
+      }
+    },
+    "tokens": [
+      "--accent",
+      "--accent-soft",
+      "--active",
+      "--base00",
+      "--base01",
+      "--base02",
+      "--base03",
+      "--base04",
+      "--base05",
+      "--base06",
+      "--base07",
+      "--base08",
+      "--base09",
+      "--base0a",
+      "--base0b",
+      "--base0c",
+      "--base0d",
+      "--base0e",
+      "--base0f",
+      "--bg",
+      "--border",
+      "--border-hairline",
+      "--border-width",
+      "--code-bg",
+      "--code-bg-dark",
+      "--code-cmdlet",
+      "--code-comment",
+      "--code-fg",
+      "--code-function",
+      "--code-keyword",
+      "--code-number",
+      "--code-string",
+      "--code-surface",
+      "--code-variable",
+      "--danger",
+      "--dark-gray",
+      "--darker-gray",
+      "--duration",
+      "--ease",
+      "--font-body",
+      "--font-brand",
+      "--font-caption",
+      "--font-display",
+      "--font-heading",
+      "--font-mono",
+      "--font-sans",
+      "--footer-bg",
+      "--form-bg",
+      "--fs-body",
+      "--fs-caption",
+      "--fs-hero-title",
+      "--fs-lead",
+      "--fs-meta",
+      "--fs-page-title",
+      "--github",
+      "--gray",
+      "--info",
+      "--keybase",
+      "--leading-body",
+      "--leading-heading",
+      "--light-gray",
+      "--lighter-gray",
+      "--link",
+      "--link-hover",
+      "--link-visited",
+      "--linkedin",
+      "--masthead-link",
+      "--max-width",
+      "--primary",
+      "--radius",
+      "--radius-pill",
+      "--rss",
+      "--rule-accent",
+      "--shadow-img",
+      "--shadow-pop",
+      "--shadow-sm",
+      "--sidebar-narrow",
+      "--sidebar-wide",
+      "--space-1",
+      "--space-2",
+      "--space-3",
+      "--space-4",
+      "--space-5",
+      "--space-6",
+      "--space-7",
+      "--success",
+      "--surface-footer",
+      "--surface-page",
+      "--surface-raised",
+      "--surface-sunken",
+      "--text",
+      "--text-body",
+      "--text-heading",
+      "--text-link",
+      "--text-muted",
+      "--text-root",
+      "--transition",
+      "--twitter",
+      "--type-1",
+      "--type-2",
+      "--type-3",
+      "--type-4",
+      "--type-5",
+      "--type-6",
+      "--type-7",
+      "--type-8",
+      "--warning",
+      "--weight-bold",
+      "--weight-normal"
+    ],
+    "tokenKinds": {
+      "--bg": "color",
+      "--text": "font",
+      "--primary": "color",
+      "--border": "color",
+      "--code-bg": "color",
+      "--code-bg-dark": "color",
+      "--form-bg": "color",
+      "--footer-bg": "color",
+      "--link": "color",
+      "--link-hover": "color",
+      "--link-visited": "color",
+      "--masthead-link": "color",
+      "--gray": "color",
+      "--dark-gray": "color",
+      "--darker-gray": "color",
+      "--light-gray": "color",
+      "--lighter-gray": "color",
+      "--text-muted": "font",
+      "--success": "color",
+      "--warning": "color",
+      "--danger": "color",
+      "--info": "color",
+      "--active": "color",
+      "--github": "color",
+      "--linkedin": "color",
+      "--keybase": "color",
+      "--twitter": "color",
+      "--rss": "color",
+      "--surface-page": "color",
+      "--surface-raised": "color",
+      "--surface-sunken": "color",
+      "--surface-footer": "color",
+      "--text-body": "font",
+      "--text-heading": "font",
+      "--text-link": "font",
+      "--accent": "color",
+      "--accent-soft": "color",
+      "--font-display": "font",
+      "--font-brand": "font",
+      "--font-sans": "font",
+      "--font-mono": "font",
+      "--font-caption": "font",
+      "--font-body": "font",
+      "--font-heading": "font",
+      "--text-root": "font",
+      "--leading-body": "font",
+      "--leading-heading": "font",
+      "--weight-normal": "font",
+      "--weight-bold": "font",
+      "--type-1": "font",
+      "--type-2": "font",
+      "--type-3": "font",
+      "--type-4": "font",
+      "--type-5": "font",
+      "--type-6": "font",
+      "--type-7": "font",
+      "--type-8": "font",
+      "--fs-page-title": "color",
+      "--fs-hero-title": "color",
+      "--fs-lead": "color",
+      "--fs-body": "color",
+      "--fs-meta": "color",
+      "--fs-caption": "color",
+      "--space-1": "spacing",
+      "--space-2": "spacing",
+      "--space-3": "spacing",
+      "--space-4": "spacing",
+      "--space-5": "spacing",
+      "--space-6": "spacing",
+      "--space-7": "spacing",
+      "--sidebar-narrow": "spacing",
+      "--sidebar-wide": "spacing",
+      "--max-width": "spacing",
+      "--radius": "radius",
+      "--radius-pill": "radius",
+      "--border-width": "spacing",
+      "--border-hairline": "color",
+      "--rule-accent": "color",
+      "--shadow-sm": "shadow",
+      "--shadow-pop": "shadow",
+      "--shadow-img": "shadow",
+      "--transition": "other",
+      "--ease": "other",
+      "--duration": "other",
+      "--base00": "color",
+      "--base01": "color",
+      "--base02": "color",
+      "--base03": "color",
+      "--base04": "color",
+      "--base05": "color",
+      "--base06": "color",
+      "--base07": "color",
+      "--base08": "color",
+      "--base09": "color",
+      "--base0a": "color",
+      "--base0b": "color",
+      "--base0c": "color",
+      "--base0d": "color",
+      "--base0e": "color",
+      "--base0f": "color",
+      "--code-fg": "color",
+      "--code-surface": "color",
+      "--code-comment": "color",
+      "--code-keyword": "color",
+      "--code-string": "color",
+      "--code-function": "color",
+      "--code-number": "color",
+      "--code-variable": "color",
+      "--code-cmdlet": "color"
+    },
+    "fontFamilies": [
+      "Exo",
+      "Lucida Console",
+      "Lucida Grande",
+      "Unica One"
+    ]
+  }
+}

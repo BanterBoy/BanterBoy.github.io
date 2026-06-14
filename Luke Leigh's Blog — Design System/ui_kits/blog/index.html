@@ -1,0 +1,272 @@
+<!-- @dsCard group="Blog" viewport="1280x860" name="Blog UI Kit" subtitle="Interactive refreshed home + single-post — click a card to read" -->
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Luke Leigh's Blog — UI Kit</title>
+<link rel="stylesheet" href="../../styles.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<link rel="stylesheet" href="refresh.css" />
+</head>
+<body>
+  <!-- Masthead -->
+  <header class="masthead">
+    <div class="wrap">
+      <a class="brand" data-go="home">
+        <img src="../../assets/images/PowerShell_5.0_icon88x88.png" alt="" />
+        <span class="lock">
+          <span class="name">Luke Leigh's Blog</span>
+          <span class="sub">Yet another IT Admin Blog</span>
+        </span>
+      </a>
+      <nav class="main">
+        <a class="active" data-go="home">Home</a>
+        <a data-go="home">Posts</a>
+        <a data-go="home">Categories</a>
+        <a data-go="home">Tags</a>
+        <a data-go="home">Resources</a>
+        <a data-go="home">About Luke</a>
+      </nav>
+      <a class="search" aria-label="Search"><i class="fas fa-search"></i></a>
+    </div>
+  </header>
+
+  <!-- ================= HOME ================= -->
+  <main id="view-home">
+    <section class="wrap featured">
+      <div class="text">
+        <span class="kicker">Featured · AI &amp; Productivity</span>
+        <h1 data-go="post">The Blinking Cursor Problem</h1>
+        <p class="lead">Most people treat A.I. like a search engine — type three words, hit enter,
+        wonder why it's rubbish. It isn't the tool. It's the empty box and the blinking cursor.</p>
+        <div class="meta">
+          <span><i class="far fa-calendar"></i>12 Jun 2026</span>
+          <span><i class="far fa-clock"></i>8 min read</span>
+          <span><i class="fas fa-folder"></i>Blog</span>
+        </div>
+        <a class="btn-read" data-go="post">Read the post <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <a class="media" data-go="post">
+        <span class="badge">Latest</span>
+        <img src="../../assets/images/hangout_snapshot_Pencil-16by9.jpg" alt="" />
+      </a>
+    </section>
+
+    <section class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="kicker">From the blog</span>
+          <h2>Latest Posts</h2>
+        </div>
+        <a class="viewall">View all <i class="fas fa-arrow-right"></i></a>
+      </div>
+
+      <div class="grid">
+        <a class="card" data-go="post">
+          <div class="thumb"><img src="../../assets/images/banner-images/test-dnsrecord-marmoset.png" alt="" /></div>
+          <div class="body">
+            <span class="cat">PowerShell</span>
+            <h3>Test-DNSRecord — Querying Specific DNS Servers</h3>
+            <p>A simple wrapper for Resolve-DnsName to query specific DNS servers — Google, Cloudflare, Quad9 and the rest.</p>
+            <div class="foot"><span><i class="far fa-clock" style="color:var(--primary);margin-right:5px"></i>6 min</span>
+              <div class="tags"><span class="tag">DNS</span><span class="tag">Module</span></div></div>
+          </div>
+        </a>
+        <a class="card" data-go="post">
+          <div class="thumb"><img src="../../assets/images/banner-images/remove-blogserver-marmoset.png" alt="" /></div>
+          <div class="body">
+            <span class="cat">Blog</span>
+            <h3>Building a Jekyll Blog Dev Server</h3>
+            <p>Stop fighting Ruby versions on your laptop. Here's the containerised dev server I use to preview this very blog.</p>
+            <div class="foot"><span><i class="far fa-clock" style="color:var(--primary);margin-right:5px"></i>9 min</span>
+              <div class="tags"><span class="tag">Docker</span><span class="tag">DevOps</span></div></div>
+          </div>
+        </a>
+        <a class="card" data-go="post">
+          <div class="thumb"><img src="../../assets/images/bio-photo.jpg" alt="" /></div>
+          <div class="body">
+            <span class="cat">Personal</span>
+            <h3>60 Seconds With… Luke Leigh</h3>
+            <p>Someone at work asked me to fill in a company profile for the Engage portal. I did. Then it probably belonged here too.</p>
+            <div class="foot"><span><i class="far fa-clock" style="color:var(--primary);margin-right:5px"></i>5 min</span>
+              <div class="tags"><span class="tag">About</span></div></div>
+          </div>
+        </a>
+        <a class="card" data-go="post">
+          <div class="thumb"><img src="../../assets/images/github-social.png" alt="" /></div>
+          <div class="body">
+            <span class="cat">PowerShell</span>
+            <h3>Stop Dot-Sourcing. Start Managing — UserAdminModule</h3>
+            <p>Years of loose functions, finally rounded up into a proper module for everyday Active Directory user admin.</p>
+            <div class="foot"><span><i class="far fa-clock" style="color:var(--primary);margin-right:5px"></i>7 min</span>
+              <div class="tags"><span class="tag">AD</span><span class="tag">Module</span></div></div>
+          </div>
+        </a>
+        <a class="card" data-go="post">
+          <div class="thumb icon"><img src="../../assets/images/PowerShell_5.0_icon.png" alt="" /></div>
+          <div class="body">
+            <span class="cat">PowerShell</span>
+            <h3>Your PowerShell History Is Smarter Than You Think</h3>
+            <p>PSReadLine quietly remembers everything you type. A few tweaks turn that history into the fastest CLI you've used.</p>
+            <div class="foot"><span><i class="far fa-clock" style="color:var(--primary);margin-right:5px"></i>6 min</span>
+              <div class="tags"><span class="tag">PSReadLine</span></div></div>
+          </div>
+        </a>
+        <a class="card" data-go="post">
+          <div class="thumb"><img src="../../assets/images/banner-images/test-dnsrecord-marmoset.png" alt="" style="filter:hue-rotate(40deg)" /></div>
+          <div class="body">
+            <span class="cat">DigitalTAK</span>
+            <h3>DigitalTAK Part 6 — The TAKServerPS API Wrapper</h3>
+            <p>TAKServerPS wraps the TAK Server REST API in 45 cmdlets. Here's what they cover and which ones you'll actually use.</p>
+            <div class="foot"><span><i class="far fa-clock" style="color:var(--primary);margin-right:5px"></i>5 min</span>
+              <div class="tags"><span class="tag">TAK</span><span class="tag">API</span></div></div>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= POST ================= -->
+  <main id="view-post" class="hidden">
+    <section class="post-hero" style="background-image:url('../../assets/images/hangout_snapshot_Pencil-16by9.jpg')">
+      <div class="wrap">
+        <div class="breadcrumb"><a data-go="home">Home</a><span class="sep">/</span><a data-go="home">Blog</a><span class="sep">/</span>The Blinking Cursor Problem</div>
+        <span class="kicker">AI &amp; Productivity</span>
+        <h1>The Blinking Cursor Problem</h1>
+        <p class="lead">Most people treat A.I. like a search engine — type three words, hit enter, wonder why it's rubbish. It isn't the tool that's the problem. It's the empty box and the blinking cursor.</p>
+        <div class="meta">
+          <span><i class="far fa-calendar"></i>12 Jun 2026</span>
+          <span><i class="far fa-clock"></i>8 min read</span>
+          <span><i class="fas fa-folder"></i>Blog</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap post-layout">
+      <article class="prose">
+        <p>I'll be honest — for a good while my own A.I. usage was rubbish, and I had the cheek to be irritated about it. I do this for a living. I run models locally with LM Studio and Ollama, I've been poking at agentic development with OpenCode, and I <em>still</em> fell into the trap……so if you've done it too, you're in decent company.</p>
+        <p>Here's the thing nobody quite says out loud: the empty box with the blinking cursor is a lie. It looks identical to every search engine you've ever used, so your brain reaches for the same muscle memory — three keywords, hit enter, scan the results. A.I. isn't doing that. <strong>You're not searching, you're briefing.</strong> And a one-line brief gets you a one-line-brief sort of answer.</p>
+
+        <h2 id="s1"><i class="fas fa-bullseye ic"></i>Be Specific About What You Actually Want</h2>
+        <p>The model can't read your mind, it can't see your environment, and it has no idea what "clean up disk space" means in <em>your</em> particular mess. So tell it. Compare what I used to type with what I type now:</p>
+        <blockquote>I need a PowerShell script to free up disk space on a Windows Server 2019 box that's nearly full. Clear the temp folders and CBS logs, but do NOT touch anything under D:\ where the app data lives. A <code>-WhatIf</code> would be handy.</blockquote>
+        <div class="callout warning">
+          <h4><i class="fas fa-triangle-exclamation ic"></i>Heads up</h4>
+          Always run a destructive script with <code>-WhatIf</code> the first time. Vague in, vague out — every single time.
+        </div>
+
+        <h2 id="s2"><i class="fas fa-clone ic"></i>Show It What Good Looks Like</h2>
+        <p>If you want output in a particular shape, show it an example of that shape. Paste a function you're happy with and say "match this — parameters validated like this, help block like this". An example is worth a paragraph of description.</p>
+        <div class="codeblock">
+          <div class="cb-bar">
+            <span class="dot" style="background:#ff5f57"></span><span class="dot" style="background:#febc2e"></span><span class="dot" style="background:#28c840"></span>
+            <span class="lang">PowerShell</span>
+          </div>
+          <pre><code><span class="cm"># Match my house style — validate, help, then write</span>
+<span class="kw">function</span> <span class="fn">Get-DiskSpace</span> {
+  <span class="kw">param</span>(<span class="var">$Path</span> = <span class="str">'C:\'</span>)
+  <span class="fn">Get-PSDrive</span> <span class="cmd">-Name</span> <span class="var">$Path</span>[<span class="num">0</span>]
+}</code></pre>
+        </div>
+
+        <h2 id="s3"><i class="fas fa-comments ic"></i>It's a Conversation, Not a Slot Machine</h2>
+        <p>The first answer is a starting point, not a verdict. "Make it better" is useless — be specific about the adjustment instead: <em>"make the tone more casual, swap the second example for one using Active Directory, shorten that third paragraph"</em>. Targeted feedback gets targeted changes. None of this is clever. Say what you want, give it the context it can't guess, show it an example, let it think, and keep talking to it until it's right. That's the lot. ¯\_(ツ)_/¯</p>
+
+        <div class="post-tags">
+          <span class="lbl">Tags</span>
+          <span class="tag">AI</span><span class="tag">Productivity</span><span class="tag">Learning</span>
+        </div>
+
+        <div class="share">
+          <span class="lbl">Share</span>
+          <a class="btn-ghost"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a class="btn-ghost"><i class="fab fa-github"></i> GitHub</a>
+          <a class="btn-ghost"><i class="fas fa-link"></i> Copy link</a>
+        </div>
+
+        <div class="byline">
+          <img src="../../assets/images/ProfilePicCircleTransparent_100x100.png" alt="Luke Leigh" />
+          <div>
+            <div class="bn">Luke Leigh</div>
+            <div class="br">PowerShell Developer / Infrastructure Engineer · Essex, UK</div>
+            <div class="social">
+              <a><i class="fab fa-github"></i></a><a><i class="fab fa-linkedin"></i></a>
+              <a><i class="fab fa-keybase"></i></a><a><i class="fas fa-laptop-code"></i></a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <aside class="toc">
+        <h4><i class="fas fa-list-ul"></i> Contents</h4>
+        <ul>
+          <li><a class="active" data-toc="s1">Be Specific About What You Want</a></li>
+          <li><a data-toc="s2">Show It What Good Looks Like</a></li>
+          <li><a data-toc="s3">It's a Conversation, Not a Slot Machine</a></li>
+        </ul>
+      </aside>
+    </div>
+
+    <section class="wrap related">
+      <div class="section-head">
+        <div><span class="kicker">Keep reading</span><h2>You May Also Enjoy</h2></div>
+      </div>
+      <div class="grid" style="padding-bottom:0">
+        <a class="card" data-go="post">
+          <div class="thumb"><img src="../../assets/images/banner-images/remove-blogserver-marmoset.png" alt="" /></div>
+          <div class="body"><span class="cat">Blog</span><h3>Building a Jekyll Blog Dev Server</h3>
+            <div class="foot"><span><i class="far fa-clock" style="color:var(--primary);margin-right:5px"></i>9 min</span>
+              <div class="tags"><span class="tag">Docker</span></div></div></div>
+        </a>
+        <a class="card" data-go="post">
+          <div class="thumb icon"><img src="../../assets/images/PowerShell_5.0_icon.png" alt="" /></div>
+          <div class="body"><span class="cat">PowerShell</span><h3>Your PowerShell History Is Smarter Than You Think</h3>
+            <div class="foot"><span><i class="far fa-clock" style="color:var(--primary);margin-right:5px"></i>6 min</span>
+              <div class="tags"><span class="tag">PSReadLine</span></div></div></div>
+        </a>
+        <a class="card" data-go="post">
+          <div class="thumb"><img src="../../assets/images/bio-photo.jpg" alt="" /></div>
+          <div class="body"><span class="cat">Personal</span><h3>60 Seconds With… Luke Leigh</h3>
+            <div class="foot"><span><i class="far fa-clock" style="color:var(--primary);margin-right:5px"></i>5 min</span>
+              <div class="tags"><span class="tag">About</span></div></div></div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div>
+        <div class="fbrand">Luke Leigh's Blog</div>
+        <small>© 2026 Luke Leigh · PowerShell, infrastructure &amp; the occasional shipping-container office.</small>
+      </div>
+      <div class="social">
+        <a><i class="fab fa-github"></i></a><a><i class="fab fa-linkedin"></i></a>
+        <a><i class="fab fa-keybase"></i></a><a><i class="fas fa-rss"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const views = { home: document.getElementById('view-home'), post: document.getElementById('view-post') };
+    function show(name) {
+      views.home.classList.toggle('hidden', name !== 'home');
+      views.post.classList.toggle('hidden', name !== 'post');
+      window.scrollTo({ top: 0 });
+    }
+    document.addEventListener('click', (e) => {
+      const go = e.target.closest('[data-go]');
+      if (go) { e.preventDefault(); show(go.getAttribute('data-go')); return; }
+      const toc = e.target.closest('[data-toc]');
+      if (toc) {
+        e.preventDefault();
+        document.querySelectorAll('.toc a').forEach(a => a.classList.remove('active'));
+        toc.classList.add('active');
+        const el = document.getElementById(toc.getAttribute('data-toc'));
+        if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 84, behavior: 'smooth' });
+      }
+    });
+  </script>
+</body>
+</html>

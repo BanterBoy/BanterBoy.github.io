@@ -1,0 +1,23 @@
+{%- comment -%}
+  Reusable post card. Pass a post:  {% include post-card.html post=post %}
+  Uses post.header.teaser (Minimal Mistakes convention) for the thumbnail.
+{%- endcomment -%}
+{% assign p = include.post %}
+<a class="ll-card" href="{{ p.url | relative_url }}">
+  {% if p.header.teaser %}
+    <div class="thumb"><img src="{{ p.header.teaser | relative_url }}" alt="{{ p.title | escape }}" loading="lazy" /></div>
+  {% else %}
+    <div class="thumb icon"><img src="{{ site.logo | relative_url }}" alt="" /></div>
+  {% endif %}
+  <div class="body">
+    {% if p.categories.size > 0 %}<span class="ll-cat">{{ p.categories.first }}</span>{% endif %}
+    <h3>{{ p.title }}</h3>
+    {% if p.excerpt %}<p>{{ p.excerpt | strip_html | truncate: 140 }}</p>{% endif %}
+    <div class="foot">
+      <span><i class="far fa-clock" style="color:var(--primary);margin-right:5px"></i>{% include read-time.html %}</span>
+      <div class="ll-tags">
+        {% for tag in p.tags limit: 2 %}<span class="ll-tag">{{ tag }}</span>{% endfor %}
+      </div>
+    </div>
+  </div>
+</a>

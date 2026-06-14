@@ -1,0 +1,16 @@
+{%- comment -%}
+  Footer. Reads site.footer.links (Minimal Mistakes format). Drop at _includes/footer.html.
+{%- endcomment -%}
+<footer class="ll-footer">
+  <div class="ll-wrap">
+    <div>
+      <div class="fbrand">{{ site.title | default: "Luke Leigh's Blog" }}</div>
+      <small>&copy; {{ site.time | date: '%Y' }} {{ site.name | default: "Luke Leigh" }} &middot; {{ site.description }}</small>
+    </div>
+    <div class="social">
+      {% for link in site.footer.links %}
+        <a href="{{ link.url }}" title="{{ link.label }}" aria-label="{{ link.label }}"><i class="{{ link.icon }}"></i></a>
+      {% endfor %}
+    </div>
+  </div>
+</footer>

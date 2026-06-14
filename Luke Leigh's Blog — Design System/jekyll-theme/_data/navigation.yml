@@ -1,0 +1,15 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Posts"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Resources"
+    url: /resources.html
+  - title: "About Luke"
+    url: /about.html
+  - title: "Contact"
+    url: /contact-form.html

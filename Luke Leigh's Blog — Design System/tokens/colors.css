@@ -1,0 +1,58 @@
+/* ==========================================================================
+   COLORS — Luke Leigh's Blog (Minimal Mistakes "dark" skin)
+   Base values are computed from the theme's SCSS (skins/_dark.scss +
+   _variables.scss). Semantic aliases sit on top for everyday use.
+   ========================================================================== */
+
+:root {
+  /* --- Core dark skin palette ------------------------------------------- */
+  --bg: #252a34;            /* $background-color — page background (dark slate) */
+  --text: #eaeaea;          /* $text-color — body text */
+  --primary: #00adb5;       /* $primary-color — signature teal accent */
+
+  --border: #51555d;        /* mix(#fff, bg, 20%) — hairline borders */
+  --code-bg: #1f242c;       /* mix(#000, bg, 15%) — inline code / forms */
+  --code-bg-dark: #1e222a;  /* mix(#000, bg, 20%) — deeper code surface */
+  --form-bg: #1f242c;       /* form fields */
+  --footer-bg: #1a1d24;     /* mix(#000, bg, 30%) — masthead/footer */
+
+  /* --- Links ------------------------------------------------------------ */
+  --link: #8cd2d5;          /* mix(primary, text, 40%) — muted teal link */
+  --link-hover: #a9dde0;    /* mix(#fff, link, 25%) */
+  --link-visited: #699ea0;  /* mix(#000, link, 25%) */
+  --masthead-link: #eaeaea; /* nav links = text colour */
+
+  /* --- Neutral gray ramp ($gray scale) --------------------------------- */
+  --gray: #7a8288;
+  --dark-gray: #494e52;
+  --darker-gray: #313436;
+  --light-gray: #bdc1c4;
+  --lighter-gray: #f1f2f2;
+  --text-muted: #9aa0a8;    /* practical muted text on dark (approx) */
+
+  /* --- Semantic status (shared with light theme) ----------------------- */
+  --success: #3fa63f;
+  --warning: #d67f05;
+  --danger:  #ee5f5b;
+  --info:    #3b9cba;
+  --active:  #cceff0;       /* mix(#fff, primary, 80%) — active/pressed tint */
+
+  /* --- Brand social colours (used on icons / share buttons) ------------ */
+  --github:   #171516;
+  --linkedin: #007bb6;
+  --keybase:  #ef7639;
+  --twitter:  #55acee;
+  --rss:      #fa9b39;
+
+  /* --- Surface & text semantic aliases --------------------------------- */
+  --surface-page:   var(--bg);
+  --surface-raised: #2d333f;   /* lifted card surface (DS addition) */
+  --surface-sunken: var(--code-bg);
+  --surface-footer: var(--footer-bg);
+
+  --text-body:    var(--text);
+  --text-heading: #ffffff;
+  --text-link:    var(--link);
+  --accent:       var(--primary);
+  --accent-soft:  rgba(0, 173, 181, 0.15);  /* teal wash for highlights */
+}
