@@ -163,7 +163,13 @@ img { max-width: 100%; }
 .ll-prose h2::before { content: ""; width: 4px; height: 1em; background: var(--primary); border-radius: 2px; flex: none; }
 .ll-prose h3 { font-family: var(--font-brand); font-weight: 500; color: #fff; font-size: 21px; margin: 1.6em 0 .5em; }
 .ll-prose a { color: var(--link); border-bottom: 1px solid transparent; }
+/* content links (not button-styled) carry a faint persistent underline so they read as links */
+.ll-prose a:not(.ll-btn):not(.ll-btn-ghost) { border-bottom-color: rgba(140, 210, 213, .35); }
 .ll-prose a:hover { color: var(--link-hover); border-bottom-color: currentColor; }
+/* external links (open in a new tab) get a trailing ↗ cue — Unicode, no icon-font dependency */
+.ll-prose a[target="_blank"]:not(.ll-btn):not(.ll-btn-ghost)::after {
+  content: "\2197"; display: inline-block; margin-left: .15em; font-size: .8em;
+  line-height: 1; vertical-align: baseline; color: inherit; text-decoration: none; border-bottom: 0; }
 .ll-prose strong { color: #fff; }
 .ll-prose img { border-radius: 8px; }
 .ll-prose code { font-family: var(--font-mono); font-size: .86em; background: var(--code-bg); padding: 2px 6px; border-radius: 4px; color: var(--base0c); }
